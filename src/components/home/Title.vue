@@ -2,7 +2,7 @@
 
 <template>
   <div
-    class="hidden md:block relative h-[150dvh] w-[full] overflow-x-hidden overflow-y-visible z-20"
+    class="hidden md:block relative h-[150dvh] w-[full] overflow-hidden z-20"
   >
     <div
       class="font-Mantou text-[110px] text-[#43473E] font-[400] h-[calc(100dvh-75px)] gap-1 flex flex-row items-center justify-center"
@@ -106,7 +106,7 @@
       Inovation
     </div>
     <div
-      class="absolute top-[80%] left-[50%] font-Mantou text-[#43473E] translate-x-[-50%] translate-y-[-50%]"
+      class="absolute top-[76%] left-[50%] font-Mantou text-[#43473E] translate-x-[-50%]"
     >
       <div class="flex flex-col items-center">
         <div class="text-[20px] font-[400]">距離活動開始還有</div>
