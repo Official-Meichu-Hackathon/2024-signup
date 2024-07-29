@@ -158,7 +158,7 @@ import { ref } from "vue";
 import VueCountdown from "@chenfengyuan/vue-countdown"; // Ensure this component is installed
 
 const now = new Date();
-const targetDate = new Date(2024, 10, 19, 9, 0, 0); // October 19, 2024, 9:00 AM
+const targetDate = new Date(2024, 9, 19, 9, 0, 0); // October 19, 2024, 9:00 AM
 
 const time = ref(targetDate - now);
 </script>
