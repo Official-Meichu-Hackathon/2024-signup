@@ -109,47 +109,62 @@
       class="absolute top-[76%] left-[50%] font-Mantou text-[#43473E] translate-x-[-50%]"
     >
       <div class="flex flex-col items-center">
-        <div class="text-[20px] font-[400]" data-testid="countdown-label">
+        <div class="text-[24px] font-[400]" data-testid="countdown-label">
           距離活動開始還有
         </div>
         <vue-countdown
           :time="time"
           :interval="100"
           v-slot="{ days, hours, minutes, seconds }"
-          class="text-[64px] font-[400]"
         >
-          <div class="flex flex-row gap-8 justify-center items-center">
-            <div>{{ days }}</div>
-            <object
-              data="/home/icon-co25.svg"
-              type="image/svg+xml"
-              class="title-co25 translate-y-[6px]"
-            ></object>
-            <div>{{ hours }}</div>
-            <object
-              data="/home/icon-co26.svg"
-              type="image/svg+xml"
-              class="title-co26 translate-y-[6px]"
-            ></object>
-            <div>{{ minutes }}</div>
-            <object
-              data="/home/icon-co27.svg"
-              type="image/svg+xml"
-              class="title-co27 translate-y-[6px]"
-            ></object>
-            <div>{{ seconds }}</div>
+          <div class="grid grid-cols-7 mt-6">
+            <div class="flex flex-col items-center gap-y-4">
+              <div class="text-[64px] font-[400]">{{ days }}</div>
+              <div class="text-[24px] text-[400]" data-testid="days-label">
+                Days
+              </div>
+            </div>
+            <div class="flex flex-col items-center">
+              <object
+                data="/home/icon-co25.svg"
+                type="image/svg+xml"
+                class="title-co25 translate-y-[6px]"
+              ></object>
+            </div>
+            <div class="flex flex-col items-center gap-y-4">
+              <div class="text-[64px] font-[400]">{{ hours }}</div>
+              <div class="text-[24px] text-[400]" data-testid="hours-label">
+                Hours
+              </div>
+            </div>
+            <div class="flex flex-col items-center">
+              <object
+                data="/home/icon-co26.svg"
+                type="image/svg+xml"
+                class="title-co26 translate-y-[6px]"
+              ></object>
+            </div>
+            <div class="flex flex-col items-center gap-y-4">
+              <div class="text-[64px] font-[400]">{{ minutes }}</div>
+              <div class="text-[24px] text-[400]" data-testid="minutes-label">
+                Mins
+              </div>
+            </div>
+            <div class="flex flex-col items-center">
+              <object
+                data="/home/icon-co27.svg"
+                type="image/svg+xml"
+                class="title-co27 translate-y-[6px]"
+              ></object>
+            </div>
+            <div class="flex flex-col items-center gap-y-4">
+              <div class="text-[64px] font-[400]">{{ seconds }}</div>
+              <div class="text-[24px] text-[400]" data-testid="seconds-label">
+                Seconds
+              </div>
+            </div>
           </div>
         </vue-countdown>
-        <div>
-          <div
-            class="flex flex-row justify-center items-center text-[24px] text-[400]"
-          >
-            <div class="ml-[35px]" data-testid="days-label">Days</div>
-            <div class="ml-[150px]" data-testid="hours-label">Hours</div>
-            <div class="ml-[150px]" data-testid="minutes-label">Mins</div>
-            <div class="ml-[140px]" data-testid="seconds-label">Seconds</div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
