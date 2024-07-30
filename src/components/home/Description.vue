@@ -2,7 +2,7 @@
 
 <template>
   <div
-    class="hidden md:block relative h-[130dvh] w-[full] overflow-hidden z-20"
+    class="hidden md:block relative h-[130dvh] w-[full] overflow-hidden z-20 box-border"
   >
     <object
       data="/home/icon-re29.svg"

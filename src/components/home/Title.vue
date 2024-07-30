@@ -2,7 +2,7 @@
 
 <template>
   <div
-    class="hidden md:block relative h-[150dvh] w-[full] overflow-hidden z-20"
+    class="hidden md:block relative h-[150dvh] w-[full] overflow-hidden z-20 box-border"
   >
     <div
       class="font-Mantou text-[110px] text-[#43473E] font-[400] h-[calc(100dvh-75px)] gap-1 flex flex-row items-center justify-center"
