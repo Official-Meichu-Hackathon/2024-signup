@@ -1,9 +1,225 @@
 <!-- 3 組別介紹 @userwei -->
 
 <template>
-  <div>Introduction test</div>
+  <div
+    class="hidden md:block relative h-[130dvh] w-[full] overflow-hidden z-20 box-border"
+  >
+    <div class="absolute top-[0.1%] left-[50%] translate-x-[-50%]">
+      <object
+        data="/home/icon-gr52-1.svg"
+        type="image/svg+xml"
+        class="title-gr52-1"
+      ></object>
+    </div>
+    <div class="absolute top-[0.1%] left-[50%] translate-x-[-50%]">
+      <object
+        data="/home/icon-gr52-2.svg"
+        type="image/svg+xml"
+        class="title-gr52-2"
+      ></object>
+    </div>
+    <object
+      data="/home/icon-ve47.svg"
+      type="image/svg+xml"
+      class="absolute top-[7%] left-[65%]"
+    ></object>
+    <object
+      data="/home/icon-ve48.svg"
+      type="image/svg+xml"
+      class="absolute top-[37%] left-[73%]"
+    ></object>
+    <object
+      data="/home/icon-ve71.svg"
+      type="image/svg+xml"
+      class="absolute top-[51%] left-[1%]"
+    ></object>
+    <div
+      class="font-Mantou text-[#43473E] text-[36px] text-[400] absolute top-[7%] left-[50%] translate-x-[-50%]"
+    >
+      組別介紹 & 工作坊
+    </div>
+    <div
+      class="absolute top-[20%] left-[50%] translate-x-[-50%] flex flex-row gap-16"
+    >
+      <div
+        class="group border-[#A1A8AD] bg-white border-[1px] w-[35dvw] px-12 pt-12 pb-6 rounded-[50px] flex flex-col items-center gap-4 hover:bg-[#FEFFF0] hover:border-[#D8E022] hover:border-[3px] hover:scale-[1.05] transition ease-in-out duration-500"
+      >
+        <div>
+          <object
+            data="/home/icon-re239.svg"
+            type="image/svg+xml"
+            class="group-hover:scale-[1.05] transition ease-in-out duration-500"
+          ></object>
+        </div>
+        <div class="font-Mantou text-[34px] text-[#43473E] font-[400]">
+          黑客組
+        </div>
+        <div
+          class="flex flex-row items-center gap-2 group-hover:scale-[1.05] transition ease-in-out duration-500"
+        >
+          <object data="/home/icon-re240.svg" type="image/svg+xml"></object>
+          <object data="/home/icon-re240.svg" type="image/svg+xml"></object>
+          <object data="/home/icon-re240.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="font-Inter text-[16px] font-[400] text-center w-90">
+          我們致力於搭起學生與企業之間的橋樑，學生運用企業資源並發揮潛力回應企業命題，讓學生進一步實踐創意發想！而今年我們將由以下六家企業作為引導單位：
+          ETtoday
+          新聞雲、Google、KKCompanyTechnologies、LINE、恩智浦半導體、文曄科技、台積電（按企業英文全稱字母順序排列）
+        </div>
+        <button
+          class="invisible group-hover:visible transition ease-in-out duration-500 bg-[#D8E022] text-white font-Inter text-[20px] font-[400] px-4 py-2 rounded-full"
+        >
+          <a href="/">
+            <div class="flex flex-row gap-1 items-center justify-center">
+              <div>工作坊細節</div>
+              <object data="/home/icon-bu01.svg" type="image/svg+xml"></object>
+            </div>
+          </a>
+        </button>
+      </div>
+      <div
+        class="group border-[#A1A8AD] bg-white border-[1px] w-[35dvw] px-12 pt-12 pb-6 rounded-[50px] flex flex-col items-center gap-4 hover:bg-[#FEFFF0] hover:border-[#D8E022] hover:border-[3px] hover:scale-[1.05] transition ease-in-out duration-500"
+      >
+        <div>
+          <object
+            data="/home/icon-re239.svg"
+            type="image/svg+xml"
+            class="group-hover:scale-[1.05] transition ease-in-out duration-500"
+          ></object>
+        </div>
+        <div class="font-Mantou text-[34px] text-[#43473E] font-[400]">
+          創客交流組
+        </div>
+        <div
+          class="flex flex-row items-center gap-2 group-hover:scale-[1.05] transition ease-in-out duration-500"
+        >
+          <object data="/home/icon-re240.svg" type="image/svg+xml"></object>
+          <object data="/home/icon-re240.svg" type="image/svg+xml"></object>
+          <object data="/home/icon-re240.svg" type="image/svg+xml"></object>
+        </div>
+        <div
+          class="font-Inter text-[16px] font-[400] text-wrap text-center w-90"
+        >
+          由新竹市政府命題，融大新竹居民與旅遊客真實生活情境與議題，鼓勵跨領域，運用共享、共創、合作與實作，實際動手解決問題與提出方案。過程中將促進創作人才交流，體現創新創意、用戶體驗、數位科技趨勢應用的創客精神！
+        </div>
+      </div>
+    </div>
+    <div class="absolute top-[75%] left-[50%] translate-x-[-50%]">
+      <object
+        data="/home/icon-co09.svg"
+        type="image/svg+xml"
+        class="title-co9"
+      ></object>
+    </div>
+    <object
+      data="/home/icon-mo07.svg"
+      type="image/svg+xml"
+      class="title-mo7 absolute top-[6%] left-[80%]"
+    ></object>
+  </div>
 </template>
 
 <script setup></script>
 
-<style scoped></style>
+<style scoped>
+.title-gr52-1 {
+  animation: animateGr52-1 2.3s ease-out infinite;
+}
+
+@keyframes animateGr52-1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, -15px);
+  }
+  50% {
+    transform: translate(0, -15px);
+  }
+  75% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.title-gr52-2 {
+  animation: animateGr52-2 2.3s ease-out infinite;
+}
+
+@keyframes animateGr52-2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, 15px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  75% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.title-co9 {
+  animation: animateCo9 3s ease-out infinite;
+}
+
+@keyframes animateCo9 {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, -32px);
+  }
+  50% {
+    transform: translate(0, -32px);
+  }
+  75% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.title-mo7 {
+  animation: animateMo7 5s ease-out infinite;
+}
+
+@keyframes animateMo7 {
+  0% {
+    transform: rotate(4deg);
+  }
+  12.5% {
+    transform: rotate(20.92deg);
+  }
+  25% {
+    transform: rotate(20.92deg);
+  }
+  37.5% {
+    transform: rotate(34.92deg);
+  }
+  50% {
+    transform: rotate(34.92deg);
+  }
+  62.5% {
+    transform: rotate(20.92deg);
+  }
+  75% {
+    transform: rotate(20.92deg);
+  }
+  87.5% {
+    transform: rotate(4deg);
+  }
+  100% {
+    transform: rotate(4deg);
+  }
+}
+
+</style>
