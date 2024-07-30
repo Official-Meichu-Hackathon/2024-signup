@@ -73,7 +73,7 @@
           <object data="/home/icon-re240.svg" type="image/svg+xml"></object>
         </div>
         <div
-          class="font-Inter text-[16px] font-[400] text-center w-90"
+          class="font-Inter text-[16px] font-[400] text-center w-[30dvw]"
           data-testid="description-hackers"
         >
           我們致力於搭起學生與企業之間的橋樑，學生運用企業資源並發揮潛力回應企業命題，讓學生進一步實踐創意發想！而今年我們將由以下六家企業作為引導單位：
@@ -128,7 +128,7 @@
           <object data="/home/icon-re240.svg" type="image/svg+xml"></object>
         </div>
         <div
-          class="font-Inter text-[16px] font-[400] text-wrap text-center w-90"
+          class="font-Inter text-[16px] font-[400] text-wrap text-center w-[30dvw]"
           data-testid="description-creators"
         >
           由新竹市政府命題，融大新竹居民與旅遊客真實生活情境與議題，鼓勵跨領域，運用共享、共創、合作與實作，實際動手解決問題與提出方案。過程中將促進創作人才交流，體現創新創意、用戶體驗、數位科技趨勢應用的創客精神！
