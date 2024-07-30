@@ -70,19 +70,34 @@
           <object data="/home/icon-re240.svg" type="image/svg+xml"></object>
           <object data="/home/icon-re240.svg" type="image/svg+xml"></object>
         </div>
-        <div class="font-Inter text-[16px] font-[400] text-center w-90" data-testid="description-hackers">
+        <div
+          class="font-Inter text-[16px] font-[400] text-center w-90"
+          data-testid="description-hackers"
+        >
           我們致力於搭起學生與企業之間的橋樑，學生運用企業資源並發揮潛力回應企業命題，讓學生進一步實踐創意發想！而今年我們將由以下六家企業作為引導單位：
           ETtoday
           新聞雲、Google、KKCompanyTechnologies、LINE、恩智浦半導體、文曄科技、台積電（按企業英文全稱字母順序排列）
         </div>
         <button
-          class="invisible group-hover:visible transition ease-in-out duration-500 bg-[#D8E022] text-white font-Inter text-[20px] font-[400] px-4 py-2 rounded-full"
+          class="invisible group-hover:visible transition ease-in-out duration-500 bg-[#D8E022] text-white font-Inter text-[20px] font-[400] px-4 py-2 rounded-full hover:bg-white hover:text-[#D8E022] hover:border-[#D8E022] border-[1px] border-[#D8E022] active:bg-white active:text-[#A1A8AD] active:border-[#A1A8AD]"
           data-testid="details-button-hackers"
         >
           <a href="/">
             <div class="flex flex-row gap-1 items-center justify-center">
               <div>工作坊細節</div>
-              <object data="/home/icon-bu01.svg" type="image/svg+xml"></object>
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  id="Vector"
+                  d="M10 3C11.8565 3 13.637 3.7375 14.9497 5.05025C16.2625 6.36301 17 8.14348 17 10C17 11.5 16.5 13 15.61 14.19L16.42 15H17L22 20L20 22L15 17V16.41L14.19 15.6C11.1 17.92 6.71 17.29 4.39 14.2C2.07 11.11 2.7 6.72 5.79 4.4C7 3.5 8.5 3 10 3ZM9 6V9H6V11H9V14H11V11H14V9H11V6H9ZM0 0V7L7 0H0Z"
+                  fill="CurrentColor"
+                />
+              </svg>
             </div>
           </a>
         </button>
