@@ -9,7 +9,7 @@
       <object
         data="/home/icon-gr52-1.svg"
         type="image/svg+xml"
-        class="title-gr52-1"
+        class="intro-gr52-1"
         data-testid="icon-gr52-1"
       ></object>
     </div>
@@ -17,7 +17,7 @@
       <object
         data="/home/icon-gr52-2.svg"
         type="image/svg+xml"
-        class="title-gr52-2"
+        class="intro-gr52-2"
         data-testid="icon-gr52-2"
       ></object>
     </div>
@@ -139,14 +139,14 @@
       <object
         data="/home/icon-co09.svg"
         type="image/svg+xml"
-        class="title-co9"
+        class="intro-co9"
         data-testid="icon-co09"
       ></object>
     </div>
     <object
       data="/home/icon-mo07.svg"
       type="image/svg+xml"
-      class="title-mo7 absolute top-[6%] left-[80%]"
+      class="intro-mo7 absolute top-[6%] left-[80%]"
       data-testid="icon-mo07"
     ></object>
   </div>
@@ -155,7 +155,7 @@
 <script setup></script>
 
 <style scoped>
-.title-gr52-1 {
+.intro-gr52-1 {
   animation: animateGr52-1 2.3s ease-out infinite;
 }
 
@@ -177,7 +177,7 @@
   }
 }
 
-.title-gr52-2 {
+.intro-gr52-2 {
   animation: animateGr52-2 2.3s ease-out infinite;
 }
 
@@ -199,7 +199,7 @@
   }
 }
 
-.title-co9 {
+.intro-co9 {
   animation: animateCo9 3s ease-out infinite;
 }
 
@@ -221,7 +221,7 @@
   }
 }
 
-.title-mo7 {
+.intro-mo7 {
   animation: animateMo7 5s ease-out infinite;
 }
 

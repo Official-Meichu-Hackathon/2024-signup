@@ -88,27 +88,27 @@
     <object
       data="/home/icon-mo08.svg"
       type="image/svg+xml"
-      class="title-mo8 absolute top-[44%] left-[52%]"
+      class="prize-mo8 absolute top-[44%] left-[52%]"
     ></object>
     <object
       data="/home/icon-co31.svg"
       type="image/svg+xml"
-      class="title-co31 absolute top-[67%] left-[77%]"
+      class="prize-co31 absolute top-[67%] left-[77%]"
     ></object>
     <object
       data="/home/icon-co28.svg"
       type="image/svg+xml"
-      class="title-co28 absolute top-[65%] left-[27%]"
+      class="prize-co28 absolute top-[65%] left-[27%]"
     ></object>
     <object
       data="/home/icon-co29.svg"
       type="image/svg+xml"
-      class="title-co29 absolute top-[70%] left-[24%]"
+      class="prize-co29 absolute top-[70%] left-[24%]"
     ></object>
     <object
       data="/home/icon-co30.svg"
       type="image/svg+xml"
-      class="title-co30 absolute top-[75%] left-[21%]"
+      class="prize-co30 absolute top-[75%] left-[21%]"
     ></object>
   </div>
 </template>
@@ -116,7 +116,7 @@
 <script setup></script>
 
 <style scoped>
-.title-mo8 {
+.prize-mo8 {
   animation: animateMo8 5s ease-out infinite;
 }
 
@@ -150,7 +150,7 @@
   }
 }
 
-.title-co31 {
+.prize-co31 {
   animation: animateCo31 3s ease-out infinite;
 }
 
@@ -172,7 +172,7 @@
   }
 }
 
-.title-co28 {
+.prize-co28 {
   animation: animateCo28 4s ease-out infinite;
 }
 
@@ -194,7 +194,7 @@
   }
 }
 
-.title-co29 {
+.prize-co29 {
   animation: animateCo29 4s ease-out 0.1s infinite;
 }
 
@@ -216,7 +216,7 @@
   }
 }
 
-.title-co30 {
+.prize-co30 {
   animation: animateCo30 4s ease-out 0.2s infinite;
 }
 

@@ -37,12 +37,12 @@
     <object
       data="/home/icon-mo03.svg"
       type="image/svg+xml"
-      class="title-mo3 absolute top-[85%] left-[5.5%]"
+      class="desc-mo3 absolute top-[85%] left-[5.5%]"
     ></object>
     <object
       data="/home/icon-co08.svg"
       type="image/svg+xml"
-      class="title-co8 absolute top-[58%] left-[0.1%]"
+      class="desc-co8 absolute top-[58%] left-[0.1%]"
     ></object>
     <object
       data="/home/icon-co16.svg"
@@ -52,7 +52,7 @@
     <object
       data="/home/icon-co24.svg"
       type="image/svg+xml"
-      class="title-co24 absolute top-[61%] left-[78%]"
+      class="desc-co24 absolute top-[61%] left-[78%]"
     ></object>
     <div
       class="absolute top-[53%] left-[50%] w-[47%] translate-x-[-50%] font-[14px] font-Inter"
@@ -71,7 +71,7 @@
 <script setup></script>
 
 <style scoped>
-.title-co8 {
+.desc-co8 {
   animation: animateCo8 4s ease-out infinite;
 }
 
@@ -114,7 +114,7 @@
   }
 }
 
-.title-co24 {
+.desc-co24 {
   animation: animateCo24 3s ease-out infinite;
 }
 
@@ -136,7 +136,7 @@
   }
 }
 
-.title-mo3 {
+.desc-mo3 {
   animation: animateMo3 5s ease-out infinite;
 }
 
