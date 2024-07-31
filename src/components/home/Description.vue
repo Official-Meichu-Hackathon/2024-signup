@@ -5,21 +5,6 @@
     class="hidden md:block relative h-[130dvh] w-[full] overflow-hidden z-20 box-border"
   >
     <object
-      data="/home/icon-re29.svg"
-      type="image/svg+xml"
-      class="absolute top-[7.6%] left-[50%] translate-x-[-50%]"
-    ></object>
-    <object
-      data="/home/icon-re36.svg"
-      type="image/svg+xml"
-      class="absolute top-[6%] left-[50%] translate-x-[-50%]"
-    ></object>
-    <object
-      data="/home/icon-ve29.svg"
-      type="image/svg+xml"
-      class="absolute top-[0.2%] left-[16%]"
-    ></object>
-    <object
       data="/home/icon-ve31.svg"
       type="image/svg+xml"
       class="absolute top-[27%] left-[-4%]"
@@ -44,15 +29,31 @@
       type="image/svg+xml"
       class="desc-co8 absolute top-[58%] left-[0.1%]"
     ></object>
-    <object
-      data="/home/icon-co16.svg"
-      type="image/svg+xml"
-      class="desc-co16 absolute top-[1.5%] left-[30%]"
-    ></object>
+
     <object
       data="/home/icon-co24.svg"
       type="image/svg+xml"
       class="desc-co24 absolute top-[61%] left-[78%]"
+    ></object>
+    <object
+      data="/home/icon-re29.svg"
+      type="image/svg+xml"
+      class="absolute top-[7.6%] left-[50%] translate-x-[-50%]"
+    ></object>
+    <object
+      data="/home/icon-re36.svg"
+      type="image/svg+xml"
+      class="absolute top-[6%] left-[50%] translate-x-[-50%]"
+    ></object>
+    <object
+      data="/home/icon-ve29.svg"
+      type="image/svg+xml"
+      class="absolute top-[0.2%] left-[16%]"
+    ></object>
+    <object
+      data="/home/icon-co16.svg"
+      type="image/svg+xml"
+      class="desc-co16 absolute top-[1.5%] left-[30%]"
     ></object>
     <div
       class="absolute top-[53%] left-[50%] w-[47%] translate-x-[-50%] font-[14px] font-Inter"

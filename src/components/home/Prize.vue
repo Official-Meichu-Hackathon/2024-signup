@@ -29,6 +29,26 @@
       type="image/svg+xml"
       class="absolute top-[26%] left-[85%]"
     ></object>
+    <object
+      data="/home/icon-co31.svg"
+      type="image/svg+xml"
+      class="prize-co31 absolute top-[67%] left-[77%]"
+    ></object>
+    <object
+      data="/home/icon-co28.svg"
+      type="image/svg+xml"
+      class="prize-co28 absolute top-[65%] left-[27%]"
+    ></object>
+    <object
+      data="/home/icon-co29.svg"
+      type="image/svg+xml"
+      class="prize-co29 absolute top-[70%] left-[24%]"
+    ></object>
+    <object
+      data="/home/icon-co30.svg"
+      type="image/svg+xml"
+      class="prize-co30 absolute top-[75%] left-[21%]"
+    ></object>
     <div
       class="grid grid-cols-2 gap-y-6 absolute top-[20%] left-[50%] translate-x-[-50%]"
     >
@@ -89,26 +109,6 @@
       data="/home/icon-mo08.svg"
       type="image/svg+xml"
       class="prize-mo8 absolute top-[44%] left-[52%]"
-    ></object>
-    <object
-      data="/home/icon-co31.svg"
-      type="image/svg+xml"
-      class="prize-co31 absolute top-[67%] left-[77%]"
-    ></object>
-    <object
-      data="/home/icon-co28.svg"
-      type="image/svg+xml"
-      class="prize-co28 absolute top-[65%] left-[27%]"
-    ></object>
-    <object
-      data="/home/icon-co29.svg"
-      type="image/svg+xml"
-      class="prize-co29 absolute top-[70%] left-[24%]"
-    ></object>
-    <object
-      data="/home/icon-co30.svg"
-      type="image/svg+xml"
-      class="prize-co30 absolute top-[75%] left-[21%]"
     ></object>
   </div>
 </template>

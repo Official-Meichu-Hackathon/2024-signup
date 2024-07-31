@@ -4,15 +4,6 @@
   <div
     class="hidden md:block relative h-[150dvh] w-[full] overflow-hidden z-20 box-border"
   >
-    <div
-      class="font-Mantou text-[110px] text-[#43473E] font-[400] h-[calc(100dvh-75px)] gap-1 flex flex-row items-center justify-center"
-    >
-      <div class="title-font1">梅</div>
-      <div class="title-font2">竹</div>
-      <div class="title-font3">黑</div>
-      <div class="title-font4">客</div>
-      <div class="title-font5">松</div>
-    </div>
     <object
       data="/home/icon-gr14.svg"
       type="image/svg+xml"
@@ -104,6 +95,15 @@
       Creativity <br />
       Technology <br />
       Inovation
+    </div>
+    <div
+      class="font-Mantou text-[110px] text-[#43473E] font-[400] h-[calc(100dvh-75px)] gap-1 flex flex-row items-center justify-center"
+    >
+      <div class="title-font1">梅</div>
+      <div class="title-font2">竹</div>
+      <div class="title-font3">黑</div>
+      <div class="title-font4">客</div>
+      <div class="title-font5">松</div>
     </div>
     <div
       class="absolute top-[76%] left-[50%] font-Mantou text-[#43473E] translate-x-[-50%]"
