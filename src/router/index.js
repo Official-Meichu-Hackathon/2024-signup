@@ -1,11 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import ContestSchedule from '../views/ContestSchedule.vue'
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/contest_schedule',
+    name: 'contest_schedule',
+    component: ContestSchedule
   },
   {
     path: '/about',
