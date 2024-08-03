@@ -1,4 +1,5 @@
 <template>
+  
   <div class="relative mt-[75px]">
     <img class="absolute left-[3.5625rem] top-[2.8125rem]" src="../../public/time_left1.svg"/>
     <img class="absolute left-[9.75rem] top-[3.1875rem]" src="../../public/time_left2.svg"/>
@@ -8,10 +9,11 @@
       <br>地點｜國立清華大學新體育館<br>時間｜2024/10/19(六) - 10/20(日)
     </div>
   </div>
-  <div class="pt-[75px] flex flex-row">
-    <div class="ml-[26.25rem] mt-[4.0625rem]">
-      <div class="inline-flex flex">
-        <img class="w-[1.875rem]" src="../../public/time_star.svg"/>
+  <div class="flex flex-row">
+    <div class="ml-[26.25rem] mt-[71px]">
+      <div class="flex">
+        <img v-show="showStar" src="../../public/time_star.svg" class="w-[1,875rem] transition-opacity duration-500" />
+        <img v-show="!showStar" src="../../public/time_star_ch.svg" class="w-[1.875rem] transition-opacity duration-500" />
         <div class="flex ml-6 text-black font-black text-2xl font-['Inter']">10/21<br>Saturday</div>
       </div>
       <div class="flex flex-col">
@@ -23,9 +25,9 @@
       </div>
     </div>
     <div class="mt-[4.0625rem]">
-      <div class="inline-flex flex">
+      <div class="flex">
         <img class="w-[1.875rem] relative bottom-[17px]" src="../../public/time_star.svg"/>
-        <div class="flex ml-6 text-black font-black text-2xl font-['Inter'] relative bottom-[11px]">10/21<br>Sunday</div>
+        <div class="flex ml-6 text-black font-black text-2xl font-['Inter'] relative bottom-[11px]">10/22<br>Sunday</div>
       </div>
       <div class="flex flex-col">
         <div v-for="(item, index) in sunData" :key="index">
@@ -46,6 +48,7 @@ export default {
   },
   data(){
     return {
+      showStar:true,
       satData:[ 
         {
           curTime: '09:00 - 10:30',
@@ -111,6 +114,22 @@ export default {
           actList: ['閉幕式、頒獎、抽獎']
         }
       ]
+    }
+  },
+  mounted() {
+    this.starSwitching();
+  },
+  beforeDestroy() {
+    this.stopSwitching();
+  },
+  methods: {
+    starSwitching() {
+      this.interval = setInterval(() => {
+        this.showStar = !this.showStar;
+      }, 2000); 
+    },
+    stopSwitching() {
+      clearInterval(this.interval);
     }
   }
 }
