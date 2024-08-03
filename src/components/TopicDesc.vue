@@ -1,13 +1,23 @@
 <template>
-    <CompanyFrame/>
+    <div class="p-[5%]">
+        <Top/>
+
+        <div class="hidden md:block flex-shrink-0">
+            <Frame/>
+        </div>
+        
+    </div>
+    
 </template>
     
 <script>
-import CompanyFrame from './CompanyFrame.vue';
+import Frame from './Company/Frame.vue';
+import Top from './Company/Top.vue';
 export default {
     name: 'TopicDesc',
     components: {
-        CompanyFrame
+        Frame,
+        Top
     }
 }
 </script>

@@ -30,9 +30,17 @@ module.exports = {
         "Mantou": ["Mantou Sans", "serif"],
         "Poppins": ["Poppins", "serif"],
         "Inter": ["Inter", "sans-serif"]
-      }
+      },
+      aspectRatio: {
+        439: '439',
+        394: '394',
+        733: '733',
+        308: '308',
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }
 
