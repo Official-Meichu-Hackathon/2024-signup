@@ -1,5 +1,5 @@
 <template>
-    <div class="p-[8%]">
+    <div class="pl-[8%] pr-[8%]">
         <Top/>
         <div class="hidden md:block flex-shrink-0">
             <Frame/>

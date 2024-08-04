@@ -1,13 +1,16 @@
 <template>
-    <div class="hidden md:flex w-full h-25  justify-between items-center pb-[3vw]">
+    <div class="hidden md:flex lg:max-h-[100px] w-full h-[15vh] justify-between items-center mt-[8%]">
         <object data="Company\Group 43.svg"
         type="image/svg+xml"
-        class="w-[249px] h-[78px] flex-shrink-0 pr-10"></object>
-        <object class="border-dark-gray flex-grow h-[46px] mx-auto flex-shrink-0 rounded-[25px] border-[3px] border-dashed"></object>
+        class="flex max-w-[250px] w-[20vw] aspect-w-249 aspect-h-78 flex-shrink-0"></object>
+        <div class="flex w-full h-full pl-[2vw] pr-[2vw] justify-between items-center">
+            <object class="relative border-dark-gray flex-grow h-[45%] mx-auto flex-shrink-0 rounded-[25px] border-[3px] border-dashed "></object>
+        </div>
         <object data="Company\Group 44.svg"
         type="image/svg+xml"
-        class="w-[249px] h-[78px] flex-shrink-0 pl-10"></object>
+        class="flex max-w-[250px] w-[20vw] aspect-w-249 aspect-h-78 flex-shrink-0"></object>
     </div>
+    <div class="w-full h-[3vw]"></div>
 </template>
       
 <script>
