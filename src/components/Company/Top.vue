@@ -1,5 +1,5 @@
 <template>
-    <div class="hidden md:flex w-full h-25  justify-between items-center pb-[10vh]">
+    <div class="hidden md:flex w-full h-25  justify-between items-center pb-[3vw]">
         <object data="Company\Group 43.svg"
         type="image/svg+xml"
         class="w-[249px] h-[78px] flex-shrink-0 pr-10"></object>

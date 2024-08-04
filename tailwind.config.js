@@ -31,6 +31,10 @@ module.exports = {
         "Poppins": ["Poppins", "serif"],
         "Inter": ["Inter", "sans-serif"]
       },
+      fontWeight: {
+        '1500': 1500,
+        '1600': 1600,
+      },
       aspectRatio: {
         439: '439',
         394: '394',
