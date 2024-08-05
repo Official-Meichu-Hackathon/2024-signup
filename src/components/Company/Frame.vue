@@ -6,7 +6,19 @@
 
             <!-- 合作企業-NXP  -->
             <div class="row-start-1 row-span-2 col-start-1 relative ">
-                <CompanyCardBox/>
+                <CompanyCardBox title="題目說明 #01" imageSrc="Company/NXP-logo.svg" imageWidth="300px" imageHeight="119.134px">
+                    <div style="text-align: center;">
+                        <div class="companyName">恩智浦半導體</div>
+                        <div class="description">
+                            題目：卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試
+                        </div>
+                        <div class="Details" style="position: absolute; right: 15px; bottom: 28px">
+                            <a href="Company/test_details.pdf" target="_blank" rel="noopener noreferrer">
+                                <img src="Company/詳細說明.svg" alt="詳細說明" style="cursor: pointer;">
+                            </a>
+                        </div>
+                    </div>
+                </CompanyCardBox>
             </div>
         
             <!-- 奇怪生物 + 網格線  -->
@@ -28,7 +40,19 @@
             <div class="row-start-2 col-start-3 row-span-3 col-span-2 relative w-full h-full box-border">
                 <!-- 切分  -->
                 <div class="flex flex-col h-full w-full"> 
-                    <CompanyCardBox/>
+                    <CompanyCardBox title="題目說明 #02" imageSrc="Company/LINE-logo.svg" imageWidth="152px" imageHeight="152px">
+                        <div style="text-align: center;">
+                            <div class="companyName">LINE 台灣</div>
+                            <div class="description">
+                                題目：卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試
+                            </div>
+                            <div class="Details" style="position: absolute; right: 15px; bottom: 28px">
+                                <a href="Company/test_details.pdf" target="_blank" rel="noopener noreferrer">
+                                    <img src="Company/詳細說明.svg" alt="詳細說明" style="cursor: pointer;">
+                                </a>
+                            </div>
+                        </div>
+                    </CompanyCardBox>
                 </div>
                 
             <!-- 文字-梅竹黑客松 -->
@@ -60,12 +84,36 @@
             
             <!-- 合作企業-Google  -->
             <div class="row-start-4 row-span-2 col-start-1">
-                <CompanyCardBox/>
+                <CompanyCardBox title="題目說明 #03" imageSrc="Company/Google-logo.svg" imageWidth="320px" imageHeight="133.491px">
+                    <div style="text-align: center;">
+                        <div class="companyName">GOOGLE</div>
+                        <div class="description">
+                            題目：卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試
+                        </div>
+                        <div class="Details" style="position: absolute; right: 15px; bottom: 28px">
+                            <a href="Company/test_details.pdf" target="_blank" rel="noopener noreferrer">
+                                <img src="Company/詳細說明.svg" alt="詳細說明" style="cursor: pointer;">
+                            </a>
+                        </div>
+                    </div>
+                </CompanyCardBox>
             </div>
     
             <!-- 合作企業-TSMC  -->
             <div class="row-start-5 row-span-2 col-start-2 col-span-2">
-                <CompanyCardBox/>
+                <CompanyCardBox title="題目說明 #04" imageSrc="Company/Tsmc-logo.svg" imageWidth="192.123px" imageHeight="150px">
+                    <div style="text-align: center;">
+                        <div class="companyName">台積電</div>
+                        <div class="description">
+                            題目：卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試
+                        </div>
+                        <div class="Details" style="position: absolute; right: 15px; bottom: 28px">
+                            <a href="Company/test_details.pdf" target="_blank" rel="noopener noreferrer">
+                                <img src="Company/詳細說明.svg" alt="詳細說明" style="cursor: pointer;">
+                            </a>
+                        </div>
+                    </div>
+                </CompanyCardBox>
             </div>
     
             <!-- 動畫-座標  -->
@@ -90,7 +138,19 @@
     
             <!-- 合作企業-羅技  -->
             <div class="row-start-7 col-start-2 col-span-2">
-                <CompanyCardBox/>
+                <CompanyCardBox title="題目說明 #05" imageSrc="Company/Logitech-logo.svg" imageWidth="320px" imageHeight="95.56px">
+                    <div style="text-align: center;">
+                        <div class="companyName">羅技</div>
+                        <div class="description">
+                            題目：卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試
+                        </div>
+                        <div class="Details" style="position: absolute; right: 15px; bottom: 28px">
+                            <a href="Company/test_details.pdf" target="_blank" rel="noopener noreferrer">
+                                <img src="Company/詳細說明.svg" alt="詳細說明" style="cursor: pointer;">
+                            </a>
+                        </div>
+                    </div>
+                </CompanyCardBox>
             </div>
     
             <!-- 動畫-組合  -->
@@ -164,7 +224,19 @@
     
             <!-- 合作企業-中華電信  -->
             <div class="row-start-8 col-start-3 col-span-2">
-                <CompanyCardBox/>
+                <CompanyCardBox title="題目說明 #06" imageSrc="Company/Chunghwa_Telecom-logo.svg" imageWidth="320px" imageHeight="105.6px">
+                    <div style="text-align: center;">
+                        <div class="companyName">中華電信</div>
+                        <div class="description">
+                            題目：卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試
+                        </div>
+                        <div class="Details" style="position: absolute; right: 15px; bottom: 28px">
+                            <a href="Company/test_details.pdf" target="_blank" rel="noopener noreferrer">
+                                <img src="Company/詳細說明.svg" alt="詳細說明" style="cursor: pointer;">
+                            </a>
+                        </div>
+                    </div>
+                </CompanyCardBox>
                 
             </div>
     
@@ -172,7 +244,19 @@
                 <div class="grid grid-cols-[3.72fr_4.39fr_3.72fr] w-full">
                     <div class="cols-start-1"></div>
                     <div class="cols-start-2">
-                        <CompanyCardBox/>
+                        <CompanyCardBox title="題目說明 #07" imageSrc="Company/新竹市政府-logo.svg" imageWidth="380px" imageHeight="126px">
+                            <div style="text-align: center;">
+                                <div class="companyName">新竹市政府</div>
+                                <div class="description">
+                                    題目：卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試
+                                </div>
+                                <div class="Details" style="position: absolute; right: 15px; bottom: 28px">
+                                    <a href="Company/test_details.pdf" target="_blank" rel="noopener noreferrer">
+                                        <img src="Company/詳細說明.svg" alt="詳細說明" style="cursor: pointer;">
+                                    </a>
+                                </div>
+                            </div>
+                        </CompanyCardBox>
                     </div>
                 </div>
                 
@@ -384,5 +468,77 @@ export default {
       transform: rotate(13.92deg);
     }
 }
+
+.companyName {
+    color: var(--43473-e, #43473E);
+    font-family: "Mantou Sans";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.description {
+    color: var(--43473-e, #43473E);
+    text-align: justify;
+    font-family: "Taipei Sans TC Beta";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 156.522% */
+    letter-spacing: 2.3px;
+}
+
+@media (max-width: 1200px) {
+    .companyName {
+        font-size: 48px;
+    }
+    .description {
+        font-size: 20px;
+        font-weight: 600; 
+        line-height: 32px; 
+        letter-spacing: 2.0px; 
+    }
+}
+
+@media (max-width: 992px) {
+    .companyName {
+        font-size: 36px;
+    }
+    .description {
+        font-size: 14px;
+        font-weight: 500; 
+        line-height: 28px; 
+        letter-spacing: 1.8px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .companyName {
+        font-size: 12px;
+    }
+    .description {
+        font-size: 12px;
+        font-weight: 400; 
+        line-height: 24px; 
+        letter-spacing: 1.4px; 
+    }
+}
+
+@media (max-width: 576px) {
+    .companyName {
+        font-size: 24px;
+    }
+    .description {
+        font-size: 8px;
+        font-weight: 300; 
+        line-height: 20px; 
+        letter-spacing: 1px; 
+    }
+}
+
+
+
 
 </style>
