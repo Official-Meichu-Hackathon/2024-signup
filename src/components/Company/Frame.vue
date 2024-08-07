@@ -73,11 +73,15 @@
                 
             </div>
     
-            <!-- 動畫-組合  -->
+            <!-- 動畫-組合（左一右五）-->
             <div class="row-start-6 row-span-2 col-start-1
             grid grid-cols-[1.48fr_2.83fr]
             grid-rows-[1.15fr_.32fr_.32fr_.65fr_2.55fr] gap-2">
-                <div class="row-start-1 row-span-5 rounded-[.75vw] border-[3px] bg-[#FFF] border-dark-gray"></div>
+                <div class="row-start-1 row-span-5 rounded-[.75vw] border-[3px] bg-[#FFF] border-dark-gray">
+                    <div class="flex ">
+                        <object data="Company\RectangularGrid\grid1.svg" type="image/svg+xml" class="hide-grid1_1"></object>
+                    </div>
+                </div>
                 <!-- 怪物 -->
                 <div class="relative flex row-start-1 col-start-2 rounded-[.75vw] border-[3px] bg-[#FFF] border-dark-gray items-center justify-center">
                     <object data="Company/monster2.svg" type="image/svg+xml" class="h-[82%] cardbox-mo2"></object>
@@ -102,9 +106,6 @@
             <div class="row-start-8 col-start-1 col-span-2
             grid grid-rows-[1.63fr_1.93fr_0.49fr] gap-2.5">
                 <div class="relative">
-                    <!-- <object data="Company\Component 41.svg"
-                    type="image/svg+xml"
-                    class="flex-shrink-0 w-full"></object> -->
                     <div class="absolute w-full h-full rounded-[0.75vw] border-[3px] border-dark-gray overflow-hidden">
                         <div class="absolute flex w-full h-full items-center">
                             <object data="Company\gray_rect.svg" type="image/svg+xml" class="h-[56%] cardbox-re1"></object>
@@ -229,6 +230,20 @@ export default {
     top: calc( ( (0vw - 90vw) * (765 / 1184) - 36px) * 0.13 ); /* 根據需要調整 */
 }
 
+.hide-grid1_1 {
+    animation: animateGr1_1 6s infinite;
+}
+  
+@keyframes animateGr1_1 {
+    0% {
+        opacity: 1;
+        visibility: visible;
+    }
+    50% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
 
 .cardbox-mo2 {
     animation: animateMo2 4s ease-out infinite;
