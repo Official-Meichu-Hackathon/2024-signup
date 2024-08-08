@@ -1,28 +1,3 @@
-<!--
-<template>
-    <div class="flex flex-col w-full h-full">
-        <div class="flex items-center text-[16px] mb-1.5 font-bold font-[Lato] not-italic leading-[normal] ">題目說明</div>
-        
-        <div class="flex p-[3%] flex-grow flex-shrink-0 rounded-[0.75vw] border-dark-gray border-[3px] bg-[#FFF] items-center justify-center">
-            <div>hi</div>
-            <div class="w-full h-full flex-shrink-0 rounded-[var(--sds-size-blur-100)] border-[1px] bg-[#FFF] items-center justify-center flex border-dashed"
-            style="border-image: linear-gradient(to right, #6e6e6e 33%, rgba(255, 255, 255, 0) 0%) 1;">
-                <img class="absolute" src="Company\NXP.svg" />
-            </div> 
-        </div>
-    </div>
-    
-</template>
-<script>
-export default {
-
-}
-</script>
-    
-<style>
-    
-</style>  -->
-
 <template>
   <div class="flex flex-col w-full h-full">
     <div class="flex items-center text-[16px] mb-1.5 font-bold font-[Lato] not-italic leading-[normal] ">
@@ -34,13 +9,27 @@ export default {
       @mouseleave="hover = false"
     >
       
+      <!--
       <div v-if="!hover">
         <div class="dashed-border"></div>
         <img :src="imageSrc" alt="Company Logo" class="image" />
       </div>
       <div v-else class="w-full h-full">
         <slot></slot>
-      </div>
+      </div> -->
+      
+      <transition name="fade" mode="out-in">
+        <div v-if="!hover" key="not-hover" class="absolute inset-0 flex items-center justify-center">
+          <div class="dashed-border"></div>
+          <img :src="imageSrc" alt="Company Logo" class="image" />
+        </div>
+      </transition>
+      <div v-if="hover" class="w-full h-full">
+        <slot></slot>
+      </div> 
+
+
+
     </div>
   </div>
 </template>
@@ -82,19 +71,12 @@ export default {
   border-radius: 0.75vw;
 }
 
-/*
-.image {
-  position: absolute;
-  inset: 0; 
-  width: 100%;
-  height: 100%;
-  object-fit: contain; 
-  transform: scale(0.68);
-  transform-origin: center;
-  /*transform: scale(0.70);*/
-  /*transform-origin: center;
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.5s ease;
 }
-*/
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
 
 </style>
 
