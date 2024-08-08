@@ -114,7 +114,7 @@
             </div>
     
             <!-- 動畫-座標  -->
-            <div class="row-start-5 col-start-4 rounded-[0.75vw] border-[3px] border-dark-gray">
+            <div class="row-start-5 col-start-4 rounded-[0.75vw] border-[3px] border-transparent">
                 <AnimArrow/>
             </div>
     
