@@ -10,11 +10,8 @@
             </div>
         
             <!-- 奇怪生物 + 網格線  -->
-            
             <div class="flex flex-col row-start-1 col-start-2 col-span-3">
-                <div class="flex h-[20px] flex-shrink-0 mb-1.5"></div>
-                <div class="flex relative flex-shrink-0 rounded-[0.75vw] border-[3px] flex-grow border-dark-gray">
-                </div>
+                <AnimMonster/>
             </div>
         
             <!-- 超小長方形*2  -->
@@ -70,103 +67,33 @@
     
             <!-- 動畫-座標  -->
             <div class="row-start-5 col-start-4 rounded-[0.75vw] border-[3px] border-dark-gray">
-                
+                <AnimArrow/>
             </div>
     
             <!-- 動畫-組合（左一右五）-->
-            <div class="row-start-6 row-span-2 col-start-1
-            grid grid-cols-[1.48fr_2.83fr]
-            grid-rows-[1.15fr_.32fr_.32fr_.65fr_2.55fr] gap-2">
-                <div class="row-start-1 row-span-5 rounded-[.75vw] border-[3px] bg-[#FFF] border-dark-gray">
-                    <div class="flex ">
-                        <object data="Company\RectangularGrid\grid1.svg" type="image/svg+xml" class="hide-grid1_1"></object>
-                    </div>
-                </div>
-                <!-- 怪物 -->
-                <div class="relative flex row-start-1 col-start-2 rounded-[.75vw] border-[3px] bg-[#FFF] border-dark-gray items-center justify-center">
-                    <object data="Company/monster2.svg" type="image/svg+xml" class="h-[82%] cardbox-mo2"></object>
-                </div>
-                <!-- 灰色框 -->
-                <div class="row-start-2 col-start-2 rounded-[.75vw] border-[3px] bg-[var(--d-9-d-9-d-9,_#D9D9D9)] border-dark-gray"></div>
-                <div class="row-start-3 col-start-2 rounded-[.75vw] border-[3px] bg-[var(--d-9-d-9-d-9,_#D9D9D9)] border-dark-gray"></div>
-                <div class="row-start-4 col-start-2 rounded-[.75vw] border-[3px] bg-[#FFF] border-dark-gray"></div>
+            <div class="row-start-6 row-span-2 col-start-1">
+                <AnimGroup/>
             </div>
+            
     
             <!-- 合作企業-羅技  -->
             <div class="row-start-7 col-start-2 col-span-2">
                 <CompanyCardBox/>
             </div>
     
-            <!-- 動畫-組合  -->
+            <!-- 動畫-點點  -->
             <div class="row-start-6 row-span-2 col-start-4 rounded-[0.75vw] border-[3px] border-dark-gray">
-                
+                <AnimDots/>
             </div>
     
-            <!-- 動畫-組合  -->
-            <div class="row-start-8 col-start-1 col-span-2
-            grid grid-rows-[1.63fr_1.93fr_0.49fr] gap-2.5">
-                <div class="relative">
-                    <div class="absolute w-full h-full rounded-[0.75vw] border-[3px] border-dark-gray overflow-hidden">
-                        <div class="absolute flex w-full h-full items-center">
-                            <object data="Company\gray_rect.svg" type="image/svg+xml" class="h-[56%] cardbox-re1"></object>
-                            
-                        </div>
-                        <div class="absolute w-full h-full grid grid-cols-[5.6fr_6fr_8fr_10fr_11fr_12fr_20.7fr] overflow-hidden">
-                            <div class="border-r-[3px] border-dark-gray">
-                            </div>
-                            <div class="border-r-[3px] border-dark-gray">
-                                <object data="Company\Number\60.svg" type="image/svg+xml" class="absolute bottom-0 pl-[1px] pb-[.2vw] h-[10%]"></object>
-                            </div>
-                            <div class="border-r-[3px] border-dark-gray">
-                            </div>
-                            <div class="border-r-[3px] border-dark-gray">
-                                <object data="Company\Number\80.svg" type="image/svg+xml" class="absolute bottom-0 pl-[1px] pb-[.2vw] h-[10%]"></object>
-                            </div>
-                            <div class="border-r-[3px] border-dark-gray">
-                            </div>
-                            <div class="border-r-[3px] border-dark-gray">
-                                <object data="Company\Number\100.svg" type="image/svg+xml" class="absolute bottom-0 pl-[1px] pb-[.2vw] h-[10%]"></object>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="relative ">
-                    <div class="absolute w-full h-full rounded-[0.75vw] border-[3px] border-dark-gray overflow-hidden">
-                        <div class="absolute flex w-full h-full items-center">
-                            <object data="Company\yellow_rect.svg" type="image/svg+xml" class="h-[56%] cardbox-re2"></object>
-                            
-                        </div>
-                        <div class="absolute w-full h-full grid grid-cols-[5.6fr_6fr_8fr_10fr_11fr_12fr_20.7fr] overflow-hidden">
-                            <div class="border-r-[3px] border-dark-gray">
-                            </div>
-                            <div class="border-r-[3px] border-dark-gray">
-                                <object data="Company\Number\10.svg" type="image/svg+xml" class="absolute bottom-0 pl-[1px] pb-[.2vw] h-[8%]"></object>
-                            </div>
-                            <div class="border-r-[3px] border-dark-gray">
-                            </div>
-                            <div class="border-r-[3px] border-dark-gray">
-                                <object data="Company\Number\11.svg" type="image/svg+xml" class="absolute bottom-0 pl-[1px] pb-[.2vw] h-[8%]"></object>
-                            </div>
-                            <div class="border-r-[3px] border-dark-gray">
-                            </div>
-                            <div class="border-r-[3px] border-dark-gray">
-                                <object data="Company\Number\12.svg" type="image/svg+xml" class="absolute bottom-0 pl-[1px] pb-[.2vw] h-[8%]"></object>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div>
-                    3
-                </div>
-                
+            <!-- 動畫-組合 長條圖 -->
+            <div class="row-start-8 col-start-1 col-span-2">
+                <AnimBarGraph/>
             </div>
     
             <!-- 合作企業-中華電信  -->
             <div class="row-start-8 col-start-3 col-span-2">
                 <CompanyCardBox/>
-                
             </div>
     
             <div class="flex row-start-9 col-start-1 col-span-4">
@@ -179,32 +106,6 @@
                 
             </div>
         </div>
-        
-        <!-- <div class="grid grid-cols-[35%_35%_auto] grid-rows-[.38fr_.14fr_.48fr] gap-3">
-            <div class="row-start-1 col-start-1 w-full h-full">
-                <div style="height: calc(90vw * 765 / 1184 * 0.13 + 12px);" class="overlap relative items-end border-[3px] border-dark-gray">
-                    hi
-                </div>
-            </div>
-            
-            <div class="row-start-2 row-span-2 col-start-1">
-
-            </div>
-            <div class="row-start-1 col-start-3">
-
-            </div>
-            <div class="row-start-1 col-start-2 row-span-2">
-
-            </div>
-            <div class="row-start-3 col-start-2">
-
-            </div>
-            <div class="row-start-2 col-start-3 row-span-2">
-
-            </div>
-        </div>
-        
-        <div class="bg-blue-600"></div> -->
     </div>
     
 </div>
@@ -212,15 +113,25 @@
   
 <script>
 import CompanyCardBox from './CompanyCardBox.vue';
+import AnimGroup from './AnimGroup.vue';
+import AnimBarGraph from './AnimBarGraph.vue';
+import AnimArrow from './AnimArrow.vue';
+import AnimDots from './AnimDots.vue';
+import AnimMonster from './AnimMonster.vue';
 export default {
     name: 'Frame',
     components: {
-        CompanyCardBox
+        CompanyCardBox,
+        AnimBarGraph,
+        AnimGroup,
+        AnimArrow,
+        AnimDots,
+        AnimMonster
     }
 }
 </script>
   
-<style scoped>
+<style>
 .grid-rows-custom-part1 {
     grid-template-rows: 3.08fr .73fr 2.28fr .94fr 3.03fr 1.09fr 4.14fr 4.2fr 4fr;
 }
@@ -230,80 +141,6 @@ export default {
     top: calc( ( (0vw - 90vw) * (765 / 1184) - 36px) * 0.13 ); /* 根據需要調整 */
 }
 
-.hide-grid1_1 {
-    animation: animateGr1_1 6s infinite;
-}
-  
-@keyframes animateGr1_1 {
-    0% {
-        opacity: 1;
-        visibility: visible;
-    }
-    50% {
-        opacity: 0;
-        visibility: hidden;
-    }
-}
-
-.cardbox-mo2 {
-    animation: animateMo2 4s ease-out infinite;
-}
-  
-@keyframes animateMo2 {
-    0% {
-      transform: translate(0, 10%);
-    }
-    50% {
-        transform: translate(0, -10%);
-    }
-    100% {
-      transform: translate(0, 10%);
-    }
-}
-
-.cardbox-re1 {
-    animation: animateRe1 6s ease-out infinite;
-}
-  
-@keyframes animateRe1 {
-    0% {
-      transform: translate(0, 0);
-    }
-    50% {
-        transform: translate(-5%, 0);
-    }
-    60% {
-      transform: translate(-1%, 0);
-    }
-    90% {
-        transform: translate(-10%, 0);
-      }
-    100% {
-      transform: translate(0, 0);
-    }
-}
-
-.cardbox-re2 {
-    animation: animateRe2 6s ease-out infinite;
-}
-  
-@keyframes animateRe2 {
-    0% {
-      transform: translate(0, 0);
-    }
-    50% {
-        transform: translate(-3vw, 0);
-    }
-    60% {
-      transform: translate(-1vw, 0);
-    }
-    90% {
-        transform: translate(-5vw, 0);
-      }
-    100% {
-      transform: translate(0, 0);
-    }
-}
   
 
 .cardbox-font1 {

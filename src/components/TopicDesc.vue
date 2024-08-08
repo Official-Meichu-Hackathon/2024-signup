@@ -9,6 +9,7 @@
 </template>
     
 <script>
+
 import Frame from './Company/Frame.vue';
 import Top from './Company/Top.vue';
 export default {
