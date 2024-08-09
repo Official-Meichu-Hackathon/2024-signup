@@ -1,11 +1,11 @@
 <template>
-<div class="relative w-full h-full flex">
-    <object data="Company/Circle/circle1.svg" type="image/svg+xml" class="dot1 absolute top-[11.5%] left-[30%] w-[12.4%]"></object>
-    <object data="Company/Circle/circle2.svg" type="image/svg+xml" class="dot2 absolute top-[40%] left-[2.1%] w-[24%]"></object>
-    <object data="Company/Circle/circle3.svg" type="image/svg+xml" class="dot3 absolute bottom-[9%] right-[10%] w-[48.8%]"></object>
+<div class="w-full h-full relative">
+    <object data="Company/Ellipse/Ellipse1.svg" type="image/svg+xml" class="absolute top-[15%] left-[24%] w-[12%] h-auto moving-object-Small"></object>
+    <object data="Company/Ellipse/Ellipse2.svg" type="image/svg+xml" class="absolute top-[41%] left-[2%] w-[24%] h-auto moving-object-Medium"></object>
+    <object data="Company/Ellipse/Ellipse3.svg" type="image/svg+xml" class="absolute top-[65%] left-[47%] w-[48%] h-auto moving-object-Large"></object>
 </div>
-</template>
-
+</template> 
+      
 <script>
 export default {
 
@@ -13,46 +13,59 @@ export default {
 </script>
     
 <style scoped>
-.dot1 {
-    animation: animateDot1 15s ease-out infinite;
+
+.moving-object-Large {
+  animation: moveLeftRight-Large 6s ease-in-out infinite;
+  position: absolute; 
 }
-@keyframes animateDot1 {
-    0% {
-      transform: translate(50%, 0);
-    }
-    50% {
-        transform: translate(-50%, 0);
-    }
-    100% {
-      transform: translate(50%, 0);
-    }
+
+@keyframes moveLeftRight-Large {
+  0% {
+    left: 47%; 
+  }
+  50% {
+    left: 36%; 
+  }
+  100% {
+    left: 47%; 
+  }
 }
-.dot2 {
-    animation: animateDot2 15s ease-out infinite;
+
+.moving-object-Medium {
+  animation: moveLeftRight-Medium 6s ease-in-out infinite;
+  position: absolute; 
 }
-@keyframes animateDot2 {
-    0% {
-      transform: translate(0, 0);
-    }
-    50% {
-        transform: translate(35%, 0);
-    }
-    100% {
-      transform: translate(0, 0);
-    }
+
+@keyframes moveLeftRight-Medium {
+  0% {
+    left: 2%; 
+  }
+  50% {
+    left: 12%; 
+  }
+  100% {
+    left: 2%; 
+  }
 }
-.dot3 {
-    animation: animateDot3 15s ease-out infinite;
+
+.moving-object-Small {
+  animation: moveLeftRight-Small 6s ease-in-out infinite;
+  position: absolute; 
 }
-@keyframes animateDot3 {
-    0% {
-      transform: translate(6%, 0);
-    }
-    50% {
-        transform: translate(-6%, 0);
-    }
-    100% {
-      transform: translate(6%, 0);
-    }
+
+@keyframes moveLeftRight-Small {
+  0% {
+    left: 38%; 
+  }
+  50% {
+    left: 24%; 
+  }
+  100% {
+    left: 38%; 
+  }
 }
+
+
+
+
 </style>
