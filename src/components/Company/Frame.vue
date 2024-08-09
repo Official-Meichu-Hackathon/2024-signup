@@ -22,7 +22,7 @@
             </div>
         
             <!-- 奇怪生物 + 網格線  -->
-            <div class="flex flex-col row-start-1 col-start-2 col-span-3">
+            <div class="flex row-start-1 col-start-2 col-span-3">
                 <AnimMonster/>
             </div>
         
