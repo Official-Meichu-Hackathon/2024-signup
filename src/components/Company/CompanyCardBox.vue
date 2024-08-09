@@ -7,17 +7,7 @@
       class="flex p-[3%] flex-grow flex-shrink-0 rounded-[0.75vw] border-dark-gray border-[3px] bg-[#FFF] items-center justify-center relative"
       @mouseenter="hover = true"
       @mouseleave="hover = false"
-    >
-      
-      <!--
-      <div v-if="!hover">
-        <div class="dashed-border"></div>
-        <img :src="imageSrc" alt="Company Logo" class="image" />
-      </div>
-      <div v-else class="w-full h-full">
-        <slot></slot>
-      </div> -->
-      
+    >   
       <transition name="fade" mode="out-in">
         <div v-if="!hover" key="not-hover" class="absolute inset-0 flex items-center justify-center">
           <div class="dashed-border"></div>
@@ -25,7 +15,24 @@
         </div>
       </transition>
       <div v-if="hover" class="w-full h-full">
-        <slot></slot> 
+        <!--<slot></slot> -->
+        <div class="companyName absolute left-[6%] top-[5%] w-[100%]">{{ companyName }}</div>
+        <div class="description absolute top-[34%] left-[6%] right-[6%] w-[88%] h-auto">
+            題目：{{ description }}
+        </div>
+        <div class="Details absolute top-[91%] left-[67%] w-[25%] h-auto">
+            <a :href="detailsLink" target="_blank" rel="noopener noreferrer" 
+            class="details-link" 
+            style="display: inline-block;">
+                <img src="Company/Description/DescriptionGreen.svg" alt="詳細說明" 
+                    class="details-image" 
+                    style="cursor: pointer; transition: all 0.3s ease;"
+                    onmouseover="this.src='Company/Description/DescriptionGray.svg';" 
+                    onmouseout="this.src='Company/Description/DescriptionGreen.svg';" 
+                    onmousedown="this.src='Company/Description/DescriptionBlack.svg';" 
+                    onmouseup="this.src='Company/Description/DescriptionGreen.svg';">
+            </a>
+        </div>
       </div> 
 
 
@@ -42,6 +49,18 @@ export default {
       default: '題目說明'
     },
     imageSrc: {
+      type: String,
+      required: true
+    },
+    companyName: {
+      type: String,
+      default: '公司名稱'
+    },
+    description: {
+      type: String,
+      default: '描述內容'
+    },
+    detailsLink: {
       type: String,
       required: true
     },

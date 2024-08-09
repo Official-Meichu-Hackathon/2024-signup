@@ -4,7 +4,7 @@
     <object data="Company/Ellipse/Ellipse2.svg" type="image/svg+xml" class="absolute top-[41%] left-[2%] w-[24%] h-auto moving-object-Medium"></object>
     <object data="Company/Ellipse/Ellipse3.svg" type="image/svg+xml" class="absolute top-[65%] left-[47%] w-[48%] h-auto moving-object-Large"></object>
 </div>
-</template>
+</template> 
       
 <script>
 export default {
