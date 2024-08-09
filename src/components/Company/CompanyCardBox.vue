@@ -25,7 +25,7 @@
         </div>
       </transition>
       <div v-if="hover" class="w-full h-full">
-        <slot></slot>
+        <slot></slot> 
       </div> 
 
 

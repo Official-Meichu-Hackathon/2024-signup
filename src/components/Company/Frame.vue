@@ -13,8 +13,16 @@
                             題目：卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試
                         </div>
                         <div class="Details" style="position: absolute; right: 15px; bottom: 28px">
-                            <a href="Company/test_details.pdf" target="_blank" rel="noopener noreferrer">
-                                <img src="Company/詳細說明.svg" alt="詳細說明" style="cursor: pointer;">
+                            <a href="Company/test_details.pdf" target="_blank" rel="noopener noreferrer" 
+                            class="details-link" 
+                            style="display: inline-block;">
+                                <img src="Company/Description/DescriptionGreen.svg" alt="詳細說明" 
+                                    class="details-image" 
+                                    style="cursor: pointer; transition: all 0.3s ease;"
+                                    onmouseover="this.src='Company/Description/DescriptionGray.svg';" 
+                                    onmouseout="this.src='Company/Description/DescriptionGreen.svg';" 
+                                    onmousedown="this.src='Company/Description/DescriptionBlack.svg';" 
+                                    onmouseup="this.src='Company/Description/DescriptionGreen.svg';">
                             </a>
                         </div>
                     </div>
@@ -43,12 +51,26 @@
                             <div class="description">
                                 題目：卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試
                             </div>
+                            <!--
                             <div class="Details" style="position: absolute; right: 15px; bottom: 28px">
                                 <a href="Company/test_details.pdf" target="_blank" rel="noopener noreferrer">
                                     <img src="Company/詳細說明.svg" alt="詳細說明" style="cursor: pointer;">
                                 </a>
+                            </div>-->
+                            <div class="Details" style="position: absolute; right: 15px; bottom: 28px">
+                                <a href="Company/test_details.pdf" target="_blank" rel="noopener noreferrer" 
+                                class="details-link" 
+                                style="display: inline-block;">
+                                    <img src="Company/Description/DescriptionGreen.svg" alt="詳細說明" 
+                                        class="details-image" 
+                                        style="cursor: pointer; transition: all 0.3s ease;"
+                                        onmouseover="this.src='Company/Description/DescriptionGray.svg';" 
+                                        onmouseout="this.src='Company/Description/DescriptionGreen.svg';" 
+                                        onmousedown="this.src='Company/Description/DescriptionBlack.svg';" 
+                                        onmouseup="this.src='Company/Description/DescriptionGreen.svg';">
+                                </a>
                             </div>
-                        </div>
+                        </div> 
                     </CompanyCardBox>
                 </div>
                 
@@ -88,8 +110,16 @@
                             題目：卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試
                         </div>
                         <div class="Details" style="position: absolute; right: 15px; bottom: 28px">
-                            <a href="Company/test_details.pdf" target="_blank" rel="noopener noreferrer">
-                                <img src="Company/詳細說明.svg" alt="詳細說明" style="cursor: pointer;">
+                            <a href="Company/test_details.pdf" target="_blank" rel="noopener noreferrer" 
+                            class="details-link" 
+                            style="display: inline-block;">
+                                <img src="Company/Description/DescriptionGreen.svg" alt="詳細說明" 
+                                    class="details-image" 
+                                    style="cursor: pointer; transition: all 0.3s ease;"
+                                    onmouseover="this.src='Company/Description/DescriptionGray.svg';" 
+                                    onmouseout="this.src='Company/Description/DescriptionGreen.svg';" 
+                                    onmousedown="this.src='Company/Description/DescriptionBlack.svg';" 
+                                    onmouseup="this.src='Company/Description/DescriptionGreen.svg';">
                             </a>
                         </div>
                     </div>
@@ -105,8 +135,16 @@
                             題目：卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試
                         </div>
                         <div class="Details" style="position: absolute; right: 15px; bottom: 28px">
-                            <a href="Company/test_details.pdf" target="_blank" rel="noopener noreferrer">
-                                <img src="Company/詳細說明.svg" alt="詳細說明" style="cursor: pointer;">
+                            <a href="Company/test_details.pdf" target="_blank" rel="noopener noreferrer" 
+                            class="details-link" 
+                            style="display: inline-block;">
+                                <img src="Company/Description/DescriptionGreen.svg" alt="詳細說明" 
+                                    class="details-image" 
+                                    style="cursor: pointer; transition: all 0.3s ease;"
+                                    onmouseover="this.src='Company/Description/DescriptionGray.svg';" 
+                                    onmouseout="this.src='Company/Description/DescriptionGreen.svg';" 
+                                    onmousedown="this.src='Company/Description/DescriptionBlack.svg';" 
+                                    onmouseup="this.src='Company/Description/DescriptionGreen.svg';">
                             </a>
                         </div>
                     </div>
@@ -133,8 +171,16 @@
                             題目：卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試
                         </div>
                         <div class="Details" style="position: absolute; right: 15px; bottom: 28px">
-                            <a href="Company/test_details.pdf" target="_blank" rel="noopener noreferrer">
-                                <img src="Company/詳細說明.svg" alt="詳細說明" style="cursor: pointer;">
+                            <a href="Company/test_details.pdf" target="_blank" rel="noopener noreferrer" 
+                            class="details-link" 
+                            style="display: inline-block;">
+                                <img src="Company/Description/DescriptionGreen.svg" alt="詳細說明" 
+                                    class="details-image" 
+                                    style="cursor: pointer; transition: all 0.3s ease;"
+                                    onmouseover="this.src='Company/Description/DescriptionGray.svg';" 
+                                    onmouseout="this.src='Company/Description/DescriptionGreen.svg';" 
+                                    onmousedown="this.src='Company/Description/DescriptionBlack.svg';" 
+                                    onmouseup="this.src='Company/Description/DescriptionGreen.svg';">
                             </a>
                         </div>
                     </div>
@@ -160,8 +206,16 @@
                             題目：卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試
                         </div>
                         <div class="Details" style="position: absolute; right: 15px; bottom: 28px">
-                            <a href="Company/test_details.pdf" target="_blank" rel="noopener noreferrer">
-                                <img src="Company/詳細說明.svg" alt="詳細說明" style="cursor: pointer;">
+                            <a href="Company/test_details.pdf" target="_blank" rel="noopener noreferrer" 
+                            class="details-link" 
+                            style="display: inline-block;">
+                                <img src="Company/Description/DescriptionGreen.svg" alt="詳細說明" 
+                                    class="details-image" 
+                                    style="cursor: pointer; transition: all 0.3s ease;"
+                                    onmouseover="this.src='Company/Description/DescriptionGray.svg';" 
+                                    onmouseout="this.src='Company/Description/DescriptionGreen.svg';" 
+                                    onmousedown="this.src='Company/Description/DescriptionBlack.svg';" 
+                                    onmouseup="this.src='Company/Description/DescriptionGreen.svg';">
                             </a>
                         </div>
                     </div>
@@ -180,8 +234,16 @@
                                     題目：卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試
                                 </div>
                                 <div class="Details" style="position: absolute; right: 15px; bottom: 28px">
-                                    <a href="Company/test_details.pdf" target="_blank" rel="noopener noreferrer">
-                                        <img src="Company/詳細說明.svg" alt="詳細說明" style="cursor: pointer;">
+                                    <a href="Company/test_details.pdf" target="_blank" rel="noopener noreferrer" 
+                                    class="details-link" 
+                                    style="display: inline-block;">
+                                        <img src="Company/Description/DescriptionGreen.svg" alt="詳細說明" 
+                                            class="details-image" 
+                                            style="cursor: pointer; transition: all 0.3s ease;"
+                                            onmouseover="this.src='Company/Description/DescriptionGray.svg';" 
+                                            onmouseout="this.src='Company/Description/DescriptionGreen.svg';" 
+                                            onmousedown="this.src='Company/Description/DescriptionBlack.svg';" 
+                                            onmouseup="this.src='Company/Description/DescriptionGreen.svg';">
                                     </a>
                                 </div>
                             </div>
