@@ -2,9 +2,9 @@
   <div 
       @mouseover="hoverIf = true"
       @mouseleave="hoverIf = false" 
-      class="inline-flex ml-[55px] my-[13px] w-[351px] h-[144px] relative overflow-hidden">
+      class="flex ml-[4.47vw] my-[1.05vw] w-[28.52vw] h-[11.7vw] relative overflow-hidden">
     <div class="text-black text-sm font-normal font-['Inter']">
-      <div class="mb-[11px]">{{ nowTime }} <br></div>
+      <div class="mb-[0.89vw]">{{ nowTime }} <br></div>
       <div v-for="(item, index) in activity" :key="index">
         {{ item }} <br>
       </div>
@@ -13,28 +13,28 @@
       <img
         @mouseover="hoverIf = true"
         @mouseleave="hoverIf = false" 
-        class="absolute left-[155px] top-[24.5px] transition-opacity duration-500 ease-in-out" 
+        class="absolute left-[12.6vw] top-[1.99vw] transition-opacity duration-500 ease-in-out" 
         :class="{'opacity-0': hoverIf, 'opacity-100': !hoverIf}"
         :src="boriginalImage"
       />
       <img
         @mouseover="hoverIf = true"
         @mouseleave="hoverIf = false" 
-        class="absolute left-[155px] top-[24.5px] transition-opacity duration-500 ease-in-out" 
+        class="absolute left-[12.6vw] top-[1.99vw] transition-opacity duration-500 ease-in-out" 
         :class="{'opacity-0': hoverIf, 'opacity-100': !hoverIf}"
         :src="boriginalImage"
       />
       <img
         @mouseover="hoverIf = true"
         @mouseleave="hoverIf = false" 
-        class="absolute left-[155px] top-[24.5px] transition-opacity duration-500 ease-in-out" 
+        class="absolute left-[12.6vw] top-[1.99vw] transition-opacity duration-500 ease-in-out" 
         :class="{'opacity-100': hoverIf, 'opacity-0': !hoverIf}"
         :src="bhoverImage"
       />
       <img
         @mouseover="hoverIf = true"
         @mouseleave="hoverIf = false" 
-        class="absolute left-[155px] top-[24.5px] transition-opacity duration-500 ease-in-out" 
+        class="absolute left-[12.6vw] top-[1.99vw] transition-opacity duration-500 ease-in-out" 
         :class="{'opacity-100': hoverIf, 'opacity-0': !hoverIf}"
         :src="bhoverImage"
       />
@@ -43,7 +43,7 @@
         @mousemove="cnt1 = true"
         @mouseleave="Leave"
         class="absolute left-[123px] top-[15px] transition-transform duration-500 transform" 
-        :class="{'scale-370 left-[212px] top-[72px]': hoverIf, 'scale-100 left-[123px] top-[15px]': !hoverIf}"
+        :class="{'frame': hoverIf}"
         :src="soriginalImage"
       />
     </div>
@@ -81,4 +81,27 @@ export default {
 }
 </script>
 <style scoped>
+.frame{
+  animation-name: animatescale, animatemove, changeStroke; 
+  animation-duration: 1.5s, 1.5s, 1.5s;
+  animation-fill-mode: forwards; 
+}
+@keyframes animatescale{
+  from{ transform: scale(1) ; }
+  to{ transform: scale(3.5) ;}
+}
+@keyframes animatemove{
+  from{ 
+    left: 123px;
+    top: 15px; 
+  }
+  to{ 
+    left: 212px;
+    top: 72px; 
+  }
+}
+@keyframes changeStroke {
+    from { stroke-width: 2; }
+    to { stroke-width: 10; }
+}
 </style>
