@@ -1,10 +1,10 @@
 <template>
 
 <div class="w-full h-full flex flex-row">
-    <div class="flex h-full mr-2">
+    <div class="flex h-full mr-2 rounded-[.75vw] border-[3px] bg-[#FFF] border-dark-gray overflow-hidden items-center justify-center">
         <!-- <object data="Company\RectangularGrid\grid1.svg" type="image/svg+xml" class="absolute h-full flex hide-grid1_1"></object>
         <object data="Company\RectangularGrid\grid2.svg" type="image/svg+xml" class="absolute h-full flex hide-grid1_2"></object> -->
-        <img :src="currentImageUrl" class="h-full flex"/>
+        <img :src="currentImageUrl" class="h-full aspect-w-132 aspect-h-509 flex p-2"/>
     </div>
     <div class="flex-grow h-full grid grid-rows-[1.15fr_.32fr_.32fr_.65fr_2.6fr] gap-1.5">
         <!-- 怪物 -->
@@ -15,6 +15,9 @@
         <div class="rounded-[.75vw] border-[3px] bg-[var(--d-9-d-9-d-9,_#D9D9D9)] border-dark-gray"></div>
         <div class="rounded-[.75vw] border-[3px] bg-[var(--d-9-d-9-d-9,_#D9D9D9)] border-dark-gray"></div>
         <div class="rounded-[.75vw] border-[3px] bg-[#FFF] border-dark-gray"></div>    
+        <!-- <div class="flex relative ">
+            <object data="Company/blocks.svg" type="image/svg+xml" class=""></object>
+        </div>      -->
     </div>
     
 </div>
@@ -32,7 +35,7 @@ export default {
                 'Company/RectangularGrid/grid4.svg',
                 'Company/RectangularGrid/grid5.svg'
             ],
-            intervals: [1200, 1200, 1200, 1200, 100],
+            intervals: [1500, 1500, 1500, 1500, 200],
         };
     },
     computed: {

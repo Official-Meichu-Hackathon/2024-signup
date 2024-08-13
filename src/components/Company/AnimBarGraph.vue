@@ -71,19 +71,19 @@ export default {
     
 @keyframes animateRe1 {
     0% {
-        transform: translate(0, 0);
-    }
-    50% {
         transform: translate(-5%, 0);
     }
-    60% {
-        transform: translate(-1%, 0);
+    50% {
+        transform: translate(0%, 0);
     }
-    90% {
+    75% {
         transform: translate(-10%, 0);
+    }
+    81% {
+        transform: translate(-3%, 0);
         }
     100% {
-        transform: translate(0, 0);
+        transform: translate(-5%, 0);
     }
 }
 
