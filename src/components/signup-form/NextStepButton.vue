@@ -1,18 +1,38 @@
 <template>
   <div class="next-step-container" @click="$emit('validate')">
-    <button type="button" class="next-step-button">{{content}}</button>
+    <button type="button" class="next-step-button" :disabled="watingForUpload">
+      {{ text }}
+    </button>
   </div>
 </template>
 
 <script>
+import { ref, watch } from "vue";
 export default {
   props: {
     content: {
       type: String,
       default: "下一步",
     },
+    watingForUpload: {
+      type: Boolean,
+      default: false,
+    },
   },
-  setup() {},
+  setup(props) {
+    const text = ref(props.content);
+    watch(
+      () => props.watingForUpload,
+      (newVal) => {
+        if (newVal) {
+          text.value = "上傳中...";
+        } else {
+          text.value = props.content;
+        }
+      }
+    );
+    return { text };
+  },
 };
 </script>
 
@@ -43,5 +63,9 @@ export default {
 }
 .next-step-button:active {
   background-color: #b4bc19;
+}
+.next-step-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
 }
 </style>

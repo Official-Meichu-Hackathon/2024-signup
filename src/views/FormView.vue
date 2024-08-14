@@ -100,8 +100,8 @@
                 @submit="submit"
                 :isFilled="isFilled[teamSize + 3]"
                 @success="(data) => GoToNextStep(data)"
+                :watingForUpload="watingForUpload"
               ></Consent>
-              <p v-show="watingForUpload" class="upload-text">上傳中，切勿關閉網頁！</p>
             </div>
           </div>
         </div>
@@ -199,7 +199,6 @@ export default {
         await nextTick();
         isFilled.value[currentStep.value] = true;
       }
-      console.log(completedStep.value);
     };
     const GoToNextStep = (isSuccess) => {
       if (isSuccess === true) {
@@ -304,7 +303,6 @@ export default {
       }
       watingForUpload.value = false;
       signupSuccess.value = true;
-      console.log("Yes");
     };
 
     return {
@@ -426,11 +424,4 @@ export default {
   margin-top: 50%;
 }
 
-.upload-text {
-  font-family: "Poppins";
-  text-align: center;
-  font-size: 16px;
-  font-weight: 400;
-  color: red;
-}
 </style>

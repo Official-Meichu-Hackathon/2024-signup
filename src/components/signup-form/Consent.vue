@@ -65,7 +65,7 @@
           </div>
         </div>
       </div>
-      <NextStepButton @validate="validate" content="送出"></NextStepButton>
+      <NextStepButton @validate="validate" :watingForUpload="watingForUpload" content="送出"></NextStepButton>
     </form>
   </div>
 </template>
@@ -80,6 +80,10 @@ export default {
       type: Boolean,
       default: false,
     },
+    watingForUpload: {
+        type: Boolean,
+        default: false,
+    }
   },
   emits: ["submit"],
   components: {
@@ -108,12 +112,12 @@ export default {
       } else return false;
     };
     const validate = () => {
-      console.log("validate consent");
       const formData = validateForm(Form);
       if (formData) {
         emit("submit");
       }
     };
+
     return { read1, read2, Form, validate };
   },
 };
