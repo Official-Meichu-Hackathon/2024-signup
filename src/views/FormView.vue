@@ -101,11 +101,12 @@
                 :isFilled="isFilled[teamSize + 3]"
                 @success="(data) => GoToNextStep(data)"
               ></Consent>
+              <p v-show="watingForUpload" class="upload-text">上傳中，切勿關閉網頁！</p>
             </div>
           </div>
         </div>
         <div class="signupSuccess" v-show="signupSuccess">
-            <div class="monster"><Monster></Monster></div>
+          <div class="monster"><Monster></Monster></div>
         </div>
       </div>
     </div>
@@ -280,8 +281,9 @@ export default {
     };
 
     const signupSuccess = ref(false);
+    const watingForUpload = ref(false);
     const submit = async () => {
-      console.log("submit");
+      watingForUpload.value = true;
       for (const signupData of signupDataList) {
         try {
           const response = await fetch(
@@ -300,6 +302,7 @@ export default {
           console.error(error);
         }
       }
+      watingForUpload.value = false;
       signupSuccess.value = true;
       console.log("Yes");
     };
@@ -322,6 +325,7 @@ export default {
       completedStep,
       submit,
       signupSuccess,
+      watingForUpload,
     };
   },
 };
@@ -419,6 +423,14 @@ export default {
 }
 
 .monster {
-    margin-top: 50%;
+  margin-top: 50%;
+}
+
+.upload-text {
+  font-family: "Poppins";
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: red;
 }
 </style>
