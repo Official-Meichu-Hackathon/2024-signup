@@ -1,10 +1,10 @@
 <template>
     <div class="pl-[8%] pr-[8%]">
         <Top/>
-        <div class="hidden md:block flex-shrink-0">
+        <div class="hidden sm:block flex-shrink-0">
             <Frame/>
         </div>
-        <div class="block md:hidden flex-shrink-0">
+        <div class="block sm:hidden flex-shrink-0">
             <PhoneFrame/>
         </div>
     </div>

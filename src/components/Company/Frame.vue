@@ -1,7 +1,7 @@
 <template>
 
 <div>
-    <div style="height: calc(84vw * 2479 / 1184);">
+    <div style="height: calc((84vw - 12px) * 0.38 * 2479 / 439 + 96px);">
         <div class="w-full h-full grid grid-cols-[4.39fr_2.79fr_1.48fr_2.83fr] grid-rows-custom-part1 gap-3">
 
             <!-- 合作企業-NXP  -->
