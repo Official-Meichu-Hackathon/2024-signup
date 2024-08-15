@@ -34,7 +34,7 @@
                 <div class="relative h-full w-full grid grid-cols-[6.18fr_1.04fr] grid-rows-[13fr_8.5fr] gap-3">
                     
                     <div class="relative h-full w-full row-start-1 col-start-1 rounded-[0.75vw] border-[3px] border-dark-gray">
-                        <div class="absolute inset-0 font-Mantou text-[7.7dvw] text-[#43473E] font-[400] gap-1 flex flex-row items-center justify-center" data-v-1765d9d0="">
+                        <div class="absolute inset-0 font-Mantou text-[7.3dvw] text-[#43473E] font-[400] gap-1 flex flex-row items-center justify-center" data-v-1765d9d0="">
                             <div class="cardbox-font1" data-v-1765d9d0="">梅</div>
                             <div class="cardbox-font2" data-v-1765d9d0="">竹</div>
                             <div class="cardbox-font3" data-v-1765d9d0="">黑</div>
