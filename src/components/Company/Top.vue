@@ -1,5 +1,6 @@
 <template>
-    <div class="hidden md:flex lg:max-h-[100px] w-full h-[15vh] justify-between items-center mt-[3%]">
+    <!-- <div class="hidden md:flex lg:max-h-[100px] w-full h-[15vh] justify-between items-center mt-[3%]">
+        
         <object data="Company\top_left.svg"
         type="image/svg+xml"
         class="flex max-w-[250px] w-[20vw] aspect-w-249 aspect-h-78 flex-shrink-0"></object>
@@ -9,8 +10,8 @@
         <object data="Company\top_right.svg"
         type="image/svg+xml"
         class="flex max-w-[250px] w-[20vw] aspect-w-249 aspect-h-78 flex-shrink-0"></object>
-    </div>
-    <div class="w-full h-[3vw]"></div>
+    </div> -->
+    <object data="Company\top.svg" type="image/svg+xml" class="w-full mb-2 mt-2"></object>
 </template>
       
 <script>

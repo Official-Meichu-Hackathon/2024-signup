@@ -1,6 +1,8 @@
 <template>
-    <div class="pl-[8%] pr-[8%] mb-[3%]">
+    <div class="hidden sm:block flex-shrink-0">
         <Top/>
+    </div>
+    <div class="pl-[8%] pr-[8%] mb-[3%]">
         <div class="hidden sm:block flex-shrink-0">
             <Frame/>
         </div>
