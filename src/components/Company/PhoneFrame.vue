@@ -24,9 +24,9 @@
         </div>
         <div class="row-start-3 row-span-2 col-start-3 w-full grid grid-rows-[4fr_.48fr] gap-2">
             <div class="flex rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray">
-                <div class="flex w-full h-full justify-center ">
+                <div class="flex w-full h-full justify-center">
                     <div class="relative w-[65%] ">
-                    <object data="Company\Phone\monster.png" type="image/png" class="absolute w-full top-[5%]"></object>
+                    <object data="Company\Phone\monster.svg" type="image/svg+xml" class="absolute w-full top-[5%]"></object>
                 </div>
                 </div>
                 
