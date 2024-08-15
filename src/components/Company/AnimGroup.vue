@@ -1,9 +1,9 @@
 <template>
-    <div class="w-full h-full grid grid-cols-[1.48fr_2.83fr]">
+    <div class="w-full h-full grid grid-cols-[1.9fr_2.83fr]">
         <div class="flex col-start-1 h-full mr-2 rounded-[.75vw] border-[3px] bg-[#FFF] border-dark-gray overflow-hidden items-center justify-center ">
             <!-- <object data="Company\RectangularGrid\grid1.svg" type="image/svg+xml" class="absolute h-full flex hide-grid1_1"></object>
             <object data="Company\RectangularGrid\grid2.svg" type="image/svg+xml" class="absolute h-full flex hide-grid1_2"></object> -->
-            <img :src="currentImageUrl" class="h-full aspect-w-132 aspect-h-509 flex p-2 grid_bg"/>
+            <img :src="currentImageUrl" class="h-full aspect-w-132 aspect-h-509 flex p-[5%] grid_bg"/>
         </div>
         <div class="col-start-2 h-full w-full grid grid-rows-[1.15fr_.32fr_.32fr_.65fr_2.6fr] gap-1.5">
             <!-- 怪物 -->
@@ -14,12 +14,12 @@
             <div class="flex rounded-[.75vw] border-[3px] bg-[var(--d-9-d-9-d-9,_#D9D9D9)] border-dark-gray"></div>
             <div class="flex rounded-[.75vw] border-[3px] bg-[var(--d-9-d-9-d-9,_#D9D9D9)] border-dark-gray"></div>
             <div class="flex rounded-[.75vw] border-[3px] bg-[#FFF] border-dark-gray"></div>
-            <div class="flex relative w-full h-full">
-                <object data="Company/Blocks/origin_blocks.svg" type="image/svg+xml" class="absolute h-full"></object>
-                <object data="Company/Blocks/block.svg" type="image/svg+xml" class="block-1 absolute w-[7.5%] left-[41.5%] top-[16.7%] "></object>
-                <object data="Company/Blocks/block.svg" type="image/svg+xml" class="block-2 absolute w-[7.5%] left-[41.5%] bottom-[0%]"></object>
-                <object data="Company/Blocks/block.svg" type="image/svg+xml" class="block-2 absolute w-[7.5%] left-[16.6%] top-[33.8%]"></object>
-                <object data="Company/Blocks/block.svg" type="image/svg+xml" class="block-3 absolute w-[7.5%] right-[17.25%] top-[33.8%]"></object>
+            <div class="flex relative w-full h-full items-center justify-center">
+                <object data="Company/Blocks/origin_blocks.svg" type="image/svg+xml" class="absolute w-full"></object>
+                <object data="Company/Blocks/block.svg" type="image/svg+xml" class="block-1 absolute w-[7.5%] left-[42%] top-[19.55%] "></object>
+                <object data="Company/Blocks/block.svg" type="image/svg+xml" class="block-2 absolute w-[7.5%] left-[42%] bottom-[4.15%]"></object>
+                <object data="Company/Blocks/block.svg" type="image/svg+xml" class="block-2 absolute w-[7.5%] left-[16.6%] top-[35%]"></object>
+                <object data="Company/Blocks/block.svg" type="image/svg+xml" class="block-3 absolute w-[7.5%] right-[16.9%] top-[35%]"></object>
             </div>
         </div>
         
@@ -73,8 +73,10 @@ export default {
     animation: changeBackground 6.2s infinite;
 }
 @keyframes changeBackground {
-    96.77% { background-color: transparent; } /* 6秒處 (6/6.2 = 0.9677) */
-    100% { background-color: gray; } /* 6.2秒處 (100%) */
+    0% { background-color: transparent; }
+    95% { background-color: transparent; }
+    97% { background-color: var(--d-9-d-9-d-9, #D9D9D9); } /* 6秒處 (6/6.2 = 0.9677) */
+    100% { background-color: var(--d-9-d-9-d-9, #D9D9D9); } /* 6.2秒處 (100%) */
 }
 
 
