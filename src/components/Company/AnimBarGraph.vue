@@ -53,7 +53,7 @@
             </div>
         </div>
         <div>
-            3
+            <div class="relative w-full h-full rounded-[0.75vw] border-[3px] border-dark-gray"></div>
         </div>
     </div>
 </template>
