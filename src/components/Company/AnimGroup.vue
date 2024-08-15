@@ -1,10 +1,10 @@
 <template>
 
 <div class="w-full h-full flex flex-row">
-    <div class="flex h-full mr-2 rounded-[.75vw] border-[3px] bg-[#FFF] border-dark-gray overflow-hidden items-center justify-center">
+    <div class="flex h-full mr-2 rounded-[.75vw] border-[3px] bg-[#FFF] border-dark-gray overflow-hidden items-center justify-center grid_bg">
         <!-- <object data="Company\RectangularGrid\grid1.svg" type="image/svg+xml" class="absolute h-full flex hide-grid1_1"></object>
         <object data="Company\RectangularGrid\grid2.svg" type="image/svg+xml" class="absolute h-full flex hide-grid1_2"></object> -->
-        <img :src="currentImageUrl" class="h-full aspect-w-132 aspect-h-509 flex p-2"/>
+        <img :src="currentImageUrl" class="h-full aspect-w-132 aspect-h-509 flex p-2 "/>
     </div>
     <div class="flex-grow h-full grid grid-rows-[1.15fr_.32fr_.32fr_.65fr_2.6fr] gap-1.5">
         <!-- 怪物 -->
@@ -65,44 +65,14 @@ export default {
 </script>
     
 <style scoped>
-.hide-grid1_1 {
-    animation: animateGr1_1 6s infinite;
+.grid_bg {
+    animation: changeBackground 6.2s infinite;
 }
-  
-@keyframes animateGr1_1 {
-    0% {
-        opacity: 1;
-        visibility: visible;
-    }
-    0.1% {
-        opacity: 0;
-        visibility: hidden;
-    }
-    0.2% {
-        opacity: 1;
-        visibility: visible;
-    }
+@keyframes changeBackground {
+    96.77% { background-color: transparent; } /* 6秒處 (6/6.2 = 0.9677) */
+    100% { background-color: gray; } /* 6.2秒處 (100%) */
 }
 
-.hide-grid1_2 {
-    animation: animateGr1_2 3s infinite;
-}
-  
-@keyframes animateGr1_2 {
-    0% {
-        opacity: 0;
-        visibility: hidden;
-        
-    }
-    0.1% {
-        opacity: 1;
-        visibility: visible;
-    }
-    0.2% {
-        opacity: 0;
-        visibility: hidden;
-    }
-}
 
 .cardbox-mo2 {
     animation: animateMo2 3s ease-out infinite;
