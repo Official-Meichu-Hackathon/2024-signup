@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full h-full grid grid-rows-[1.63fr_1.93fr_0.49fr] gap-2.5">
+    <div class="relative w-full h-full grid grid-rows-[1.63fr_1.93fr_0.49fr] gap-2.5">
         <div class="relative">
             <div class="absolute w-full h-full rounded-[0.75vw] border-[3px] border-dark-gray overflow-hidden">
                 <div class="absolute flex w-full h-full items-center">
@@ -53,14 +53,21 @@
             </div>
         </div>
         <div>
-            <div class="relative w-full h-full rounded-[0.75vw] border-[3px] border-dark-gray"></div>
+            <div class="relative w-full h-full rounded-[0.75vw] border-[3px] border-dark-gray">
+                <div class="w-[100vw] absolute bg-fixed bg-cover left-[-8%] inset-0 z-[-1] flex justify-center">
+                    <BackgroundEffect/>
+                </div>
+            </div>
         </div>
     </div>
 </template>
         
 <script>
+import BackgroundEffect from './BackgroundEffect.vue';
 export default {
-
+    components: {
+        BackgroundEffect
+    }
 }
 </script>
     

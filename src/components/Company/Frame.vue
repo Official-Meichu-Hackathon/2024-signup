@@ -1,9 +1,18 @@
 <template>
 
 <div>
-    <div style="height: calc((84vw - 12px) * 0.38 * 2479 / 439 + 96px);">
-        <div class="w-full h-full grid grid-cols-[4.39fr_2.79fr_1.48fr_2.83fr] grid-rows-custom-part1 gap-3">
-
+    <div class="relative " style="height: calc((84vw - 12px) * 0.38 * 2479 / 439 + 96px);">
+        <div class="relative w-full h-full grid grid-cols-[4.39fr_2.79fr_1.48fr_2.83fr] grid-rows-custom-part1 gap-3">
+            <!-- 添加背景 -->
+            <div class="w-[100vw] absolute row-start-4 bg-fixed bg-cover left-[-8%] inset-0 z-[-1]">
+                <BackgroundEffect/>
+            </div>
+            <div class="w-[100vw] absolute row-start-9 bg-fixed bg-cover left-[-8%] top-[30%] inset-0 z-[-1]">
+                <BackgroundEffect/>
+            </div>
+            <div class="w-[100vw] absolute row-start-9 bg-fixed bg-cover left-[-8%] top-[60%] inset-0 z-[-1]">
+                <BackgroundEffect/>
+            </div>
             <!-- 合作企業-NXP  -->
             <div class="row-start-1 row-span-2 col-start-1 relative ">
                 <CompanyCardBox title="題目說明 #01" imageSrc="Company/Logo/NXP-logo.svg" companyName="恩智浦半導體" description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" detailsLink="Company/test_details.pdf" imageWidth="300px" imageHeight="119.134px"></CompanyCardBox>
@@ -20,16 +29,15 @@
                 <div class="col-start-2 rounded-[0.75vw] border-[3px] bg-[#FFF] border-dark-gray"></div>
                 <div class="col-start-3 rounded-[0.75vw] border-[3px] bg-[var(--d-9-d-9-d-9,_#D9D9D9)] border-dark-gray"></div>
             </div>
-        
             <!-- 合作企業-LINE  -->
             <div class="row-start-2 col-start-3 row-span-3 col-span-2 relative w-full h-full box-border">
                 <!-- 切分  -->
                 <div class="flex flex-col h-full w-full"> 
                     <CompanyCardBox title="題目說明 #02" imageSrc="Company/Logo/LINE-logo.svg" companyName="LINE 台灣" description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" detailsLink="Company/test_details.pdf" imageWidth="152px" imageHeight="152px"></CompanyCardBox>
                 </div>
-                
-            <!-- 文字-梅竹黑客松 -->
             </div>
+
+            <!-- 文字-梅竹黑客松 -->
             <div class="relative row-start-3 col-start-1 col-span-2">
                 <div class="relative h-full w-full grid grid-cols-[6.18fr_1.04fr] grid-rows-[13fr_8.5fr] gap-3">
                     
@@ -49,14 +57,17 @@
                     <div class="row-start-1 col-start-2 row-span-2 rounded-[0.75vw] border-[3px] border-dark-gray bg-[#FFF]"></div>
                 </div>
             </div>
-        
             <!-- 小長方形*1 -->
-            <div class="row-start-4 col-start-2 
-            flex-shrink-0 rounded-[0.75vw] border-[3px] border-dark-gray">
+            <div class="relative row-start-4 col-start-2 
+            flex-shrink-0 rounded-[0.75vw] border-[3px] bg-white border-dark-gray">
+            <!-- <div class="absolute flex inset-0 z-0">
+                <BackgroundEffect/>
+            </div> -->
             </div>
             
             <!-- 合作企業-Google  -->
             <div class="row-start-4 row-span-2 col-start-1">
+                
                 <CompanyCardBox title="題目說明 #03" imageSrc="Company/Logo/Google-logo.svg" companyName="GOOGLE" description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" detailsLink="Company/test_details.pdf" imageWidth="320px" imageHeight="133.491px"></CompanyCardBox>
             </div>
     
@@ -96,7 +107,8 @@
                 <CompanyCardBox title="題目說明 #06" imageSrc="Company/Logo/Chunghwa_Telecom-logo.svg" companyName="中華電信" description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" detailsLink="Company/test_details.pdf" imageWidth="320px" imageHeight="105.6px"></CompanyCardBox>
                 
             </div>
-    
+
+            <!-- 合作機構-新竹市政府  -->
             <div class="flex row-start-9 col-start-1 col-span-4">
                 <div class="grid grid-cols-[3.72fr_4.39fr_3.72fr] w-full">
                     <div class="cols-start-1"></div>
@@ -119,6 +131,7 @@ import AnimBarGraph from './AnimBarGraph.vue';
 import AnimArrow from './AnimArrow.vue';
 import AnimDots from './AnimDots.vue';
 import AnimMonster from './AnimMonster.vue';
+import BackgroundEffect from './BackgroundEffect.vue';
 export default {
     name: 'Frame',
     components: {
@@ -127,7 +140,8 @@ export default {
         AnimGroup,
         AnimArrow,
         AnimDots,
-        AnimMonster
+        AnimMonster,
+        BackgroundEffect
     }
 }
 </script>
