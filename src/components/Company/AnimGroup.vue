@@ -19,7 +19,7 @@
                 <object data="Company/Blocks/block.svg" type="image/svg+xml" class="block-1 absolute w-[7.5%] left-[41.5%] top-[16.7%] "></object>
                 <object data="Company/Blocks/block.svg" type="image/svg+xml" class="block-2 absolute w-[7.5%] left-[41.5%] bottom-[0%]"></object>
                 <object data="Company/Blocks/block.svg" type="image/svg+xml" class="block-2 absolute w-[7.5%] left-[16.6%] top-[33.8%]"></object>
-                <object data="Company/Blocks/block.svg" type="image/svg+xml" class="block-3 absolute w-[7.5%] right-[16.6%] top-[33.8%]"></object>
+                <object data="Company/Blocks/block.svg" type="image/svg+xml" class="block-3 absolute w-[7.5%] right-[17.25%] top-[33.8%]"></object>
             </div>
         </div>
         
