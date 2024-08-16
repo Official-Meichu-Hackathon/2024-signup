@@ -15,7 +15,7 @@
             <div class="flex rounded-[.75vw] border-[3px] bg-[var(--d-9-d-9-d-9,_#D9D9D9)] border-dark-gray"></div>
             <div class="flex rounded-[.75vw] border-[3px] bg-[#FFF] border-dark-gray"></div>
             <div class="flex relative w-full h-full items-center justify-center">
-                <object data="Company/Blocks/origin_blocks.svg" type="image/svg+xml" class="absolute w-full"></object>
+                <object data="Company/Blocks/blocks.svg" type="image/svg+xml" class="absolute w-full"></object>
                 <object data="Company/Blocks/block.svg" type="image/svg+xml" class="block-1 absolute w-[7.5%] left-[42%] top-[19.55%] "></object>
                 <object data="Company/Blocks/block.svg" type="image/svg+xml" class="block-2 absolute w-[7.5%] left-[42%] bottom-[4.15%]"></object>
                 <object data="Company/Blocks/block.svg" type="image/svg+xml" class="block-2 absolute w-[7.5%] left-[16.6%] top-[35%]"></object>
