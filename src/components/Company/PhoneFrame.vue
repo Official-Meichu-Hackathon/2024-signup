@@ -10,7 +10,7 @@
                                 companyName="恩智浦半導體" 
                                 description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
                                 detailsLink="Company/test_details.pdf" 
-                                imageClass="absolute top-1/2 left-1/2 w-[68.3%] h-auto transform -translate-x-1/2 -translate-y-1/2">
+                                imageClass="absolute top-1/2 left-1/2 w-[70%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </PhoneCompanyCardBox>
             </div>
         </div>
@@ -27,7 +27,7 @@
                                     companyName="LINE 台灣" 
                                     description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
                                     detailsLink="Company/test_details.pdf" 
-                                    imageClass="absolute top-1/2 left-1/2 w-[34.6%] h-auto transform -translate-x-1/2 -translate-y-1/2">
+                                    imageClass="absolute top-1/2 left-1/2 w-[44.8%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </PhoneCompanyCardBox>
             </div>
         </div>
@@ -39,7 +39,7 @@
                                 companyName="GOOGLE" 
                                 description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
                                 detailsLink="Company/test_details.pdf" 
-                                imageClass="absolute top-1/2 left-1/2 w-[72.8%] h-auto transform -translate-x-1/2 -translate-y-1/2">
+                                imageClass="absolute top-1/2 left-1/2 w-[89.6%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </PhoneCompanyCardBox>
             </div>
         </div>
@@ -50,7 +50,7 @@
                                 companyName="台積電" 
                                 description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
                                 detailsLink="Company/test_details.pdf" 
-                                imageClass="absolute top-1/2 left-1/2 w-[43.7%] h-auto transform -translate-x-1/2 -translate-y-1/2">
+                                imageClass="absolute top-1/2 left-1/2 w-[57.3%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </PhoneCompanyCardBox>
             </div>
         </div>
@@ -83,7 +83,7 @@
                                 companyName="羅技" 
                                 description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
                                 detailsLink="Company/test_details.pdf" 
-                                imageClass="absolute top-1/2 left-1/2 w-[72.8%] h-auto transform -translate-x-1/2 -translate-y-1/2">
+                                imageClass="absolute top-1/2 left-1/2 w-[85.2%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </PhoneCompanyCardBox>
             </div>
         </div>
@@ -95,7 +95,7 @@
                                 companyName="中華電信" 
                                 description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
                                 detailsLink="Company/test_details.pdf" 
-                                imageClass="absolute top-1/2 left-1/2 w-[72.8%] h-auto transform -translate-x-1/2 -translate-y-1/2">
+                                imageClass="absolute top-1/2 left-1/2 w-[85.2%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </PhoneCompanyCardBox>
             </div>
         </div>
@@ -109,7 +109,7 @@
                                         companyName="新竹市政府" 
                                         description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
                                         detailsLink="Company/test_details.pdf" 
-                                        imageClass="absolute top-1/2 left-1/2 w-[86.5%] h-auto transform -translate-x-1/2 -translate-y-1/2">
+                                        imageClass="absolute top-1/2 left-1/2 w-[100%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </PhoneCompanyCardBox>
             </div>
         </div>
