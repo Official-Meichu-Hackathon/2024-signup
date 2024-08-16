@@ -45,7 +45,7 @@
                                     description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
                                     detailsLink="Company/test_details.pdf" 
                                     imageClass="absolute top-1/2 left-1/2 w-[34.6%] h-auto transform -translate-x-1/2 -translate-y-1/2">
-                    </CompanyCardBox>
+                    </CompanyCardBox> 
                 </div>
             </div>
 
@@ -85,7 +85,7 @@
                                 description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
                                 detailsLink="Company/test_details.pdf" 
                                 imageClass="absolute top-1/2 left-1/2 w-[72.8%] h-auto transform -translate-x-1/2 -translate-y-1/2">
-                    </CompanyCardBox>
+                </CompanyCardBox>
             </div>
     
             <!-- 合作企業-TSMC  -->
