@@ -39,7 +39,13 @@
             <div class="row-start-2 col-start-3 row-span-3 col-span-2 relative w-full h-full box-border">
                 <!-- 切分  -->
                 <div class="flex flex-col h-full w-full"> 
-                    <CompanyCardBox title="題目說明 #02" imageSrc="Company/Logo/LINE-logo.svg" companyName="LINE 台灣" description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" detailsLink="Company/test_details.pdf" imageClass="absolute top-1/2 left-1/2 w-[34.6%] h-auto transform -translate-x-1/2 -translate-y-1/2"></CompanyCardBox>
+                    <CompanyCardBox title="題目說明 #02" 
+                                    imageSrc="Company/Logo/LINE-logo.svg" 
+                                    companyName="LINE 台灣" 
+                                    description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
+                                    detailsLink="Company/test_details.pdf" 
+                                    imageClass="absolute top-1/2 left-1/2 w-[34.6%] h-auto transform -translate-x-1/2 -translate-y-1/2">
+                    </CompanyCardBox>
                 </div>
             </div>
 
@@ -73,13 +79,24 @@
             
             <!-- 合作企業-Google  -->
             <div class="row-start-4 row-span-2 col-start-1">
-                
-                <CompanyCardBox title="題目說明 #03" imageSrc="Company/Logo/Google-logo.svg" companyName="GOOGLE" description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" detailsLink="Company/test_details.pdf" imageClass="absolute top-1/2 left-1/2 w-[72.8%] h-auto transform -translate-x-1/2 -translate-y-1/2"></CompanyCardBox>
+                <CompanyCardBox title="題目說明 #03" 
+                                imageSrc="Company/Logo/Google-logo.svg" 
+                                companyName="GOOGLE" 
+                                description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
+                                detailsLink="Company/test_details.pdf" 
+                                imageClass="absolute top-1/2 left-1/2 w-[72.8%] h-auto transform -translate-x-1/2 -translate-y-1/2">
+                    </CompanyCardBox>
             </div>
     
             <!-- 合作企業-TSMC  -->
             <div class="row-start-5 row-span-2 col-start-2 col-span-2">
-                <CompanyCardBox title="題目說明 #04" imageSrc="Company/Logo/Tsmc-logo.svg" companyName="台積電" description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" detailsLink="Company/test_details.pdf" imageClass="absolute top-1/2 left-1/2 w-[43.7%] h-auto transform -translate-x-1/2 -translate-y-1/2"></CompanyCardBox>
+                <CompanyCardBox title="題目說明 #04" 
+                                imageSrc="Company/Logo/Tsmc-logo.svg" 
+                                companyName="台積電" 
+                                description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
+                                detailsLink="Company/test_details.pdf" 
+                                imageClass="absolute top-1/2 left-1/2 w-[43.7%] h-auto transform -translate-x-1/2 -translate-y-1/2">
+                </CompanyCardBox>
             </div>
     
             <!-- 動畫-座標  -->
@@ -95,7 +112,13 @@
     
             <!-- 合作企業-羅技  -->
             <div class="row-start-7 col-start-2 col-span-2">
-                <CompanyCardBox title="題目說明 #05" imageSrc="Company/Logo/Logitech-logo.svg" companyName="羅技" description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" detailsLink="Company/test_details.pdf" imageClass="absolute top-1/2 left-1/2 w-[72.8%] h-auto transform -translate-x-1/2 -translate-y-1/2"></CompanyCardBox>
+                <CompanyCardBox title="題目說明 #05" 
+                                imageSrc="Company/Logo/Logitech-logo.svg" 
+                                companyName="羅技" 
+                                description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
+                                detailsLink="Company/test_details.pdf" 
+                                imageClass="absolute top-1/2 left-1/2 w-[72.8%] h-auto transform -translate-x-1/2 -translate-y-1/2">
+                </CompanyCardBox>
             </div>
     
             <!-- 動畫-圓  -->
@@ -110,7 +133,13 @@
     
             <!-- 合作企業-中華電信  -->
             <div class="row-start-8 col-start-3 col-span-2">
-                <CompanyCardBox title="題目說明 #06" imageSrc="Company/Logo/Chunghwa_Telecom-logo.svg" companyName="中華電信" description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" detailsLink="Company/test_details.pdf" imageClass="absolute top-1/2 left-1/2 w-[72.8%] h-auto transform -translate-x-1/2 -translate-y-1/2"></CompanyCardBox>
+                <CompanyCardBox title="題目說明 #06" 
+                                imageSrc="Company/Logo/Chunghwa_Telecom-logo.svg" 
+                                companyName="中華電信" 
+                                description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
+                                detailsLink="Company/test_details.pdf" 
+                                imageClass="absolute top-1/2 left-1/2 w-[72.8%] h-auto transform -translate-x-1/2 -translate-y-1/2">
+                </CompanyCardBox>
                 
             </div>
 
@@ -119,7 +148,13 @@
                 <div class="grid grid-cols-[3.72fr_4.39fr_3.72fr] w-full">
                     <div class="cols-start-1"></div>
                     <div class="cols-start-2">
-                        <CompanyCardBox title="題目說明 #07" imageSrc="Company/Logo/新竹市政府-logo.svg" companyName="新竹市政府" description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" detailsLink="Company/test_details.pdf" imageClass="absolute top-1/2 left-1/2 w-[86.5%] h-auto transform -translate-x-1/2 -translate-y-1/2"></CompanyCardBox>
+                        <CompanyCardBox title="題目說明 #07" 
+                                        imageSrc="Company/Logo/新竹市政府-logo.svg" 
+                                        companyName="新竹市政府" 
+                                        description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
+                                        detailsLink="Company/test_details.pdf" 
+                                        imageClass="absolute top-1/2 left-1/2 w-[86.5%] h-auto transform -translate-x-1/2 -translate-y-1/2">
+                        </CompanyCardBox>
                     </div>
                 </div>
                 

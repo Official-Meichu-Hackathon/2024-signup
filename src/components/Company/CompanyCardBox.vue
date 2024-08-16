@@ -65,6 +65,7 @@ export default {
       type: String,
       required: true
     },
+    /*
     imageWidth: {
       type: String,
       default: 'auto'
@@ -73,6 +74,7 @@ export default {
       type: String,
       default: 'auto'
     },
+    */
     imageClass: {
       type: String,
       default: ''
