@@ -4,7 +4,15 @@
     <div class="grid grid-rows-7 grid-cols-custom gap-2">
         <!-- layer 1 -->
         <div class="row-start-1 col-start-1 col-span-2">
-            <div class="w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray"></div>
+            <div class="w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray">
+                <PhoneCompanyCardBox title="題目說明 #01" 
+                                imageSrc="Company/Logo/NXP-logo.svg" 
+                                companyName="恩智浦半導體" 
+                                description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
+                                detailsLink="Company/test_details.pdf" 
+                                imageClass="absolute top-1/2 left-1/2 w-[68.3%] h-auto transform -translate-x-1/2 -translate-y-1/2">
+                </PhoneCompanyCardBox>
+            </div>
         </div>
         <div class="row-start-1 col-start-3 w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray"></div>
         <!-- layer 2 -->
@@ -89,9 +97,11 @@
 </template>
     
 <script>
+import PhoneCompanyCardBox from './PhoneCompanyCardBox.vue';
 export default {
     name: 'PhoneFrame',
     components: {
+        PhoneCompanyCardBox
     }
 }
 </script>
