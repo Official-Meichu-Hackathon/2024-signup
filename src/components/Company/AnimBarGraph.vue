@@ -54,7 +54,7 @@
         </div>
         <div>
             <div class="relative w-full h-full rounded-[0.75vw] border-[3px] border-dark-gray">
-                <div class="w-[100vw] absolute bg-fixed bg-cover left-[-8%] inset-0 z-[-1] flex justify-center">
+                <div class="w-[97vw] absolute bg-fixed bg-cover left-[-8vw] inset-0 z-[-1] flex justify-center">
                     <BackgroundEffect/>
                 </div>
             </div>

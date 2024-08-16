@@ -1,5 +1,5 @@
 <template>
-    <img :src="currentImageUrl" class=""/>
+    <img :src="currentImageUrl" class="w-full"/>
     <!-- <div class="">
         <BackgroundEffect/>
     </div> -->
