@@ -16,9 +16,12 @@
         </div>
       </transition>
       <div v-if="hover" class="w-full h-full">
-        <!--<slot></slot> -->
         <div class="companyName absolute left-[6%] top-[5%] w-[100%]">{{ companyName }}</div>
-        <div class="description absolute top-[34%] left-[6%] right-[6%] w-[88%] h-auto">
+        <!--
+        <div class="description absolute top-[34%] left-[6%] right-[6%] w-[88%] h-auto" >
+            題目：{{ description }}
+        </div>-->
+        <div class="min5max30 absolute top-[34%] left-[6%] right-[6%] w-[88%] h-auto" >
             題目：{{ description }}
         </div>
         <div class="Details absolute top-[91%] left-[67%] w-[25%] h-auto">
@@ -102,6 +105,16 @@ export default {
 }
 .fade-enter, .fade-leave-to {
   opacity: 0;
+}
+.min5max30 {
+  --min-size: 5;
+  --max-size: 30;
+  --font-size: calc(
+    (var(--min-size) * 1px) + 
+    (var(--max-size) - var(--min-size)) * 
+    ((100cqw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(var(--min-size) * 1px, var(--font-size), var(--max-size) * 1px);
 }
 
 </style>
