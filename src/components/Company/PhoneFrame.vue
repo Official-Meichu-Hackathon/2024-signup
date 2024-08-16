@@ -26,8 +26,8 @@
             <div class="flex rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray">
                 <div class="flex w-full h-full justify-center">
                     <div class="relative w-[65%] ">
-                    <object data="Company\Phone\monster.svg" type="image/svg+xml" class="absolute w-full top-[5%]"></object>
-                </div>
+                        <object data="Company\Phone\monster.svg" type="image/svg+xml" class="absolute w-full top-[5%] moving-object-Monster"></object>
+                    </div>
                 </div>
                 
             </div>
@@ -92,7 +92,6 @@
 export default {
     name: 'PhoneFrame',
     components: {
-        
     }
 }
 </script>
@@ -100,6 +99,23 @@ export default {
 
     .grid-cols-custom {
       grid-template-columns: calc(22vw - 8px) auto calc(22vw - 8px);
+    }
+
+    .moving-object-Monster {
+        animation: moveUpDown-Monster 6s ease-in-out infinite;
+        position: absolute; 
+    }
+
+    @keyframes moveUpDown-Monster {
+        0% {
+            top: 5%; 
+        }
+        50% {
+            top: 85%; 
+        }
+        100% {
+            top: 5%; 
+        }
     }
 
 
