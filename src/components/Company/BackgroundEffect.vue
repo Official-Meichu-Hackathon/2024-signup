@@ -9,7 +9,7 @@
 export default {
     data() {
         return {
-            currentImageIndex: 0,
+            currentImageIndex: Math.floor(Math.random() * 10),
             images: [
                 'Company/BackgroundEffect/1.svg',
                 'Company/BackgroundEffect/2.svg',
@@ -28,8 +28,7 @@ export default {
     computed: {
         currentImageUrl() {
       // 确保 images 数组已经定义并且 currentImageIndex 有效
-      
-        return this.images[this.currentImageIndex];
+            return this.images[this.currentImageIndex];
         }
     },
     mounted() {
