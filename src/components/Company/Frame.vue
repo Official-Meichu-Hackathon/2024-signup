@@ -4,13 +4,13 @@
     <div class="relative " style="height: calc((84vw - 12px) * 0.38 * 2479 / 439 + 96px);">
         <div class="relative w-full h-full grid grid-cols-[4.39fr_2.79fr_1.48fr_2.83fr] grid-rows-custom-part1 gap-3">
             <!-- 添加背景 -->
-            <div class="row-start-4 w-[97vw] absolute bg-fixed bg-cover left-[-8vw] inset-0 z-[-1]">
+            <div class="row-start-4 w-[100vw] absolute bg-fixed bg-cover left-[-8vw] inset-0 z-[-1]">
                 <BackgroundEffect/>
             </div>
-            <div class="row-start-9 w-[97vw] absolute bg-fixed bg-cover left-[-8vw] top-[30%] inset-0 z-[-1]">
+            <div class="row-start-9 w-[100vw] absolute bg-fixed bg-cover left-[-8vw] top-[30%] inset-0 z-[-1]">
                 <BackgroundEffect/>
             </div>
-            <div class="row-start-9 w-[97vw] absolute bg-fixed bg-cover left-[-8vw] top-[60%] inset-0 z-[-1]">
+            <div class="row-start-9 w-[100vw] absolute bg-fixed bg-cover left-[-8vw] top-[60%] inset-0 z-[-1]">
                 <div class="transform scale-x-[-1]">
                     <BackgroundEffect/>
                 </div>
