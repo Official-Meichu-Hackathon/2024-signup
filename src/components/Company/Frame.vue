@@ -11,7 +11,9 @@
                 <BackgroundEffect/>
             </div>
             <div class="w-[100vw] absolute row-start-9 bg-fixed bg-cover left-[-8%] top-[60%] inset-0 z-[-1]">
-                <BackgroundEffect/>
+                <div class="transform scale-x-[-1]">
+                    <BackgroundEffect/>
+                </div>
             </div>
             <!-- 合作企業-NXP  -->
             <div class="row-start-1 row-span-2 col-start-1 relative ">
