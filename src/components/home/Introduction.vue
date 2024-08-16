@@ -57,7 +57,7 @@
           <object
             data="/home/icon-re239.svg"
             type="image/svg+xml"
-            class="group-hover:scale-[1.05] transition ease-in-out duration-500"
+            class="group-hover:scale-[1.05] transition ease-in-out duration-500 w-[30dvw]"
             data-testid="icon-re239-hackers"
           ></object>
         </div>
@@ -81,7 +81,7 @@
           新聞雲、Google、KKCompanyTechnologies、LINE、恩智浦半導體、文曄科技、台積電（按企業英文全稱字母順序排列）
         </div>
         <button
-          class="invisible group-hover:visible transition ease-in-out duration-500 bg-[#D8E022] text-white font-Inter text-[20px] font-[400] px-4 py-2 rounded-full hover:bg-white hover:text-[#D8E022] hover:border-[#D8E022] border-[1px] border-[#D8E022] active:bg-white active:text-[#A1A8AD] active:border-[#A1A8AD]"
+          class="opacity-0 group-hover:opacity-100 transition ease-in-out duration-700 bg-[#D8E022] text-white font-Inter text-[20px] font-[400] px-4 py-2 rounded-full hover:bg-white hover:text-[#D8E022] hover:border-[#D8E022] border-[1px] border-[#D8E022] active:bg-white active:text-[#A1A8AD] active:border-[#A1A8AD]"
           data-testid="details-button-hackers"
         >
           <a href="/">
@@ -112,7 +112,7 @@
           <object
             data="/home/icon-re239.svg"
             type="image/svg+xml"
-            class="group-hover:scale-[1.05] transition ease-in-out duration-500"
+            class="group-hover:scale-[1.05] transition ease-in-out duration-500 w-[30dvw]"
             data-testid="icon-re239-creators"
           ></object>
         </div>
@@ -133,6 +133,29 @@
         >
           由新竹市政府命題，融大新竹居民與旅遊客真實生活情境與議題，鼓勵跨領域，運用共享、共創、合作與實作，實際動手解決問題與提出方案。過程中將促進創作人才交流，體現創新創意、用戶體驗、數位科技趨勢應用的創客精神！
         </div>
+        <button
+          class="opacity-0 group-hover:opacity-100 transition ease-in-out duration-700 bg-[#D8E022] text-white font-Inter text-[20px] font-[400] px-4 py-2 rounded-full hover:bg-white hover:text-[#D8E022] hover:border-[#D8E022] border-[1px] border-[#D8E022] active:bg-white active:text-[#A1A8AD] active:border-[#A1A8AD]"
+          data-testid="details-button-hackers"
+        >
+          <a href="/">
+            <div class="flex flex-row gap-1 items-center justify-center">
+              <div>工作坊細節</div>
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  id="Vector"
+                  d="M10 3C11.8565 3 13.637 3.7375 14.9497 5.05025C16.2625 6.36301 17 8.14348 17 10C17 11.5 16.5 13 15.61 14.19L16.42 15H17L22 20L20 22L15 17V16.41L14.19 15.6C11.1 17.92 6.71 17.29 4.39 14.2C2.07 11.11 2.7 6.72 5.79 4.4C7 3.5 8.5 3 10 3ZM9 6V9H6V11H9V14H11V11H14V9H11V6H9ZM0 0V7L7 0H0Z"
+                  fill="CurrentColor"
+                />
+              </svg>
+            </div>
+          </a>
+        </button>
       </div>
     </div>
     <div class="absolute top-[75%] left-[50%] translate-x-[-50%]">
