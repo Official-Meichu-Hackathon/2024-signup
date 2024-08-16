@@ -11,7 +11,8 @@
       <transition name="fade" mode="out-in">
         <div v-if="!hover" key="not-hover" class="absolute inset-0 flex items-center justify-center">
           <div class="dashed-border"></div>
-          <img :src="imageSrc" alt="Company Logo" class="image" />
+          <!--<img :src="imageSrc" alt="Company Logo" class="image" />-->
+          <img :src="imageSrc" alt="Company Logo" :class="imageClass" />
         </div>
       </transition>
       <div v-if="hover" class="w-full h-full">
@@ -58,7 +59,7 @@ export default {
     },
     description: {
       type: String,
-      default: '描述內容'
+      default: '描述內容' 
     },
     detailsLink: {
       type: String,
@@ -71,6 +72,10 @@ export default {
     imageHeight: {
       type: String,
       default: 'auto'
+    },
+    imageClass: {
+      type: String,
+      default: ''
     }
   },
   data() {
