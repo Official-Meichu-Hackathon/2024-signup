@@ -13,11 +13,11 @@ describe("Title", () => {
     });
 
     expect(wrapper.exists()).toBe(true);
-    expect(wrapper.find(".title-font1").text()).toBe("梅");
-    expect(wrapper.find(".title-font2").text()).toBe("竹");
-    expect(wrapper.find(".title-font3").text()).toBe("黑");
-    expect(wrapper.find(".title-font4").text()).toBe("客");
-    expect(wrapper.find(".title-font5").text()).toBe("松");
+    expect(wrapper.find('[data-testid="title-font1"]').text()).toBe("梅");
+    expect(wrapper.find('[data-testid="title-font2"]').text()).toBe("竹");
+    expect(wrapper.find('[data-testid="title-font3"]').text()).toBe("黑");
+    expect(wrapper.find('[data-testid="title-font4"]').text()).toBe("客");
+    expect(wrapper.find('[data-testid="title-font5"]').text()).toBe("松");
   });
 
   test("renders countdown component", () => {

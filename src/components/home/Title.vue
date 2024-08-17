@@ -2,7 +2,7 @@
 
 <template>
   <div
-    class="hidden md:block relative h-[150dvh] w-[full] overflow-hidden z-20 box-border"
+    class="hidden md:block relative h-[1500px] w-[full] overflow-hidden z-20 box-border"
   >
     <object
       data="/home/icon-gr14.svg"
@@ -90,7 +90,7 @@
       class="title-mo4 absolute top-[64%] left-[27.5%]"
     ></object>
     <div
-      class="font-Mantou text-[20px] text-[#43473E] absolute top-[21%] left-[61.8%] font-[400]"
+      class="font-Mantou text-[20px] text-[#43473E] absolute top-[14%] left-[61.8%] font-[400]"
     >
       Creativity <br />
       Technology <br />
@@ -99,11 +99,11 @@
     <div
       class="font-Mantou text-[110px] text-[#43473E] font-[400] h-[calc(100dvh-75px)] gap-1 flex flex-row items-center justify-center"
     >
-      <div class="title-font1">梅</div>
-      <div class="title-font2">竹</div>
-      <div class="title-font3">黑</div>
-      <div class="title-font4">客</div>
-      <div class="title-font5">松</div>
+      <div class="title-font1" data-testid="title-font1">梅</div>
+      <div class="title-font2" data-testid="title-font2">竹</div>
+      <div class="title-font3" data-testid="title-font3">黑</div>
+      <div class="title-font4" data-testid="title-font4">客</div>
+      <div class="title-font5" data-testid="title-font5">松</div>
     </div>
     <div
       class="absolute top-[76%] left-[50%] font-Mantou text-[#43473E] translate-x-[-50%]"
@@ -117,7 +117,7 @@
           :interval="100"
           v-slot="{ days, hours, minutes, seconds }"
         >
-          <div class="grid grid-cols-7 mt-6">
+          <div class="grid grid-cols-7 mt-6 w-[70dvw]">
             <div class="flex flex-col items-center gap-y-4">
               <div class="text-[64px] font-[400]">{{ days }}</div>
               <div class="text-[24px] text-[400]" data-testid="days-label">
@@ -160,6 +160,162 @@
             <div class="flex flex-col items-center gap-y-4">
               <div class="text-[64px] font-[400]">{{ seconds }}</div>
               <div class="text-[24px] text-[400]" data-testid="seconds-label">
+                Seconds
+              </div>
+            </div>
+          </div>
+        </vue-countdown>
+      </div>
+    </div>
+  </div>
+  <div
+    class="block md:hidden relative h-[1200px] w-[full] overflow-hidden z-20 box-border"
+  >
+    <object
+      data="/home/icon-gr11.svg"
+      type="image/svg+xml"
+      class="title-co2 absolute top-[60%] left-[40%]"
+    ></object>
+    <object
+      data="/home/icon-gr52-1.svg"
+      type="image/svg+xml"
+      class="title-gr52-1 absolute top-[9%] left-[58%]"
+    ></object>
+    <object
+      data="/home/icon-gr52-2.svg"
+      type="image/svg+xml"
+      class="title-gr52-2 absolute top-[9%] left-[58%]"
+    ></object>
+    <object
+      data="/home/icon-ve17-2.svg"
+      type="image/svg+xml"
+      class="absolute top-[1%] left-[-3%]"
+    ></object>
+    <object
+      data="/home/icon-ve80-2.svg"
+      type="image/svg+xml"
+      class="absolute top-[19%] left-[12%]"
+    ></object>
+    <object
+      data="/home/icon-ve81-2.svg"
+      type="image/svg+xml"
+      class="absolute top-[31%] left-[7.5%]"
+    ></object>
+    <object
+      data="/home/icon-ve108.svg"
+      type="image/svg+xml"
+      class="absolute top-[52%] left-[63%]"
+    ></object>
+    <object
+      data="/home/icon-ve109.svg"
+      type="image/svg+xml"
+      class="absolute top-[62.5%] left-[90%]"
+    ></object>
+    <object
+      data="/home/icon-ve110.svg"
+      type="image/svg+xml"
+      class="absolute top-[62%] left-[0%]"
+    ></object>
+    <object
+      data="/home/icon-ve111.svg"
+      type="image/svg+xml"
+      class="absolute top-[84%] left-[60%]"
+    ></object>
+    <object
+      data="/home/icon-co06.svg"
+      type="image/svg+xml"
+      class="title-co6-md absolute top-[40.5%] left-[56%]"
+    ></object>
+    <object
+      data="/home/icon-co07.svg"
+      type="image/svg+xml"
+      class="title-co7-md absolute top-[1%] left-[-60%]"
+    ></object>
+    <object
+      data="/home/icon-mo02.svg"
+      type="image/svg+xml"
+      class="title-mo2 absolute top-[45%] left-[6%]"
+    ></object>
+    <div
+      class="font-Mantou text-[13px] text-[#43473E] absolute top-[34%] left-[65%] font-[400]"
+    >
+      Creativity <br />
+      Technology <br />
+      Inovation
+    </div>
+    <div
+      class="font-Mantou text-[64px] text-[#43473E] font-[400] absolute top-[16%] left-[25%] flex flex-col justify-center leading-none"
+    >
+      <div class="title-font1-md" data-testid="title-font1">梅</div>
+      <div class="title-font2-md" data-testid="title-font2">竹</div>
+      <div class="title-font3-md" data-testid="title-font3">黑</div>
+      <div class="title-font4-md" data-testid="title-font4">客</div>
+      <div class="title-font5-md" data-testid="title-font5">松</div>
+    </div>
+    <div
+      class="absolute top-[82%] left-[50%] font-Mantou text-[#43473E] translate-x-[-50%]"
+    >
+      <div class="flex flex-col items-center">
+        <div class="text-[20px] font-[400]" data-testid="countdown-label">
+          距離活動開始還有
+        </div>
+        <vue-countdown
+          :time="time"
+          :interval="100"
+          v-slot="{ days, hours, minutes, seconds }"
+        >
+          <div class="grid grid-cols-7 mt-6 w-[80dvw]">
+            <div class="flex flex-col items-center gap-y-1">
+              <div class="text-[32px] font-[400]">{{ days }}</div>
+              <div class="text-[16px] text-[400] mt-8" data-testid="days-label">
+                Days
+              </div>
+            </div>
+            <div class="flex flex-col items-center">
+              <object
+                data="/home/icon-co27-2.svg"
+                type="image/svg+xml"
+                class="title-co25 translate-y-[-6px]"
+              ></object>
+            </div>
+            <div class="flex flex-col items-center gap-y-1">
+              <div class="text-[32px] font-[400]">{{ hours }}</div>
+              <div
+                class="text-[16px] text-[400] mt-8"
+                data-testid="hours-label"
+              >
+                Hours
+              </div>
+            </div>
+            <div class="flex flex-col items-center">
+              <object
+                data="/home/icon-co27-2.svg"
+                type="image/svg+xml"
+                class="title-co26 translate-y-[-6px]"
+              ></object>
+            </div>
+            <div class="flex flex-col items-center gap-y-1">
+              <div class="text-[32px] font-[400]">{{ minutes }}</div>
+              <div
+                class="text-[16px] text-[400] mt-8"
+                data-testid="minutes-label"
+              >
+                Mins
+              </div>
+            </div>
+            <div class="flex flex-col items-center">
+              <object
+                data="/home/icon-co27-2.svg"
+                type="image/svg+xml"
+                class="title-co27 translate-y-[-6px]"
+              ></object>
+            </div>
+            <div class="flex flex-col items-center gap-y-1">
+              <div class="text-[32px] font-[400]">{{ seconds }}</div>
+              <div
+                class="text-[16px] text-[400] mt-8"
+                data-testid="seconds-label"
+              >
                 Seconds
               </div>
             </div>
@@ -276,6 +432,107 @@ const time = ref(targetDate - now);
   }
 }
 
+.title-font1-md {
+  animation: animateFont1-md 9s ease-out infinite;
+}
+
+@keyframes animateFont1-md {
+  0% {
+    transform: rotate(9.356deg) translate(-20px, -5px);
+  }
+  33% {
+    transform: rotate(-3deg) translate(-20px, -5px);
+  }
+  66% {
+    transform: rotate(-10deg) translate(-20px, -5px);
+  }
+  100% {
+    transform: rotate(9.356deg) translate(-20px, -5px);
+  }
+}
+
+.title-font2-md {
+  animation: animateFont2-md 9s ease-out infinite;
+}
+
+@keyframes animateFont2-md {
+  0% {
+    transform: rotate(-15.858deg);
+  }
+  33% {
+    transform: rotate(-2.197deg);
+  }
+  66% {
+    transform: rotate(6.558deg) translate(4px, -4.1px);
+  }
+  100% {
+    transform: rotate(-15.858deg);
+  }
+}
+
+.title-font3-md {
+  animation: animateFont3-md 9s ease-out infinite;
+}
+
+@keyframes animateFont3-md {
+  0% {
+    transform: translate(12px, 0);
+  }
+  33% {
+    transform: translate(2px, 0) rotate(12.558deg);
+  }
+  66% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(12px, 0);
+  }
+}
+
+.title-font4-md {
+  animation: animateFont4-md 9s ease-out infinite;
+}
+
+@keyframes animateFont4-md {
+  0% {
+    transform: translate(13px, 0);
+  }
+  40% {
+    transform: translate(0, 0);
+  }
+  60% {
+    transform: translate(13px, 0);
+  }
+  80% {
+    transform: translate(13px, 0);
+  }
+  100% {
+    transform: translate(13px, 0);
+  }
+}
+
+.title-font5-md {
+  animation: animateFont5-md 9s ease-out infinite;
+}
+
+@keyframes animateFont5-md {
+  0% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(13px, 0);
+  }
+  40% {
+    transform: translate(13px, 0);
+  }
+  60% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
 .title-co2,
 .title-co3 {
   animation: animateCo2 3s ease-out infinite;
@@ -340,6 +597,50 @@ const time = ref(targetDate - now);
   }
   100% {
     transform: translate(0, 0) rotate(-20deg);
+  }
+}
+
+.title-co6-md {
+  animation: animateCo6-md 4s ease-out infinite;
+}
+
+@keyframes animateCo6-md {
+  0% {
+    transform: translate(0, 0) rotate(15deg);
+  }
+  25% {
+    transform: translate(40px, 10px) rotate(15deg) scale(1.1);
+  }
+  50% {
+    transform: translate(40px, 10px) rotate(15deg) scale(1.1);
+  }
+  75% {
+    transform: translate(0, 0) rotate(15deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(15deg);
+  }
+}
+
+.title-co7-md {
+  animation: animateCo7-md 4s ease-out infinite;
+}
+
+@keyframes animateCo7-md {
+  0% {
+    transform: translate(40px, 10px) rotate(-160deg) scale(1.1);
+  }
+  25% {
+    transform: translate(0, 0) rotate(-160deg);
+  }
+  50% {
+    transform: translate(0, 0) rotate(-160deg);
+  }
+  75% {
+    transform: translate(40px, 10px) rotate(-160deg) scale(1.1);
+  }
+  100% {
+    transform: translate(40px, 10px) rotate(-160deg) scale(1.1);
   }
 }
 
