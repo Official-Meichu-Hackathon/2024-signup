@@ -61,19 +61,19 @@ export default {
           curTime: '09:00 - 10:30',
           actList: ['開幕式'],
           ifPhoto: true,
-          photoH: '/img/1.d351a642.jpg'
+          photoH: '1.jpg'
         },
         {
           curTime: '10:30 - 12:00',
           actList: ['Coding'],
           ifPhoto: true,
-          photoH: '/img/2.4f8d611f.jpg'
+          photoH: '2.jpg'
         },
         {
           curTime: '12:00 - 13:30',
           actList: ['午餐'],
           ifPhoto: true,
-          photoH: '/img/3.985b385c.jpg'
+          photoH: '3.jpg'
         },
         {
           curTime: '13:30 - 18:00',
@@ -83,13 +83,13 @@ export default {
             '場內其他小活動'
           ],
           ifPhoto: true,
-          photoH: '/img/6.97a7be21.jpg'
+          photoH: '6.jpg'
         },
         {
           curTime: '18:30 - 19:00',
           actList: ['晚餐'],
           ifPhoto: true,
-          photoH: '/img/5.5f58076f.jpg'
+          photoH: '5.jpg'
         },
         {
           curTime: '19:30 - 21:30',
@@ -98,7 +98,7 @@ export default {
             '場內其他小活動'
           ],
           ifPhoto: true,
-          photoH: '/img/4.6a4ec7a7.jpg'
+          photoH: '4.jpg'
         },
         {
           curTime: '21:30 - 22:30',
@@ -118,7 +118,7 @@ export default {
           curTime: '09:00 - 11:00',
           actList: ['Coding'],
           ifPhoto: true,
-          photoH: '/img/8.8a1d2181.jpg'
+          photoH: '8.jpg'
         },
         {
           curTime: '11:00 - 12:00',
@@ -127,13 +127,13 @@ export default {
             '活動攤位'
           ],
           ifPhoto: true,
-          photoH: '/img/7.08d5d253.jpg'
+          photoH: '7.jpg'
         },
         {
           curTime: '12:00 - 15:30',
           actList: ['初賽'],
           ifPhoto: true,
-          photoH: '/img/9.67aeb659.jpg'
+          photoH: '9.jpg'
         },
         {
           curTime: '15:30 - 17:00',
@@ -151,7 +151,7 @@ export default {
           curTime: '18:30 - 19:30',
           actList: ['閉幕式'],
           ifPhoto: true,
-          photoH: '/img/10.0a26e5da.jpg'
+          photoH: '10.jpg'
         }
       ]
     }

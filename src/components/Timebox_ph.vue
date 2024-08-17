@@ -19,7 +19,7 @@
             <path d="M10.5 14.5L146 0.5L265 120H64.5L0 107.5L10.5 14.5Z" />
           </clipPath>
         </defs>
-        <image :href="photoHref" x="0" y="0"  width="100%" height="100%" clip-path="url(#clip-shape)"
+        <image :href="`/time_flow/${photoHref}`" x="0" y="0"  width="100%" height="100%" clip-path="url(#clip-shape)"
           @mouseover="hoverIf = true"
           @mouseleave="hoverIf = false"
           class="transition-opacity duration-500 ease-in-out"
@@ -33,7 +33,7 @@
             <path d="M0 7.5L139 0L265 120H0V7.5Z" />
           </clipPath>
         </defs>
-        <image :href="photoHref" x="0" y="0"  width="100%" height="100%" clip-path="url(#clip-chshape)"
+        <image :href="`/time_flow/${photoHref}`" x="0" y="0"  width="100%" height="100%" clip-path="url(#clip-chshape)"
               @mouseover="hoverIf = true"
               @mouseleave="hoverIf = false"
               class="transition-opacity duration-500 ease-in-out"
@@ -47,7 +47,7 @@
             <path d="M10.5 14.5L146 0.5L265 120H64.5L0 107.5L10.5 14.5Z" />
           </clipPath>
         </defs>
-        <image :href="photoHref" x="0" y="0"  width="100%" height="100%" clip-path="url(#clip-shape)"
+        <image :href="`/time_flow/${photoHref}`" x="0" y="0"  width="100%" height="100%" clip-path="url(#clip-shape)"
           @mouseover="hoverIf = true"
           @mouseleave="hoverIf = false"
           class="transition-opacity duration-500 ease-in-out"
@@ -61,7 +61,7 @@
             <path d="M0 7.5L139 0L265 120H0V7.5Z" />
           </clipPath>
         </defs>
-        <image :href="photoHref" x="0" y="0"  width="100%" height="100%" clip-path="url(#clip-chshape)"
+        <image :href="`/time_flow/${photoHref}`" x="0" y="0"  width="100%" height="100%" clip-path="url(#clip-chshape)"
               @mouseover="hoverIf = true"
               @mouseleave="hoverIf = false"
               class="transition-opacity duration-500 ease-in-out"
