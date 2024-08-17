@@ -131,19 +131,13 @@ export default {
         },
         {
           curTime: '12:00 - 15:30',
-          actList: [
-            '黑客組初賽',
-            '創客交流組初賽'
-          ],
+          actList: ['初賽'],
           ifPhoto: true,
           photoH: '/img/9.67aeb659.jpg'
         },
         {
           curTime: '15:30 - 17:00',
-          actList: [
-            '黑客組決賽',
-            '創客交流組決賽'
-          ],
+          actList: ['決賽'],
           ifPhoto: false,
           photoH: ''
         },
