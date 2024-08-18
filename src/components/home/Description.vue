@@ -70,37 +70,6 @@
   <div
     class="block md:hidden relative h-[1040px] w-[full] overflow-hidden z-20 box-border"
   >
-    <!-- <object
-      data="/home/icon-ve31.svg"
-      type="image/svg+xml"
-      class="absolute top-[27%] left-[-4%]"
-    ></object>
-    <object
-      data="/home/icon-ve32.svg"
-      type="image/svg+xml"
-      class="absolute top-[25%] left-[81%]"
-    ></object>
-    <object
-      data="/home/icon-ve33.svg"
-      type="image/svg+xml"
-      class="absolute top-[73%] left-[14%]"
-    ></object>
-    <object
-      data="/home/icon-mo03.svg"
-      type="image/svg+xml"
-      class="desc-mo3 absolute top-[85%] left-[5.5%]"
-    ></object>
-    <object
-      data="/home/icon-co08.svg"
-      type="image/svg+xml"
-      class="desc-co8 absolute top-[58%] left-[0.1%]"
-    ></object>
-
-    <object
-      data="/home/icon-co24.svg"
-      type="image/svg+xml"
-      class="desc-co24 absolute top-[61%] left-[78%]"
-    ></object> -->
     <object
       data="/home/icon-gr11.svg"
       type="image/svg+xml"
@@ -146,11 +115,6 @@
       type="image/svg+xml"
       class="desc-gr80 absolute top-[91%] left-[75%]"
     ></object>
-    <!-- <object
-      data="/home/icon-co16.svg"
-      type="image/svg+xml"
-      class="desc-co16 absolute top-[1.5%] left-[30%]"
-    ></object> -->
     <div
       class="absolute top-[28%] left-[50%] w-[70%] translate-x-[-50%] font-Inter"
       style="font-size: 8px"

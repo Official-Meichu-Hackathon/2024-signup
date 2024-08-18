@@ -90,7 +90,7 @@
       class="title-mo4 absolute top-[64%] left-[27.5%]"
     ></object>
     <div
-      class="font-Mantou text-[20px] text-[#43473E] absolute top-[14%] left-[61.8%] font-[400]"
+      class="font-Mantou text-[20px] text-[#43473E] absolute top-[20%] left-[61.8%] font-[400]"
     >
       Creativity <br />
       Technology <br />
