@@ -6,10 +6,10 @@
 </template>
 
 <script>
-import Timebox from '@/components/Timebox.vue'
-import Timebox_ph from '@/components/Timebox_ph.vue'
-import Timecp from '@/components/Timecp.vue'
-import Timeph from '@/components/Timeph.vue'
+import Timebox from '@/components/time_flow/Timebox.vue'
+import Timebox_ph from '@/components/time_flow/Timebox_ph.vue'
+import Timecp from '@/components/time_flow/Timecp.vue'
+import Timeph from '@/components/time_flow/Timeph.vue'
 
 export default {
   name: 'ContestSchedule',
