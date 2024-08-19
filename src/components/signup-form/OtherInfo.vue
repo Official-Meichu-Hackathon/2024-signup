@@ -110,9 +110,6 @@ export default {
     });
     const formDataToSend = reactive([]);
 
-    watch(uploadSuccess, (newValue) => {
-      console.log("uploadSuccess changed:", newValue);
-    });
     watch(
       () => props.isFilled,
       (newVal) => {
@@ -126,7 +123,6 @@ export default {
       }
     );
     const validate = () => {
-      console.log("validate other info");
       const formData = validateForm(Form);
       if (formData) {
         formData.file = formDataToSend;

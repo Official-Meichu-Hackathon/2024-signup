@@ -165,7 +165,6 @@ export default {
 
     const Form = ref(null);
     const validate = () => {
-      console.log("validate signup option");
       const formData = validateForm(Form);
       if (formData) {
         formData["preference"] = localPreference.value;

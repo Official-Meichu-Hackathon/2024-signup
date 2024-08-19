@@ -101,7 +101,6 @@ export default {
   setup(props, { emit }) {
     const Form = ref(null);
     const validate = () => {
-        console.log("validate basic info");
       const formData = validateForm(Form);
       if (formData) {
         emit("basicInfo", formData);

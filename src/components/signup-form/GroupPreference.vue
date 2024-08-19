@@ -57,7 +57,6 @@ export default {
     const drag = ref(false);
 
     const updateValue = (newValue) => {
-      // 解包 Proxy 對象
       const unpacked = newValue.map((item) => {
         if (item && typeof item === "object" && !Array.isArray(item)) {
           return Object.assign({}, item);
