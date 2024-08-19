@@ -1,6 +1,6 @@
 <template>
 
-<div class="mt-[3%] w-full mb-[3%]">
+<div class="mt-[3%] w-full mb-[3%] pl-[8%] pr-[8%]">
     <div class="grid grid-rows-7 grid-cols-custom gap-2">
         <!-- layer 1 -->
         <div class="row-start-1 col-start-1 col-span-2">

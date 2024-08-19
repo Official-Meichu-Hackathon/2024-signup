@@ -1,7 +1,7 @@
 <template>
 <div class="w-full h-full flex flex-col">
     <div class="flex h-[20px] flex-shrink-0 mb-1.5"></div> 
-    <div class="flex relative flex-shrink-0 rounded-[0.75vw] border-[3px] flex-grow border-dark-gray">
+    <div class="flex relative flex-shrink-0 rounded-[0.75vw] border-[3px] flex-grow border-dark-gray bg-[#FFF]">
         <object data="Company/Monster1/background.svg" type="image/svg+xml" class="absolute left-1/2 bottom-[-1%] w-[93%] h-auto transform -translate-x-1/2"></object>
         <object data="Company/Monster1/GreenRectangle.svg" type="image/svg+xml" class="absolute top-[25%] left-[64%] w-[29%] h-auto"></object>
         <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center text-container">

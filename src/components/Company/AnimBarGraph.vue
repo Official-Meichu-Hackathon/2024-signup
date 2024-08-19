@@ -1,7 +1,7 @@
 <template>
     <div class="relative w-full h-full grid grid-rows-[1.63fr_1.93fr_0.49fr] gap-2.5">
         <div class="relative">
-            <div class="absolute w-full h-full rounded-[0.75vw] border-[3px] border-dark-gray overflow-hidden">
+            <div class="absolute w-full h-full rounded-[0.75vw] border-[3px] border-dark-gray overflow-hidden bg-[#FFF]">
                 <div class="absolute flex w-full h-full items-center">
                     <object data="Company\gray_rect.svg" type="image/svg+xml" class="h-[56%] cardbox-re1"></object>
                     
@@ -27,7 +27,7 @@
         </div>
         
         <div class="relative ">
-            <div class="absolute w-full h-full rounded-[0.75vw] border-[3px] border-dark-gray overflow-hidden">
+            <div class="absolute w-full h-full rounded-[0.75vw] border-[3px] border-dark-gray overflow-hidden bg-[#FFF]">
                 <div class="absolute flex w-full h-full items-center">
                     <object data="Company\yellow_rect.svg" type="image/svg+xml" class="h-[56%] cardbox-re2"></object>
                     
@@ -54,9 +54,6 @@
         </div>
         <div>
             <div class="relative w-full h-full rounded-[0.75vw] border-[3px] border-dark-gray">
-                <div class="w-[100vw] absolute bg-fixed bg-cover left-[-8vw] inset-0 z-[-1] flex justify-center">
-                    <BackgroundEffect/>
-                </div>
             </div>
         </div>
     </div>

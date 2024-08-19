@@ -1,10 +1,11 @@
 <template>
 
-<div>
-    <div class="relative " style="height: calc((84vw - 12px) * 0.38 * 2479 / 439 + 96px);">
+<div class="pl-[8%] pr-[8%] mb-[3%]">
+    <div class="relative" style="height: calc((84vw - 12px) * 0.38 * 2479 / 439 + 96px);">
         <div class="relative w-full h-full grid grid-cols-[4.39fr_2.79fr_1.48fr_2.83fr] grid-rows-custom-part1 gap-3">
             <!-- 添加背景 -->
-            <div class="row-start-4 w-[100vw] absolute bg-fixed bg-cover left-[-8vw] inset-0 z-[-1]">
+            
+            <!-- <div class="row-start-4 w-[100vw] absolute bg-fixed bg-cover left-[-8vw] inset-0 z-[-1]">
                 <BackgroundEffect/>
             </div>
             <div class="row-start-9 w-[100vw] absolute bg-fixed bg-cover left-[-8vw] top-[30%] inset-0 z-[-1]">
@@ -14,7 +15,7 @@
                 <div class="transform scale-x-[-1]">
                     <BackgroundEffect/>
                 </div>
-            </div>
+            </div> -->
             <!-- 合作企業-NXP  -->
             <div class="row-start-1 row-span-2 col-start-1 relative ">
                 <CompanyCardBox title="題目說明 #01" 
@@ -55,7 +56,7 @@
             <div class="relative row-start-3 col-start-1 col-span-2">
                 <div class="relative h-full w-full grid grid-cols-[6.18fr_1.04fr] grid-rows-[13fr_8.5fr] gap-3">
                     
-                    <div class="relative h-full w-full row-start-1 col-start-1 rounded-[0.75vw] border-[3px] border-dark-gray">
+                    <div class="relative h-full w-full row-start-1 col-start-1 rounded-[0.75vw] border-[3px] border-dark-gray bg-[#FFF]">
                         <div class="absolute inset-0 font-Mantou text-[7.3dvw] text-[#43473E] font-[400] gap-1 flex flex-row items-center justify-center" data-v-1765d9d0="">
                             <div class="cardbox-font1" data-v-1765d9d0="">梅</div>
                             <div class="cardbox-font2" data-v-1765d9d0="">竹</div>
@@ -64,7 +65,7 @@
                             <div class="cardbox-font5" data-v-1765d9d0="">松</div>
                         </div>
                     </div>
-                    <div class="flex overflow-hidden flex-col row-start-2 col-start-1 rounded-[0.75vw] border-[3px] border-dark-gray">
+                    <div class="flex overflow-hidden flex-col row-start-2 col-start-1 rounded-[0.75vw] border-[3px] border-dark-gray bg-[#FFF]">
                         <div class="h-1/2"></div>
                         <div class="h-1/2 rounded-none border-t-2 border-dark-gray bg-[var(--d-9-d-9-d-9,_#D9D9D9)]"></div> 
                     </div>
@@ -102,7 +103,7 @@
             </div>
     
             <!-- 動畫-座標  -->
-            <div class="row-start-5 col-start-4 rounded-[0.75vw] border-[3px] border-dark-gray">
+            <div class="row-start-5 col-start-4 rounded-[0.75vw] border-[3px] border-dark-gray bg-[#FFF]">
                 <AnimArrow/>
             </div>
     
@@ -124,7 +125,7 @@
             </div>
     
             <!-- 動畫-圓  -->
-            <div class="row-start-6 row-span-2 col-start-4 rounded-[0.75vw] border-[3px] border-dark-gray">
+            <div class="row-start-6 row-span-2 col-start-4 rounded-[0.75vw] border-[3px] border-dark-gray bg-[#FFF]">
                 <AnimDots/>
             </div>
     
@@ -175,6 +176,7 @@ import AnimArrow from './AnimArrow.vue';
 import AnimDots from './AnimDots.vue';
 import AnimMonster from './AnimMonster.vue';
 import BackgroundEffect from './BackgroundEffect.vue';
+import Background from './Background.vue';
 export default {
     name: 'Frame',
     components: {
@@ -184,7 +186,8 @@ export default {
         AnimArrow,
         AnimDots,
         AnimMonster,
-        BackgroundEffect
+        BackgroundEffect,
+        Background
     }
 }
 </script>

@@ -1,15 +1,32 @@
 <template>
-    <img :src="currentImageUrl" class="w-full"/>
-    <!-- <div class="">
-        <BackgroundEffect/>
-    </div> -->
+    <div class="w-full pb-[2vw]">
+        <img :src="currentImageUrl" class="w-full absolute"
+        :style="getTranslateStyle()"/>
+    </div>
+        
+    
 </template>
       
 <script>
 export default {
+    props: {
+        interval: {
+            type: Number,
+            default: 300,
+        },
+        move: {
+            type: Boolean,
+            default: false,
+        },
+        visibility: {
+            type: Boolean,
+            default: true,
+        },
+
+    },
     data() {
         return {
-            currentImageIndex: Math.floor(Math.random() * 10),
+            currentImageIndex: Math.floor(Math.random() * 11),
             images: [
                 'Company/BackgroundEffect/1.svg',
                 'Company/BackgroundEffect/2.svg',
@@ -20,31 +37,49 @@ export default {
                 'Company/BackgroundEffect/7.svg',
                 'Company/BackgroundEffect/8.svg',
                 'Company/BackgroundEffect/9.svg',
-                'Company/BackgroundEffect/10.svg'
+                'Company/BackgroundEffect/10.svg',
+                'Company/BackgroundEffect/11.png'
             ],
-            // intervals: [1500, 1500, 1500, 1500, 300],
+            count: 0,
         };
     },
     computed: {
+        effectiveInterval() {
+        return this.move ? 200 : this.interval;
+        },
         currentImageUrl() {
-      // 确保 images 数组已经定义并且 currentImageIndex 有效
-            return this.images[this.currentImageIndex];
+            return this.visibility ? this.images[this.currentImageIndex] : this.images[10];
+        }
+
+    },
+    watch: {
+        currentImageIndex(newIndex) {
+            if (newIndex === 10 && this.move) {
+                this.count += 1; // 增加百分比
+            }
         }
     },
     mounted() {
-        this.startImageSlider();
+        if(this.visibility) {
+            this.startImageSlider();
+        }
     },
     methods: {
         startImageSlider() {
-        const changeImage = (index) => {
-            if (index >= 10) index = 0;
-            this.currentImageIndex = index;
-            setTimeout(() => {
-            changeImage(index + 1);
-            }, 300);
-        };
+            const changeImage = (index) => {
+                if (index >= 11) index = 0;
+                this.currentImageIndex = index;
+                setTimeout(() => {
+                changeImage(index + 1);
+                }, this.effectiveInterval);
+            };
 
-        changeImage(this.currentImageIndex);
+            changeImage(this.currentImageIndex);
+        },
+        getTranslateStyle() {
+            // const translateYValue = this.move ? `calc(${this.count * 100}% + ${this.count * 12}px)` : '0';
+            const translateYValue = this.move ? `calc(${this.count * 2}vw)` : '0';
+            return this.move ? { transform: `translateY(${translateYValue})` } : {};
         },
     }
 };
