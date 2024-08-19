@@ -65,9 +65,11 @@
             </div>
           </div>
           <div class="flex flex-col gap-1 font-Inter text-[16px] text-[400]">
-            <div>第一名：新台幣 15,000 元整、實體獎品、實習或實習面試資格</div>
-            <div>第二名：新台幣 10,000 元整、實體獎品</div>
-            <div>第三名：新台幣 5,000 元整、實體獎品</div>
+            <div>
+              第一名：新台幣 20,000 元、企業實體獎品、實習或實習面試機會
+            </div>
+            <div>第二名：新台幣 15,000 元整、企業實體獎品</div>
+            <div>第三名：新台幣 10,000 元整、企業實體獎品</div>
           </div>
         </div>
       </div>
@@ -78,10 +80,17 @@
           <div class="font-Mantou text-[#43473E] text-[34px] text-[400]">
             創客交流組
           </div>
-          <div class="flex flex-col gap-1 font-Inter text-[16px] text-[400]">
-            <div>第一名：新台幣 40,000 元整</div>
-            <div>第二名：新台幣 30,000 元整</div>
-            <div>第三名：新台幣 20,000 元整</div>
+          <div class="grid grid-cols-2">
+            <div class="flex flex-col gap-1 font-Inter text-[16px] text-[400]">
+              <div>第一名：新台幣 50,000 元整</div>
+              <div>第二名：新台幣 40,000 元整</div>
+              <div>第三名：新台幣 30,000 元整</div>
+            </div>
+            <div class="flex flex-col gap-1 font-Inter text-[16px] text-[400]">
+              <div>創意獎一：新台幣 12,000 元整</div>
+              <div>創意獎二：新台幣 10,000 元整</div>
+              <div>創意獎三：新台幣 8,000 元整</div>
+            </div>
           </div>
         </div>
       </div>
@@ -99,8 +108,8 @@
           </div>
           <div class="flex flex-col gap-1 font-Inter text-[16px] text-[400]">
             <div>第一名：新台幣 28,000 元整</div>
-            <div>第二名：新台幣 12,000 元整</div>
-            <div>第三名：新台幣 6,000 元整</div>
+            <div>第二名：新台幣 16,000 元整</div>
+            <div>第三名：新台幣 8,000 元整</div>
           </div>
         </div>
       </div>
@@ -108,7 +117,7 @@
     <object
       data="/home/icon-mo08.svg"
       type="image/svg+xml"
-      class="prize-mo8 absolute top-[44%] left-[52%]"
+      class="prize-mo8 absolute top-[33%] left-[63%]"
     ></object>
   </div>
   <div
@@ -138,9 +147,9 @@
             <div class="font-Inter text-[8px] text-[400]">每間企業獨立評選</div>
           </div>
           <div class="flex flex-col gap-1 font-Inter text-[10px] text-[400]">
-            <div>第一名：新台幣 15,000 元整、實體獎品、實習或實習面試資格</div>
-            <div>第二名：新台幣 10,000 元整、實體獎品</div>
-            <div>第三名：新台幣 5,000 元整、實體獎品</div>
+            <div>第一名：新台幣 20,000 元、企業實體獎品、實習或實習面試機會</div>
+            <div>第二名：新台幣 15,000 元整、企業實體獎品</div>
+            <div>第三名：新台幣 10,000 元整、企業實體獎品</div>
           </div>
         </div>
       </div>
@@ -151,10 +160,17 @@
           <div class="font-Mantou text-[#43473E] text-[24px] text-[400]">
             創客交流組
           </div>
-          <div class="flex flex-col gap-1 font-Inter text-[10px] text-[400]">
-            <div>第一名：新台幣 40,000 元整</div>
-            <div>第二名：新台幣 30,000 元整</div>
-            <div>第三名：新台幣 20,000 元整</div>
+          <div class="grid grid-cols-2">
+            <div class="flex flex-col gap-1 font-Inter text-[10px] text-[400]">
+              <div>第一名：新台幣 50,000 元整</div>
+              <div>第二名：新台幣 40,000 元整</div>
+              <div>第三名：新台幣 30,000 元整</div>
+            </div>
+            <div class="flex flex-col gap-1 font-Inter text-[10px] text-[400]">
+              <div>創意獎一：新台幣 12,000 元整</div>
+              <div>創意獎二：新台幣 10,000 元整</div>
+              <div>創意獎三：新台幣 8,000 元整</div>
+            </div>
           </div>
         </div>
       </div>
@@ -172,8 +188,8 @@
           </div>
           <div class="flex flex-col gap-1 font-Inter text-[10px] text-[400]">
             <div>第一名：新台幣 28,000 元整</div>
-            <div>第二名：新台幣 12,000 元整</div>
-            <div>第三名：新台幣 6,000 元整</div>
+            <div>第二名：新台幣 16,000 元整</div>
+            <div>第三名：新台幣 8,000 元整</div>
           </div>
         </div>
       </div>

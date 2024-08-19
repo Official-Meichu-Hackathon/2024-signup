@@ -76,9 +76,8 @@
           class="font-Inter text-[16px] font-[400] text-center w-[30dvw]"
           data-testid="description-hackers"
         >
-          我們致力於搭起學生與企業之間的橋樑，學生運用企業資源並發揮潛力回應企業命題，讓學生進一步實踐創意發想！而今年我們將由以下六家企業作為引導單位：
-          ETtoday
-          新聞雲、Google、KKCompanyTechnologies、LINE、恩智浦半導體、文曄科技、台積電（按企業英文全稱字母順序排列）
+          我們致力於搭起學界與業界之間的橋樑，參賽者運用企業資源並發揮創意回應企業命題，發想與實作並存！2024
+          年梅竹黑客松將由以下六家企業作為引導單位：恩智浦半導體與文曄科技、LINE台灣、Google、台積電、羅技、中華電信
         </div>
         <button
           class="opacity-0 group-hover:opacity-100 transition ease-in-out duration-700 bg-[#D8E022] text-white font-Inter text-[20px] font-[400] px-4 py-2 rounded-full hover:bg-white hover:text-[#D8E022] hover:border-[#D8E022] border-[1px] border-[#D8E022] active:bg-white active:text-[#A1A8AD] active:border-[#A1A8AD]"
@@ -131,7 +130,7 @@
           class="font-Inter text-[16px] font-[400] text-wrap text-center w-[30dvw]"
           data-testid="description-creators"
         >
-          由新竹市政府命題，融大新竹居民與旅遊客真實生活情境與議題，鼓勵跨領域，運用共享、共創、合作與實作，實際動手解決問題與提出方案。過程中將促進創作人才交流，體現創新創意、用戶體驗、數位科技趨勢應用的創客精神！
+          由新竹市政府命題，融大新竹居民的民生交通情境，鼓勵參賽者跨領域，運用共享、共創的資源，實際動手解決問題。過程中將促進各方人才創作交流，激發新穎想法並提升日常生活的用戶體驗，打造數位科技的創客精神！
         </div>
         <button
           class="opacity-0 group-hover:opacity-100 transition ease-in-out duration-700 bg-[#D8E022] text-white font-Inter text-[20px] font-[400] px-4 py-2 rounded-full hover:bg-white hover:text-[#D8E022] hover:border-[#D8E022] border-[1px] border-[#D8E022] active:bg-white active:text-[#A1A8AD] active:border-[#A1A8AD]"
@@ -266,9 +265,8 @@
           class="font-Inter text-[10px] font-[400] text-center w-[70dvw]"
           data-testid="description-hackers"
         >
-          我們致力於搭起學生與企業之間的橋樑，學生運用企業資源並發揮潛力回應企業命題，讓學生進一步實踐創意發想！而今年我們將由以下六家企業作為引導單位：
-          ETtoday
-          新聞雲、Google、KKCompanyTechnologies、LINE、恩智浦半導體、文曄科技、台積電（按企業英文全稱字母順序排列）
+          我們致力於搭起學界與業界之間的橋樑，參賽者運用企業資源並發揮創意回應企業命題，發想與實作並存！2024
+          年梅竹黑客松將由以下六家企業作為引導單位：恩智浦半導體與文曄科技、LINE台灣、Google、台積電、羅技、中華電信
         </div>
         <button
           class="transition ease-in-out duration-700 bg-[#D8E022] text-white font-Inter text-[14px] font-[400] px-2 py-1 rounded-[10px] hover:bg-white hover:text-[#D8E022] hover:border-[#D8E022] border-[1px] border-[#D8E022] active:bg-white active:text-[#A1A8AD] active:border-[#A1A8AD]"
@@ -321,7 +319,7 @@
           class="font-Inter text-[10px] font-[400] text-center w-[70dvw]"
           data-testid="description-hackers"
         >
-          由新竹市政府命題，融大新竹居民與旅遊客真實生活情境與議題，鼓勵跨領域，運用共享、共創、合作與實作，實際動手解決問題與提出方案。過程中將促進創作人才交流，體現創新創意、用戶體驗、數位科技趨勢應用的創客精神！
+          由新竹市政府命題，融大新竹居民的民生交通情境，鼓勵參賽者跨領域，運用共享、共創的資源，實際動手解決問題。過程中將促進各方人才創作交流，激發新穎想法並提升日常生活的用戶體驗，打造數位科技的創客精神！
         </div>
         <button
           class="transition ease-in-out duration-700 bg-[#D8E022] text-white font-Inter text-[14px] font-[400] px-2 py-1 rounded-[10px] hover:bg-white hover:text-[#D8E022] hover:border-[#D8E022] border-[1px] border-[#D8E022] active:bg-white active:text-[#A1A8AD] active:border-[#A1A8AD]"

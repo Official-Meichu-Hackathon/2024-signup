@@ -23,24 +23,27 @@ describe('Prize.vue', () => {
     const firstPrize = wrapper.find('.col-span-2');
     expect(firstPrize.exists()).toBe(true);
     expect(firstPrize.text()).toContain('黑客組');
-    expect(firstPrize.text()).toContain('第一名：新台幣 15,000 元整、實體獎品、實習或實習面試資格');
-    expect(firstPrize.text()).toContain('第二名：新台幣 10,000 元整、實體獎品');
-    expect(firstPrize.text()).toContain('第三名：新台幣 5,000 元整、實體獎品');
+    expect(firstPrize.text()).toContain('第一名：新台幣 20,000 元、企業實體獎品、實習或實習面試機會');
+    expect(firstPrize.text()).toContain('第二名：新台幣 15,000 元整、企業實體獎品');
+    expect(firstPrize.text()).toContain('第三名：新台幣 10,000 元整、企業實體獎品');
 
     // Check for the second prize section
     const secondPrize = wrapper.findAll('.col-span-2').at(1);
     expect(secondPrize.exists()).toBe(true);
     expect(secondPrize.text()).toContain('創客交流組');
-    expect(secondPrize.text()).toContain('第一名：新台幣 40,000 元整');
-    expect(secondPrize.text()).toContain('第二名：新台幣 30,000 元整');
-    expect(secondPrize.text()).toContain('第三名：新台幣 20,000 元整');
+    expect(secondPrize.text()).toContain('第一名：新台幣 50,000 元整');
+    expect(secondPrize.text()).toContain('第二名：新台幣 40,000 元整');
+    expect(secondPrize.text()).toContain('第三名：新台幣 30,000 元整');
+    expect(secondPrize.text()).toContain('創意獎一：新台幣 12,000 元整');
+    expect(secondPrize.text()).toContain('創意獎二：新台幣 10,000 元整');
+    expect(secondPrize.text()).toContain('創意獎三：新台幣 8,000 元整');
 
     // Check for the final prize section
     const finalPrize = wrapper.find('.col-start-2');
     expect(finalPrize.exists()).toBe(true);
     expect(finalPrize.text()).toContain('梅竹大獎');
     expect(finalPrize.text()).toContain('第一名：新台幣 28,000 元整');
-    expect(finalPrize.text()).toContain('第二名：新台幣 12,000 元整');
-    expect(finalPrize.text()).toContain('第三名：新台幣 6,000 元整');
+    expect(finalPrize.text()).toContain('第二名：新台幣 16,000 元整');
+    expect(finalPrize.text()).toContain('第三名：新台幣 8,000 元整');
   });
 });
