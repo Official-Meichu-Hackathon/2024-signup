@@ -5,7 +5,7 @@
         <object data="Company/Monster1/background.svg" type="image/svg+xml" class="absolute left-1/2 bottom-[-1%] w-[93%] h-auto transform -translate-x-1/2"></object>
         <object data="Company/Monster1/GreenRectangle.svg" type="image/svg+xml" class="absolute top-[25%] left-[64%] w-[29%] h-auto"></object>
         <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center text-container">
-            <p class="absolute top-[27%] left-[64%] w-[29%] h-auto text-center" style="color: #FFF; font-family: 'Taipei Sans TC Beta'; font-size: 100%; line-height: 1;">Meichu Hackathon</p>
+            <object data="Company/Monster1/Meichu Hackathon.svg" type="image/svg+xml" class="absolute top-[27%] left-[66%] w-[25%] h-auto"></object>
         </div>
         <object data="Company/Monster1/monster1-1.svg" type="image/svg+xml" class="absolute top-[19%] left-[14%] w-[35%] h-auto changing-object" style="animation-delay: 0s;"></object>
         <object data="Company/Monster1/monster1-2.svg" type="image/svg+xml" class="absolute top-[19%] left-[14%] w-[35%] h-auto changing-object" style="animation-delay: 2s;"></object>
