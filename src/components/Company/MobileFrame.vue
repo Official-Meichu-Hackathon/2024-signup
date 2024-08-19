@@ -5,53 +5,53 @@
         <!-- layer 1 -->
         <div class="row-start-1 col-start-1 col-span-2">
             <div class="w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray">
-                <PhoneCompanyCardBox title="題目說明 #01" 
+                <MobileCompanyCardBox title="題目說明 #01" 
                                 imageSrc="Company/Logo/NXP-logo.svg" 
                                 companyName="恩智浦半導體" 
                                 description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
                                 detailsLink="Company/test_details.pdf" 
                                 imageClass="absolute top-1/2 left-1/2 w-[70%] h-auto transform -translate-x-1/2 -translate-y-1/2">
-                </PhoneCompanyCardBox>
+                </MobileCompanyCardBox>
             </div>
         </div>
         <div class="row-start-1 col-start-3 w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray"></div>
         <!-- layer 2 -->
-        <div class="flex overflow-hidden flex-col row-start-2 col-start-1 w-full h-[62vw] rounded-[3vw] border-[3px]  border-dark-gray">
+        <div class="flex overflow-hidden flex-col row-start-2 col-start-1 w-full h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray">
             <div class="h-1/2"></div>
             <div class="h-1/2 rounded-none border-t-2 border-dark-gray bg-[var(--d-9-d-9-d-9,_#D9D9D9)]"></div> 
         </div>
         <div class="row-start-2 col-start-2 col-span-2">
             <div class="w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray">
-                <PhoneCompanyCardBox title="題目說明 #02" 
+                <MobileCompanyCardBox title="題目說明 #02" 
                                     imageSrc="Company/Logo/LINE-logo.svg" 
                                     companyName="LINE 台灣" 
                                     description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
                                     detailsLink="Company/test_details.pdf" 
                                     imageClass="absolute top-1/2 left-1/2 w-[44.8%] h-auto transform -translate-x-1/2 -translate-y-1/2">
-                </PhoneCompanyCardBox>
+                </MobileCompanyCardBox>
             </div>
         </div>
         <!-- layer 3,4 -->
         <div class="row-start-3 col-start-1 col-span-2">
             <div class="w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray">
-                <PhoneCompanyCardBox title="題目說明 #03" 
+                <MobileCompanyCardBox title="題目說明 #03" 
                                 imageSrc="Company/Logo/Google-logo.svg" 
                                 companyName="GOOGLE" 
                                 description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
                                 detailsLink="Company/test_details.pdf" 
                                 imageClass="absolute top-1/2 left-1/2 w-[89.6%] h-auto transform -translate-x-1/2 -translate-y-1/2">
-                </PhoneCompanyCardBox>
+                </MobileCompanyCardBox>
             </div>
         </div>
         <div class="row-start-4 col-start-1 col-span-2">
             <div class="w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray">
-                <PhoneCompanyCardBox title="題目說明 #04" 
+                <MobileCompanyCardBox title="題目說明 #04" 
                                 imageSrc="Company/Logo/Tsmc-logo.svg" 
                                 companyName="台積電" 
                                 description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
                                 detailsLink="Company/test_details.pdf" 
                                 imageClass="absolute top-1/2 left-1/2 w-[57.3%] h-auto transform -translate-x-1/2 -translate-y-1/2">
-                </PhoneCompanyCardBox>
+                </MobileCompanyCardBox>
             </div>
         </div>
         <div class="row-start-3 row-span-2 col-start-3 w-full grid grid-rows-[4fr_.48fr] gap-2">
@@ -71,32 +71,32 @@
         <!-- layer 5 -->
         <div class="row-start-5 col-start-1 w-full flex flex-col h-[62vw] ">
             <object data="Company\Phone\blocks.svg" type="image/svg+xml" class="w-full p-1 pb-2"></object>
-            <div class="h-full flex overflow-hidden flex-col w-full rounded-[3vw] border-[3px]  border-dark-gray">
+            <div class="h-full flex overflow-hidden flex-col w-full rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray">
                 <div class="h-1/2"></div>
                 <div class="h-1/2 rounded-none border-t-2 border-dark-gray bg-[var(--d-9-d-9-d-9,_#D9D9D9)]"></div> 
             </div>
         </div>
         <div class="row-start-5 col-start-2 col-span-2">
             <div class="w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray">
-                <PhoneCompanyCardBox title="題目說明 #05" 
+                <MobileCompanyCardBox title="題目說明 #05" 
                                 imageSrc="Company/Logo/Logitech-logo.svg" 
                                 companyName="羅技" 
                                 description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
                                 detailsLink="Company/test_details.pdf" 
                                 imageClass="absolute top-1/2 left-1/2 w-[85.2%] h-auto transform -translate-x-1/2 -translate-y-1/2">
-                </PhoneCompanyCardBox>
+                </MobileCompanyCardBox>
             </div>
         </div>
         <!-- layer 6 -->
         <div class="row-start-6 col-start-1 col-span-2">
             <div class="w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray">
-                <PhoneCompanyCardBox title="題目說明 #06" 
+                <MobileCompanyCardBox title="題目說明 #06" 
                                 imageSrc="Company/Logo/Chunghwa_Telecom-logo.svg" 
                                 companyName="中華電信" 
                                 description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
                                 detailsLink="Company/test_details.pdf" 
                                 imageClass="absolute top-1/2 left-1/2 w-[85.2%] h-auto transform -translate-x-1/2 -translate-y-1/2">
-                </PhoneCompanyCardBox>
+                </MobileCompanyCardBox>
             </div>
         </div>
         <div class="row-start-6 col-start-3 w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray"></div>
@@ -104,13 +104,13 @@
         <div class="row-start-7 col-start-1 w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray"></div>
         <div class="row-start-7 col-start-2 col-span-2">
             <div class="w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray">
-                <PhoneCompanyCardBox title="題目說明 #07" 
+                <MobileCompanyCardBox title="題目說明 #07" 
                                         imageSrc="Company/Logo/新竹市政府-logo.svg" 
                                         companyName="新竹市政府" 
                                         description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
                                         detailsLink="Company/test_details.pdf" 
                                         imageClass="absolute top-1/2 left-1/2 w-[100%] h-auto transform -translate-x-1/2 -translate-y-1/2">
-                </PhoneCompanyCardBox>
+                </MobileCompanyCardBox>
             </div>
         </div>
     </div>
@@ -145,11 +145,11 @@
 </template>
     
 <script>
-import PhoneCompanyCardBox from './PhoneCompanyCardBox.vue';
+import MobileCompanyCardBox from './MobileCompanyCardBox.vue';
 export default {
     name: 'PhoneFrame',
     components: {
-        PhoneCompanyCardBox
+        MobileCompanyCardBox
     }
 }
 </script>

@@ -1,17 +1,16 @@
 <template>
-    <div class="hidden sm:block flex-shrink-0">
+    <div class="hidden sm:block relative">
         <Top/>
     </div>
-    <div class="overflow-hidden box-border">
-        <div class="relative hidden sm:block flex-shrink-0 overflow-hidden box-border">
-            <div class="absolute w-full inset-0 z-[-1]">
-                <Background/>
-            </div>
-            <Frame/>
-            
+    <div class="overflow-hidden box-border relative">
+        <div class="absolute inset-0 z-[-1] top-[6px]">
+            <Background/>
         </div>
-        <div class="block sm:hidden flex-shrink-0">
-            <PhoneFrame/>
+        <div class="relative hidden sm:block flex-shrink-0 overflow-hidden box-border">
+            <Frame/>
+        </div>
+        <div class="block sm:hidden flex-shrink-0 ">
+            <MobileFrame/>
         </div>
     </div>
     
@@ -21,14 +20,14 @@
 
 import Frame from './Company/Frame.vue';
 import Top from './Company/Top.vue';
-import PhoneFrame from './Company/PhoneFrame.vue';
+import MobileFrame from './Company/MobileFrame.vue';
 import Background from './Company/Background.vue';
 export default {
     name: 'TopicDesc',
     components: {
         Frame,
         Top,
-        PhoneFrame,
+        MobileFrame,
         Background
     }
 }

@@ -1,6 +1,6 @@
 <template>
-    <div class="w-full pb-[2vw]">
-        <img :src="currentImageUrl" class="w-full absolute"
+    <div class=" w-[500vw] pb-[2vw] overflow-hidden">
+        <img :src="currentImageUrl" class="h-[23.2px]"
         :style="getTranslateStyle()"/>
     </div>
         

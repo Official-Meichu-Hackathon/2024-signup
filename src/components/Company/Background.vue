@@ -1,6 +1,6 @@
 <template>
     
-        <div class="h-full w-full overflow-hidden">
+        <div class="w-full overflow-hidden">
             <BackgroundEffect 
             v-for="n in 150"
             :key="n"
