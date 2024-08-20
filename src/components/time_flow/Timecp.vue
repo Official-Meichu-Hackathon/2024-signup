@@ -38,7 +38,7 @@
       </div>
     </div>
   </div>
-  <div class="pb-[2%] text-red-500 font-bold text-[1.5vw] font-['Inter'] transform translate-x-[26.5vw]">
+  <div class="pb-[2%] text-red-500 font-bold text-[1.5vw] font-['Inter'] transform translate-x-[40vw]">
       實際流程將以現場公佈為準，屆時請參賽者留意大會推播通知。
   </div>
 </template>
