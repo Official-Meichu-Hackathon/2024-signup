@@ -9,7 +9,7 @@
                                 imageSrc="Company/Logo/NXP-logo.svg" 
                                 companyName="恩智浦半導體" 
                                 description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
-                                detailsLink="Company/test_details.pdf" 
+                                detailsLink="Company/company_pdf/nxp.pdf" 
                                 imageClass="absolute top-1/2 left-1/2 w-[70%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </MobileCompanyCardBox>
             </div>
@@ -26,7 +26,7 @@
                                     imageSrc="Company/Logo/LINE-logo.svg" 
                                     companyName="LINE 台灣" 
                                     description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
-                                    detailsLink="Company/test_details.pdf" 
+                                    detailsLink="Company/company_pdf/line.pdf" 
                                     imageClass="absolute top-1/2 left-1/2 w-[44.8%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </MobileCompanyCardBox>
             </div>
@@ -38,7 +38,7 @@
                                 imageSrc="Company/Logo/Google-logo.svg" 
                                 companyName="GOOGLE" 
                                 description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
-                                detailsLink="Company/test_details.pdf" 
+                                detailsLink="Company/company_pdf/test_details.pdf" 
                                 imageClass="absolute top-1/2 left-1/2 w-[89.6%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </MobileCompanyCardBox>
             </div>
@@ -49,7 +49,7 @@
                                 imageSrc="Company/Logo/Tsmc-logo.svg" 
                                 companyName="台積電" 
                                 description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
-                                detailsLink="Company/test_details.pdf" 
+                                detailsLink="Company/company_pdf/test_details.pdf" 
                                 imageClass="absolute top-1/2 left-1/2 w-[57.3%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </MobileCompanyCardBox>
             </div>
@@ -82,7 +82,7 @@
                                 imageSrc="Company/Logo/Logitech-logo.svg" 
                                 companyName="羅技" 
                                 description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
-                                detailsLink="Company/test_details.pdf" 
+                                detailsLink="Company/company_pdf/test_details.pdf" 
                                 imageClass="absolute top-1/2 left-1/2 w-[85.2%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </MobileCompanyCardBox>
             </div>
@@ -94,7 +94,7 @@
                                 imageSrc="Company/Logo/Chunghwa_Telecom-logo.svg" 
                                 companyName="中華電信" 
                                 description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
-                                detailsLink="Company/test_details.pdf" 
+                                detailsLink="Company/company_pdf/中華電信.pdf" 
                                 imageClass="absolute top-1/2 left-1/2 w-[85.2%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </MobileCompanyCardBox>
             </div>
@@ -108,7 +108,7 @@
                                         imageSrc="Company/Logo/新竹市政府-logo.svg" 
                                         companyName="新竹市政府" 
                                         description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
-                                        detailsLink="Company/test_details.pdf" 
+                                        detailsLink="Company/company_pdf/test_details.pdf" 
                                         imageClass="absolute top-1/2 left-1/2 w-[100%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </MobileCompanyCardBox>
             </div>
