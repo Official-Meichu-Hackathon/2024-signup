@@ -85,19 +85,19 @@ export default {
           photoH: '4.jpg'
         },
         {
-          curTime: '18:30 - 19:00',
+          curTime: '18:00 - 19:30',
           actList: ['晚餐'],
           ifPhoto: true,
           photoH: '5.jpg'
         },
         {
-          curTime: '19:30 - 21:30',
+          curTime: '19:30 - 22:00',
           actList: ['Coding','娛樂交流活動'],
           ifPhoto: true,
           photoH: '6.jpg'
         },
         {
-          curTime: '21:30 - 22:30',
+          curTime: '22:00 - 22:30',
           actList: ['宵夜'],
           ifPhoto: false,
           photoH: ''
@@ -130,9 +130,9 @@ export default {
         },
         {
           curTime: '11:00 - 11:50',
-          actList: ['午餐'],
-          ifPhoto: false,
-          photoH: ''
+          actList: ['午餐','活動攤位'],
+          ifPhoto: true,
+          photoH: '3.jpg'
         },
         {
           curTime: '11:50 - 15:10',
@@ -141,22 +141,28 @@ export default {
           photoH: ''
         },
         {
-          curTime: '12:00 - 15:00',
+          curTime: '12:10 - 14:00',
           actList: ['黑客組初賽'],
           ifPhoto: true,
           photoH: '9.jpg'
         },
         {
-          curTime: '15:00 - 17:10',
+          curTime: '15:20 - 17:30',
           actList: ['黑客組決賽'],
           ifPhoto: false,
           photoH: ''
         },
         {
-          curTime: '17:00 - 18:30',
-          actList: ['閉幕式','頒獎','抽獎'],
+          curTime: '17:30 - 18:30',
+          actList: ['頒獎','抽獎'],
           ifPhoto: true,
           photoH: '10.jpg'
+        },
+        {
+          curTime: '18:30 - 19:30',
+          actList: ['閉幕式'],
+          ifPhoto: false,
+          photoH: ''
         },
       ]
     }
