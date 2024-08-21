@@ -21,7 +21,7 @@
                 <CompanyCardBox title="題目說明 #01" 
                                 imageSrc="Company/Logo/NXP-logo.svg" 
                                 companyName="恩智浦半導體" 
-                                description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
+                                description="如何能夠以創新應用因應目前的氣候變遷，對企業來說是個非常重要的課題，希望參賽者能利用恩智浦與文曄科技提供的相關開發資源，實現智慧應用、符合永續需求。"
                                 detailsLink="Company/company_pdf/nxp.pdf" 
                                 imageClass="absolute top-1/2 left-1/2 w-[68.3%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </CompanyCardBox>
@@ -45,7 +45,7 @@
                     <CompanyCardBox title="題目說明 #02" 
                                     imageSrc="Company/Logo/LINE-logo.svg" 
                                     companyName="LINE 台灣" 
-                                    description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
+                                    description="以「透遍生成式 AI 和多模態模型打造校園相關應用的 LINE Bot」為主題，創建一個能夠與校園生活緊密連結的 LINE Bot。"
                                     detailsLink="Company/company_pdf/line.pdf" 
                                     imageClass="absolute top-1/2 left-1/2 w-[34.6%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                     </CompanyCardBox> 
@@ -139,7 +139,7 @@
                 <CompanyCardBox title="題目說明 #06" 
                                 imageSrc="Company/Logo/Chunghwa_Telecom-logo.svg" 
                                 companyName="中華電信" 
-                                description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
+                                description="應用生成式 AI 或 AI 偵偽/檢測技術，針對各式議題，設計創新應用，以避免生成式 AI 合成語音及 AI 影像/影片生成對一般大眾的負面威脅。"
                                 detailsLink="Company/company_pdf/中華電信.pdf" 
                                 imageClass="absolute top-1/2 left-1/2 w-[72.8%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </CompanyCardBox>
