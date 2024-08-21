@@ -2,7 +2,7 @@
 
 <template>
   <div
-    class="hidden md:block relative h-[150dvh] w-[full] overflow-hidden z-20 box-border"
+    class="hidden md:block relative h-[1400px] w-[full] overflow-hidden z-20 box-border"
   >
     <div
       class="font-Mantou text-[#43473E] text-[36px] text-[400] absolute top-[2%] left-[50%] translate-x-[-50%]"
@@ -35,7 +35,7 @@
       class="absolute top-[9.4%] left-[78%]"
     ></object>
     <object
-      data="/home/icon-ve76.svg"
+      data="/home/icon-ve76-1.svg"
       type="image/svg+xml"
       class="absolute top-[11.4%] left-[22.5%]"
     ></object>
@@ -47,7 +47,7 @@
     <object
       data="/home/icon-ve80.svg"
       type="image/svg+xml"
-      class="absolute top-[68%] left-[82%]"
+      class="absolute top-[70%] left-[50%]"
     ></object>
     <div class="absolute top-[9.9%] left-[20.58%] font-Mantou text-[36px] text-[#FFFFFF] text-[400] font-normal text-center">
       <div>1</div>
@@ -62,7 +62,7 @@
       <div class="flex flex-col items-center gap-4">
         <div class="flex flex-col gap-1 font-Inter text-[20px] font-normal text-center">
           <div>開始報名</div>
-          <div>9/5（二）~ 9/25（一）08:00</div>
+          <div>9/2（一）~ 9/23（一） 8:00 前</div>
         </div>
       </div>
     </div>
@@ -70,15 +70,15 @@
       <div class="flex flex-col items-center gap-4">
         <div class="flex flex-col gap-1 font-Inter text-[20px] font-normal text-center">
           <div>正取隊伍與所屬企業公布</div>
-          <div>9/5（二）~ 9/25（一）08:00</div>
+          <div>9/24（二） 8:00 前</div>
         </div>
       </div>
     </div>
     <div class="absolute top-[16%] left-[80.5%] transform -translate-x-1/2">
       <div class="flex flex-col items-center gap-4">
         <div class="flex flex-col gap-1 font-Inter text-[20px] font-normal text-center">
-          <div>繳費截止</div>
-          <div>9/5（二）~ 9/25（一）08:00</div>
+          <div>繳費期間</div>
+          <div>9/24（二）~ 9/27（五）</div>
         </div>
       </div>
     </div>
@@ -93,21 +93,43 @@
             報名費用
           </div>
           <div class="flex flex-col font-Inter text-[16px] text-[400] leading-tight">
-            <div>$700 / 人（須另繳保證金 $200）<br>
-保證金：若全程準時參與活動並完成 Demo，將於活動結束後退還中低收入戶持證明則無需任何費用<br>
-跨域組隊：隊伍成員每人減免 $100<br>
-．報名隊伍內有三個（含）以上不同科系<br>
-．組內含高中職、大專院校生或碩博生、社會人士兩種（含）以上身分別之參賽者（限創客交流組）<br>
-收費含餐食、場地清潔、保險、衣服等<br>
-所有組別全程準時參與開幕、閉幕，且黑客組隊內至少一人參加賽前工作坊。保證金將於活動結束後退還。<br>（若有特殊情況請提早與主辦單位溝通）</div>
+            <div>$900 / 人（含保證金 $200）<br>
+              <ul class="list-disc ml-5">
+                <li>跨域組隊：隊伍成員每人減免＄100</li>
+                  <ul class="list-disc ml-5">
+                    <li>報名隊伍內有三個（含）以上不同科系</li>
+                    <li>限創客交流組：該組內含高中職、大專院校生或碩博生、社會人士兩種（含）以上身份別之參賽者</li>
+                  </ul>
+                <li>收費含餐食與娛樂活動、場地清潔、保險、文宣品、紀念 T 恤等                </li>
+              </ul>
+            </div>
         </div>
+        <div class="flex flex-col gap-4">
+          <div class="font-Mantou text-[#43473E] text-[24px] text-[400]">
+            保證金制度
+          </div>
+          <div class="flex flex-col font-Inter text-[16px] text-[400] leading-tight">
+            <div>若有以下情事，主辦單位將酌情不予退還個人之保證金：<br>
+              <ul class="list-disc ml-5">
+                <li>隊內無人參加錄取企業或新竹市府所辦理之賽前工作坊，未有特殊理由之隊伍參賽者</li>
+                <li>未確實完成本活動之開、閉幕式或無故遲到超過 20 分鐘者（以簽到、簽退手續為準）</li>
+                <li>在活動場地違規飲食者，經工作人員勸導超過 3 次</li>
+                <li>於活動期間，破壞任何活動場地內的設備，且必要時需負理賠責任</li>
+                <li>未於組別 Demo 規定時間報到、登記、上傳簡報檔者</li>
+                <li>未遵守現場工作人員指示使用娛樂交流區相關設施者，且必要時需自負賠償責任</li>
+                <li>擅自進入本活動場域內非開放之管制空間者</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
         <div class="flex flex-col gap-4">
           <div class="font-Mantou text-[#43473E] text-[24px] text-[400]">
             報名資格
           </div>
           <div class="flex flex-col font-Inter text-[16px] text-[400] leading-tight">
-            <div>黑客組：全台大專院校生及碩博生，每隊至少需有一人具備使用企業資源的能力。<br>
-              創客交流組：高中職、大專院校生及碩博生、社會人士皆可報名，參賽者需於比賽 Demo 時讓評審實際操作作品。<br>（參考工具：Figma、Miro、Webflow、Sketch ⋯）</div>
+            <div>黑客組：全台大專院校生以及碩博士生，每隊至少需有一人員具備使用企業提供之資源的能力<br>
+              創客交流組：高中職、大專院校及碩博士、社會人士皆可報名，參賽者需於比賽 Demo 時讓評審實際操作作品。（參考工具：figma、Miro、Webflow、Sketch）</div>
           </div>
         </div>
         <div class="flex flex-col gap-4">
@@ -115,43 +137,36 @@
             報名方式
           </div>
           <div class="flex flex-col font-Inter text-[16px] text-[400] leading-tight">
-            <div>自行組隊報名，每隊 3~5 人，梅竹黑客松提供 <a href="https://www.facebook.com/groups/mchackathon.club.2.0/" class="underline" target="_blank">
+            <div>採自行報名組隊，梅竹黑客松提供 <a href="https://www.facebook.com/groups/mchackathon.club.2.0/" class="underline" target="_blank">
     臉書媒合社群
   </a> 供大家找隊友<br>
-組別選擇分為：黑客組、創客交流組、兩組混合報名<br>
-．若報名含黑客組，則須將所有企業皆列入志願序<br>
-．若單一企業超額，將採取亂數分發
+黑客組：每隊 3~5 人<br>
+創客交流組：每隊 3~4 人<br>
+<ul class="list-disc ml-5">
+  <li>分為兩種報名渠道：黑客創客混合報名、創客交流組獨立報名</li>
+    <ul class="list-disc ml-5">
+      <li>黑客組報名採志願排序制，須將創客交流組加入排序中</li>
+    </ul>
+  <li>若黑客組之單一企業超額，將採亂數分發</li>
+  <li>創客交流組另需提交一頁式企劃方案，方完成報名手續</li>
+</ul>
             </div>
           </div>
         </div>
         <div class="flex flex-col gap-4">
           <div class="font-Mantou text-[#43473E] text-[24px] text-[400]">
-            其他須知
+            其他注意事項
           </div>
           <div class="flex flex-col font-Inter text-[16px] text-[400] leading-tight">
-            <div>若超過最大參賽人數上限將依報名時間為依據錄取<br>
-企業可與學生洽談合作以將作品運用到公司中<br>
-主辦方與企業可活動中拍照與錄影，並作為未來宣傳使用<br>
-得獎隊伍需要將作品上傳到 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfpq4AGg_hFSsRgi4WSBapoL7AFeE7uC0j1yZqP2i9VL6SmaA/viewform" class="underline" target="_blank">
+            <ul class="list-disc ml-5">
+              <li>報名之隊伍需在報名手續最末同意「智慧財產權聲明暨肖像授權」相關條款。</li>
+              <li>若報名人數超過活動最大人數上限，將依照報名先後順序錄取。</li>
+              <li>為保護梅竹黑客松協辦企業之權益，參賽者必須配合參賽之企業組別所提出比<br>賽過程之保密協定簽署，若無法配合企業之保密協定，將取消參賽資格。</li>
+              <li>繳費成功後，請以組別為單位回傳證明給主辦單位；同時，一併回傳隊伍中<br>「每一位」參賽者簽署之「個人資料蒐集聲明同意書」。</li>
+              <li>得獎同學需將作品上傳至 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfpq4AGg_hFSsRgi4WSBapoL7AFeE7uC0j1yZqP2i9VL6SmaA/viewform" class="underline" target="_blank">
       梅竹黑客松成果存放平台
-  </a> ，方可領取獎金
-            </div>
-          </div>
-        </div>
-        <div class="flex flex-col gap-4">
-          <div class="font-Mantou text-[#43473E] text-[24px] text-[400]">
-            保證金制度
-          </div>
-          <div class="flex flex-col font-Inter text-[16px] text-[400] leading-tight">
-              <ol class="list-decimal list-inside">
-                <li>需參與本活動之開、閉幕式，並確實完成簽到與簽退之手續。</li>
-                <li>報到手續遲到 20 分鐘者，不予退還。</li>
-                <li>在活動場地違規飲食者，經工作人員勸導超過 3 次，不予退還。</li>
-                <li>於活動期間，破壞任何活動場地內的設備，不予退還，並自負理賠責任。</li>
-                <li>未於組別 DEMO 規定時間報到、登記、上傳簡報檔者，保證金將不予退還。</li>
-                <li>未遵守現場工作人員指示使用娛樂交流區相關設施者，不予退還其保證金，<br><span class="ml-5">必要時需自負賠償責任。</span></li>
-                <li>擅自進入本活動場域內非開放之管制空間，不予退還保證金。</li>
-              </ol>
+  </a></li>
+            </ul>
           </div>
         </div>
           <div
@@ -163,8 +178,248 @@
     </div>
   </div>
     </div>
-</div></template>
+</div>
+<div
+    class="block md:hidden relative h-[1440px] w-[full] overflow-hidden z-20 box-border"
+  >
+    <div
+      class="font-Mantou text-[#43473E] text-[20px] text-[400] absolute top-[2%] left-[50%] translate-x-[-50%]"
+    >
+      如何報名
+    </div>
+    <object
+      data="/home/icon-ve91.svg"
+      type="image/svg+xml"
+      class="absolute top-[10%] left-[60%]"
+    ></object>
+    <object
+      data="/home/icon-ve92.svg"
+      type="image/svg+xml"
+      class="absolute top-[52%] left-[58%]"
+    ></object>
+    <object
+      data="/home/icon-ve93.svg"
+      type="image/svg+xml"
+      class="absolute top-[60%] left-[87%]"
+    ></object>
+    <object
+      data="/home/icon-ve76-2.svg"
+      type="image/svg+xml"
+      class="absolute top-[5.7%] left-[27.4%] h-[9%]"
+    ></object>
+    <div class="absolute top-[5.5%] left-[50%] transform -translate-x-1/2 flex items-start gap-4">
+      <div class="w-[11%] h-[11%] relative">
+        <object
+          data="/home/icon-el25.svg"
+          type="image/svg+xml"
+          class="w-full h-full"
+        ></object>
+        <div class="absolute inset-0 flex items-center justify-center font-Mantou text-[14px] text-[#FFFFFF] text-[400] font-normal text-center">
+          1
+        </div>
+      </div>
+      
+      <div class="flex flex-col gap-1 font-Inter text-[10px] font-normal">
+        <div>開始報名</div>
+        <div>9/2（一）~ 9/23（一） 8:00 前</div>
+      </div>
+    </div>
+
+    <div class="absolute top-[9.5%] left-[50%] transform -translate-x-1/2 flex items-start gap-4">
+      <div class="w-[11%] h-[11%] relative">
+        <object
+          data="/home/icon-el25.svg"
+          type="image/svg+xml"
+          class="w-full h-full"
+        ></object>
+        <div class="absolute inset-0 flex items-center justify-center font-Mantou text-[14px] text-[#FFFFFF] text-[400] font-normal text-center">
+          2
+        </div>
+      </div>
+      
+      <div class="flex flex-col gap-1 font-Inter text-[10px] font-normal">
+        <div>正取隊伍與所屬企業公布</div>
+        <div>9/24（二） 8:00 前</div>
+      </div>
+    </div>
+
+    <div class="absolute top-[13.5%] left-[50%] transform -translate-x-1/2 flex items-start gap-4">
+      <div class="w-[11%] h-[11%] relative">
+        <object
+          data="/home/icon-el25.svg"
+          type="image/svg+xml"
+          class="w-full h-full"
+        ></object>
+        <div class="absolute inset-0 flex items-center justify-center font-Mantou text-[14px] text-[#FFFFFF] text-[400] font-normal text-center">
+          3
+        </div>
+      </div>
+      
+      <div class="flex flex-col gap-1 font-Inter text-[10px] font-normal">
+        <div>繳費期間</div>
+        <div>9/24（二）~ 9/27（五）</div>
+      </div>
+    </div>
+
+    
+
+
+    <object
+      data="/home/icon-co47.svg"
+      type="image/svg+xml"
+      class="signup-co47 absolute top-[65%] left-[50%] transform -translate-x-1/2"
+    ></object>
+    <object
+      data="/home/icon-ve94.svg"
+      type="image/svg+xml"
+      class="absolute top-[72%] left-[0%]"
+    ></object>
+    <object
+      data="/home/icon-co54.svg"
+      type="image/svg+xml"
+      class="signup-co54 absolute top-[92%] left-[64%]"
+    ></object>
+    <div
+      class="grid grid-cols-2 gap-y-4 absolute top-[18%] left-[50%] w-[86%] translate-x-[-50%]"
+    >
+    <div
+        class="col-span-2 border-[#D9D9D9] border-[2px] rounded-[20px] px-5 py-5 pb-14 bg-white"
+      >
+        <div class="flex flex-col gap-2">
+          <div class="font-Mantou text-[#43473E] text-[16px] text-[400]">
+            報名費用
+          </div>
+          <div class="flex flex-col font-Inter text-[10px] text-[400] leading-tight">
+            <div>$900 / 人（含保證金 $200）<br>
+              <ul class="list-disc ml-5">
+                <li>跨域組隊：隊伍成員每人減免＄100</li>
+                  <ul class="list-disc ml-5">
+                    <li>報名隊伍內有三個（含）以上不同科系</li>
+                    <li>限創客交流組：該組內含高中職、大專院校生或碩博生、社會人士兩種（含）以上身份別之參賽者</li>
+                  </ul>
+                <li>收費含餐食與娛樂活動、場地清潔、保險、文宣品、紀念 T 恤等                </li>
+              </ul>
+          </div>
+        </div>
+        <div class="font-Mantou text-[#43473E] text-[16px] text-[400]">
+            保證金制度
+          </div>
+          <div class="flex flex-col font-Inter text-[10px] text-[400] leading-tight">
+            <div>若有以下情事，主辦單位將酌情不予退還個人之保證金：<br>
+              <ul class="list-disc ml-5">
+                <li>隊內無人參加錄取企業或新竹市府所辦理之賽前工作坊，未有特殊理由之隊伍參賽者</li>
+                <li>未確實完成本活動之開、閉幕式或無故遲到超過 20 分鐘者（以簽到、簽退手續為準）</li>
+                <li>在活動場地違規飲食者，經工作人員勸導超過 3 次</li>
+                <li>於活動期間，破壞任何活動場地內的設備，且必要時需負理賠責任</li>
+                <li>未於組別 Demo 規定時間報到、登記、上傳簡報檔者</li>
+                <li>未遵守現場工作人員指示使用娛樂交流區相關設施者，且必要時需自負賠償責任</li>
+                <li>擅自進入本活動場域內非開放之管制空間者</li>
+              </ul>
+            </div>
+        </div>
+        <div class="flex flex-col gap-2">
+          <div class="font-Mantou text-[#43473E] text-[16px] text-[400]">
+            報名資格
+          </div>
+          <div class="flex flex-col font-Inter text-[10px] text-[400] leading-tight">
+            <div>黑客組：全台大專院校生以及碩博士生，每隊至少需有一人員具備使用企業提供之資源的能力<br>
+              創客交流組：高中職、大專院校及碩博士、社會人士皆可報名，參賽者需於比賽 Demo 時讓評審實際操作作品。（參考工具：figma、Miro、Webflow、Sketch）</div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-2">
+          <div class="font-Mantou text-[#43473E] text-[16px] text-[400]">
+            報名方式
+          </div>
+          <div class="flex flex-col font-Inter text-[10px] text-[400] leading-tight">
+            <div>採自行報名組隊，梅竹黑客松提供 <a href="https://www.facebook.com/groups/mchackathon.club.2.0/" class="underline" target="_blank">
+    臉書媒合社群
+  </a> 供大家找隊友<br>
+黑客組：每隊 3~5 人<br>
+創客交流組：每隊 3~4 人<br>
+<ul class="list-disc ml-5">
+  <li>分為兩種報名渠道：黑客創客混合報名、創客交流組獨立報名</li>
+    <ul class="list-disc ml-5">
+      <li>黑客組報名採志願排序制，須將創客交流組加入排序中</li>
+    </ul>
+  <li>若黑客組之單一企業超額，將採亂數分發</li>
+  <li>創客交流組另需提交一頁式企劃方案，方完成報名手續</li>
+</ul>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-2">
+          <div class="font-Mantou text-[#43473E] text-[16px] text-[400]">
+            其他注意事項
+          </div>
+          <div class="flex flex-col font-Inter text-[10px] text-[400] leading-tight">
+            <ul class="list-disc ml-5">
+              <li>報名之隊伍需在報名手續最末同意「智慧財產權聲明暨肖像授權」相關條款。</li>
+              <li>若報名人數超過活動最大人數上限，將依照報名先後順序錄取。</li>
+              <li>為保護梅竹黑客松協辦企業之權益，參賽者必須配合參賽之企業組別所提出比賽過程之保密協定簽署，若無法配合企業之保密協定，將取消參賽資格。</li>
+              <li>繳費成功後，請以組別為單位回傳證明給主辦單位；同時，一併回傳隊伍中「每一位」參賽者簽署之「個人資料蒐集聲明同意書」。</li>
+              <li>得獎同學需將作品上傳至 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfpq4AGg_hFSsRgi4WSBapoL7AFeE7uC0j1yZqP2i9VL6SmaA/viewform" class="underline" target="_blank">
+      梅竹黑客松成果存放平台
+  </a></li>
+            </ul>
+          </div>
+        </div>
+          <div
+            class="absolute top-[94%] left-[50%] w-[22%] col-span-2 hover:bg-[#FFFFFF] hover:text-[#D8E022] active:border-[#A1A8AD] active:text-[#A1A8AD] border-[#D8E022] border-[3px] rounded-[10px] px-2 py-1 bg-[#D8E022] flex flex-col items-center justify-center text-white font-Inter text-[10px] text-[700] leading-normal transition-all duration-300 ease-out cursor-pointer transform -translate-x-1/2"
+          >
+            <div>我要報名</div>
+          </div>
+    </div>
+  </div>
+    </div>
+</div>
+
+</template>
 
 <script setup></script>
 
-<style scoped></style>
+<style scoped>
+
+.signup-co47 {
+  animation: animateCo47 3s ease-out infinite;
+}
+
+.signup-co54 {
+  animation: animateCo54 5s ease-out infinite;
+}
+
+
+@keyframes animateCo47 {
+  0% {
+    transform: translateX(-50%) translateY(0);
+  }
+  25% {
+    transform: translateX(-50%) translateY(-32px);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-32px);
+  }
+  75% {
+    transform: translateX(-50%) translateY(0);
+  }
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+}
+@keyframes animateCo54 {
+  0% {
+    transform: rotate(-4deg);
+  }
+  12.5% {
+    transform: rotate(-20.92deg);
+  }
+  50% {
+    transform: rotate(-20.92deg);
+  }
+  62.5% {
+    transform: rotate(-4deg);
+  }
+  100% {
+    transform: rotate(-4deg);
+  }
+}
+</style>

@@ -1,7 +1,7 @@
 <!-- 6 合作企業 @lynu369 -->
 <template>
   <div
-    class="hidden md:block relative h-[180dvh] w-[full] overflow-hidden z-20 box-border"
+    class="hidden md:block relative h-[1800px] w-[full] overflow-hidden z-20 box-border"
   >
     <div
       class="font-Mantou text-[#43473E] text-[36px] text-[400] absolute top-[2.4%] left-[50%] translate-x-[-50%]"
@@ -195,7 +195,7 @@
     ></object>
   </div>
   <div
-    class="hidden md:block relative h-[110dvh] w-[full] overflow-hidden z-20 box-border"
+    class="hidden md:block relative h-[1100px] w-[full] overflow-hidden z-20 box-border"
   >
     <object
       data="/home/logo-tiea.svg"
@@ -272,6 +272,200 @@
       type="image/svg+xml"
       class="sponsor-co13 absolute top-[54%] left-[68%]"
     ></object>
+
+  </div>
+  <div
+    class="block md:hidden relative h-[800px] w-[full] overflow-hidden z-20 box-border"
+  >
+    <div
+      class="font-Mantou text-[#43473E] text-[20px] text-[400] absolute top-[0%] left-[50%] translate-x-[-50%]"
+    >
+      合作企業
+    </div>
+    <object
+      data="/home/icon-ve95.svg"
+      type="image/svg+xml"
+      class="absolute top-[3%] left-[56%]"
+    ></object>
+    <object
+      data="/home/logo-NXP.png"
+      type="image/png"
+      class="absolute top-[5%] left-[20%] w-[22%]"
+    ></object>
+    <object
+      data="/home/logo-LINE.svg"
+      type="image/svg+xml"
+      class="absolute top-[5.7%] left-[43%] w-[14%]"
+    ></object>
+    <object
+      data="/home/logo-Google.png"
+      type="image/png"
+      class="absolute top-[5.7%] left-[60%] w-[19%]"
+    ></object>
+    <object
+      data="/home/logo-TSMC.png"
+      type="image/png"
+      class="absolute top-[8.5%] left-[23%] w-[14%]"
+    ></object>
+    <object
+      data="/home/logo-Logitech.png"
+      type="image/png"
+      class="absolute top-[8.5%] left-[37%] w-[24%]"
+    ></object>
+    <object
+      data="/home/logo-CHT.png"
+      type="image/png"
+      class="absolute top-[7.5%] left-[61%] w-[18%]"
+    ></object>
+    <div
+      class="font-Mantou text-[#43473E] text-[20px] text-[400] absolute top-[18%] left-[50%] translate-x-[-50%]"
+    >
+      特殊贊助
+    </div>
+    <object
+      data="/home/logo-WT.png"
+      type="image/png"
+      class="absolute top-[23%] left-[43%] w-[15%]"
+    ></object>
+    <div
+      class="font-Mantou text-[#43473E] text-[20px] text-[400] absolute top-[34%] left-[50%] translate-x-[-50%]"
+    >
+      贊助企業
+    </div>
+    <div
+      class="font-Mantou text-[#43473E] text-[10px] text-[400] absolute top-[39%] left-[50%] translate-x-[-50%]"
+    >
+      Platinun
+    </div>
+    <object
+      data="/home/logo-Cathay.svg"
+      type="image/svg+xml"
+      class="absolute top-[41.5%] left-[15%] w-[28%]"
+    ></object>
+    <object
+      data="/home/logo-Jumbo.png"
+      type="image/png"
+      class="absolute top-[41.5%] left-[42%] w-[22%]"
+    ></object>
+    <object
+      data="/home/logo-CloudMosa.png"
+      type="image/png"
+      class="absolute top-[41.5%] left-[65%] w-[24%]"
+    ></object>
+    <object
+      data="/home/icon-ve96.svg"
+      type="image/svg+xml"
+      class="absolute top-[34%] left-[60%]"
+    ></object>
+    <object
+      data="/home/icon-ve97.svg"
+      type="image/svg+xml"
+      class="absolute top-[50%] left-[87%]"
+    ></object>
+    <div
+      class="font-Mantou text-[#43473E] text-[10px] text-[400] absolute top-[48%] left-[50%] translate-x-[-50%]"
+    >
+      Gold
+    </div>
+    <object
+      data="/home/logo-Jkopay.svg"
+      type="image/svg+xml"
+      class="absolute top-[52%] left-[41%] w-[19%]"
+    ></object>
+    <object
+      data="/home/icon-ve98.svg"
+      type="image/svg+xml"
+      class="absolute top-[52%] left-[0%]"
+    ></object>
+    <object
+      data="/home/icon-co53.svg"
+      type="image/svg+xml"
+      class="sponsor-co53 absolute top-[51%] left-[2%]"
+    ></object>
+    <div
+      class="font-Mantou text-[#43473E] text-[10px] text-[400] absolute top-[59%] left-[50%] translate-x-[-50%]"
+    >
+      Silver
+    </div>
+    <object
+      data="/home/logo-PXI.png"
+      type="image/png"
+      class="absolute top-[64%] left-[22%] w-[30%]"
+    ></object>
+    <object
+      data="/home/logo-CyCraft.svg"
+      type="image/svg+xml"
+      class="absolute top-[62%] left-[54%] w-[24%]"
+    ></object>
+    <object
+      data="/home/logo-Phison.jpg"
+      type="image/jpg"
+      class="absolute top-[68%] left-[26%] w-[23%]"
+    ></object>
+    <object
+      data="/home/logo-Synopsys.png"
+      type="image/png"
+      class="absolute top-[68%] left-[55%] w-[22%]"
+    ></object>
+    <div
+      class="font-Mantou text-[#43473E] text-[10px] text-[400] absolute top-[74%] left-[50%] translate-x-[-50%]"
+    >
+      Bronze
+    </div>
+    <object
+      data="/home/logo-CTBC.png"
+      type="image/png"
+      class="absolute top-[78%] left-[26%] w-[26%]"
+    ></object>
+    <object
+      data="/home/logo-104.png"
+      type="image/png"
+      class="absolute top-[78%] left-[55%] w-[16%]"
+    ></object>
+    <div
+      class="font-Mantou text-[#43473E] text-[20px] text-[400] absolute top-[92%] left-[50%] translate-x-[-50%]"
+    >
+      媒體合作
+    </div>
+  </div>
+  <div
+    class="block md:hidden relative h-[320px] w-[full] overflow-hidden z-20 box-border"
+  >
+    <object
+      data="/home/logo-tiea.svg"
+      type="image/svg+xml"
+      class="absolute top-[0%] left-[34%] w-[14%]"
+    ></object>
+    <object
+      data="/home/logo-TCA.svg"
+      type="image/svg+xml"
+      class="absolute top-[0.2%] left-[51%] w-[15%]"
+    ></object>
+    <object
+      data="/home/icon-ve99.svg"
+      type="image/svg+xml"
+      class="absolute top-[9%] left-[52%]"
+    ></object>
+    <div
+      class="font-Mantou text-[#43473E] text-[20px] text-[400] absolute top-[13.4%] left-[50%] translate-x-[-50%]"
+    >
+      協辦單位
+    </div>
+    <div class="absolute font-Inter text-[10px] font-normal text-center top-[30%] left-[50%] translate-x-[-50%]">
+      <div>文字文字文字文字</div>
+      <div>文字文字文字文字</div>
+      <div>文字文字文字文字</div>
+    </div>
+    <div
+      class="font-Mantou text-[#43473E] text-[20px] text-[400] absolute top-[48.4%] left-[50%] translate-x-[-50%]"
+    >
+      特別感謝
+    </div>
+    <div class="absolute font-Inter text-[10px] font-normal text-center top-[62%] left-[50%] translate-x-[-50%]">
+      <div>文字文字文字文字</div>
+      <div>文字文字文字文字</div>
+      <div>文字文字文字文字</div>
+    </div>
 
   </div>
 </template>
@@ -400,6 +594,28 @@
   }
   100% {
     transform: translate(0, 0);
+  }
+}
+
+.sponsor-co53 {
+  animation: animateCo53 2.5s ease-out infinite;
+}
+
+@keyframes animateCo53 {
+  0% {
+    transform: rotate(-4deg);
+  }
+  12.5% {
+    transform: rotate(-20.92deg);
+  }
+  50% {
+    transform: rotate(-20.92deg);
+  }
+  62.5% {
+    transform: rotate(-4deg);
+  }
+  100% {
+    transform: rotate(-4deg);
   }
 }
 </style>
