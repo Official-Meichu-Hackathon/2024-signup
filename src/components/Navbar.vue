@@ -1,5 +1,5 @@
 <template>
-  <nav class="fixed top-0 w-full h-[75px] bg-white z-50">
+  <nav class="fixed top-0 w-full h-[75px] bg-white">
     <div class="flex items-center justify-between mx-11 h-full">
       <div class="flex items-center justify-between gap-x-12 mt-1.5">
         <router-link to="/" class="w-[15vw] font-Mantou font-normal text-2xl text-[#43473E]">梅竹黑克松</router-link>

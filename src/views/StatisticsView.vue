@@ -4,10 +4,10 @@
     <img src="Vector119.svg" class="absolute top-[46%] left-[0%]">
     
     <div class="grid grid-cols-1 md:grid-cols-2 gap-y-[5.2vw] gap-x-[5vw] pt-[89px]">
-        <div v-for="i in statistics" class="">
-            <Card :title="i.title" :chart="i.chart" :desc="i.desc"
-                  class=""/>
-        </div>
+      <div v-for="i in statistics" :key="i.title">
+        <Card :title="i.title" :chart="i.chart" :desc="i.desc"
+              class=""/>
+      </div>
     </div>
   </div>
 </template>
