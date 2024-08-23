@@ -1,6 +1,6 @@
 <template>
   <!-- Desktop ver. -->
-  <footer class="hidden md:block pd-15">
+  <footer class="hidden sm:block pd-15">
     <div class="mx-8 h-[1px] bg-[#666]"/>
     <div class="inline-flex pt-0.5 pb-[88px] justify-center w-full">
       <div>
@@ -17,7 +17,7 @@
   </footer>
 
   <!-- Mobile ver. -->
-  <footer class="md:hidden footer-m fixed bottom-0 w-full h-[78px] z-50 bg-white">
+  <footer class="sm:hidden footer-m fixed bottom-0 w-full h-[78px] z-50 bg-white">
     <div class="flex items-center justify-around h-full mx-[8vw]">
       <router-link to="/" class="footer-button-m">
         <img src="footer/homepage_icon.svg">
