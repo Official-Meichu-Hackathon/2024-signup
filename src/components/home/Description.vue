@@ -117,7 +117,7 @@
     ></object>
     <div
       class="absolute top-[28%] left-[50%] w-[70%] translate-x-[-50%] font-Inter"
-      style="font-size: 8px"
+      style="font-size: 10px"
       data-testid="description-text-md"
     >
       科技的日新月異為我們帶來無限可能，而創意與想法更能跨越時空、引領未來。<br /><br />

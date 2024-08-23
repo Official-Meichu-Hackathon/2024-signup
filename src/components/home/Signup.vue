@@ -107,7 +107,7 @@
 
 
     <div
-      class="grid grid-cols-2 gap-y-6 absolute top-[24%] left-[52%] w-[70%] translate-x-[-50%]"
+      class="grid grid-cols-2 gap-y-6 absolute top-[24%] left-[50%] w-[70%] translate-x-[-50%]"
     >
     <div
         class="col-span-2 border-[#D9D9D9] border-[3px] rounded-[40px] px-14 py-10 bg-white"

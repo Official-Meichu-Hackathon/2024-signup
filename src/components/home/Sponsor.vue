@@ -52,7 +52,9 @@
       class="absolute top-[10%] left-[58%] w-[13.5%]"
     ></object>
 
-    <div class="absolute flex items-center justify-center w-full top-[22%] left-[50%] translate-x-[-50%]">
+    <div
+      class="absolute flex items-center justify-center w-full top-[22%] left-[50%] translate-x-[-50%]"
+    >
       <object
         data="/home/icon-ve34-2.svg"
         type="image/svg+xml"
@@ -69,8 +71,10 @@
         class="flex-none mx-4 mt-14"
       ></object>
     </div>
-    
-    <div class="absolute flex items-center justify-center w-full top-[38.3%] left-[50%] translate-x-[-50%]">
+
+    <div
+      class="absolute flex items-center justify-center w-full top-[38.3%] left-[50%] translate-x-[-50%]"
+    >
       <object
         data="/home/icon-ve84.svg"
         type="image/svg+xml"
@@ -182,7 +186,9 @@
       type="image/png"
       class="absolute top-[85%] left-[55%] w-[9%]"
     ></object>
-    <div class="absolute flex items-center justify-center w-full top-[92.1%] left-[50%] translate-x-[-50%]">
+    <div
+      class="absolute flex items-center justify-center w-full top-[92.1%] left-[50%] translate-x-[-50%]"
+    >
       <object
         data="/home/icon-ve37-2.svg"
         type="image/svg+xml"
@@ -213,7 +219,9 @@
       type="image/svg+xml"
       class="absolute top-[0.2%] left-[53%] w-[12%]"
     ></object>
-    <div class="absolute flex items-center justify-center w-full top-[10%] left-[50%] translate-x-[-50%]">
+    <div
+      class="absolute flex items-center justify-center w-full top-[10%] left-[50%] translate-x-[-50%]"
+    >
       <object
         data="/home/icon-ve88.svg"
         type="image/svg+xml"
@@ -241,14 +249,21 @@
       type="image/svg+xml"
       class="sponsor-co14 absolute top-[19%] left-[66%]"
     ></object>
-    <div class="absolute font-Inter text-[24px] font-normal text-center top-[30%] left-[50%] translate-x-[-50%]">
-      <ol class="list-decimal text-start">
+    <div
+      class="absolute font-Inter text-[24px] font-normal text-center top-[30%] left-[50%] translate-x-[-50%]"
+    >
+      <div>ITSA 教育部智慧創新關鍵人才躍升計畫</div>
+      <div>國立陽明交通大學資訊工程學系</div>
+      <div>財團法人交大思源基金會</div>
+      <!-- <ol class="list-decimal text-start">
         <li>ITSA 教育部智慧創新關鍵人才躍升計畫</li>
         <li>國立陽明交通大學資訊工程學系</li>
         <li>財團法人交大思源基金會</li>
-      </ol>
+      </ol> -->
     </div>
-    <div class="absolute flex items-center justify-center w-full top-[48.4%] left-[50%] translate-x-[-50%]">
+    <div
+      class="absolute flex items-center justify-center w-full top-[48.4%] left-[50%] translate-x-[-50%]"
+    >
       <object
         data="/home/icon-ve85.svg"
         type="image/svg+xml"
@@ -270,8 +285,17 @@
       type="image/svg+xml"
       class="sponsor-mo5 absolute top-[62%] left-[16%]"
     ></object>
-    <div class="absolute font-Inter text-[24px] font-normal text-center top-[62%] left-[50%] translate-x-[-50%]">
-      <ol class="list-decimal text-start">
+    <div
+      class="absolute font-Inter text-[24px] font-normal text-center top-[62%] left-[50%] translate-x-[-50%]"
+    >
+      <div>國立陽明交通大學產學運籌中心</div>
+      <div>國立陽明交通大學電機工程學系</div>
+      <div>國立清華大學資訊工程學系</div>
+      <div>國立清華大學電機資訊學院學士班</div>
+      <div>國立清華大學清華學院學士班系學會</div>
+      <div>國立清華大學 26 級經濟系學會</div>
+      <div>Colde Garage</div>
+      <!-- <ol class="list-decimal text-start">
         <li>國立陽明交通大學產學運籌中心</li>
         <li>國立陽明交通大學電機工程學系</li>
         <li>國立清華大學資訊工程學系</li>
@@ -279,7 +303,7 @@
         <li>國立清華大學清華學院學士班系學會</li>
         <li>國立清華大學 26 級經濟系學會</li>
         <li>Colde Garage</li>
-      </ol>
+      </ol> -->
     </div>
     <object
       data="/home/icon-ve81.svg"
@@ -291,7 +315,6 @@
       type="image/svg+xml"
       class="sponsor-co13 absolute top-[54%] left-[68%]"
     ></object>
-
   </div>
   <div
     class="block md:hidden relative h-[800px] w-[full] overflow-hidden z-20 box-border"
@@ -470,20 +493,34 @@
     >
       協辦單位
     </div>
-    <div class="absolute font-Inter text-[10px] font-normal text-center top-[34%] left-[50%] translate-x-[-50%]">
-      <ol class="list-decimal text-start">
+    <div
+      class="absolute font-Inter text-[10px] font-normal text-center top-[34%] left-[50%] translate-x-[-50%]"
+    >
+      <div>ITSA 教育部智慧創新關鍵人才躍升計畫</div>
+      <div>國立陽明交通大學資訊工程學系</div>
+      <div>財團法人交大思源基金會</div>
+      <!-- <ol class="list-decimal text-start">
         <li>ITSA 教育部智慧創新關鍵人才躍升計畫</li>
         <li>國立陽明交通大學資訊工程學系</li>
         <li>財團法人交大思源基金會</li>
-      </ol>
+      </ol> -->
     </div>
     <div
       class="font-Mantou text-[#43473E] text-[20px] text-[400] absolute top-[54%] left-[50%] translate-x-[-50%]"
     >
       特別感謝
     </div>
-    <div class="absolute font-Inter text-[10px] font-normal text-center top-[66%] left-[50%] translate-x-[-50%]">
-      <ol class="list-decimal text-start">
+    <div
+      class="absolute font-Inter text-[10px] font-normal text-center top-[66%] left-[50%] translate-x-[-50%]"
+    >
+      <div>國立陽明交通大學產學運籌中心</div>
+      <div>國立陽明交通大學電機工程學系</div>
+      <div>國立清華大學資訊工程學系</div>
+      <div>國立清華大學電機資訊學院學士班</div>
+      <div>國立清華大學清華學院學士班系學會</div>
+      <div>國立清華大學 26 級經濟系學會</div>
+      <div>Colde Garage</div>
+      <!-- <ol class="list-decimal text-start">
         <li>國立陽明交通大學產學運籌中心</li>
         <li>國立陽明交通大學電機工程學系</li>
         <li>國立清華大學資訊工程學系</li>
@@ -491,9 +528,8 @@
         <li>國立清華大學清華學院學士班系學會</li>
         <li>國立清華大學 26 級經濟系學會</li>
         <li>Colde Garage</li>
-      </ol>
+      </ol> -->
     </div>
-
   </div>
 </template>
 
@@ -574,7 +610,6 @@
   }
 }
 
-
 @keyframes animateMo5 {
   0% {
     transform: rotate(0);
@@ -604,7 +639,6 @@
     transform: rotate(0);
   }
 }
-
 
 @keyframes animateCo13 {
   0% {
@@ -646,4 +680,3 @@
   }
 }
 </style>
-

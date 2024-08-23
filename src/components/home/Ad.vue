@@ -88,7 +88,7 @@
       企業廣告
     </div>
     <div class="relative w-full h-full">
-      <div class="carousel absolute top-[15%] left-[50%] translate-x-[-50%] w-[50%] h-auto mx-auto overflow-hidden">
+      <div class="carousel absolute top-[12%] left-[50%] translate-x-[-50%] w-[50%] h-auto mx-auto overflow-hidden">
         <div class="flex carousel-track">
           <img src="/home/ad-1.jpg" alt="Image 1" class="w-full object-cover" />
           <img src="/home/ad-2.jpg" alt="Image 2" class="w-full object-cover" />
