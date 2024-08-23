@@ -73,7 +73,7 @@
     <object
       data="/home/icon-gr11.svg"
       type="image/svg+xml"
-      class="desc-co2 absolute top-[60%] left-[40%]"
+      class="desc-co2 absolute top-[70%] left-[40%]"
     ></object>
     <object
       data="/home/icon-re29-2.svg"
