@@ -2,7 +2,7 @@
 
 <template>
   <div
-    class="hidden md:block relative h-[1400px] w-[full] overflow-hidden z-20 box-border"
+    class="hidden md:block relative h-[1500px] w-[full] overflow-hidden z-20 box-border"
   >
     <div
       class="font-Mantou text-[#43473E] text-[36px] text-[400] absolute top-[2%] left-[50%] translate-x-[-50%]"
@@ -20,26 +20,6 @@
       class="absolute top-[11%] left-[0%]"
     ></object>
     <object
-      data="/home/icon-el25.svg"
-      type="image/svg+xml"
-      class="absolute top-[9.4%] left-[19%]"
-    ></object>
-    <object
-      data="/home/icon-el25.svg"
-      type="image/svg+xml"
-      class="absolute top-[9.4%] left-[47.5%]"
-    ></object>
-    <object
-      data="/home/icon-el25.svg"
-      type="image/svg+xml"
-      class="absolute top-[9.4%] left-[78%]"
-    ></object>
-    <object
-      data="/home/icon-ve76-1.svg"
-      type="image/svg+xml"
-      class="absolute top-[11.4%] left-[22.5%]"
-    ></object>
-    <object
       data="/home/icon-ve79.svg"
       type="image/svg+xml"
       class="absolute top-[53%] left-[70.5%]"
@@ -49,41 +29,85 @@
       type="image/svg+xml"
       class="absolute top-[70%] left-[50%]"
     ></object>
-    <div class="absolute top-[9.9%] left-[20.58%] font-Mantou text-[36px] text-[#FFFFFF] text-[400] font-normal text-center">
-      <div>1</div>
-    </div>
-    <div class="absolute top-[9.9%] left-[48.92%] font-Mantou text-[36px] text-[#FFFFFF] text-[400] font-normal text-center">
-      <div>2</div>
-    </div>
-    <div class="absolute top-[9.9%] left-[79.42%] font-Mantou text-[36px] text-[#FFFFFF] text-[400] font-normal text-center">
-      <div>3</div>
-    </div>
-    <div class="absolute top-[16%] left-[21.5%] transform -translate-x-1/2">
-      <div class="flex flex-col items-center gap-4">
-        <div class="flex flex-col gap-1 font-Inter text-[20px] font-normal text-center">
-          <div>開始報名</div>
-          <div>9/2（一）~ 9/23（一） 8:00 前</div>
-        </div>
+<div class="flex justify-center items-start flex-wrap gap-8 absolute top-[10%] left-[50%] translate-x-[-50%] w-full">
+
+  <div class="flex flex-col items-center gap-4 w-[20%]">
+    <div class="w-full relative flex flex-col items-center">
+      <object
+        data="/home/icon-el25.svg"
+        type="image/svg+xml"
+        class="w-[25%] h-auto"
+      ></object>
+      <object
+        data="/home/icon-ve76-1.svg"
+        type="image/svg+xml"
+        class="absolute top-[50%] left-[37%] w-[71vw] transform translate-y-[-50%]"
+      ></object>
+      <div class="absolute inset-0 flex items-center justify-center font-Mantou text-[36px] text-[#FFFFFF] text-[400] font-normal text-center">
+        1
       </div>
     </div>
-    <div class="absolute top-[16%] left-[50%] transform -translate-x-1/2">
-      <div class="flex flex-col items-center gap-4">
-        <div class="flex flex-col gap-1 font-Inter text-[20px] font-normal text-center">
-          <div>正取隊伍與所屬企業公布</div>
-          <div>9/24（二） 8:00 前</div>
-        </div>
+    <div class="flex flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center">
+      <div>開始報名</div>
+      <div>9/2（一）~ 9/23（一）8:00 前</div>
+    </div>
+  </div>
+
+  <div class="flex flex-col items-center gap-4 w-[20%]">
+    <div class="w-full relative flex flex-col items-center">
+      <object
+        data="/home/icon-el25.svg"
+        type="image/svg+xml"
+        class="w-[25%] h-auto"
+      ></object>
+      <div class="absolute inset-0 flex items-center justify-center font-Mantou text-[36px] text-[#FFFFFF] text-[400] font-normal text-center">
+        2
       </div>
     </div>
-    <div class="absolute top-[16%] left-[80.5%] transform -translate-x-1/2">
-      <div class="flex flex-col items-center gap-4">
-        <div class="flex flex-col gap-1 font-Inter text-[20px] font-normal text-center">
-          <div>繳費期間</div>
-          <div>9/24（二）~ 9/27（五）</div>
-        </div>
+    <div class="flex flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center">
+      <div>正取隊伍與所屬企業公布</div>
+      <div>9/24（二）8:00 前</div>
+    </div>
+  </div>
+
+  <div class="flex flex-col items-center gap-4 w-[20%]">
+    <div class="w-full relative flex flex-col items-center">
+      <object
+        data="/home/icon-el25.svg"
+        type="image/svg+xml"
+        class="w-[25%] h-auto"
+      ></object>
+      <div class="absolute inset-0 flex items-center justify-center font-Mantou text-[36px] text-[#FFFFFF] text-[400] font-normal text-center">
+        3
       </div>
     </div>
+    <div class="flex flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center">
+      <div>繳費期間</div>
+      <div>9/24（二）~ 9/27（五）</div>
+    </div>
+  </div>
+
+  <div class="flex flex-col items-center gap-4 w-[20%]">
+    <div class="w-full relative flex flex-col items-center">
+      <object
+        data="/home/icon-el25.svg"
+        type="image/svg+xml"
+        class="w-[25%] h-auto"
+      ></object>
+      <div class="absolute inset-0 flex items-center justify-center font-Mantou text-[36px] text-[#FFFFFF] text-[400] font-normal text-center">
+        4
+      </div>
+    </div>
+    <div class="flex flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center">
+      <div>備取遞補期間</div>
+      <div>9/28（六）～ 10/1（二）</div>
+    </div>
+  </div>
+</div>
+
+
     <div
-      class="grid grid-cols-2 gap-y-6 absolute top-[24%] left-[52%] w-[62%] translate-x-[-50%]"
+      class="grid grid-cols-2 gap-y-6 absolute top-[24%] left-[52%] w-[70%] translate-x-[-50%]"
     >
     <div
         class="col-span-2 border-[#D9D9D9] border-[3px] rounded-[40px] px-14 py-10 bg-white"
@@ -111,7 +135,7 @@
           <div class="flex flex-col font-Inter text-[16px] text-[400] leading-tight">
             <div>若有以下情事，主辦單位將酌情不予退還個人之保證金：<br>
               <ul class="list-disc ml-5">
-                <li>隊內無人參加錄取企業或新竹市府所辦理之賽前工作坊，未有特殊理由之隊伍參賽者</li>
+                <li>隊內無人參加錄取企業或新竹市府所辦理之賽前工作坊（若企業有開放線上參與，則隊內須至少一人參與線上或實體之賽前工作坊），未有特殊理由之隊伍參賽者</li>
                 <li>未確實完成本活動之開、閉幕式或無故遲到超過 20 分鐘者（以簽到、簽退手續為準）</li>
                 <li>在活動場地違規飲食者，經工作人員勸導超過 3 次</li>
                 <li>於活動期間，破壞任何活動場地內的設備，且必要時需負理賠責任</li>
@@ -153,28 +177,32 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col gap-4">
-          <div class="font-Mantou text-[#43473E] text-[24px] text-[400]">
-            其他注意事項
-          </div>
-          <div class="flex flex-col font-Inter text-[16px] text-[400] leading-tight">
-            <ul class="list-disc ml-5">
-              <li>報名之隊伍需在報名手續最末同意「智慧財產權聲明暨肖像授權」相關條款。</li>
-              <li>若報名人數超過活動最大人數上限，將依照報名先後順序錄取。</li>
-              <li>為保護梅竹黑客松協辦企業之權益，參賽者必須配合參賽之企業組別所提出比<br>賽過程之保密協定簽署，若無法配合企業之保密協定，將取消參賽資格。</li>
-              <li>繳費成功後，請以組別為單位回傳證明給主辦單位；同時，一併回傳隊伍中<br>「每一位」參賽者簽署之「個人資料蒐集聲明同意書」。</li>
-              <li>得獎同學需將作品上傳至 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfpq4AGg_hFSsRgi4WSBapoL7AFeE7uC0j1yZqP2i9VL6SmaA/viewform" class="underline" target="_blank">
-      梅竹黑客松成果存放平台
-  </a></li>
-            </ul>
-          </div>
-        </div>
-          <div
-            class="absolute top-[76%] left-[72%] w-[22%] col-span-2 hover:bg-[#FFFFFF] hover:text-[#D8E022] active:border-[#A1A8AD] active:text-[#A1A8AD] border-[#D8E022] border-[3px] rounded-[25px] px-9 py-8 bg-[#D8E022] flex flex-col items-center justify-center text-white font-Mantou text-[40px] text-[400] leading-normal transition-all duration-300 ease-out cursor-pointer"
-          >
-            <div>點我</div>
-            <div>報名</div>
-          </div>
+        <div class="flex justify-between items-start gap-4">
+  <div class="flex flex-col gap-4 w-[70%]">
+    <div class="font-Mantou text-[#43473E] text-[24px] text-[400]">
+      其他注意事項
+    </div>
+    <div class="flex flex-col font-Inter text-[16px] text-[400] leading-tight">
+      <ul class="list-disc ml-5">
+        <li>報名之隊伍需在報名手續最末同意「智慧財產權聲明暨肖像授權」相關條款。</li>
+        <li>若報名人數超過活動最大人數上限，將依照報名先後順序錄取。</li>
+        <li>為保護梅竹黑客松協辦企業之權益，參賽者必須配合參賽之企業組別所提出比賽過程之保密協定簽署，若無法配合企業之保密協定，將取消參賽資格。</li>
+        <li>繳費成功後，請以組別為單位回傳證明給主辦單位；同時，一併回傳隊伍中「每一位」參賽者簽署之「個人資料蒐集聲明同意書」。</li>
+        <li>得獎同學需將作品上傳至 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfpq4AGg_hFSsRgi4WSBapoL7AFeE7uC0j1yZqP2i9VL6SmaA/viewform" class="underline" target="_blank">
+        梅竹黑客松成果存放平台
+    </a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div
+      class="w-[22%] hover:bg-[#FFFFFF] hover:text-[#D8E022] active:border-[#A1A8AD] active:text-[#A1A8AD] border-[#D8E022] border-[3px] rounded-[25px] px-9 py-8 mt-4 bg-[#D8E022] flex flex-col items-center justify-center text-white font-Mantou text-[40px] text-[400] leading-normal transition-all duration-300 ease-out cursor-pointer whitespace-nowrap"
+  >
+      <div>點我</div>
+      <div>報名</div>
+  </div>
+</div>
+
     </div>
   </div>
     </div>
@@ -202,17 +230,18 @@
       type="image/svg+xml"
       class="absolute top-[60%] left-[87%]"
     ></object>
-    <object
-      data="/home/icon-ve76-2.svg"
-      type="image/svg+xml"
-      class="absolute top-[5.7%] left-[27.4%] h-[9%]"
-    ></object>
-    <div class="absolute top-[5.5%] left-[50%] transform -translate-x-1/2 flex items-start gap-4">
+
+    <div class="absolute top-[5.5%] left-[30%] flex items-start gap-4">
       <div class="w-[11%] h-[11%] relative">
         <object
           data="/home/icon-el25.svg"
           type="image/svg+xml"
           class="w-full h-full"
+        ></object>
+        <object
+          data="/home/icon-ve76-2.svg"
+          type="image/svg+xml"
+          class="absolute top-[8%] left-[50%] h-[180px] transform -translate-x-1/2"
         ></object>
         <div class="absolute inset-0 flex items-center justify-center font-Mantou text-[14px] text-[#FFFFFF] text-[400] font-normal text-center">
           1
@@ -224,9 +253,8 @@
         <div>9/2（一）~ 9/23（一） 8:00 前</div>
       </div>
     </div>
-
-    <div class="absolute top-[9.5%] left-[50%] transform -translate-x-1/2 flex items-start gap-4">
-      <div class="w-[11%] h-[11%] relative">
+    <div class="absolute top-[9.5%] left-[30%] flex items-start gap-4">
+      <div class="w-[13%] h-[13%] relative">
         <object
           data="/home/icon-el25.svg"
           type="image/svg+xml"
@@ -243,8 +271,8 @@
       </div>
     </div>
 
-    <div class="absolute top-[13.5%] left-[50%] transform -translate-x-1/2 flex items-start gap-4">
-      <div class="w-[11%] h-[11%] relative">
+    <div class="absolute top-[13.5%] left-[30%] flex items-start gap-4">
+      <div class="w-[13%] h-[13%] relative">
         <object
           data="/home/icon-el25.svg"
           type="image/svg+xml"
@@ -261,6 +289,25 @@
       </div>
     </div>
 
+    
+    <div class="absolute top-[17.5%] left-[30%] flex items-start gap-4">
+      <div class="w-[13%] h-[13%] relative">
+        <object
+          data="/home/icon-el25.svg"
+          type="image/svg+xml"
+          class="w-full h-full"
+        ></object>
+        <div class="absolute inset-0 flex items-center justify-center font-Mantou text-[14px] text-[#FFFFFF] text-[400] font-normal text-center">
+          4
+        </div>
+      </div>
+      
+      <div class="flex flex-col gap-1 font-Inter text-[10px] font-normal">
+        <div>備取遞補期間</div>
+        <div>9/28（六）～ 10/1（二）</div>
+      </div>
+    </div>
+    
     
 
 
@@ -280,10 +327,10 @@
       class="signup-co54 absolute top-[92%] left-[64%]"
     ></object>
     <div
-      class="grid grid-cols-2 gap-y-4 absolute top-[18%] left-[50%] w-[86%] translate-x-[-50%]"
+      class="grid grid-cols-2 gap-y-4 absolute top-[22%] left-[50%] w-[86%] translate-x-[-50%]"
     >
     <div
-        class="col-span-2 border-[#D9D9D9] border-[2px] rounded-[20px] px-5 py-5 pb-14 bg-white"
+        class="col-span-2 border-[#D9D9D9] border-[2px] rounded-[20px] px-5 py-5 pb-16 bg-white"
       >
         <div class="flex flex-col gap-2">
           <div class="font-Mantou text-[#43473E] text-[16px] text-[400]">
@@ -307,7 +354,7 @@
           <div class="flex flex-col font-Inter text-[10px] text-[400] leading-tight">
             <div>若有以下情事，主辦單位將酌情不予退還個人之保證金：<br>
               <ul class="list-disc ml-5">
-                <li>隊內無人參加錄取企業或新竹市府所辦理之賽前工作坊，未有特殊理由之隊伍參賽者</li>
+                <li>隊內無人參加錄取企業或新竹市府所辦理之賽前工作坊（若企業有開放線上參與，則隊內須至少一人參與線上或實體之賽前工作坊），未有特殊理由之隊伍參賽者</li>
                 <li>未確實完成本活動之開、閉幕式或無故遲到超過 20 分鐘者（以簽到、簽退手續為準）</li>
                 <li>在活動場地違規飲食者，經工作人員勸導超過 3 次</li>
                 <li>於活動期間，破壞任何活動場地內的設備，且必要時需負理賠責任</li>
@@ -364,7 +411,7 @@
           </div>
         </div>
           <div
-            class="absolute top-[94%] left-[50%] w-[22%] col-span-2 hover:bg-[#FFFFFF] hover:text-[#D8E022] active:border-[#A1A8AD] active:text-[#A1A8AD] border-[#D8E022] border-[3px] rounded-[10px] px-2 py-1 bg-[#D8E022] flex flex-col items-center justify-center text-white font-Inter text-[10px] text-[700] leading-normal transition-all duration-300 ease-out cursor-pointer transform -translate-x-1/2"
+            class="absolute top-[93%] left-[50%] w-[22%] col-span-2 hover:bg-[#FFFFFF] hover:text-[#D8E022] active:border-[#A1A8AD] active:text-[#A1A8AD] border-[#D8E022] border-[2px] rounded-[10px] px-2 py-1 bg-[#D8E022] flex flex-col items-center justify-center text-white font-Inter text-[10px] text-[700] leading-normal transition-all duration-300 ease-out cursor-pointer transform -translate-x-1/2"
           >
             <div>我要報名</div>
           </div>
