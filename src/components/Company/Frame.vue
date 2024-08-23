@@ -153,7 +153,7 @@
                     <div class="cols-start-2">
                         <CompanyCardBox title="題目說明 #07" 
                                         imageSrc="Company/Logo/新竹市政府-logo.svg" 
-                                        companyName="新竹市政府" 
+                                        companyName="創客組" 
                                         description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
                                         detailsLink="Company/company_pdf/test_details.pdf" 
                                         imageClass="absolute top-1/2 left-1/2 w-[86.5%] h-auto transform -translate-x-1/2 -translate-y-1/2">

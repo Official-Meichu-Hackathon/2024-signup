@@ -106,7 +106,7 @@
             <div class="w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray">
                 <MobileCompanyCardBox title="題目說明 #07" 
                                         imageSrc="Company/Logo/新竹市政府-logo.svg" 
-                                        companyName="新竹市政府" 
+                                        companyName="創客組" 
                                         description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
                                         detailsLink="Company/company_pdf/test_details.pdf" 
                                         imageClass="absolute top-1/2 left-1/2 w-[100%] h-auto transform -translate-x-1/2 -translate-y-1/2">
