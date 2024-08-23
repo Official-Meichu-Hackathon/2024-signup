@@ -77,7 +77,7 @@
           data-testid="description-hackers"
         >
           我們致力於搭起學界與業界之間的橋樑，參賽者運用企業資源並發揮創意回應企業命題，發想與實作並存！2024
-          年梅竹黑客松將由以下六家企業作為引導單位：恩智浦半導體與文曄科技、LINE台灣、Google、台積電、羅技、中華電信
+          年梅竹黑客松將由以下六家企業作為引導單位：恩智浦半導體與文曄科技、LINE 台灣、Google、台積電、羅技、中華電信
         </div>
         <button
           class="opacity-0 group-hover:opacity-100 transition ease-in-out duration-700 bg-[#D8E022] text-white font-Inter text-[20px] font-[400] px-4 py-2 rounded-full hover:bg-white hover:text-[#D8E022] hover:border-[#D8E022] border-[1px] border-[#D8E022] active:bg-white active:text-[#A1A8AD] active:border-[#A1A8AD]"
@@ -266,7 +266,7 @@
           data-testid="description-hackers"
         >
           我們致力於搭起學界與業界之間的橋樑，參賽者運用企業資源並發揮創意回應企業命題，發想與實作並存！2024
-          年梅竹黑客松將由以下六家企業作為引導單位：恩智浦半導體與文曄科技、LINE台灣、Google、台積電、羅技、中華電信
+          年梅竹黑客松將由以下六家企業作為引導單位：恩智浦半導體與文曄科技、LINE 台灣、Google、台積電、羅技、中華電信
         </div>
         <button
           class="transition ease-in-out duration-700 bg-[#D8E022] text-white font-Inter text-[14px] font-[400] px-2 py-1 rounded-[10px] hover:bg-white hover:text-[#D8E022] hover:border-[#D8E022] border-[1px] border-[#D8E022] active:bg-white active:text-[#A1A8AD] active:border-[#A1A8AD]"

@@ -123,6 +123,11 @@
   <div
     class="block md:hidden relative h-[1100px] w-[full] overflow-hidden z-20 box-border"
   >
+    <object
+      data="/home/icon-gr11.svg"
+      type="image/svg+xml"
+      class="intro-gr11 absolute top-[72%] left-[40%]"
+    ></object>
     <div
       class="font-Mantou text-[#43473E] text-[20px] text-[400] absolute top-[13%] left-[50%] translate-x-[-50%]"
     >
@@ -147,7 +152,9 @@
             <div class="font-Inter text-[8px] text-[400]">每間企業獨立評選</div>
           </div>
           <div class="flex flex-col gap-1 font-Inter text-[10px] text-[400]">
-            <div>第一名：新台幣 20,000 元、企業實體獎品、實習或實習面試機會</div>
+            <div>
+              第一名：新台幣 20,000 元、企業實體獎品、實習或實習面試機會
+            </div>
             <div>第二名：新台幣 15,000 元整、企業實體獎品</div>
             <div>第三名：新台幣 10,000 元整、企業實體獎品</div>
           </div>
@@ -194,11 +201,7 @@
         </div>
       </div>
     </div>
-    <object
-      data="/home/icon-gr11.svg"
-      type="image/svg+xml"
-      class="intro-gr11 absolute top-[72%] left-[40%]"
-    ></object>
+
     <object
       data="/home/icon-ve88-2.svg"
       type="image/svg+xml"

@@ -44,7 +44,7 @@ describe("Introduction", () => {
 
     expect(descriptionHackers).toContain("我們致力於搭起學界與業界之間的橋樑");
     expect(descriptionHackers).toContain(
-      "恩智浦半導體與文曄科技、LINE台灣、Google、台積電、羅技、中華電信"
+      "恩智浦半導體與文曄科技、LINE 台灣、Google、台積電、羅技、中華電信"
     );
   });
 
