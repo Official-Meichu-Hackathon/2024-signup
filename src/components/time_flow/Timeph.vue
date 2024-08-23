@@ -37,8 +37,9 @@
         </div>
       </div>
     </div>
-    <div class="flex pb-[5%] items-center text-red-500 font-bold text-[3.25vw] font-['Inter']">
-      實際流程將以現場公佈為準，屆時請參賽者留意大會推播通知。
+    <div class="flex pb-[5%] text-red-500 font-bold text-[3.75vw] font-['Inter'] items-center justify-center">
+      實際流程將以現場公佈為準，<br>
+      屆時請參賽者留意大會推播通知。
     </div>
   </div>
 </template>
