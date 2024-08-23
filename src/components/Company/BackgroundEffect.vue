@@ -1,9 +1,12 @@
 <template>
-    <div class=" w-[500vw] pb-[2vw] overflow-hidden">
+    <div v-if="Mobile" class=" w-[500vw] pb-[2vw] overflow-hidden">
         <img :src="currentImageUrl" class="h-[23.2px]"
         :style="getTranslateStyle()"/>
     </div>
-        
+    <div v-else class="w-[100vw] pb-[2vw] overflow-hidden">
+        <img :src="currentImageUrl" class="w-full"
+        :style="getTranslateStyle()"/>
+    </div>
     
 </template>
       
@@ -22,6 +25,10 @@ export default {
             type: Boolean,
             default: true,
         },
+        Mobile: {
+            type: Boolean,
+            required: true,
+        }
 
     },
     data() {
