@@ -1,6 +1,5 @@
 <template>
   <div class="basic-info">
-    <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</div>
     <div class="filled-form">
       <form ref="Form">
         <div class="name">
@@ -140,9 +139,6 @@ export default {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-}
-.filled-form {
-  margin-top: 24px;
 }
 
 form {

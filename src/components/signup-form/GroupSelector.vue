@@ -2,9 +2,7 @@
   <div class="info">
     <h1>報名黑客松</h1>
     <p>
-      There are many variations of passages of Lorem Ipsum available, but the majority
-      have suffered alteration in some form, by injected humour, or randomised words which
-      don't look even slightly believable.
+      本大會活動與 2024 梅竹黑客松團隊尊重各企業、市府單位與參賽組別及個人之間的合作協議，一切內容與主辦單位無涉，請參賽者自行留意，謝謝。
     </p>
     <div class="group-selector">
       <button
@@ -72,7 +70,7 @@ export default {
 }
 
 .info h1 {
-  color: #111;
+  color: #43473e;
   text-align: center;
   font-family: "Mantou Sans";
   font-size: 40px;

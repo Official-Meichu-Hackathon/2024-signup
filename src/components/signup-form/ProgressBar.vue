@@ -1,14 +1,14 @@
 <template>
   <div class="progress">
-    <Dot :size="20" :number="1" :fontSize="12" :color="step === 1 ? 'black' : '#bfbfbf'">
+    <Dot :size="20" :number="1" :fontSize="12" :color="step === 1 ? '#43473e' : '#bfbfbf'">
       報名選項
     </Dot>
     <div class="connector"></div>
-    <Dot :size="20" :number="2" :fontSize="12" :color="(step > 1 && step <= size+1) ? 'black' : '#bfbfbf'">
-      參賽者一 基本資料
+    <Dot :size="20" :number="2" :fontSize="12" :color="(step > 1 && step <= size+1) ? '#43473e' : '#bfbfbf'">
+      參賽者  基本資料
     </Dot>
     <div class="connector"></div>
-    <Dot :size="20" :number="3" :fontSize="12" :color="(step > size+1) ? 'black' : '#bfbfbf'"> 其他 </Dot>
+    <Dot :size="20" :number="3" :fontSize="12" :color="(step > size+1) ? '#43473e' : '#bfbfbf'"> 其他 </Dot>
   </div>
 </template>
 

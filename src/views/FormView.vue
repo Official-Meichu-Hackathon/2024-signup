@@ -18,7 +18,7 @@
                 :size="24"
                 :number="1"
                 :fontSize="12"
-                :color="currentStep === 1 ? 'black' : '#bfbfbf'"
+                :color="currentStep === 1 ? '#43473e' : '#bfbfbf'"
               ></Dot>
               <h2>報名選項</h2>
             </div>
@@ -45,7 +45,7 @@
                 :size="24"
                 :number="number + 1"
                 :fontSize="12"
-                :color="currentStep === number + 1 ? 'black' : '#bfbfbf'"
+                :color="currentStep === number + 1 ? '#43473e' : '#bfbfbf'"
               ></Dot>
               <h2>參賽者{{ getChineseNumber(number) }} 基本資料</h2>
             </div>
@@ -68,7 +68,7 @@
                 :size="24"
                 :number="teamSize + 2"
                 :fontSize="12"
-                :color="currentStep === teamSize + 2 ? 'black' : '#bfbfbf'"
+                :color="currentStep === teamSize + 2 ? '#43473e' : '#bfbfbf'"
               ></Dot>
               <h2>其他</h2>
             </div>
@@ -91,7 +91,7 @@
                 :size="24"
                 :number="teamSize + 3"
                 :fontSize="12"
-                :color="currentStep === teamSize + 3 ? 'black' : '#bfbfbf'"
+                :color="currentStep === teamSize + 3 ? '#43473e' : '#bfbfbf'"
               ></Dot>
               <h2>填寫同意書</h2>
             </div>
@@ -398,10 +398,10 @@ export default {
 }
 
 .become-dark h2 {
-  color: #000;
+  color: #43473e;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .form {
     flex-direction: column;
   }

@@ -2,6 +2,9 @@ export default function validateForm(formRef) {
     const form = formRef.value;
     if (!form) return null;
 
+    const fields = form.querySelectorAll('input, select, textarea');
+    fields.forEach(field => field.setCustomValidity(''));
+
     if (form.checkValidity()) {
         const formData = new FormData(form);
         const formDataObject = Object.fromEntries(formData.entries());

@@ -110,7 +110,7 @@ export default {
 .dot {
   width: 4px;
   height: 4px;
-  background-color: #000;
+  background-color: #43473e;
   border-radius: 50%;
   margin: 1px;
   transition: background-color 0.3s ease;
@@ -120,7 +120,7 @@ export default {
 }
 .item-content {
   flex-grow: 1;
-  color: #000;
+  color: #43473e;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;

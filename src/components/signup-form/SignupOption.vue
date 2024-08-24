@@ -274,7 +274,7 @@ export default {
   gap: 72px;
 }
 .text p {
-  color: #000;
+  color: #43473e;
   font-size: 16px;
   font-style: normal;
   font-weight: 900;
