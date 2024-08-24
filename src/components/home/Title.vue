@@ -96,15 +96,18 @@
       Technology <br />
       Inovation
     </div>
-    <div
-      class="font-Mantou text-[110px] text-[#43473E] font-[400] h-[calc(100dvh-75px)] gap-1 flex flex-row items-center justify-center"
-    >
-      <div class="title-font1" data-testid="title-font1">梅</div>
-      <div class="title-font2" data-testid="title-font2">竹</div>
-      <div class="title-font3" data-testid="title-font3">黑</div>
-      <div class="title-font4" data-testid="title-font4">客</div>
-      <div class="title-font5" data-testid="title-font5">松</div>
+    <div class="absolute top-[25%] left-[50%] translate-x-[-50%]">
+      <div
+        class="font-Mantou text-[110px] text-[#43473E] font-[400] gap-1 flex flex-row"
+      >
+        <div class="title-font1" data-testid="title-font1">梅</div>
+        <div class="title-font2" data-testid="title-font2">竹</div>
+        <div class="title-font3" data-testid="title-font3">黑</div>
+        <div class="title-font4" data-testid="title-font4">客</div>
+        <div class="title-font5" data-testid="title-font5">松</div>
+      </div>
     </div>
+
     <div
       class="absolute top-[76%] left-[50%] font-Mantou text-[#43473E] translate-x-[-50%]"
     >
