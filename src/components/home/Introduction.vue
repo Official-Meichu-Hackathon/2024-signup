@@ -84,7 +84,7 @@
           class="opacity-0 group-hover:opacity-100 transition ease-in-out duration-700 bg-[#D8E022] text-white font-Inter text-[20px] font-[400] px-4 py-2 rounded-full hover:bg-white hover:text-[#D8E022] hover:border-[#D8E022] border-[1px] border-[#D8E022] active:bg-white active:text-[#A1A8AD] active:border-[#A1A8AD]"
           data-testid="details-button-hackers"
         >
-          <a href="https://drive.google.com/drive/u/0/folders/1wJFp_STXMGi0CyDR0HdSAXi5HiWotn2r">
+          <a href="https://drive.google.com/file/d/144EISk4KU0VDFbnUgEhToWHzqobKvTu5/view?usp=sharing">
             <div class="flex flex-row gap-1 items-center justify-center">
               <div>工作坊細節</div>
               <svg
@@ -137,7 +137,7 @@
           class="opacity-0 group-hover:opacity-100 transition ease-in-out duration-700 bg-[#D8E022] text-white font-Inter text-[20px] font-[400] px-4 py-2 rounded-full hover:bg-white hover:text-[#D8E022] hover:border-[#D8E022] border-[1px] border-[#D8E022] active:bg-white active:text-[#A1A8AD] active:border-[#A1A8AD]"
           data-testid="details-button-hackers"
         >
-          <a href="https://drive.google.com/drive/u/0/folders/1wJFp_STXMGi0CyDR0HdSAXi5HiWotn2r">
+          <a href="https://drive.google.com/file/d/1kZa7wzhRrEeZIhsZpEpGjaoR-IJGSKAU/view?usp=sharing">
             <div class="flex flex-row gap-1 items-center justify-center">
               <div>工作坊細節</div>
               <svg
@@ -279,7 +279,7 @@
           class="transition ease-in-out duration-700 bg-[#D8E022] text-white font-Inter text-[14px] font-[400] px-2 py-1 rounded-[10px] hover:bg-white hover:text-[#D8E022] hover:border-[#D8E022] border-[1px] border-[#D8E022] active:bg-white active:text-[#A1A8AD] active:border-[#A1A8AD]"
           data-testid="details-button-hackers"
         >
-          <a href="https://drive.google.com/drive/u/0/folders/1wJFp_STXMGi0CyDR0HdSAXi5HiWotn2r">
+          <a href="https://drive.google.com/file/d/144EISk4KU0VDFbnUgEhToWHzqobKvTu5/view?usp=sharing">
             <div class="flex flex-row gap-1 items-center justify-center">
               <div>工作坊細節</div>
               <svg
@@ -332,7 +332,7 @@
           class="transition ease-in-out duration-700 bg-[#D8E022] text-white font-Inter text-[14px] font-[400] px-2 py-1 rounded-[10px] hover:bg-white hover:text-[#D8E022] hover:border-[#D8E022] border-[1px] border-[#D8E022] active:bg-white active:text-[#A1A8AD] active:border-[#A1A8AD]"
           data-testid="details-button-hackers"
         >
-          <a href="https://drive.google.com/drive/u/0/folders/1wJFp_STXMGi0CyDR0HdSAXi5HiWotn2r">
+          <a href="https://drive.google.com/file/d/1kZa7wzhRrEeZIhsZpEpGjaoR-IJGSKAU/view?usp=sharing">
             <div class="flex flex-row gap-1 items-center justify-center">
               <div>工作坊細節</div>
               <svg
