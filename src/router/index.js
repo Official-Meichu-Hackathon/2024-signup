@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ContestSchedule from '../views/ContestSchedule.vue'
+import StatisticsView from '@/views/StatisticsView.vue'
+import FormView from '../views/FormView.vue'
 
 const routes = [
   {
@@ -13,22 +15,21 @@ const routes = [
     name: 'contest_schedule',
     component: ContestSchedule
   },
-  {
-    path: '/TopicDesciption',
-    name: 'TopicDesciption',
-    component: TopicDesciptionView
-  },
+  // {
+  //   path: '/TopicDesciption',
+  //   name: 'TopicDesciption',
+  //   component: TopicDesciptionView
+  // },
   {
     path: '/statistics',
     name: 'statistics',
-    component: statistics
-  }
-  ,
+    component: StatisticsView
+  },
   {
     path: '/form',
     name: 'form',
     component: FormView
-  }
+  },
 ]
 
 const router = createRouter({
