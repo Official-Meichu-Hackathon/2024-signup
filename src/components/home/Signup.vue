@@ -62,7 +62,7 @@
     </div> -->
     <div class="absolute top-[8%] left-[50%] translate-x-[-50%] w-[80%]">
       <div class="flex flex-col items-center">
-        <div class="grid grid-cols-4 gap-y-1">
+        <div class="grid grid-cols-4 gap-y-4">
           <div class="col-span-4 flex flex-col items-center">
             <object
               data="/home/icon-gr113.svg"
