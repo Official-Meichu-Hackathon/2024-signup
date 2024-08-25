@@ -10,17 +10,17 @@ const routes = [
   {
     path: '/contest_schedule',
     name: 'contest_schedule',
-    component: HomeView
+    component: ContestSchedule
   },
   {
     path: '/TopicDesciption',
     name: 'TopicDesciption',
-    component: HomeView
+    component: TopicDesciptionView
   },
   {
     path: '/statistics',
     name: 'statistics',
-    component: HomeView
+    component: statistics
   }
   ,
   {
