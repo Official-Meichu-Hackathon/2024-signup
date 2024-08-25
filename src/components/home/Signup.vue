@@ -514,12 +514,12 @@
               </ul>
             </div>
           </div>
-          <a href="/form"
+          <router-link to="/form"
             ><div
               class="absolute top-[93%] left-[50%] w-[22%] col-span-2 hover:bg-[#FFFFFF] hover:text-[#D8E022] active:border-[#A1A8AD] active:text-[#A1A8AD] border-[#D8E022] border-[2px] rounded-[10px] px-2 py-1 bg-[#D8E022] flex flex-col items-center justify-center text-white font-Inter text-[10px] text-[700] leading-normal transition-all duration-300 ease-out cursor-pointer transform -translate-x-1/2"
             >
               <div>我要報名</div>
-            </div></a
+            </div></router-link
           >
         </div>
       </div>
