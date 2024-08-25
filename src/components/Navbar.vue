@@ -9,7 +9,7 @@
         <div class="text-base font-Inter font-medium text-[#222236]">參賽數據</div>
       </div>
       <div class="flex w-28 h-11 mr-8 mt-2 justify-center items-center gap-2.5 rounded-lg bg-yellow">
-        <p class="font-Inter font-bold text-white">我要報名</p>
+        <p class="font-Inter font-bold text-white" @click="GoToSignupForm">我要報名</p>
       </div>
     </div>
     <hr class="mx-8 bg-[#0F112B] h-[1px]">
@@ -17,8 +17,17 @@
 </template>
 
 <script>
+import { useRouter } from 'vue-router'
 export default {
-
+    setup(){
+        const router = useRouter()
+        const GoToSignupForm = () => {
+            router.push('/form')
+        }
+        return {
+            GoToSignupForm
+        }
+    }
 }
 </script>
 
