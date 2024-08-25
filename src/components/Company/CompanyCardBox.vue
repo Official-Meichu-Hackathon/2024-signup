@@ -21,7 +21,7 @@
         <div class="description absolute top-[34%] left-[6%] right-[6%] w-[88%] h-auto" >
             題目：{{ description }}
         </div>-->
-        <div class="min5max30 absolute top-[34%] left-[6%] right-[6%] w-[88%] h-auto" >
+        <div class="min5max30 absolute top-[34%] left-[6%] right-[6%] w-[88%] h-auto" style="font-family: 'Taipei Sans TC Beta'; color: var(--43473-e, #43473E); font-weight: 700;" >
             題目：{{ description }}
         </div>
         <div class="Details absolute top-[91%] left-[67%] w-[25%] h-auto">
