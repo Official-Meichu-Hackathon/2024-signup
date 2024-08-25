@@ -20,33 +20,44 @@
   <footer class="sm:hidden footer-m fixed bottom-0 w-full h-[78px] z-50 bg-white">
     <div class="flex items-center justify-around h-full mx-[8vw]">
       <router-link to="/" class="footer-button-m">
-        <img src="footer/homepage_icon.svg">
+        <img v-if="currentRouteName=='home'" src="footer/home_yellow.svg">
+        <img v-else src="footer/homepage_icon.svg">
         <div>首頁</div>
       </router-link>
-      <div class="footer-button-m">
-        <img src="footer/timeflow_icon.svg">
+      <router-link to="/contest_schedule" class="footer-button-m">
+        <img v-if="currentRouteName=='contest_schedule'" src="footer/schedule_yellow.svg">
+        <img v-else src="footer/schedule.svg">
         <div>比賽時程</div>
-      </div>
-      <div class="signup-button flex flex-col items-center justify-center gap-1 mx-[-10px]">
-        <img src="footer/monster.svg">
+      </router-link>
+      <router-link to="/form" class="signup-button flex flex-col items-center justify-center gap-1 mx-[-10px]">
+        <img v-if="currentRouteName=='form'" src="footer/monster_yellow.svg">
+        <img v-else src="footer/monster.svg">
         <div>我要報名</div>
-      </div>
-      
-      <div class="footer-button-m">
-        <img src="footer/topic_icon.svg">
+      </router-link>
+      <router-link to="/topic" class="footer-button-m">
+        <img v-if="currentRouteName=='topic'" src="footer/topic_yellow.svg">
+        <img v-else src="footer/topic.svg">
         <div>題目說明</div>
-      </div>
-      <div class="footer-button-m">
-        <img src="footer/statistics_icon.svg">
+      </router-link>
+      <router-link to="/statistics" class="footer-button-m">
+        <img v-if="currentRouteName=='statistics'" src="footer/statistics_yellow.svg">
+        <img v-else src="footer/statistics.svg">
         <div>參賽數據</div>
-      </div>
+      </router-link>
     </div>
   </footer>
 
 </template>
 
 <script>
-
+export default {
+  computed: {
+    currentRouteName() {
+        console.log(this.$route.name);
+        return this.$route.name;
+    }
+  }
+}
 </script>
 
 <style>
@@ -71,5 +82,10 @@
   align-items: center;
   justify-content: space-between;
   height: 2.5rem;
+  fill: #a1a8ad;
+}
+.router-link-exact-active {
+  color: #d8e022;
+  fill: #d8e022;
 }
 </style>
