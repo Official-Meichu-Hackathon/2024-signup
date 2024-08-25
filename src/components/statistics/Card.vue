@@ -1,9 +1,12 @@
 <template>
   <div class="card h-auto w-full 
               rounded-[20px] bg-white/70 hover:bg-white
-              flex flex-col justify-center items-center gap-6 lg:gap-8
+              flex flex-col justify-center items-center gap-16 lg:gap-20
               px-4 py-[6vw] md:py-[4.5vw] lg:py-[5.8vw]">
-    <div class="font-Mantou text-[2.5rem] sm:text-[3rem] md:text-[2.2rem] lg:text-[2.7rem] 2xl:text-[4rem] font-normal">{{ title }}</div>
+    <div class="w-auto h-[48px] flex items-center">
+      <div class="font-Mantou text-[2rem] sm:text-[3rem] md:text-[2.2rem] lg:text-[2.7rem] 2xl:text-[4rem] font-normal whitespace-pre-line text-center leading-none">{{ title }}</div>
+    </div>
+    
     <div class="wrapper flex relative h-auto min-h-[40vw] md:min-h-[20vw] w-full">
       <div class="decs font-Taipei md:text-base/6 lg:text-base/7 2xl:text-xl/8 font-bold mx-[6vw] md:mx-[2vw] lg:mx-[4.4vw] whitespace-pre-line">{{ desc }}</div>
       <div class="absolute h-full w-full flex items-center justify-center">
