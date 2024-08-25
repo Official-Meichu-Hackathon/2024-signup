@@ -29,7 +29,7 @@
       type="image/svg+xml"
       class="absolute top-[70%] left-[50%]"
     ></object>
-    <object
+    <!-- <object
       data="/home/icon-gr113.svg"
       type="image/svg+xml"
       class="absolute w-[80%] top-[8%] left-[50%] translate-x-[-50%]"
@@ -58,6 +58,47 @@
       >
         <div>備取遞補期間</div>
         <div>9/28（六）～ 10/1（二）</div>
+      </div>
+    </div> -->
+    <div class="absolute top-[8%] left-[50%] translate-x-[-50%] w-[80%]">
+      <div class="flex flex-col items-center">
+        <div class="grid grid-cols-4 gap-y-4">
+          <div class="col-span-4 flex flex-col items-center">
+            <object
+              data="/home/icon-gr113.svg"
+              type="image/svg+xml"
+              class="w-[80%]"
+            ></object>
+          </div>
+          <div
+            class="flex flex-col items-center font-Inter text-[20px] font-normal text-center"
+          >
+            <div
+              class="flex flex-1 flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center"
+            >
+              <div>開始報名</div>
+              <div>9/2（一）~ 9/23（一）8:00 前</div>
+            </div>
+          </div>
+          <div
+            class="flex flex-1 flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center"
+          >
+            <div>正取隊伍與所屬企業公布</div>
+            <div>9/24（二）8:00 前</div>
+          </div>
+          <div
+            class="flex flex-1 flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center"
+          >
+            <div>繳費期間</div>
+            <div>9/24（二）~ 9/27（五）</div>
+          </div>
+          <div
+            class="flex flex-1 flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center"
+          >
+            <div>備取遞補期間</div>
+            <div>9/28（六）～ 10/1（二）</div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -473,12 +514,12 @@
               </ul>
             </div>
           </div>
-          <a href="/form"
+          <router-link to="/form"
             ><div
               class="absolute top-[93%] left-[50%] w-[22%] col-span-2 hover:bg-[#FFFFFF] hover:text-[#D8E022] active:border-[#A1A8AD] active:text-[#A1A8AD] border-[#D8E022] border-[2px] rounded-[10px] px-2 py-1 bg-[#D8E022] flex flex-col items-center justify-center text-white font-Inter text-[10px] text-[700] leading-normal transition-all duration-300 ease-out cursor-pointer transform -translate-x-1/2"
             >
               <div>我要報名</div>
-            </div></a
+            </div></router-link
           >
         </div>
       </div>
