@@ -26,7 +26,7 @@ const routes = [
   {
     path: '/form',
     name: 'form',
-    component: HomeView
+    component: FormView
   }
 ]
 
