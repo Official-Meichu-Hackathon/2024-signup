@@ -29,82 +29,29 @@
       type="image/svg+xml"
       class="absolute top-[70%] left-[50%]"
     ></object>
-<div class="flex justify-center items-start flex-wrap gap-8 absolute top-[10%] left-[50%] translate-x-[-50%] w-full">
-
-  <div class="flex flex-col items-center gap-4 w-[20%]">
-    <div class="w-full relative flex flex-col items-center">
-      <object
-        data="/home/icon-el25.svg"
-        type="image/svg+xml"
-        class="w-[25%] h-auto"
-      ></object>
-      <object
-        data="/home/icon-ve76-1.svg"
-        type="image/svg+xml"
-        class="absolute top-[50%] left-[37%] w-[71vw] transform translate-y-[-50%]"
-      ></object>
-      <div class="absolute inset-0 flex items-center justify-center font-Mantou text-[36px] text-[#FFFFFF] text-[400] font-normal text-center">
-        1
+    <object
+      data="/home/icon-gr113.svg"
+      type="image/svg+xml"
+      class="absolute w-[80%] top-[8%] left-[50%] translate-x-[-50%]"
+    ></object>
+    <div class="absolute w-[100%] top-[14%] flex left-[50%] translate-x-[-50%]">
+      <div class="flex flex-1 flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center">
+        <div>開始報名</div>
+        <div>9/2（一）~ 9/23（一）8:00 前</div>
+      </div>
+      <div class="flex flex-1 flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center">
+        <div>正取隊伍與所屬企業公布</div>
+        <div>9/24（二）8:00 前</div>
+      </div>
+      <div class="flex flex-1 flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center">
+        <div>繳費期間</div>
+        <div>9/24（二）~ 9/27（五）</div>
+      </div>
+      <div class="flex flex-1 flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center">
+        <div>備取遞補期間</div>
+        <div>9/28（六）～ 10/1（二）</div>
       </div>
     </div>
-    <div class="flex flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center">
-      <div>開始報名</div>
-      <div>9/2（一）~ 9/23（一）8:00 前</div>
-    </div>
-  </div>
-
-  <div class="flex flex-col items-center gap-4 w-[20%]">
-    <div class="w-full relative flex flex-col items-center">
-      <object
-        data="/home/icon-el25.svg"
-        type="image/svg+xml"
-        class="w-[25%] h-auto"
-      ></object>
-      <div class="absolute inset-0 flex items-center justify-center font-Mantou text-[36px] text-[#FFFFFF] text-[400] font-normal text-center">
-        2
-      </div>
-    </div>
-    <div class="flex flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center">
-      <div>正取隊伍與所屬企業公布</div>
-      <div>9/24（二）8:00 前</div>
-    </div>
-  </div>
-
-  <div class="flex flex-col items-center gap-4 w-[20%]">
-    <div class="w-full relative flex flex-col items-center">
-      <object
-        data="/home/icon-el25.svg"
-        type="image/svg+xml"
-        class="w-[25%] h-auto"
-      ></object>
-      <div class="absolute inset-0 flex items-center justify-center font-Mantou text-[36px] text-[#FFFFFF] text-[400] font-normal text-center">
-        3
-      </div>
-    </div>
-    <div class="flex flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center">
-      <div>繳費期間</div>
-      <div>9/24（二）~ 9/27（五）</div>
-    </div>
-  </div>
-
-  <div class="flex flex-col items-center gap-4 w-[20%]">
-    <div class="w-full relative flex flex-col items-center">
-      <object
-        data="/home/icon-el25.svg"
-        type="image/svg+xml"
-        class="w-[25%] h-auto"
-      ></object>
-      <div class="absolute inset-0 flex items-center justify-center font-Mantou text-[36px] text-[#FFFFFF] text-[400] font-normal text-center">
-        4
-      </div>
-    </div>
-    <div class="flex flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center">
-      <div>備取遞補期間</div>
-      <div>9/28（六）～ 10/1（二）</div>
-    </div>
-  </div>
-</div>
-
 
     <div
       class="grid grid-cols-2 gap-y-6 absolute top-[24%] left-[50%] w-[70%] translate-x-[-50%]"
@@ -314,7 +261,7 @@
     <object
       data="/home/icon-co47.svg"
       type="image/svg+xml"
-      class="signup-co47 absolute top-[65%] left-[50%] transform -translate-x-1/2"
+      class="signup-co47 absolute top-[75%] left-[50%] transform -translate-x-1/2"
     ></object>
     <object
       data="/home/icon-ve94.svg"

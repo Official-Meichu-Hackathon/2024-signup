@@ -42,7 +42,7 @@
     >
       活動部
     </div>
-    <div class="absolute font-Inter text-[16px] text-[500] font-normal top-[22.5%] left-[64.5%]">
+    <div class="absolute font-Inter text-[16px] text-[500] font-normal top-[22.5%] left-[64.5%] max-w-[30%]">
       <div>廖苡安 / 蔡沂霖 / 游子鋆</div>
       <div>陳芃嬡 / 林沛含 / 施又歆 / 蕭宇程 / 方以佳 / 蘇恩誼 / 范嘉尹</div>
     </div>
@@ -62,7 +62,7 @@
     >
       行銷部
     </div>
-    <div class="absolute font-Inter text-[16px] text-[500] font-normal max-w-[24%] top-[42.5%] left-[22%]">
+    <div class="absolute font-Inter text-[16px] text-[500] font-normal max-w-[23%] top-[42.5%] left-[22%]">
       <div>黃聖溫 / 駱櫻文 / 李芷薰</div>
       <div>唐品芳 / 陳宣蓉 / 鄭宥呈 / 劉士嫙 / 許閔閔 / 蔡修奇</div>
     </div>
@@ -81,7 +81,7 @@
     >
       財務部
     </div>
-    <div class="absolute font-Inter text-[16px] text-[500] font-normal top-[42.5%] left-[64.5%]">
+    <div class="absolute font-Inter text-[16px] text-[500] font-normal top-[42.5%] left-[64.5%] max-w-[30%]">
       <div>吳念祖 / 劉宣亭</div>
       <div>黃郁翔 / 李采穗 / 江安 / 陳姿穎 / 李品萱</div>
     </div>
@@ -100,7 +100,7 @@
     >
       公關部
     </div>
-    <div class="absolute font-Inter text-[16px] text-[500] font-normal max-w-[24%] top-[62.5%] left-[22%]">
+    <div class="absolute font-Inter text-[16px] text-[500] font-normal max-w-[23%] top-[62.5%] left-[22%]">
       <div>蕭令宜 / 郭伊真 / 鄒宜儒</div>
       <div>蔡婕安 / 賴子睿 / 侯佑勳 / 莊皓雯 / 呂宜珊 / 陳香均</div>
     </div>
@@ -120,7 +120,7 @@
     >
       設計部
     </div>
-    <div class="absolute font-Inter text-[16px] text-[500] font-normal top-[62.5%] left-[64.5%]">
+    <div class="absolute font-Inter text-[16px] text-[500] font-normal top-[62.5%] left-[64.5%] max-w-[30%]">
       <div>黃壬煜 / 陳冠宇</div>
       <div>陳婷祺 / 黎姵妤 / 葉惠棻 / 陳又寧 / 陳薇安 / 黃詠淳</div>
     </div>
@@ -139,7 +139,7 @@
     >
       開發部
     </div>
-    <div class="absolute font-Inter text-[16px] text-[500] font-normal top-[82.5%] left-[64.5%]">
+    <div class="absolute font-Inter text-[16px] text-[500] font-normal top-[82.5%] left-[64.5%] max-w-[30%]">
       <div>朱驛庭 / 黃佑得 / 何義翔</div>
       <div>周廷威 / 曾士珍 / 林嘉宏 / 陳俐妤 / 李昀祐 / 陳芝瑄</div>
     </div>
@@ -165,7 +165,7 @@
     >
       活動部
     </div>
-    <div class="absolute font-Inter text-[10px] text-[500] font-normal top-[16%] left-[25%]">
+    <div class="absolute font-Inter text-[10px] text-[500] font-normal top-[16%] left-[25%] max-w-[70%]">
       <div>廖苡安 / 蔡沂霖 / 游子鋆</div>
       <div>陳芃嬡 / 林沛含 / 施又歆 / 蕭宇程 / 方以佳 / 蘇恩誼 / 范嘉尹</div>
     </div>
@@ -174,7 +174,7 @@
     >
       行銷部
     </div>
-    <div class="absolute font-Inter text-[10px] text-[500] font-normal top-[24%] left-[25%]">
+    <div class="absolute font-Inter text-[10px] text-[500] font-normal top-[24%] left-[25%] max-w-[70%]">
       <div>黃聖溫 / 駱櫻文 / 李芷薰</div>
       <div>唐品芳 / 陳宣蓉 / 鄭宥呈 / 劉士嫙 / 許閔閔 / 蔡修奇</div>
     </div>
@@ -183,7 +183,7 @@
     >
       財務部
     </div>
-    <div class="absolute font-Inter text-[10px] text-[500] font-normal top-[32%] left-[25%]">
+    <div class="absolute font-Inter text-[10px] text-[500] font-normal top-[32%] left-[25%] max-w-[70%]">
       <div>吳念祖 / 劉宣亭</div>
       <div>黃郁翔 / 李采穗 / 江安 / 陳姿穎 / 李品萱</div>
     </div>
@@ -192,7 +192,7 @@
     >
       公關部
     </div>
-    <div class="absolute font-Inter text-[10px] text-[500] font-normal top-[40%] left-[25%]">
+    <div class="absolute font-Inter text-[10px] text-[500] font-normal top-[40%] left-[25%] max-w-[70%]">
       <div>蕭令宜 / 郭伊真 / 鄒宜儒</div>
       <div>蔡婕安 / 賴子睿 / 侯佑勳 / 莊皓雯 / 呂宜珊 / 陳香均</div>
     </div>
@@ -201,7 +201,7 @@
     >
       設計部
     </div>
-    <div class="absolute font-Inter text-[10px] text-[500] font-normal top-[48%] left-[25%]">
+    <div class="absolute font-Inter text-[10px] text-[500] font-normal top-[48%] left-[25%] max-w-[70%]">
       <div>黃壬煜 / 陳冠宇</div>
       <div>陳婷祺 / 黎姵妤 / 葉惠棻 / 陳又寧 / 陳薇安 / 黃詠淳</div>
     </div>
@@ -210,7 +210,7 @@
     >
       開發部
     </div>
-    <div class="absolute font-Inter text-[10px] text-[500] font-normal top-[56%] left-[25%]">
+    <div class="absolute font-Inter text-[10px] text-[500] font-normal top-[56%] left-[25%] max-w-[70%]">
       <div>朱驛庭 / 黃佑得 / 何義翔</div>
       <div>周廷威 / 曾士珍 / 林嘉宏 / 陳俐妤 / 李昀祐 / 陳芝瑄</div>
     </div>
