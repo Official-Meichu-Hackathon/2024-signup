@@ -131,7 +131,7 @@
           class="font-Inter text-[16px] font-[400] text-wrap text-center w-[30dvw]"
           data-testid="description-creators"
         >
-          由新竹市政府命題，融大新竹居民的民生交通情境，鼓勵參賽者跨領域，運用共享、共創的資源，實際動手解決問題。過程中將促進各方人才創作交流，激發新穎想法並提升日常生活的用戶體驗，打造數位科技的創客精神！
+          由新竹市政府命題，融入新竹居民的民生交通情境，鼓勵參賽者跨領域，運用共享、共創的資源，實際動手解決問題。過程中將促進各方人才創作交流，激發新穎想法並提升日常生活的用戶體驗，打造數位科技的創客精神！
         </div>
         <button
           class="opacity-0 group-hover:opacity-100 transition ease-in-out duration-700 bg-[#D8E022] text-white font-Inter text-[20px] font-[400] px-4 py-2 rounded-full hover:bg-white hover:text-[#D8E022] hover:border-[#D8E022] border-[1px] border-[#D8E022] active:bg-white active:text-[#A1A8AD] active:border-[#A1A8AD]"
@@ -326,7 +326,7 @@
           class="font-Inter text-[10px] font-[400] text-center w-[70dvw]"
           data-testid="description-hackers"
         >
-          由新竹市政府命題，融大新竹居民的民生交通情境，鼓勵參賽者跨領域，運用共享、共創的資源，實際動手解決問題。過程中將促進各方人才創作交流，激發新穎想法並提升日常生活的用戶體驗，打造數位科技的創客精神！
+          由新竹市政府命題，融入新竹居民的民生交通情境，鼓勵參賽者跨領域，運用共享、共創的資源，實際動手解決問題。過程中將促進各方人才創作交流，激發新穎想法並提升日常生活的用戶體驗，打造數位科技的創客精神！
         </div>
         <button
           class="transition ease-in-out duration-700 bg-[#D8E022] text-white font-Inter text-[14px] font-[400] px-2 py-1 rounded-[10px] hover:bg-white hover:text-[#D8E022] hover:border-[#D8E022] border-[1px] border-[#D8E022] active:bg-white active:text-[#A1A8AD] active:border-[#A1A8AD]"

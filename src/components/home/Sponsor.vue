@@ -146,7 +146,7 @@
     <div
       class="font-Mantou text-[#43473E] text-[24px] text-[400] absolute top-[45%] left-[50%] translate-x-[-50%]"
     >
-      Platinun
+      Platinum
     </div>
     <div
       class="absolute top-[48%] left-[50%] translate-x-[-50%] w-[40%] grid grid-cols-3 gap-1 items-center justify-items-center"
@@ -455,7 +455,7 @@
     <div
       class="font-Mantou text-[#43473E] text-[10px] text-[400] absolute top-[44%] left-[50%] translate-x-[-50%]"
     >
-      Platinun
+      Platinum
     </div>
     <div
       class="absolute top-[47%] left-[50%] translate-x-[-50%] w-[40%] grid grid-cols-3 gap-x-2 items-center justify-items-center"
