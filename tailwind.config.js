@@ -30,7 +30,11 @@ module.exports = {
         "Mantou": ["Mantou Sans", "serif"],
         "Poppins": ["Poppins", "serif"],
         "Inter": ["Inter", "sans-serif"]
-      }
+      },
+      scale: {
+        '370': '3.7',
+        '350': '3.5'
+      },
     },
   },
   plugins: [],
