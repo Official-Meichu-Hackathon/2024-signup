@@ -21,25 +21,57 @@
       ></object>
     </div>
 
-    <div class="grid grid-cols-3 gap-1 items-center justify-items-center absolute top-[9%] left-[50%] translate-x-[-50%] w-[40%]">
+    <div
+      class="grid grid-cols-3 gap-1 items-center justify-items-center absolute top-[9%] left-[50%] translate-x-[-50%] w-[40%]"
+    >
+      <a href="https://www.facebook.com/nxpsemitaiwan"
+        ><div class="flex justify-center items-center">
+          <object
+            data="/home/logo-NXP.png"
+            type="image/png"
+            class="w-[80%]"
+          ></object></div
+      ></a>
       <div class="flex justify-center items-center">
-        <object data="/home/logo-NXP.png" type="image/png" class="w-[80%]"></object>
+        <object
+          data="/home/logo-LINE.svg"
+          type="image/svg+xml"
+          class="w-[60%]"
+        ></object>
       </div>
-      <div class="flex justify-center items-center">
-        <object data="/home/logo-LINE.svg" type="image/svg+xml" class="w-[60%]"></object>
-      </div>
-      <div class="flex justify-center items-center">
-        <object data="/home/logo-Google.png" type="image/png" class="w-[75%]"></object>
-      </div>
-      <div class="flex justify-center items-center">
-        <object data="/home/logo-TSMC.png" type="image/png" class="w-[50%]"></object>
-      </div>
-      <div class="flex justify-center items-center">
-        <object data="/home/logo-Logitech.png" type="image/png" class="w-[95%]"></object>
-      </div>
-      <div class="flex justify-center items-center">
-        <object data="/home/logo-CHT.png" type="image/png" class="w-[80%]"></object>
-      </div>
+      <a href="https://goo.gle/TWCareers"
+        ><div class="flex justify-center items-center">
+          <object
+            data="/home/logo-Google.png"
+            type="image/png"
+            class="w-[75%]"
+          ></object></div
+      ></a>
+      <a href="https://www.tsmc.com/static/chinese/careers/it_career/index.html"
+        ><div class="flex justify-center items-center">
+          <object
+            data="/home/logo-TSMC.png"
+            type="image/png"
+            class="w-[50%]"
+          ></object></div
+      ></a>
+      <a
+        href="https://jobs.jobvite.com/logitech-internal/search?r=Taiwan&c=&s=&q="
+        ><div class="flex justify-center items-center">
+          <object
+            data="/home/logo-Logitech.png"
+            type="image/png"
+            class="w-[95%]"
+          ></object></div
+      ></a>
+      <a href="https://www.cht.com.tw/zh-tw/home/cht"
+        ><div class="flex justify-center items-center">
+          <object
+            data="/home/logo-CHT.png"
+            type="image/png"
+            class="w-[80%]"
+          ></object></div
+      ></a>
     </div>
 
     <div
@@ -62,10 +94,10 @@
       ></object>
     </div>
     <object
-        data="/home/logo-WT.png"
-        type="image/png"
-        class="absolute top-[29%] left-[46%] w-[8%]"
-      ></object>
+      data="/home/logo-WT.png"
+      type="image/png"
+      class="absolute top-[29%] left-[46%] w-[8%]"
+    ></object>
 
     <div
       class="absolute flex items-center justify-center w-full top-[38.3%] left-[50%] translate-x-[-50%]"
@@ -116,15 +148,29 @@
     >
       Platinun
     </div>
-    <div class="absolute top-[48%] left-[50%] translate-x-[-50%] w-[40%] grid grid-cols-3 gap-1 items-center justify-items-center">
+    <div
+      class="absolute top-[48%] left-[50%] translate-x-[-50%] w-[40%] grid grid-cols-3 gap-1 items-center justify-items-center"
+    >
       <div class="flex justify-center items-center">
-        <object data="/home/logo-Cathay.svg" type="image/svg+xml" class="w-[90%]"></object>
+        <object
+          data="/home/logo-Cathay.svg"
+          type="image/svg+xml"
+          class="w-[90%]"
+        ></object>
       </div>
       <div class="flex justify-center items-center">
-        <object data="/home/logo-Jumbo.png" type="image/png" class="w-[80%]"></object>
+        <object
+          data="/home/logo-Jumbo.png"
+          type="image/png"
+          class="w-[80%]"
+        ></object>
       </div>
       <div class="flex justify-center items-center">
-        <object data="/home/logo-CloudMosa.png" type="image/png" class="w-[80%]"></object>
+        <object
+          data="/home/logo-CloudMosa.png"
+          type="image/png"
+          class="w-[80%]"
+        ></object>
       </div>
     </div>
 
@@ -143,18 +189,36 @@
     >
       Silver
     </div>
-    <div class="absolute top-[68%] left-[50%] translate-x-[-50%] w-[40%] grid grid-cols-2 gap-y-6 gap-x-4 items-center justify-items-center">
+    <div
+      class="absolute top-[68%] left-[50%] translate-x-[-50%] w-[40%] grid grid-cols-2 gap-y-6 gap-x-4 items-center justify-items-center"
+    >
       <div class="flex justify-center items-center">
-        <object data="/home/logo-PXI.png" type="image/png" class="w-[80%]"></object>
+        <object
+          data="/home/logo-PXI.png"
+          type="image/png"
+          class="w-[80%]"
+        ></object>
       </div>
       <div class="flex justify-center items-center">
-        <object data="/home/logo-CyCraft.svg" type="image/svg+xml" class="w-[70%]"></object>
+        <object
+          data="/home/logo-CyCraft.svg"
+          type="image/svg+xml"
+          class="w-[70%]"
+        ></object>
       </div>
       <div class="flex justify-center items-center">
-        <object data="/home/logo-Phison.jpg" type="image/jpg" class="w-[60%]"></object>
+        <object
+          data="/home/logo-Phison.jpg"
+          type="image/jpg"
+          class="w-[60%]"
+        ></object>
       </div>
       <div class="flex justify-center items-center">
-        <object data="/home/logo-Synopsys.png" type="image/png" class="w-[60%]"></object>
+        <object
+          data="/home/logo-Synopsys.png"
+          type="image/png"
+          class="w-[60%]"
+        ></object>
       </div>
     </div>
 
@@ -163,12 +227,22 @@
     >
       Bronze
     </div>
-    <div class="absolute top-[84%] left-[50%] translate-x-[-50%] w-[40%] grid grid-cols-2 gap-x-2 items-center justify-items-center">
+    <div
+      class="absolute top-[84%] left-[50%] translate-x-[-50%] w-[40%] grid grid-cols-2 gap-x-2 items-center justify-items-center"
+    >
       <div class="flex justify-center items-center">
-        <object data="/home/logo-CTBC.png" type="image/png" class="w-[80%]"></object>
+        <object
+          data="/home/logo-CTBC.png"
+          type="image/png"
+          class="w-[80%]"
+        ></object>
       </div>
       <div class="flex justify-center items-center">
-        <object data="/home/logo-104.png" type="image/png" class="w-[40%]"></object>
+        <object
+          data="/home/logo-104.png"
+          type="image/png"
+          class="w-[40%]"
+        ></object>
       </div>
     </div>
 
@@ -195,14 +269,24 @@
   <div
     class="hidden md:block relative h-[1100px] w-[full] overflow-hidden z-20 box-border"
   >
-  <div class="absolute top-[0%] left-[50%] translate-x-[-50%] w-[30%] grid grid-cols-2 gap-x-4 items-center justify-items-center">
-    <div class="flex justify-center items-center">
-      <object data="/home/logo-tiea.svg" type="image/svg+xml" class="w-[80%]"></object>
+    <div
+      class="absolute top-[0%] left-[50%] translate-x-[-50%] w-[30%] grid grid-cols-2 gap-x-4 items-center justify-items-center"
+    >
+      <div class="flex justify-center items-center">
+        <object
+          data="/home/logo-tiea.svg"
+          type="image/svg+xml"
+          class="w-[80%]"
+        ></object>
+      </div>
+      <div class="flex justify-center items-center">
+        <object
+          data="/home/logo-TCA.svg"
+          type="image/svg+xml"
+          class="w-[80%]"
+        ></object>
+      </div>
     </div>
-    <div class="flex justify-center items-center">
-      <object data="/home/logo-TCA.svg" type="image/svg+xml" class="w-[80%]"></object>
-    </div>
-  </div>
 
     <div
       class="absolute flex items-center justify-center w-full top-[10%] left-[50%] translate-x-[-50%]"
@@ -300,25 +384,57 @@
       type="image/svg+xml"
       class="absolute top-[3%] left-[56%]"
     ></object>
-    <div class="absolute top-[6%] left-[50%] translate-x-[-50%] w-[40%] grid grid-cols-3 gap-y-1 gap-x-1 items-center justify-items-center">
+    <div
+      class="absolute top-[6%] left-[50%] translate-x-[-50%] w-[40%] grid grid-cols-3 gap-y-1 gap-x-1 items-center justify-items-center"
+    >
+      <a href="https://www.facebook.com/nxpsemitaiwan"
+        ><div class="flex justify-center items-center">
+          <object
+            data="/home/logo-NXP.png"
+            type="image/png"
+            class="w-[80%]"
+          ></object></div
+      ></a>
       <div class="flex justify-center items-center">
-        <object data="/home/logo-NXP.png" type="image/png" class="w-[80%]"></object>
+        <object
+          data="/home/logo-LINE.svg"
+          type="image/svg+xml"
+          class="w-[60%]"
+        ></object>
       </div>
-      <div class="flex justify-center items-center">
-        <object data="/home/logo-LINE.svg" type="image/svg+xml" class="w-[60%]"></object>
-      </div>
-      <div class="flex justify-center items-center">
-        <object data="/home/logo-Google.png" type="image/png" class="w-[90%]"></object>
-      </div>
-      <div class="flex justify-center items-center">
-        <object data="/home/logo-TSMC.png" type="image/png" class="w-[50%]"></object>
-      </div>
-      <div class="flex justify-center items-center">
-        <object data="/home/logo-Logitech.png" type="image/png" class="w-[100%]"></object>
-      </div>
-      <div class="flex justify-center items-center">
-        <object data="/home/logo-CHT.png" type="image/png" class="w-[90%]"></object>
-      </div>
+      <a href="https://goo.gle/TWCareers"
+        ><div class="flex justify-center items-center">
+          <object
+            data="/home/logo-Google.png"
+            type="image/png"
+            class="w-[90%]"
+          ></object></div
+      ></a>
+      <a href="https://www.tsmc.com/static/chinese/careers/it_career/index.html"
+        ><div class="flex justify-center items-center">
+          <object
+            data="/home/logo-TSMC.png"
+            type="image/png"
+            class="w-[50%]"
+          ></object></div
+      ></a>
+      <a
+        href="https://jobs.jobvite.com/logitech-internal/search?r=Taiwan&c=&s=&q="
+        ><div class="flex justify-center items-center">
+          <object
+            data="/home/logo-Logitech.png"
+            type="image/png"
+            class="w-[100%]"
+          ></object></div
+      ></a>
+      <a href="https://www.cht.com.tw/zh-tw/home/cht"
+        ><div class="flex justify-center items-center">
+          <object
+            data="/home/logo-CHT.png"
+            type="image/png"
+            class="w-[90%]"
+          ></object></div
+      ></a>
     </div>
 
     <div
@@ -341,15 +457,29 @@
     >
       Platinun
     </div>
-    <div class="absolute top-[47%] left-[50%] translate-x-[-50%] w-[40%] grid grid-cols-3 gap-x-2 items-center justify-items-center">
+    <div
+      class="absolute top-[47%] left-[50%] translate-x-[-50%] w-[40%] grid grid-cols-3 gap-x-2 items-center justify-items-center"
+    >
       <div class="flex justify-center items-center">
-        <object data="/home/logo-Cathay.svg" type="image/svg+xml" class="w-[80%]"></object>
+        <object
+          data="/home/logo-Cathay.svg"
+          type="image/svg+xml"
+          class="w-[80%]"
+        ></object>
       </div>
       <div class="flex justify-center items-center">
-        <object data="/home/logo-Jumbo.png" type="image/png" class="w-[80%]"></object>
+        <object
+          data="/home/logo-Jumbo.png"
+          type="image/png"
+          class="w-[80%]"
+        ></object>
       </div>
       <div class="flex justify-center items-center">
-        <object data="/home/logo-CloudMosa.png" type="image/png" class="w-[80%]"></object>
+        <object
+          data="/home/logo-CloudMosa.png"
+          type="image/png"
+          class="w-[80%]"
+        ></object>
       </div>
     </div>
 
@@ -388,18 +518,36 @@
     >
       Silver
     </div>
-    <div class="absolute top-[66%] left-[50%] translate-x-[-50%] w-[40%] grid grid-cols-2 gap-y-2 gap-x-2 items-center justify-items-center">
+    <div
+      class="absolute top-[66%] left-[50%] translate-x-[-50%] w-[40%] grid grid-cols-2 gap-y-2 gap-x-2 items-center justify-items-center"
+    >
       <div class="flex justify-center items-center">
-        <object data="/home/logo-PXI.png" type="image/png" class="w-[80%]"></object>
+        <object
+          data="/home/logo-PXI.png"
+          type="image/png"
+          class="w-[80%]"
+        ></object>
       </div>
       <div class="flex justify-center items-center">
-        <object data="/home/logo-CyCraft.svg" type="image/svg+xml" class="w-[80%]"></object>
+        <object
+          data="/home/logo-CyCraft.svg"
+          type="image/svg+xml"
+          class="w-[80%]"
+        ></object>
       </div>
       <div class="flex justify-center items-center">
-        <object data="/home/logo-Phison.jpg" type="image/jpg" class="w-[80%]"></object>
+        <object
+          data="/home/logo-Phison.jpg"
+          type="image/jpg"
+          class="w-[80%]"
+        ></object>
       </div>
       <div class="flex justify-center items-center">
-        <object data="/home/logo-Synopsys.png" type="image/png" class="w-[80%]"></object>
+        <object
+          data="/home/logo-Synopsys.png"
+          type="image/png"
+          class="w-[80%]"
+        ></object>
       </div>
     </div>
 
@@ -408,12 +556,22 @@
     >
       Bronze
     </div>
-    <div class="absolute top-[82%] left-[50%] translate-x-[-50%] w-[40%] grid grid-cols-2 gap-x-1 items-center justify-items-center">
+    <div
+      class="absolute top-[82%] left-[50%] translate-x-[-50%] w-[40%] grid grid-cols-2 gap-x-1 items-center justify-items-center"
+    >
       <div class="flex justify-center items-center">
-        <object data="/home/logo-CTBC.png" type="image/png" class="w-[80%]"></object>
+        <object
+          data="/home/logo-CTBC.png"
+          type="image/png"
+          class="w-[80%]"
+        ></object>
       </div>
       <div class="flex justify-center items-center">
-        <object data="/home/logo-104.png" type="image/png" class="w-[50%]"></object>
+        <object
+          data="/home/logo-104.png"
+          type="image/png"
+          class="w-[50%]"
+        ></object>
       </div>
     </div>
 
@@ -426,14 +584,24 @@
   <div
     class="block md:hidden relative h-[340px] w-[full] overflow-hidden z-20 box-border"
   >
-  <div class="absolute top-[0%] left-[50%] translate-x-[-50%] w-[40%] grid grid-cols-2 gap-x-1 items-center justify-items-center">
-    <div class="flex justify-center items-center">
-      <object data="/home/logo-tiea.svg" type="image/svg+xml" class="w-[60%]"></object>
+    <div
+      class="absolute top-[0%] left-[50%] translate-x-[-50%] w-[40%] grid grid-cols-2 gap-x-1 items-center justify-items-center"
+    >
+      <div class="flex justify-center items-center">
+        <object
+          data="/home/logo-tiea.svg"
+          type="image/svg+xml"
+          class="w-[60%]"
+        ></object>
+      </div>
+      <div class="flex justify-center items-center">
+        <object
+          data="/home/logo-TCA.svg"
+          type="image/svg+xml"
+          class="w-[60%]"
+        ></object>
+      </div>
     </div>
-    <div class="flex justify-center items-center">
-      <object data="/home/logo-TCA.svg" type="image/svg+xml" class="w-[60%]"></object>
-    </div>
-  </div>
 
     <object
       data="/home/icon-ve99.svg"
