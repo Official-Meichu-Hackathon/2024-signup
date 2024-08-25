@@ -201,14 +201,14 @@
                 </ul>
               </div>
             </div>
-            <a href="/form"
-              ><div
-                class="w-[22%] hover:bg-[#FFFFFF] hover:text-[#D8E022] active:border-[#A1A8AD] active:text-[#A1A8AD] border-[#D8E022] border-[3px] rounded-[25px] px-9 py-8 mt-4 bg-[#D8E022] flex flex-col items-center justify-center text-white font-Mantou text-[40px] text-[400] leading-normal transition-all duration-300 ease-out cursor-pointer whitespace-nowrap"
-              >
-                <div>點我</div>
-                <div>報名</div>
-              </div></a
+            <div
+              class="w-[22%] hover:bg-[#FFFFFF] hover:text-[#D8E022] active:border-[#A1A8AD] active:text-[#A1A8AD] border-[#D8E022] border-[3px] rounded-[25px] px-9 py-8 mt-4 bg-[#D8E022] flex flex-col items-center justify-center text-white font-Mantou text-[40px] text-[400] leading-normal transition-all duration-300 ease-out cursor-pointer whitespace-nowrap"
             >
+              <a href="/form"
+                ><div>點我</div>
+                <div>報名</div></a
+              >
+            </div>
           </div>
         </div>
       </div>
