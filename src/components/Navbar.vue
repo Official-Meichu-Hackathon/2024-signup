@@ -30,8 +30,17 @@
 
 
 <script>
+import { useRouter } from 'vue-router'
 export default {
-
+    setup(){
+        const router = useRouter()
+        const GoToSignupForm = () => {
+            router.push('/form')
+        }
+        return {
+            GoToSignupForm
+        }
+    }
 }
 </script>
 
