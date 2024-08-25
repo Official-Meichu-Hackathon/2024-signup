@@ -123,11 +123,6 @@
   <div
     class="block md:hidden relative h-[1100px] w-[full] overflow-hidden z-20 box-border"
   >
-    <object
-      data="/home/icon-gr11.svg"
-      type="image/svg+xml"
-      class="intro-gr11 absolute top-[72%] left-[40%]"
-    ></object>
     <div
       class="font-Mantou text-[#43473E] text-[20px] text-[400] absolute top-[13%] left-[50%] translate-x-[-50%]"
     >

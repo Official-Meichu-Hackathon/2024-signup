@@ -94,7 +94,7 @@
     >
       Creativity <br />
       Technology <br />
-      Inovation
+      Innovation
     </div>
     <div class="absolute top-[25%] left-[50%] translate-x-[-50%]">
       <div
@@ -244,7 +244,7 @@
     >
       Creativity <br />
       Technology <br />
-      Inovation
+      Innovation
     </div>
     <div
       class="font-Mantou text-[64px] text-[#43473E] font-[400] absolute top-[16%] left-[25%] flex flex-col justify-center leading-none"
