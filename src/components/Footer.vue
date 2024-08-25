@@ -21,7 +21,7 @@
     <div class="flex items-center justify-around h-full mx-[8vw]">
       <router-link to="/" class="footer-button-m">
         <img v-if="currentRouteName=='home'" src="footer/home_yellow.svg">
-        <img v-else src="footer/homepage_icon.svg">
+        <img v-else src="footer/home.svg">
         <div>首頁</div>
       </router-link>
       <router-link to="/contest_schedule" class="footer-button-m">
@@ -53,7 +53,6 @@
 export default {
   computed: {
     currentRouteName() {
-        console.log(this.$route.name);
         return this.$route.name;
     }
   }
