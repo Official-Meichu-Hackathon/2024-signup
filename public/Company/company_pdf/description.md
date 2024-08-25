@@ -7,6 +7,7 @@
 以「透遍生成式 AI 和多模態模型打造校園相關應用的 LINE Bot」為主題，創建一個能夠與校園生活緊密連結的 LINE Bot。
 
 ## GOOGLE
+使用 Gemini API 或 Gemma 模型在手機上做各種應用，透過 Gemini 發想能在生活中使用 AI 結合手機大幅提升效率或創新的可能。
 
 ## TSMC
 
