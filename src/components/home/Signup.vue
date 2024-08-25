@@ -116,7 +116,7 @@
             class="flex flex-col font-Inter text-[16px] text-[400] leading-tight"
           >
             <div>
-              $900 / 人（含保證金 $200）<br />
+              $900 / 人（另收取保證金 $200）<br />
               <ul class="list-disc ml-5">
                 <li>跨域組隊：隊伍成員每人減免＄100</li>
                 <ul class="list-disc ml-5">
