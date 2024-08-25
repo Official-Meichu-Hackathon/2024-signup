@@ -15,4 +15,8 @@
         font-family: Poppins;
         src: url("assets/fonts/Poppins-Regular.ttf");
     }
+    @font-face {
+        font-family: Taipei Sans TC;
+        src: url("assets/fonts/TaipeiSansTCBeta-Regular.ttf");
+    }
 }
