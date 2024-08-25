@@ -73,7 +73,7 @@
       class="absolute top-[0%] left-[0%]"
     ></object>
     <object
-      data="/home/icon-ve100.svg"
+      data="/home/icon-ve108.svg"
       type="image/svg+xml"
       class="absolute top-[37%] left-[55%]"
     ></object>
@@ -97,14 +97,14 @@
     </div>
 
     <div
-      class="font-Mantou text-[#43473E] text-[20px] text-[400] absolute top-[60%] left-[50%] translate-x-[-50%]"
+      class="font-Mantou text-[#43473E] text-[20px] text-[400] absolute top-[55%] left-[50%] translate-x-[-50%]"
     >
       Youtube影片
     </div>
     <object
       data="/home/icon-gr91.svg"
       type="image/svg+xml"
-      class="absolute top-[65%] left-[50%] translate-x-[-50%]"
+      class="absolute top-[60%] left-[50%] translate-x-[-50%]"
     ></object>
   </div>
 </template>
