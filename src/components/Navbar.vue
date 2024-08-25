@@ -1,6 +1,6 @@
 <template>
   <!-- Desktop ver. -->
-  <nav class="hidden sm:block h-[4.6875rem]">
+  <nav class="hidden sm:block h-[4.6875rem] z-50">
     <div class="flex items-center justify-between mx-[3vw] h-full">
       <div class="flex items-center justify-between gap-x-[3vw] mt-1.5">
         <router-link to="/"><img src="Header_Logo.svg" class="sm:w-[20vw] md:w-auto"/></router-link>
@@ -16,7 +16,7 @@
   </nav>
 
   <!-- Mobile ver. -->
-  <nav class="sm:hidden h-14">
+  <nav class="sm:hidden h-14 z-50">
     <div class="flex items-center justify-between px-[4.6vw] h-full">
       <router-link to="/"><img src="Header_Logo_m.svg"/></router-link>
       <div class="flex items-center justify-between gap-x-[3vw]">

@@ -1,6 +1,6 @@
 <template>
   <!-- Desktop ver. -->
-  <footer class="hidden sm:block pd-15">
+  <footer class="hidden sm:block pd-15 relative z-50">
     <div class="mx-8 h-[1px] bg-[#666]"/>
     <div class="inline-flex pt-0.5 pb-[88px] justify-center w-full">
       <div>
