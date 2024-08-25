@@ -16,8 +16,8 @@ const routes = [
     component: ContestSchedule
   },
   // {
-  //   path: '/TopicDesciption',
-  //   name: 'TopicDesciption',
+  //   path: '/topic_description',
+  //   name: 'topic_description',
   //   component: TopicDesciptionView
   // },
   {

@@ -34,8 +34,8 @@
         <img v-else src="footer/monster.svg">
         <div>我要報名</div>
       </router-link>
-      <router-link to="/TopicDesciption" class="footer-button-m">
-        <img v-if="currentRouteName=='topic'" src="footer/topic_yellow.svg">
+      <router-link to="/topic_description" class="footer-button-m">
+        <img v-if="currentRouteName=='topic_description'" src="footer/topic_yellow.svg">
         <img v-else src="footer/topic.svg">
         <div>題目說明</div>
       </router-link>
