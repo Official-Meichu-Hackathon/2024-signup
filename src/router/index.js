@@ -13,8 +13,8 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/topic',
-    name: 'topic',
+    path: '/TopicDesciption',
+    name: 'TopicDesciption',
     component: HomeView
   },
   {
