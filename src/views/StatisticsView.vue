@@ -3,7 +3,7 @@
     <img src="statistics/Vector121.svg" class="absolute top-[3%] left-[86%] w-[14.7vw] h-auto">
     <img src="statistics/Vector119.svg" class="absolute top-[31%] left-[0%] w-[37.8vw] h-auto">
     <img src="statistics/Vector118.svg" class="absolute top-[85%] left-[61%] w-[23.7vw] h-auto">
-    <img src="statistics/Vector117.svg" class="absolute top-[95%] left-[21%] w-[22.5vw] h-auto">
+    <img src="statistics/Vector117.svg" class="absolute top-[92%] left-[21%] w-[22.5vw] h-auto">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-y-[5.2vw] gap-x-[5vw] pt-[89px] justify-center">
       <div v-for="i in statistics" :key="i.title" class="grid-item">
         <Card :title="i.title" :chart="i.chart" :desc="i.desc"
