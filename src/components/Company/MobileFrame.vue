@@ -48,8 +48,8 @@
                 <MobileCompanyCardBox title="題目說明 #04" 
                                 imageSrc="Company/Logo/Tsmc-logo.svg" 
                                 companyName="台積電" 
-                                description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
-                                detailsLink="Company/company_pdf/test_details.pdf" 
+                                description="思考即將進人職場的自己會希望得到什麼樣的員工數位認可 / 獎勵，並可選擇結合時下熱門的 Gen AI, Chatbot，實作出 Data-driven 且重視使用者體驗的解決方案。"
+                                detailsLink="Company/company_pdf/tsmc.pdf" 
                                 imageClass="absolute top-1/2 left-1/2 w-[57.3%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </MobileCompanyCardBox>
             </div>
