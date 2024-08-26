@@ -28,9 +28,7 @@
           <div class="identity-option">
             <div v-for="option in ['學生', '社會人士']" :key="option">
               <input type="radio" :id="option" name="identity" :value="option" required />
-              <label :for="option">{{
-                option === "學生" ? "學生" : "社會人士"
-              }}</label>
+              <label :for="option">{{ option === "學生" ? "學生" : "社會人士" }}</label>
             </div>
           </div>
         </div>
@@ -68,8 +66,12 @@
         </div>
         <div class="size">
           <label style="color: #666666">*衣服尺寸</label>
+          <img src="/size.jpg" alt="">
           <div class="size-option">
-            <div v-for="option in ['S', 'M', 'L', 'XL']" :key="option">
+            <div
+              v-for="option in ['XS', 'S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL']"
+              :key="option"
+            >
               <input type="radio" :id="option" name="size" :value="option" required />
               <label :for="option">{{ option }}</label>
             </div>
@@ -104,7 +106,7 @@ export default {
       if (formData) {
         emit("basicInfo", formData);
         return true;
-      }else{
+      } else {
         return false;
       }
     };
@@ -112,9 +114,9 @@ export default {
       () => props.isFilled,
       (newVal) => {
         if (newVal) {
-          if(validate()){
+          if (validate()) {
             emit("success", true);
-          }else{
+          } else {
             emit("success", false);
           }
         }
@@ -132,6 +134,7 @@ export default {
 .basic-info {
   padding: 0 24px;
 }
+
 .text {
   color: #666;
   font-family: "Poppins";
@@ -179,12 +182,12 @@ form {
 .email label,
 .phone label,
 .dietary label {
-    color: #666666;
-    font-family: "Poppins";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #666666;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .name input,
@@ -205,21 +208,29 @@ form {
 }
 
 .sex-option,
-.identity-option,
-.size-option {
+.identity-option {
   display: flex;
   flex-direction: row;
   margin-left: 8px;
 }
+
+.size-option {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 8px;
+  gap: 28px;
+}
+
 .sex-option input,
 .identity-option input,
 .size-option input {
   width: 16px;
   color: #111111;
 }
+
 .sex-option div,
-.identity-option div,
-.size-option div {
+.identity-option div {
   display: flex;
   flex-direction: row;
   gap: 12px;
@@ -231,6 +242,20 @@ form {
   font-weight: 400;
   line-height: normal;
 }
+
+.size-option div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  color: #111;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .sex,
 .identity,
 .size {
