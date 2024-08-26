@@ -84,7 +84,7 @@
             <div class="row-start-4 row-span-2 col-start-1">
                 <CompanyCardBox title="題目說明 #03" 
                                 imageSrc="Company/Logo/Google-logo.svg" 
-                                companyName="GOOGLE" 
+                                companyName="Google" 
                                 description="使用 Gemini API 或 Gemma 模型在手機上做各種應用，透過 Gemini 發想能在生活中使用 AI 結合手機大幅提升效率或創新的可能。"
                                 detailsLink="Company/company_pdf/google.pdf" 
                                 imageClass="absolute top-1/2 left-1/2 w-[72.8%] h-auto transform -translate-x-1/2 -translate-y-1/2">
