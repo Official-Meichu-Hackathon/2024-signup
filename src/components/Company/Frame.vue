@@ -153,7 +153,7 @@
                     <div class="cols-start-2">
                         <CompanyCardBox title="題目說明 #07" 
                                         imageSrc="Company/Logo/新竹市政府-logo.svg" 
-                                        companyName="創客組" 
+                                        companyName="創客交流組" 
                                         description="新竹科技X交通 請應用市府資料開放平臺(open data)之數據資料，發掘竹市交通問題，並提供解方。"
                                         detailsLink="Company/company_pdf/2024新竹X梅竹黑客松競賽題目提案表.pdf" 
                                         imageClass="absolute top-1/2 left-1/2 w-[86.5%] h-auto transform -translate-x-1/2 -translate-y-1/2">
