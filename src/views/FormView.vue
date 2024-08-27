@@ -77,6 +77,7 @@
                 @otherinfo="handleData_otherInfo"
                 @success="(data) => GoToNextStep(data)"
                 :isFilled="isFilled[teamSize + 2]"
+                :group="group"
               ></OtherInfo>
             </div>
           </div>
@@ -178,6 +179,7 @@ export default {
           dietary: "",
           size: "",
           certificate: null,
+          proposal: null,
           fullWorkshopAttendance: "",
           fullParticipationOpeningClosing: "",
         });
@@ -194,7 +196,7 @@ export default {
     };
 
     const isFilled = ref([...Array(9).fill(false)]);
-    const currentStep = ref(1);
+    const currentStep = ref(5);
     const completedStep = ref(1);
     let nextStep = 0;
     const handleClick = async (idx) => {
@@ -263,7 +265,8 @@ export default {
     const handleData_otherInfo = (data) => {
       signupDataList.forEach((signupData) => {
         Object.assign(signupData, {
-          certificate: data.file,
+          certificate: data.file1,
+          proposal: data.file2,
           fullWorkshopAttendance: data.fullWorkshopAttendance,
           fullParticipationOpeningClosing: data.fullParticipationOpeningClosing,
         });
@@ -290,7 +293,7 @@ export default {
       for (const signupData of signupDataList) {
         try {
           const response = await fetch(
-            "https://script.google.com/macros/s/AKfycbwJbWex52rAbYI3Bym6OvcvSQS27gi8RW4hy_NuT4LWDl64ioaNvjsATEjh7a8BF7bc/exec",
+            "https://script.google.com/macros/s/AKfycbyKHsQVLRdbTyatekMhAk0aGt2BNrk-Jx8csuguLHNSdiUELJjWMltZJzz7w2DV8iyc/exec",
             {
               method: "POST",
               headers: {
@@ -339,7 +342,6 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-
 .form {
   display: flex;
   flex-direction: row;
