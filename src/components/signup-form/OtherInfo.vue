@@ -93,6 +93,7 @@
               />
             </div>
           </div>
+          <p v-if="fileData2.files.length === 0" class="warning">請上傳一頁式企劃書</p>
         </div>
         <div>
           <div class="text">清寒證明</div>

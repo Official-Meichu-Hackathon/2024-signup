@@ -16,7 +16,7 @@
           </div>
         </div>
         <div class="birth">
-          <label for="birth" style="color: #666666">*生日 （eg. 20040101）</label>
+          <label for="birth" style="color: #666666">*生日 （e.g. 20040101）</label>
           <input type="date" id="birth" name="birth" required />
         </div>
         <div class="ID">
@@ -34,13 +34,13 @@
         </div>
         <div class="school">
           <label for="school" style="color: #666666"
-            >*就讀學校（填寫全名 eg. 國立陽明交通大學），社會人士可填無</label
+            >*就讀學校（填寫全名 e.g. 國立陽明交通大學），社會人士可填無</label
           >
           <input type="text" id="school" name="school" required />
         </div>
         <div class="major">
           <label for="major" style="color: #666666"
-            >*科系（填寫全名 eg. 資訊工程學系），社會人士可填無</label
+            >*科系（填寫全名 e.g. 資訊工程學系），社會人士可填無</label
           >
           <input type="text" id="major" name="major" required />
         </div>

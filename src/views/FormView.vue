@@ -197,7 +197,7 @@ export default {
     };
 
     const isFilled = ref([...Array(9).fill(false)]);
-    const currentStep = ref(1);
+    const currentStep = ref(5);
     const completedStep = ref(1);
     let nextStep = 0;
     const handleClick = async (idx) => {
