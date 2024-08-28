@@ -2,8 +2,8 @@
   <div class="other-info">
     <div class="filled-form">
       <form ref="Form">
-        <div class="text">一頁式企劃書</div>
         <div v-if="group === 1">
+          <div class="text">一頁式企劃書</div>
           <div
             class="upload-container"
             :class="{ dragging: isDragging2, success: uploadSuccess2 }"
@@ -94,47 +94,48 @@
             </div>
           </div>
         </div>
-
-        <div class="text">清寒證明</div>
-        <div
-          class="upload-container"
-          :class="{ dragging: isDragging1, success: uploadSuccess1 }"
-          @dragover.prevent="onDragOver(1)"
-          @dragleave="onDragLeave(1)"
-          @drop.prevent="onDrop($event, 1)"
-        >
-          <div>
-            <label for="file-input-1" class="upload-icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="40"
-                height="40"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                <polyline points="17 8 12 3 7 8"></polyline>
-                <line x1="12" y1="3" x2="12" y2="15"></line>
-              </svg>
-            </label>
-            <div class="upload-text">
-              Drag or
-              <label for="file-input-1" class="choose-files">choose files</label>
-              to upload
+        <div>
+          <div class="text">清寒證明</div>
+          <div
+            class="upload-container"
+            :class="{ dragging: isDragging1, success: uploadSuccess1 }"
+            @dragover.prevent="onDragOver(1)"
+            @dragleave="onDragLeave(1)"
+            @drop.prevent="onDrop($event, 1)"
+          >
+            <div>
+              <label for="file-input-1" class="upload-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="17 8 12 3 7 8"></polyline>
+                  <line x1="12" y1="3" x2="12" y2="15"></line>
+                </svg>
+              </label>
+              <div class="upload-text">
+                Drag or
+                <label for="file-input-1" class="choose-files">choose files</label>
+                to upload
+              </div>
+              <input
+                type="file"
+                name="file1"
+                id="file-input-1"
+                ref="fileInput1"
+                accept=".pdf, .png, .jpg, .svg, .doc, .docx, .jpeg"
+                @change="(event) => onFileChange(event, 1)"
+                multiple
+              />
             </div>
-            <input
-              type="file"
-              name="file1"
-              id="file-input-1"
-              ref="fileInput1"
-              accept=".pdf, .png, .jpg, .svg, .doc, .docx, .jpeg"
-              @change="(event) => onFileChange(event, 1)"
-              multiple
-            />
           </div>
         </div>
 
@@ -352,6 +353,7 @@ form {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 10px;
 }
 
 .warning {
@@ -386,13 +388,13 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%; /* 確保內容佔滿整個容器高度 */
+  height: 100%;
 }
 
 .upload-icon {
   cursor: pointer;
   margin-bottom: 10px;
-  color: #bfbfbf; /* 使用與 choose files 相同的顏色 */
+  color: #bfbfbf;
   display: flex;
   justify-content: center;
   align-items: center;
