@@ -124,6 +124,13 @@
   <div
     class="block md:hidden relative h-[1100px] w-[full] overflow-hidden z-20 box-border"
   >
+    <div class="absolute top-[70%] left-[50%] translate-x-[-50%]">
+      <object
+        data="/home/icon-gr11.svg"
+        type="image/svg+xml"
+        class="prize-gr11"
+      ></object>
+    </div>
     <div
       class="font-Mantou text-[#43473E] text-[20px] text-[400] absolute top-[13%] left-[50%] translate-x-[-50%]"
     >
@@ -178,8 +185,25 @@
           </div>
         </div>
       </div>
+      <div class="flex flex-col items-center justify-center gap-3">
+        <object
+          data="/home/icon-gr22.svg"
+          type="image/svg+xml"
+          class="prize-gr22"
+        ></object>
+        <object
+          data="/home/icon-gr23.svg"
+          type="image/svg+xml"
+          class="prize-gr23"
+        ></object>
+        <object
+          data="/home/icon-gr24.svg"
+          type="image/svg+xml"
+          class="prize-gr24"
+        ></object>
+      </div>
       <div
-        class="col-start-2 border-[#D9D9D9] border-[3px] rounded-[20px] p-3 bg-white hover:bg-[#FEFFF0] hover:border-[#D8E022]"
+        class="border-[#D9D9D9] border-[3px] rounded-[20px] p-3 bg-white hover:bg-[#FEFFF0] hover:border-[#D8E022]"
       >
         <div class="flex flex-col gap-2">
           <div class="flex flex-col">
@@ -215,21 +239,6 @@
       class="absolute top-[74%] left-[0%]"
     ></object>
     <object
-      data="/home/icon-gr22.svg"
-      type="image/svg+xml"
-      class="prize-gr22 absolute top-[47%] left-[18%]"
-    ></object>
-    <object
-      data="/home/icon-gr23.svg"
-      type="image/svg+xml"
-      class="prize-gr23 absolute top-[50%] left-[18%]"
-    ></object>
-    <object
-      data="/home/icon-gr24.svg"
-      type="image/svg+xml"
-      class="prize-gr24 absolute top-[53%] left-[18%]"
-    ></object>
-    <object
       data="/home/icon-gr80.svg"
       type="image/svg+xml"
       class="prize-gr80 absolute top-[28%] left-[73%]"
@@ -245,7 +254,7 @@
 <script setup></script>
 
 <style scoped>
-.intro-gr11 {
+.prize-gr11 {
   animation: animateGr11 3s ease-out infinite;
 }
 

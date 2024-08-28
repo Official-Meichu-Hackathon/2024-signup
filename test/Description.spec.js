@@ -11,10 +11,7 @@ describe("Description", () => {
   test("renders SVG elements correctly", () => {
     const wrapper = mount(Description);
 
-    expect(wrapper.find('object[data="/home/icon-re29.svg"]').exists()).toBe(
-      true
-    );
-    expect(wrapper.find('object[data="/home/icon-re36.svg"]').exists()).toBe(
+    expect(wrapper.find('object[data="/home/desc-1.png"]').exists()).toBe(
       true
     );
     expect(wrapper.find('object[data="/home/icon-ve29.svg"]').exists()).toBe(
