@@ -6,7 +6,7 @@
         <div class="row-start-1 col-start-1 col-span-2">
             <div class="w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray">
                 <MobileCompanyCardBox title="題目說明 #01" 
-                                imageSrc="Company/Logo/NXP-logo.svg" 
+                                imageSrc="Company/Logo/logo-NXP.png" 
                                 companyName="恩智浦半導體" 
                                 description="如何能夠以創新應用因應目前的氣候變遷，對企業來說是個非常重要的課題，希望參賽者能利用恩智浦與文曄科技提供的相關開發資源，實現智慧應用、符合永續需求。"
                                 detailsLink="Company/company_pdf/nxp.pdf" 
@@ -23,7 +23,7 @@
         <div class="row-start-2 col-start-2 col-span-2">
             <div class="w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray">
                 <MobileCompanyCardBox title="題目說明 #02" 
-                                    imageSrc="Company/Logo/LINE-logo.svg" 
+                                    imageSrc="Company/Logo/logo-LINE.svg" 
                                     companyName="LINE 台灣" 
                                     description="以「透過生成式 AI 和多模態模型打造校園相關應用的 LINE Bot」為主題，創建一個能夠與校園生活緊密連結的 LINE Bot。"
                                     detailsLink="Company/company_pdf/line.pdf" 
