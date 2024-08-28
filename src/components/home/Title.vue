@@ -50,6 +50,11 @@
       class="absolute top-[53%] left-[30%]"
     ></object>
     <object
+      data="/home/icon-ve27.svg"
+      type="image/svg+xml"
+      class="absolute top-[66%] left-[25%]"
+    ></object>
+    <object
       data="/home/icon-co02.svg"
       type="image/svg+xml"
       class="title-co2 absolute top-[7.5%] left-[25%]"
