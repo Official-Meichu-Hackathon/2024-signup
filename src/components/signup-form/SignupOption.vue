@@ -51,7 +51,7 @@
           </div>
         </div>
       </div>
-      <div class="group-preference">
+      <div class="group-preference" v-if="group===1">
         <label style="color: #666666">組別或企業志願序</label>
         <div class="description">
           <p>
@@ -96,6 +96,10 @@ export default {
       type: Boolean,
       default: false,
     },
+    group: {
+        type: Number,
+        default: 1,
+    }
   },
   emits: [
     "update:teamName",
@@ -179,6 +183,21 @@ export default {
       }
     };
 
+    const group = ref(props.group);
+    watch(
+      () => props.group,
+      (newVal, oldVal) => {
+        if (newVal) {
+            group.value = newVal;
+        }
+        if(newVal === 1 && oldVal === 2){
+            localPreference.value = props.preference;
+        }else if( newVal === 2 && oldVal === 1){
+            localPreference.value = [];
+        }
+      }
+    );
+
     return {
       localTeamName,
       localTeamSize,
@@ -187,6 +206,7 @@ export default {
       updatePreference,
       Form,
       validate,
+      group,
     };
   },
 };

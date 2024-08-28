@@ -31,6 +31,7 @@
                 v-model:teamSize="teamSize"
                 v-model:crossGroup="crossGroup"
                 v-model:preference="preference"
+                :group="group"
               ></SignupOption>
             </div>
           </div>
@@ -196,14 +197,18 @@ export default {
     };
 
     const isFilled = ref([...Array(9).fill(false)]);
-    const currentStep = ref(5);
+    const currentStep = ref(1);
     const completedStep = ref(1);
     let nextStep = 0;
     const handleClick = async (idx) => {
       if (idx <= completedStep.value) {
         nextStep = idx;
+        GoToNextStep(true);
+        completedStep.value = idx;
+        /*
         await nextTick();
         isFilled.value[currentStep.value] = true;
+        */
       }
     };
     const GoToNextStep = (isSuccess) => {
