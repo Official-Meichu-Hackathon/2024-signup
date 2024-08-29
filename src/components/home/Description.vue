@@ -108,7 +108,7 @@
         <object
           data="/home/desc-1.png"
           type="image/png"
-          class="w-[75%] border-[1px] p-2 border-[#43483E]"
+          class="w-[75%] border-[0.5px] p-2 border-[#43483E]"
           data-testid="icon-re239-hackers"
         ></object>
         <div

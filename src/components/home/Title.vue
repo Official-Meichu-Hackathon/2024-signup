@@ -50,6 +50,11 @@
       class="absolute top-[53%] left-[30%]"
     ></object>
     <object
+      data="/home/icon-ve27.svg"
+      type="image/svg+xml"
+      class="absolute top-[66%] left-[25%]"
+    ></object>
+    <object
       data="/home/icon-co02.svg"
       type="image/svg+xml"
       class="title-co2 absolute top-[7.5%] left-[25%]"
@@ -227,7 +232,7 @@
     <object
       data="/home/icon-ve110.svg"
       type="image/svg+xml"
-      class="absolute top-[62%] left-[0%]"
+      class="absolute top-[62%] left-[-25%]"
     ></object>
     <object
       data="/home/icon-ve111.svg"
@@ -238,11 +243,6 @@
       data="/home/icon-co06.svg"
       type="image/svg+xml"
       class="title-co6-md absolute top-[40.5%] left-[56%]"
-    ></object>
-    <object
-      data="/home/icon-co07.svg"
-      type="image/svg+xml"
-      class="title-co7-md absolute top-[1%] left-[-60%]"
     ></object>
     <object
       data="/home/icon-mo02.svg"
@@ -256,6 +256,23 @@
       Technology <br />
       Innovation
     </div>
+    <div class="absolute top-[5%] rotate-[16deg]">
+      <div class="flex flex-col items-center">
+        <div class="font-Mantou text-[24px] text-[#43473E] font-[400]">
+          <div class="flex flex-row gap-2 items-center">
+            <div>2024</div>
+            <div>新竹</div>
+            <div class="text-[#D8E022]">x</div>
+          </div>
+        </div>
+      </div>
+      <object
+        data="/home/icon-co07.svg"
+        type="image/svg+xml"
+        class="title-co7-md absolute top-[1%] left-[-60%] mt-2"
+      ></object>
+    </div>
+
     <div
       class="font-Mantou text-[64px] text-[#43473E] font-[400] absolute top-[16%] left-[25%] flex flex-col justify-center leading-none"
     >
@@ -641,19 +658,19 @@ const time = ref(targetDate - now);
 
 @keyframes animateCo7-md {
   0% {
-    transform: translate(40px, 10px) rotate(-160deg) scale(1.1);
+    transform: translate(-20px, -5px) rotate(180deg) scale(1.1);
   }
   25% {
-    transform: translate(0, 0) rotate(-160deg);
+    transform: translate(-60px, -15px) rotate(180deg);
   }
   50% {
-    transform: translate(0, 0) rotate(-160deg);
+    transform: translate(-60px, -15px) rotate(180deg);
   }
   75% {
-    transform: translate(40px, 10px) rotate(-160deg) scale(1.1);
+    transform: translate(-20px, -5px) rotate(180deg) scale(1.1);
   }
   100% {
-    transform: translate(40px, 10px) rotate(-160deg) scale(1.1);
+    transform: translate(-20px, -5px) rotate(180deg) scale(1.1);
   }
 }
 
