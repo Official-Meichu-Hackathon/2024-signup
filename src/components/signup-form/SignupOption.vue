@@ -51,12 +51,11 @@
           </div>
         </div>
       </div>
-      <div class="group-preference">
+      <div class="group-preference" v-if="group===1">
         <label style="color: #666666">組別或企業志願序</label>
         <div class="description">
           <p>
-            註：-
-            企業題目或組別將依據隊伍的志願序分發。若單一企業或組別超額，將亂數抽籤決定
+            註：企業題目或組別將依據隊伍的志願序分發。若單一企業或組別超額，將亂數抽籤決定
           </p>
           <p>未報名創客交流組則將創客交流組的志願序填為 7。若未選擇，將隨機分配。</p>
         </div>
@@ -97,6 +96,10 @@ export default {
       type: Boolean,
       default: false,
     },
+    group: {
+        type: Number,
+        default: 1,
+    }
   },
   emits: [
     "update:teamName",
@@ -180,6 +183,21 @@ export default {
       }
     };
 
+    const group = ref(props.group);
+    watch(
+      () => props.group,
+      (newVal, oldVal) => {
+        if (newVal) {
+            group.value = newVal;
+        }
+        if(newVal === 1 && oldVal === 2){
+            localPreference.value = props.preference;
+        }else if( newVal === 2 && oldVal === 1){
+            localPreference.value = [];
+        }
+      }
+    );
+
     return {
       localTeamName,
       localTeamSize,
@@ -188,6 +206,7 @@ export default {
       updatePreference,
       Form,
       validate,
+      group,
     };
   },
 };

@@ -31,6 +31,7 @@
                 v-model:teamSize="teamSize"
                 v-model:crossGroup="crossGroup"
                 v-model:preference="preference"
+                :group="group"
               ></SignupOption>
             </div>
           </div>
@@ -77,6 +78,7 @@
                 @otherinfo="handleData_otherInfo"
                 @success="(data) => GoToNextStep(data)"
                 :isFilled="isFilled[teamSize + 2]"
+                :group="group"
               ></OtherInfo>
             </div>
           </div>
@@ -145,10 +147,10 @@ export default {
     const teamSize = ref(3);
     const crossGroup = ref("");
     const preference = ref([
-      { id: 1, name: "NXP" },
-      { id: 2, name: "Line" },
+      { id: 1, name: "恩智浦半導體" },
+      { id: 2, name: "LINE台灣" },
       { id: 3, name: "Google" },
-      { id: 4, name: "TSMC" },
+      { id: 4, name: "台積電" },
       { id: 5, name: "羅技" },
       { id: 6, name: "中華電信" },
       { id: 7, name: "創客交流組" },
@@ -178,6 +180,7 @@ export default {
           dietary: "",
           size: "",
           certificate: null,
+          proposal: null,
           fullWorkshopAttendance: "",
           fullParticipationOpeningClosing: "",
         });
@@ -200,8 +203,12 @@ export default {
     const handleClick = async (idx) => {
       if (idx <= completedStep.value) {
         nextStep = idx;
+        GoToNextStep(true);
+        completedStep.value = idx;
+        /*
         await nextTick();
         isFilled.value[currentStep.value] = true;
+        */
       }
     };
     const GoToNextStep = (isSuccess) => {
@@ -263,7 +270,8 @@ export default {
     const handleData_otherInfo = (data) => {
       signupDataList.forEach((signupData) => {
         Object.assign(signupData, {
-          certificate: data.file,
+          certificate: data.file1,
+          proposal: data.file2,
           fullWorkshopAttendance: data.fullWorkshopAttendance,
           fullParticipationOpeningClosing: data.fullParticipationOpeningClosing,
         });
@@ -290,7 +298,7 @@ export default {
       for (const signupData of signupDataList) {
         try {
           const response = await fetch(
-            "https://script.google.com/macros/s/AKfycbwJbWex52rAbYI3Bym6OvcvSQS27gi8RW4hy_NuT4LWDl64ioaNvjsATEjh7a8BF7bc/exec",
+            "https://script.google.com/macros/s/AKfycbyKHsQVLRdbTyatekMhAk0aGt2BNrk-Jx8csuguLHNSdiUELJjWMltZJzz7w2DV8iyc/exec",
             {
               method: "POST",
               headers: {
@@ -339,7 +347,6 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-
 .form {
   display: flex;
   flex-direction: row;
@@ -359,8 +366,16 @@ export default {
 .content-container {
   width: 50%;
   margin-left: 50%;
+  min-height: 100vh;
   overflow-y: auto;
-  height: 100vh;
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+
+.content-container::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none; 
 }
 
 .content {
@@ -415,8 +430,7 @@ export default {
   .content-container {
     width: 100%;
     margin-left: 0;
-    height: auto;
-    overflow-y: visible;
+    min-height: auto;
   }
 
   .content {
@@ -427,6 +441,7 @@ export default {
 .monster {
   margin-top: 50%;
 }
+
 .overlay {
   position: fixed;
   top: 0;
