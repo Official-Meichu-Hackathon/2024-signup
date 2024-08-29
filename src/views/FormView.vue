@@ -145,10 +145,10 @@ export default {
     const teamSize = ref(3);
     const crossGroup = ref("");
     const preference = ref([
-      { id: 1, name: "NXP" },
-      { id: 2, name: "Line" },
+      { id: 1, name: "恩智浦半導體" },
+      { id: 2, name: "LINE台灣" },
       { id: 3, name: "Google" },
-      { id: 4, name: "TSMC" },
+      { id: 4, name: "台積電" },
       { id: 5, name: "羅技" },
       { id: 6, name: "中華電信" },
       { id: 7, name: "創客交流組" },
@@ -359,8 +359,16 @@ export default {
 .content-container {
   width: 50%;
   margin-left: 50%;
+  min-height: 100vh;
   overflow-y: auto;
-  height: 100vh;
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+
+.content-container::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none; 
 }
 
 .content {
@@ -415,8 +423,7 @@ export default {
   .content-container {
     width: 100%;
     margin-left: 0;
-    height: auto;
-    overflow-y: visible;
+    min-height: auto;
   }
 
   .content {
@@ -427,6 +434,7 @@ export default {
 .monster {
   margin-top: 50%;
 }
+
 .overlay {
   position: fixed;
   top: 0;

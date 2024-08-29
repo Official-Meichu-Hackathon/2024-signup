@@ -66,10 +66,11 @@
           </div>
           <div class="flex flex-col gap-1 font-Inter text-[16px] text-[400]">
             <div>
-              第一名：新台幣 20,000 元、企業實體獎品、實習或實習面試機會
+              第一名：新台幣 20,000 元整、企業實體獎品、實習或實習面試機會
             </div>
             <div>第二名：新台幣 15,000 元整、企業實體獎品</div>
             <div>第三名：新台幣 10,000 元整、企業實體獎品</div>
+            <div class="pt-[2px] text-[12px]">*實習機會主要依據企業本身而定</div>
           </div>
         </div>
       </div>
@@ -155,10 +156,11 @@
           </div>
           <div class="flex flex-col gap-1 font-Inter text-[10px] text-[400]">
             <div>
-              第一名：新台幣 20,000 元、企業實體獎品、實習或實習面試機會
+              第一名：新台幣 20,000 元整、企業實體獎品、實習或實習面試機會
             </div>
             <div>第二名：新台幣 15,000 元整、企業實體獎品</div>
             <div>第三名：新台幣 10,000 元整、企業實體獎品</div>
+            <div class="text-[8px]">*實習機會主要依據企業本身而定</div>
           </div>
         </div>
       </div>

@@ -32,12 +32,24 @@ module.exports = {
         "Inter": ["Inter", "sans-serif"],
         "Taipei": ["Taipei Sans TC Beta", "sans-serif"],
       },
+      fontWeight: {
+        '1500': 1500,
+        '1600': 1600,
+      },
+      aspectRatio: {
+        439: '439',
+        394: '394',
+        733: '733',
+        308: '308',
+      },
       scale: {
         '370': '3.7',
         '350': '3.5'
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }
 
