@@ -105,7 +105,7 @@
         <div class="row-start-7 col-start-2 col-span-2">
             <div class="w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray">
                 <MobileCompanyCardBox title="題目說明 #07" 
-                                        imageSrc="Company/Logo/新竹市政府-logo.svg" 
+                                        imageSrc="Company/Logo/新竹市政府-logo.png" 
                                         companyName="創客交流組" 
                                         description="新竹科技X交通 請應用市府資料開放平臺(open data)之數據資料，發掘竹市交通問題，並提供解方。"
                                         detailsLink="Company/company_pdf/2024新竹X梅竹黑客松競賽題目提案表.pdf" 
