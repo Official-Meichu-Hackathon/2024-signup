@@ -24,7 +24,7 @@
             <div class="w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray">
                 <MobileCompanyCardBox title="題目說明 #02" 
                                     imageSrc="Company/Logo/logo-LINE.svg" 
-                                    companyName="LINE 台灣" 
+                                    companyName="LINE台灣" 
                                     description="以「透過生成式 AI 和多模態模型打造校園相關應用的 LINE Bot」為主題，創建一個能夠與校園生活緊密連結的 LINE Bot。"
                                     detailsLink="Company/company_pdf/line.pdf" 
                                     imageClass="absolute top-1/2 left-1/2 w-[44.8%] h-auto transform -translate-x-1/2 -translate-y-1/2">
