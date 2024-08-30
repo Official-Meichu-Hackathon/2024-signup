@@ -57,13 +57,8 @@
                 <div class="relative h-full w-full grid grid-cols-[6.18fr_1.04fr] grid-rows-[13fr_8.5fr] gap-3">
                     
                     <div class="relative h-full w-full row-start-1 col-start-1 rounded-[0.75vw] border-[3px] border-dark-gray bg-[#FFF]">
-                        <div class="absolute inset-0 font-Mantou text-[7.3dvw] text-[#43473E] font-[400] gap-1 flex flex-row items-center justify-center" data-v-1765d9d0="">
-                            <div class="cardbox-font1" data-v-1765d9d0="">梅</div>
-                            <div class="cardbox-font2" data-v-1765d9d0="">竹</div>
-                            <div class="cardbox-font3" data-v-1765d9d0="">黑</div>
-                            <div class="cardbox-font4" data-v-1765d9d0="">客</div>
-                            <div class="cardbox-font5" data-v-1765d9d0="">松</div>
-                        </div>
+                        <object data="Company\words.svg" type="image/svg+xml" class="w-full"></object>
+                        
                     </div>
                     <div class="flex overflow-hidden flex-col row-start-2 col-start-1 rounded-[0.75vw] border-[3px] border-dark-gray bg-[#FFF]">
                         <div class="h-1/2"></div>
@@ -200,102 +195,6 @@ export default {
 .overlap {
     position: relative;
     top: calc( ( (0vw - 90vw) * (765 / 1184) - 36px) * 0.13 ); /* 根據需要調整 */
-}
-
-  
-
-.cardbox-font1 {
-    animation: animateFont1 15s ease-out infinite;
-}
-
-@keyframes animateFont1 {
-    0% {
-        transform: rotate(0deg);
-    }
-    33% {
-        transform: rotate(0deg);
-    }
-    66% {
-        transform: rotate(9.356deg);
-    }
-    100% {
-        transform: rotate(0deg);
-    }
-}
-.cardbox-font2 {
-    animation: animateFont2 15s ease-out infinite;
-}
-  
-@keyframes animateFont2 {
-    0% {
-      transform: rotate(-15.858deg);
-    }
-    33% {
-      transform: rotate(-2.197deg);
-    }
-    66% {
-      transform: rotate(-6.558deg) translate(0, -1.12dvw);
-    }
-    100% {
-      transform: rotate(-15.858deg);
-    }
-}
-  
-.cardbox-font3 {
-    animation: animateFont3 15s ease-out infinite;
-}
-  
-@keyframes animateFont3 {
-    0% {
-      transform: translate(0, 0);
-    }
-    33% {
-      transform: translate(0, .96dvw);
-    }
-    66% {
-      transform: translate(0, -.32dvw);
-    }
-    100% {
-      transform: translate(0, 0);
-    }
-}
-  
-.cardbox-font4 {
-    animation: animateFont4 15s ease-out infinite;
-}
-  
-@keyframes animateFont4 {
-    0% {
-      transform: translate(0, 0);
-    }
-    33% {
-      transform: translate(.32dvw, -1.8dvw);
-    }
-    66% {
-      transform: translate(-.24dvw, .8dvw);
-    }
-    100% {
-      transform: translate(0, 0);
-    }
- }
-  
-.cardbox-font5 {
-    animation: animateFont5 15s ease-out infinite;
-}
-  
-@keyframes animateFont5 {
-    0% {
-      transform: rotate(13.92deg);
-    }
-    33% {
-      transform: rotate(13.92deg);
-    }
-    66% {
-      transform: rotate(0);
-    }
-    100% {
-      transform: rotate(13.92deg);
-    }
 }
 
 .companyName {
