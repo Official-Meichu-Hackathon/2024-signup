@@ -10,7 +10,7 @@
                                 companyName="恩智浦半導體" 
                                 description="如何能夠以創新應用因應目前的氣候變遷，對企業來說是個非常重要的課題，希望參賽者能利用恩智浦與文曄科技提供的相關開發資源，實現智慧應用、符合永續需求。"
                                 detailsLink="Company/company_pdf/nxp.pdf" 
-                                imageClass="absolute top-1/2 left-1/2 w-[70%] h-auto transform -translate-x-1/2 -translate-y-1/2">
+                                imageClass="absolute top-1/2 left-1/2 w-[90%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </MobileCompanyCardBox>
             </div>
         </div>
@@ -24,10 +24,10 @@
             <div class="w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray">
                 <MobileCompanyCardBox title="題目說明 #02" 
                                     imageSrc="Company/Logo/logo-LINE.svg" 
-                                    companyName="LINE 台灣" 
+                                    companyName="LINE台灣" 
                                     description="以「透過生成式 AI 和多模態模型打造校園相關應用的 LINE Bot」為主題，創建一個能夠與校園生活緊密連結的 LINE Bot。"
                                     detailsLink="Company/company_pdf/line.pdf" 
-                                    imageClass="absolute top-1/2 left-1/2 w-[44.8%] h-auto transform -translate-x-1/2 -translate-y-1/2">
+                                    imageClass="absolute top-1/2 left-1/2 w-[60%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </MobileCompanyCardBox>
             </div>
         </div>
@@ -105,7 +105,7 @@
         <div class="row-start-7 col-start-2 col-span-2">
             <div class="w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray">
                 <MobileCompanyCardBox title="題目說明 #07" 
-                                        imageSrc="Company/Logo/新竹市政府-logo.svg" 
+                                        imageSrc="Company/Logo/新竹市政府-logo.png" 
                                         companyName="創客交流組" 
                                         description="新竹科技X交通 請應用市府資料開放平臺(open data)之數據資料，發掘竹市交通問題，並提供解方。"
                                         detailsLink="Company/company_pdf/2024新竹X梅竹黑客松競賽題目提案表.pdf" 
