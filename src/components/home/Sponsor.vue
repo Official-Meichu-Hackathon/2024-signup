@@ -346,7 +346,7 @@
         <div class="font-Mantou text-[#43473E] text-[24px] font-medium mb-4">
           Bronze
         </div>
-        <div class="grid grid-cols-2 gap-x-4 gap-y-8 items-center justify-items-center">
+        <div class="grid grid-cols-1 gap-x-4 gap-y-8 items-center justify-items-center">
           <div class="flex justify-center items-center">
             <object
               data="/home/logo-mille.svg"
@@ -865,11 +865,11 @@
     <div
       class="grid grid-cols-1 gap-y-4 items-center justify-items-center absolute top-[96%] left-[50%] translate-x-[-50%] w-[40%]"
     >
-      <div
+      <!-- <div
         class="font-Mantou text-[#43473E] text-[10px] font-medium"
       >
         Bronze
-      </div>
+      </div> -->
       <div class="grid grid-cols-1 gap-y-2 items-center justify-items-center">
         <div class="flex justify-center items-center">
             <object
