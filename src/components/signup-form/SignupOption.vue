@@ -51,7 +51,7 @@
           </div>
         </div>
       </div>
-      <div class="group-preference" v-if="group===1">
+      <div class="group-preference" v-if="group ==='黑客組'">
         <label style="color: #666666">組別或企業志願序</label>
         <div class="description">
           <p>
@@ -97,8 +97,8 @@ export default {
       default: false,
     },
     group: {
-        type: Number,
-        default: 1,
+        type: String,
+        default: '黑客組',
     }
   },
   emits: [
@@ -176,6 +176,7 @@ export default {
         formData["crossGroup"] = localCrossGroup.value;
         if (formData) {
           emit("signupOption", formData);
+          emit("success", true);
           return true;
         } else {
           return false;
@@ -190,9 +191,9 @@ export default {
         if (newVal) {
             group.value = newVal;
         }
-        if(newVal === 1 && oldVal === 2){
+        if(newVal === '黑客組' && oldVal === '創客交流組'){
             localPreference.value = props.preference;
-        }else if( newVal === 2 && oldVal === 1){
+        }else if( newVal === '創客交流組' && oldVal === '黑客組'){
             localPreference.value = [];
         }
       }
@@ -306,5 +307,10 @@ export default {
 }
 .preference-item {
   width: 100%;
+}
+@media (max-width: 576px) {
+    .size-option div{
+        white-space: nowrap;
+    }
 }
 </style>

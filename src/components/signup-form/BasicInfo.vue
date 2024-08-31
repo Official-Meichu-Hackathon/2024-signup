@@ -105,6 +105,7 @@ export default {
       const formData = validateForm(Form);
       if (formData) {
         emit("basicInfo", formData);
+        emit("success", true);
         return true;
       } else {
         return false;
@@ -262,5 +263,16 @@ form {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+input[type="date"] {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 12px;
+  border: 1px solid rgba(102, 102, 102, 0.35);
+  height: 56px;
+  padding-left: 10px;
+  font-family: "Poppins";
+  font-size: 16px;
 }
 </style>
