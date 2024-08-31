@@ -53,12 +53,10 @@
             </div>
 
             <!-- 文字-梅竹黑客松 -->
-            <div class="relative row-start-3 col-start-1 col-span-2">
-                <div class="relative h-full w-full grid grid-cols-[6.18fr_1.04fr] grid-rows-[13fr_8.5fr] gap-3">
-                    
-                    <div class="relative h-full w-full row-start-1 col-start-1 rounded-[0.75vw] border-[3px] border-dark-gray bg-[#FFF]">
-                        <object data="Company\words.svg" type="image/svg+xml" class="w-full"></object>
-                        
+            <div class="relative flex row-start-3 col-start-1 col-span-2">
+                <div class="relative h-full w-full grid grid-cols-[6.18fr_1.04fr] grid-rows-[13fr_8fr] gap-3">
+                    <div class="flex relative items-center justify-center h-full w-full row-start-1 col-start-1 rounded-[0.75vw] border-[3px] border-dark-gray bg-[#FFF]">
+                        <object data="Company\words.svg" type="image/svg+xml" class="absolute w-[40vw] pt-[.6vw]"></object>
                     </div>
                     <div class="flex overflow-hidden flex-col row-start-2 col-start-1 rounded-[0.75vw] border-[3px] border-dark-gray bg-[#FFF]">
                         <div class="h-1/2"></div>
