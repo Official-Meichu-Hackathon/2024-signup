@@ -111,8 +111,8 @@
                 <CompanyCardBox title="題目說明 #05" 
                                 imageSrc="Company/Logo/Logitech-logo.svg" 
                                 companyName="羅技" 
-                                description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
-                                detailsLink="Company/company_pdf/test_details.pdf" 
+                                description="羅技期望透過探索 AI 在各種使用場景中的潛在應用，不斷創新使用者體驗。結合現有的多種 AI 輔助技術與羅技產品，幫助使用者拓展能力、實現個人成就。"
+                                detailsLink="Company/company_pdf/logitech.pdf" 
                                 imageClass="absolute top-1/2 left-1/2 w-[72.8%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </CompanyCardBox>
             </div>
