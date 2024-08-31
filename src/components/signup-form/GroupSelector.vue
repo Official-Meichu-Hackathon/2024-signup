@@ -10,7 +10,7 @@
         class="group1 selected"
         @click="
           handleClick(1);
-          $emit('group-selected', 1);
+          $emit('group-selected', '黑客組');
         "
       >
         黑客組
@@ -20,7 +20,7 @@
         class="group2"
         @click="
           handleClick(2);
-          $emit('group-selected', 2);
+          $emit('group-selected', '創客交流組');
         "
       >
         創客交流組

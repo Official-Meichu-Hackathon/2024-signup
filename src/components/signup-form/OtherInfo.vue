@@ -2,7 +2,7 @@
   <div class="other-info">
     <div class="filled-form">
       <form ref="Form">
-        <div v-if="group === 1">
+        <div v-if="group === '黑客組'">
           <div class="text">一頁式企劃書</div>
           <div
             class="upload-container"
@@ -190,8 +190,8 @@ export default {
       default: false,
     },
     group: {
-      type: Number,
-      default: 1,
+      type: String,
+      default: '黑客組',
     },
   },
   components: {
@@ -251,6 +251,7 @@ export default {
         formData.file2 = formDataToSend2;
         console.log(formData.file2);
         emit("otherinfo", formData);
+        emit("success", true);
         return true;
       } else {
         return false;

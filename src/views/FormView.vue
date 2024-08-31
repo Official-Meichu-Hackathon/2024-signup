@@ -129,6 +129,7 @@ import ProgressBar from "@/components/signup-form/ProgressBar.vue";
 import GroupSelector from "@/components/signup-form/GroupSelector.vue";
 import Monster from "@/components/signup-form/Monster.vue";
 import { ref, reactive, watch, nextTick } from "vue";
+import { current } from "tailwindcss/colors";
 
 export default {
   components: {
@@ -142,7 +143,7 @@ export default {
     Monster,
   },
   setup() {
-    const group = ref(1);
+    const group = ref("黑客組");
     const teamName = ref("");
     const teamSize = ref(3);
     const crossGroup = ref("");
@@ -212,14 +213,20 @@ export default {
       }
     };
     const GoToNextStep = (isSuccess) => {
-      if (isSuccess === true) {
+      if (isSuccess == true) {
         if (nextStep > completedStep.value) {
           completedStep.value = nextStep;
         }
-        currentStep.value = nextStep;
-      } else {
-        let element = document.getElementById(currentStep.value);
-        element.parentNode.scrollTop = element.offsetTop;
+        if (nextStep != 0) {
+          currentStep.value = nextStep;
+          nextStep = 0;
+        }
+        nextTick(() => {
+          const element = document.getElementById(currentStep.value);
+          if (element) {
+            element.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        });
       }
       isFilled.value[currentStep.value] = false;
     };
@@ -254,7 +261,7 @@ export default {
       signupDataList.forEach((signupData) => {
         Object.assign(signupData, {
           teamName: data.teamName,
-          group: group.value === 1 ? "黑客組" : "創客交流組",
+          group: group.value,
           teamSize: data.teamSize,
           crossGroup: data.crossGroup,
           preference: preferenceString,
@@ -316,6 +323,15 @@ export default {
       watingForUpload.value = false;
       signupSuccess.value = true;
     };
+    watch(group, (newValue, oldValue) => {
+      if (newValue !== oldValue && currentStep.value > teamSize.value + 1) {
+        currentStep.value = teamSize.value + 2;
+        const element = document.getElementById(teamSize.value + 2);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      }
+    });
 
     return {
       teamName,
@@ -368,14 +384,14 @@ export default {
   margin-left: 50%;
   min-height: 100vh;
   overflow-y: auto;
-  scrollbar-width: none; 
-  -ms-overflow-style: none; 
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .content-container::-webkit-scrollbar {
   width: 0;
   height: 0;
-  display: none; 
+  display: none;
 }
 
 .content {
@@ -466,8 +482,12 @@ export default {
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .overlay p {

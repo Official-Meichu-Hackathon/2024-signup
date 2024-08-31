@@ -92,6 +92,7 @@ export default {
       const formData = validateForm(Form);
       if (formData) {
         emit("submit");
+        emit("success", true);
       }
     };
 
