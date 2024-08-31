@@ -318,6 +318,13 @@
               class="h-14"
             ></object>
           </div>
+          <div class="flex justify-center items-center">
+            <object
+              data="/home/logo-wavenet.svg"
+              type="image/svg+xml"
+              class="h-14"
+            ></object>
+          </div>
         </div>
       </div>
       
@@ -550,7 +557,7 @@
           class="flex-none mx-4 mt-14"
         ></object>
       </div>
-      <div class="flex absolute font-Inter space-x-4 text-[24px] font-normal text-center top-[62%] w-[90%] left-[56%] translate-x-[-50%] whitespace-nowrap">
+      <div class="flex absolute font-Inter space-x-4 text-[24px] font-normal text-center justify-center top-[62%] w-full flex-wrap">
         <div>ITSA 教育部智慧創新關鍵人才躍升計畫</div>
         <div>國立陽明交通大學資訊工程學系</div>
         <div>財團法人交大思源基金會</div>
@@ -851,6 +858,13 @@
         <div class="flex justify-center items-center">
           <object
             data="/home/logo-104.svg"
+            type="image/svg+xml"
+            class="h-8"
+          ></object>
+        </div>
+        <div class="flex justify-center items-center">
+          <object
+            data="/home/logo-wavenet.svg"
             type="image/svg+xml"
             class="h-8"
           ></object>
