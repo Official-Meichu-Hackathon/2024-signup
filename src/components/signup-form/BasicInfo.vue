@@ -270,8 +270,8 @@ input[type="date"] {
   appearance: none;
   border-radius: 12px;
   border: 1px solid rgba(102, 102, 102, 0.35);
+  background-color: #f5f5f5;
   height: 56px;
-  padding-left: 10px;
   font-family: "Poppins";
   font-size: 16px;
 }
