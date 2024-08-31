@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col w-full h-full">
-    <div class="flex items-center text-[16px] mb-1.5 font-bold font-[Lato] not-italic leading-[normal] ">
+    <!-- <div class="flex items-center text-[16px] mb-1.5 font-bold font-[Lato] not-italic leading-[normal] ">
       {{ title }}
-    </div>
+    </div> -->
     <div
       class="flex p-[3%] flex-grow flex-shrink-0 rounded-[0.75vw] border-dark-gray border-[3px] bg-[#FFF] items-center justify-center relative"
       @mouseenter="hover = true"
