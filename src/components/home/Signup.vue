@@ -77,26 +77,26 @@
               class="flex flex-1 flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center"
             >
               <div>開始報名</div>
-              <div>9/2（一）~ 9/23（一）8:00 前</div>
+              <div>9/10（二）~ 9/24（二）8:00 前</div>
             </div>
           </div>
           <div
             class="flex flex-1 flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center"
           >
             <div>正取隊伍與所屬企業公布</div>
-            <div>9/24（二）8:00 前</div>
+            <div>9/25（三）0:00 前</div>
           </div>
           <div
             class="flex flex-1 flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center"
           >
             <div>繳費期間</div>
-            <div>9/24（二）~ 9/27（五）</div>
+            <div>9/25（三）~ 9/27（五）</div>
           </div>
           <div
             class="flex flex-1 flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center"
           >
             <div>備取遞補期間</div>
-            <div>9/28（六）～ 10/1（二）</div>
+            <div>9/28（六）～ 9/30（一）</div>
           </div>
         </div>
       </div>
@@ -307,7 +307,7 @@
 
       <div class="flex flex-col gap-1 font-Inter text-[10px] font-normal">
         <div>開始報名</div>
-        <div>9/2（一）~ 9/23（一） 8:00 前</div>
+        <div>9/10（二）~ 9/24（二） 8:00 前</div>
       </div>
     </div>
     <div class="absolute top-[9.5%] left-[30%] flex items-start gap-4">
@@ -326,7 +326,7 @@
 
       <div class="flex flex-col gap-1 font-Inter text-[10px] font-normal">
         <div>正取隊伍與所屬企業公布</div>
-        <div>9/24（二） 8:00 前</div>
+        <div>9/25（三） 0:00 前</div>
       </div>
     </div>
 
@@ -346,7 +346,7 @@
 
       <div class="flex flex-col gap-1 font-Inter text-[10px] font-normal">
         <div>繳費期間</div>
-        <div>9/24（二）~ 9/27（五）</div>
+        <div>9/25（三）~ 9/27（五）</div>
       </div>
     </div>
 
@@ -366,7 +366,7 @@
 
       <div class="flex flex-col gap-1 font-Inter text-[10px] font-normal">
         <div>備取遞補期間</div>
-        <div>9/28（六）～ 10/1（二）</div>
+        <div>9/28（六）～ 9/30（一）</div>
       </div>
     </div>
 

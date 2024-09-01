@@ -92,7 +92,7 @@
           data-testid="details-button-hackers"
         >
           <a
-            href="https://drive.google.com/file/d/1WlCuSRsGhEPKHEPTI6yVY-n4Ew99hIwE/view?usp=drive_link"
+            href="home/黑客組工作坊.pdf"
           >
             <div class="flex flex-row gap-1 items-center justify-center">
               <div>工作坊細節</div>
@@ -147,7 +147,7 @@
           data-testid="details-button-hackers"
         >
           <a
-            href="https://drive.google.com/file/d/1LEIbIVtAEZNpiuJ_ZNzInUf4RRt6T7EW/view?usp=drive_link"
+            href="home/創客組工作坊.pdf"
           >
             <div class="flex flex-row gap-1 items-center justify-center">
               <div>工作坊細節</div>
@@ -286,7 +286,7 @@
           data-testid="details-button-hackers"
         >
           <a
-            href="https://drive.google.com/file/d/1WlCuSRsGhEPKHEPTI6yVY-n4Ew99hIwE/view?usp=drive_link"
+            href="home/黑客組工作坊.pdf"
           >
             <div class="flex flex-row gap-1 items-center justify-center">
               <div>工作坊細節</div>
@@ -341,7 +341,7 @@
           data-testid="details-button-hackers"
         >
           <a
-            href="https://drive.google.com/file/d/1LEIbIVtAEZNpiuJ_ZNzInUf4RRt6T7EW/view?usp=drive_link"
+            href="home/創客組工作坊.pdf"
           >
             <div class="flex flex-row gap-1 items-center justify-center">
               <div>工作坊細節</div>
