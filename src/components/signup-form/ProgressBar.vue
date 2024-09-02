@@ -1,14 +1,14 @@
 <template>
   <div class="progress">
     <Dot :size="20" :number="1" :fontSize="12" :color="step === 1 ? '#43473e' : '#bfbfbf'">
-      報名選項
+      <p>報名選項</p>
     </Dot>
     <div class="connector"></div>
     <Dot :size="20" :number="2" :fontSize="12" :color="(step > 1 && step <= size+1) ? '#43473e' : '#bfbfbf'">
-      參賽者  基本資料
+      <p>參賽者  基本資料</p>
     </Dot>
     <div class="connector"></div>
-    <Dot :size="20" :number="3" :fontSize="12" :color="(step > size+1) ? '#43473e' : '#bfbfbf'"> 其他 </Dot>
+    <Dot :size="20" :number="3" :fontSize="12" :color="(step > size+1) ? '#43473e' : '#bfbfbf'"> <p>其他</p> </Dot>
   </div>
 </template>
 
@@ -67,5 +67,10 @@ export default {
   background-color: gray;
   opacity: 0.35;
   background: #333;
+}
+@media (max-width: 576px) {
+    p {
+        font-size: 7px;
+    }
 }
 </style>

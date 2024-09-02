@@ -433,6 +433,7 @@ export default {
 }
 
 @media (max-width: 576px) {
+
   .form {
     flex-direction: column;
   }

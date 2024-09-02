@@ -2,7 +2,8 @@
   <div class="info">
     <h1>報名黑客松</h1>
     <p>
-      本大會活動與 2024 梅竹黑客松團隊尊重各企業、市府單位與參賽組別及個人之間的合作協議，一切內容與主辦單位無涉，請參賽者自行留意，謝謝。
+      本大會活動與 2024
+      梅竹黑客松團隊尊重各企業、市府單位與參賽組別及個人之間的合作協議，一切內容與主辦單位無涉，請參賽者自行留意，謝謝。
     </p>
     <div class="group-selector">
       <button
@@ -133,22 +134,23 @@ export default {
   }
 
   .info h1 {
-    font-size: 32px;
+    font-size: 23px;
   }
 
   .info p {
     width: 100%;
-    font-size: 16px;
+    font-size: 10px;
   }
 
   .group-selector {
     width: 100%;
+    font-size: 10px;
     justify-content: center;
   }
 
   .group1,
   .group2 {
-    width: 40%;
+    width: 30%;
   }
 }
 </style>

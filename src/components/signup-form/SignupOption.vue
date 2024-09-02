@@ -28,7 +28,7 @@
               name="teamSize"
               required
             />
-            <label :for="`size-${size}`">{{ size }}人</label>
+            <label class="radio" :for="`size-${size}`">{{ size }}人</label>
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@
               name="crossGroup"
               required
             />
-            <label :for="option">{{ option === "是" ? "是" : "否" }}</label>
+            <label class="radio" :for="option">{{ option === "是" ? "是" : "否" }}</label>
           </div>
         </div>
       </div>
@@ -316,5 +316,15 @@ export default {
     .size-option div{
         white-space: nowrap;
     }
+    label {
+        font-size: 7px;
+    }
+    .description p{
+        font-size: 7px;
+    }
+    .radio {
+        font-size: 8px;
+    }
+
 }
 </style>
