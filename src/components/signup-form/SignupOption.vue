@@ -14,6 +14,10 @@
       </div>
       <div class="team-size">
         <label style="color: #666666">*隊伍人數</label>
+        <div class="description">
+            <p>創客交流組為 3 ~ 4 人一組</p>
+            <p>若五人成隊者，其填入之創客交流組志願序將直接視為無效，謝謝配合</p>
+        </div>
         <div class="size-option">
           <div v-for="size in [3, 4, 5]" :key="size" class="radio">
             <input
