@@ -57,7 +57,7 @@
     <object
       data="/home/icon-co02.svg"
       type="image/svg+xml"
-      class="title-co2 absolute top-[7.5%] left-[25%]"
+      class="title-co2 absolute top-[6.5%] left-[25%]"
     ></object>
     <object
       data="/home/icon-co03.svg"
@@ -77,7 +77,7 @@
     <object
       data="/home/icon-co10.svg"
       type="image/svg+xml"
-      class="title-co10 absolute top-[90%] left-[70%]"
+      class="title-co10 absolute top-[91%] left-[70%]"
     ></object>
     <object
       data="/home/icon-mo01.svg"
@@ -101,7 +101,7 @@
       Technology <br />
       Innovation
     </div> -->
-    <div class="absolute top-[15%] left-[50%] translate-x-[-50%]">
+    <div class="absolute top-[17%] left-[50%] translate-x-[-50%]">
       <div class="flex flex-col items-center">
         <div class="font-Mantou text-[40px] text-[#43473E] font-[400]">
           <div class="flex flex-row gap-4 items-center">
