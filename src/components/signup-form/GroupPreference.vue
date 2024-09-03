@@ -1,36 +1,33 @@
 <template>
   <div class="group-preference">
     <draggable
-      :modelValue="modelValue"
+      :list="internalList"
       @update:modelValue="updateValue"
       item-key="id"
-      @start="dragStart"
-      @end="dragEnd"
-      :animation="300"
+      :animation="0"
       ghost-class="ghost"
-      handle=".handle"
+      chosen-class="chosen"
+      drag-class="dragging"
       :delay="200"
       :delayOnTouchOnly="true"
       :touchStartThreshold="5"
+      @start="dragStart"
+      @end="dragEnd"
     >
-      <template #item="{ element }">
+      <template #item="{ element, index }">
         <div 
           class="item" 
-          :class="{ 'is-dragging': drag, 'is-touching': touching === element.id }"
-          @touchstart="touchStart(element.id)"
-          @touchend="touchEnd"
+          :class="{ 'is-dragging': isDragging && dragIndex === index }"
+          :style="getDragStyle(index)"
         >
-          <div class="handle">
-            <div class="dots">
-              <div class="dot"></div>
-              <div class="dot"></div>
-              <div class="dot"></div>
+          <div class="item-content">
+            <div class="drag-indicator">
               <div class="dot"></div>
               <div class="dot"></div>
               <div class="dot"></div>
             </div>
+            <span>{{ element.name }}</span>
           </div>
-          <div class="item-content">{{ element.name }}</div>
         </div>
       </template>
     </draggable>
@@ -38,7 +35,7 @@
 </template>
 
 <script>
-import { ref } from "vue";
+import { ref, computed } from "vue";
 import draggable from "vuedraggable";
 
 export default {
@@ -62,43 +59,58 @@ export default {
   },
   emits: ["update:modelValue"],
   setup(props, { emit }) {
-    const drag = ref(false);
-    const touching = ref(null);
+    const isDragging = ref(false);
+    const dragIndex = ref(-1);
+    const dragPosition = ref({ x: 0, y: 0 });
+    const dragSize = ref({ width: 0, height: 0 });
+    const internalList = ref([...props.modelValue]);
 
     const updateValue = (newValue) => {
-      const unpacked = newValue.map((item) => {
-        if (item && typeof item === "object" && !Array.isArray(item)) {
-          return Object.assign({}, item);
-        }
-        return item;
-      });
-      emit("update:modelValue", unpacked);
+      console.log('updateValue called', newValue);
+      internalList.value = newValue;
+      emit("update:modelValue", newValue);
     };
 
-    const dragStart = () => {
-      drag.value = true;
+    const dragStart = (evt) => {
+      console.log('Drag started', evt);
+      isDragging.value = true;
+      dragIndex.value = evt.oldIndex;
+      const rect = evt.item.getBoundingClientRect();
+      dragPosition.value = { x: evt.clientX, y: evt.clientY };
+      dragSize.value = { width: rect.width, height: rect.height };
     };
 
-    const dragEnd = () => {
-      drag.value = false;
+    const dragEnd = (evt) => {
+      console.log('Drag ended', evt);
+      isDragging.value = false;
+      dragIndex.value = -1;
     };
 
-    const touchStart = (id) => {
-      touching.value = id;
-    };
-
-    const touchEnd = () => {
-      touching.value = null;
+    const getDragStyle = (index) => {
+      if (isDragging.value && dragIndex.value === index) {
+        return {
+          position: 'fixed',
+          zIndex: 9999,
+          width: `${dragSize.value.width}px`,
+          height: `${dragSize.value.height}px`,
+          left: `${dragPosition.value.x}px`,
+          top: `${dragPosition.value.y}px`,
+          transform: 'translate(-50%, -50%) rotate(3deg)',
+          opacity: 0.8,
+          pointerEvents: 'none',
+        };
+      }
+      return {};
     };
 
     return {
-      drag,
-      touching,
+      internalList,
+      isDragging,
+      dragIndex,
       updateValue,
       dragStart,
       dragEnd,
-      touchStart,
-      touchEnd,
+      getDragStyle,
     };
   },
 };
@@ -108,39 +120,40 @@ export default {
 .group-preference {
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-self: stretch;
 }
 
 .item {
-  display: flex;
-  align-items: center;
-  padding: 20px;
   background: #fff;
   border: 1px solid #e4e4e4;
   border-radius: 10px;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  gap: 22px;
-  flex-shrink: 0;
   margin-bottom: 14px;
   height: 81px;
   touch-action: none;
+  cursor: move;
 }
 
-.item.is-touching {
-  border-color: #2196f3;
+.item:hover {
+  border-color: #9ea41f;
   box-shadow: 0 1px 8px rgba(33, 150, 243, 0.3);
 }
 
-.handle {
-  cursor: move;
-  touch-action: none;
+.item-content {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  height: 100%;
+  gap: 22px;
 }
 
-.dots {
+.drag-indicator {
   display: flex;
-  flex-wrap: wrap;
-  width: 12px;
-  height: 20px;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  gap: 4px;
 }
 
 .dot {
@@ -148,15 +161,13 @@ export default {
   height: 4px;
   background-color: #43473e;
   border-radius: 50%;
-  margin: 1px;
-  transition: background-color 0.3s ease;
 }
 
-.item.is-touching .dot {
-  background-color: #2196f3;
+.item:hover .dot {
+  background-color: #9ea41f;
 }
 
-.item-content {
+.item-content span {
   flex-grow: 1;
   color: #43473e;
   font-size: 16px;
@@ -168,7 +179,17 @@ export default {
 .ghost {
   opacity: 0.5;
   background: #e3f2fd;
-  border: 2px dashed #2196f3;
+  border: 2px dashed #9ea41f;
+}
+
+.chosen {
+  background: #e3f2fd;
+  border-color: #9ea41f;
+  box-shadow: 0 0 10px rgba(158, 164, 31, 0.3);
+}
+
+.dragging {
+  z-index: 9999;
 }
 
 @media (max-width: 576px) {
@@ -177,14 +198,7 @@ export default {
     margin-bottom: 13px;
   }
   
-  .dots {
-    display: flex;
-    flex-wrap: wrap;
-    width: 12px;
-    height: 18px;
-  }
-  
-  .item-content {
+  .item-content span {
     font-size: 14px;
   }
 }
