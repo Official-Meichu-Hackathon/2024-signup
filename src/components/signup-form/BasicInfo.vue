@@ -290,7 +290,7 @@ input[type="date"] {
   .email label,
   .phone label,
   .dietary label {
-    font-size: 7px;
+    font-size: 12px;
   }
 }
 </style>

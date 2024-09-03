@@ -71,7 +71,7 @@ export default {
 
 @media (max-width: 768px) {
     .next-step-button {
-        font-size: 12px;
+        font-size: 20px;
     }
 }
 </style>

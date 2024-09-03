@@ -134,17 +134,17 @@ export default {
   }
 
   .info h1 {
-    font-size: 23px;
+    font-size: 38px;
   }
 
   .info p {
     width: 100%;
-    font-size: 10px;
+    font-size: 16px;
   }
 
   .group-selector {
     width: 100%;
-    font-size: 10px;
+    font-size: 42px;
     justify-content: center;
   }
 

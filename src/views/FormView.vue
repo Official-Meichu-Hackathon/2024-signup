@@ -433,6 +433,9 @@ export default {
 }
 
 @media (max-width: 576px) {
+    .title h2 {
+        font-size: 22px;
+    }
 
   .form {
     flex-direction: column;

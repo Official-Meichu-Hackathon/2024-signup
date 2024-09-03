@@ -485,7 +485,7 @@ form {
   .text,
   .warning,
   .question {
-    font-size: 7px;
+    font-size: 12px;
   }
 
 }

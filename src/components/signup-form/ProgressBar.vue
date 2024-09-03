@@ -70,7 +70,7 @@ export default {
 }
 @media (max-width: 576px) {
     p {
-        font-size: 7px;
+        font-size: 14px;
     }
 }
 </style>

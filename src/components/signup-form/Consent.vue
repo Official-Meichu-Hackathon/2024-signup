@@ -163,7 +163,7 @@ form {
 }
 @media (max-width: 576px) {
     .text {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 </style>

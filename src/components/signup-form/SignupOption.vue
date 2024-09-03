@@ -15,8 +15,8 @@
       <div class="team-size">
         <label style="color: #666666">*隊伍人數</label>
         <div class="description">
-            <p>創客交流組為 3 ~ 4 人一組</p>
-            <p>若五人成隊者，其填入之創客交流組志願序將直接視為無效，謝謝配合</p>
+          <p>創客交流組為 3 ~ 4 人一組</p>
+          <p>若五人成隊者，其填入之創客交流組志願序將直接視為無效，謝謝配合</p>
         </div>
         <div class="size-option">
           <div v-for="size in [3, 4, 5]" :key="size" class="radio">
@@ -55,7 +55,7 @@
           </div>
         </div>
       </div>
-      <div class="group-preference" v-if="group ==='黑客組'">
+      <div class="group-preference" v-if="group === '黑客組'">
         <label style="color: #666666">組別或企業志願序</label>
         <div class="description">
           <p>
@@ -101,9 +101,9 @@ export default {
       default: false,
     },
     group: {
-        type: String,
-        default: '黑客組',
-    }
+      type: String,
+      default: "黑客組",
+    },
   },
   emits: [
     "update:teamName",
@@ -193,12 +193,12 @@ export default {
       () => props.group,
       (newVal, oldVal) => {
         if (newVal) {
-            group.value = newVal;
+          group.value = newVal;
         }
-        if(newVal === '黑客組' && oldVal === '創客交流組'){
-            localPreference.value = props.preference;
-        }else if( newVal === '創客交流組' && oldVal === '黑客組'){
-            localPreference.value = [];
+        if (newVal === "黑客組" && oldVal === "創客交流組") {
+          localPreference.value = props.preference;
+        } else if (newVal === "創客交流組" && oldVal === "黑客組") {
+          localPreference.value = [];
         }
       }
     );
@@ -313,18 +313,23 @@ export default {
   width: 100%;
 }
 @media (max-width: 576px) {
-    .size-option div{
-        white-space: nowrap;
-    }
-    label {
-        font-size: 7px;
-    }
-    .description p{
-        font-size: 7px;
-    }
-    .radio {
-        font-size: 8px;
-    }
-
+  .size-option div {
+    white-space: nowrap;
+  }
+  .team-name,
+  .team-size,
+  .cross-group,
+  .group-preference {
+    font-size: 12px;
+  }
+   .description p {
+    font-size: 12px;
+  }
+  .radio {
+    font-size: 14px;
+  }
+  .text p {
+    font-size: 14px;
+  }
 }
 </style>
