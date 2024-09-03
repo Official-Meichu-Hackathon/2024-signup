@@ -4,14 +4,22 @@
       :modelValue="modelValue"
       @update:modelValue="updateValue"
       item-key="id"
-      @start="drag = true"
-      @end="drag = false"
+      @start="dragStart"
+      @end="dragEnd"
       :animation="300"
       ghost-class="ghost"
       handle=".handle"
+      :delay="200"
+      :delayOnTouchOnly="true"
+      :touchStartThreshold="5"
     >
       <template #item="{ element }">
-        <div class="item" :class="{ 'is-dragging': drag }">
+        <div 
+          class="item" 
+          :class="{ 'is-dragging': drag, 'is-touching': touching === element.id }"
+          @touchstart="touchStart(element.id)"
+          @touchend="touchEnd"
+        >
           <div class="handle">
             <div class="dots">
               <div class="dot"></div>
@@ -55,6 +63,7 @@ export default {
   emits: ["update:modelValue"],
   setup(props, { emit }) {
     const drag = ref(false);
+    const touching = ref(null);
 
     const updateValue = (newValue) => {
       const unpacked = newValue.map((item) => {
@@ -66,9 +75,30 @@ export default {
       emit("update:modelValue", unpacked);
     };
 
+    const dragStart = () => {
+      drag.value = true;
+    };
+
+    const dragEnd = () => {
+      drag.value = false;
+    };
+
+    const touchStart = (id) => {
+      touching.value = id;
+    };
+
+    const touchEnd = () => {
+      touching.value = null;
+    };
+
     return {
       drag,
+      touching,
       updateValue,
+      dragStart,
+      dragEnd,
+      touchStart,
+      touchEnd,
     };
   },
 };
@@ -80,6 +110,7 @@ export default {
   display: flex;
   align-self: stretch;
 }
+
 .item {
   display: flex;
   align-items: center;
@@ -92,21 +123,26 @@ export default {
   flex-shrink: 0;
   margin-bottom: 14px;
   height: 81px;
+  touch-action: none;
 }
 
-.item:hover {
+.item:hover, .item.is-touching {
   transform: translateY(-2px) scale(1.02);
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
 }
+
 .handle {
   cursor: move;
+  touch-action: none;
 }
+
 .dots {
   display: flex;
   flex-wrap: wrap;
   width: 12px;
   height: 20px;
 }
+
 .dot {
   width: 4px;
   height: 4px;
@@ -115,9 +151,11 @@ export default {
   margin: 1px;
   transition: background-color 0.3s ease;
 }
-.item:hover .dot {
+
+.item:hover .dot, .item.is-touching .dot {
   background-color: #757575;
 }
+
 .item-content {
   flex-grow: 1;
   color: #43473e;
@@ -126,12 +164,14 @@ export default {
   font-weight: 700;
   line-height: normal;
 }
+
 .is-dragging {
   opacity: 0.7;
   background-color: #e0e0e0;
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
 .ghost {
   opacity: 0.5;
   background: #c8ebfb;
@@ -143,12 +183,14 @@ export default {
     height: 79px;
     margin-bottom: 13px;
   }
+  
   .dots {
     display: flex;
     flex-wrap: wrap;
     width: 12px;
     height: 18px;
   }
+  
   .item-content {
     font-size: 14px;
   }
