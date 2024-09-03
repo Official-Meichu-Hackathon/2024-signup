@@ -30,7 +30,7 @@ describe('Prize.vue', () => {
     const firstPrize = wrapper.find('.col-span-2');
     expect(firstPrize.exists()).toBe(true);
     expect(firstPrize.text()).toContain('黑客組');
-    expect(firstPrize.text()).toContain('第一名：新台幣 20,000 元、企業實體獎品、實習或實習面試機會');
+    expect(firstPrize.text()).toContain('第一名：新台幣 20,000 元整、企業實體獎品、實習或實習面試機會');
     expect(firstPrize.text()).toContain('第二名：新台幣 15,000 元整、企業實體獎品');
     expect(firstPrize.text()).toContain('第三名：新台幣 10,000 元整、企業實體獎品');
 
@@ -64,7 +64,7 @@ describe('Prize.vue', () => {
     const firstPrize = wrapper.find('.col-span-2');
     expect(firstPrize.exists()).toBe(true);
     expect(firstPrize.text()).toContain('黑客組');
-    expect(firstPrize.text()).toContain('第一名：新台幣 20,000 元、企業實體獎品、實習或實習面試機會');
+    expect(firstPrize.text()).toContain('第一名：新台幣 20,000 元整、企業實體獎品、實習或實習面試機會');
     expect(firstPrize.text()).toContain('第二名：新台幣 15,000 元整、企業實體獎品');
     expect(firstPrize.text()).toContain('第三名：新台幣 10,000 元整、企業實體獎品');
 
