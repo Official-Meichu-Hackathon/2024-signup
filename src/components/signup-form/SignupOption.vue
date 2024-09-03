@@ -35,10 +35,9 @@
       <div class="cross-group">
         <label style="color: #666666">*跨域組隊</label>
         <div class="description">
-          <p>註：符合以下任一條件，全隊報名費可減免 100 元</p>
-          <p>報名隊伍內有三個（含）以上不同科系</p>
-          <p>
-            組內含高中職、大專院校生或碩博生、社會人士兩種（含）以上身份別之參賽者（限創客交流組
+          <p>註：符合以下任一條件，全隊每人報名費可各減免 100 元</p>
+          <p>1.報名隊伍內有三個（含）以上不同科系 <br>
+            2.組內含高中職、大專院校生或碩博生、社會人士兩種（含）以上身份別之參賽者（限創客交流組
           </p>
         </div>
         <div class="cross-option">
@@ -322,7 +321,7 @@ export default {
   .group-preference {
     font-size: 12px;
   }
-   .description p {
+  .description p {
     font-size: 12px;
   }
   .radio {
