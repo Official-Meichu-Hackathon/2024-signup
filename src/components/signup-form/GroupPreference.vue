@@ -126,9 +126,9 @@ export default {
   touch-action: none;
 }
 
-.item:hover, .item.is-touching {
-  transform: translateY(-2px) scale(1.02);
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+.item.is-touching {
+  border-color: #2196f3;
+  box-shadow: 0 1px 8px rgba(33, 150, 243, 0.3);
 }
 
 .handle {
@@ -152,8 +152,8 @@ export default {
   transition: background-color 0.3s ease;
 }
 
-.item:hover .dot, .item.is-touching .dot {
-  background-color: #757575;
+.item.is-touching .dot {
+  background-color: #2196f3;
 }
 
 .item-content {
@@ -165,16 +165,9 @@ export default {
   line-height: normal;
 }
 
-.is-dragging {
-  opacity: 0.7;
-  background-color: #e0e0e0;
-  transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
 .ghost {
   opacity: 0.5;
-  background: #c8ebfb;
+  background: #e3f2fd;
   border: 2px dashed #2196f3;
 }
 
