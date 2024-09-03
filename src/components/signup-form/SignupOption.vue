@@ -330,6 +330,7 @@ export default {
   }
   .text p {
     font-size: 14px;
+    gap: 70px;
   }
 }
 </style>
