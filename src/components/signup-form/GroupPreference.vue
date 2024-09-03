@@ -96,7 +96,7 @@ export default {
 
 .item:hover {
   transform: translateY(-2px) scale(1.02);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
 }
 .handle {
   cursor: move;
@@ -136,5 +136,21 @@ export default {
   opacity: 0.5;
   background: #c8ebfb;
   border: 2px dashed #2196f3;
+}
+
+@media (max-width: 576px) {
+  .item {
+    height: 79px;
+    margin-bottom: 13px;
+  }
+  .dots {
+    display: flex;
+    flex-wrap: wrap;
+    width: 12px;
+    height: 18px;
+  }
+  .item-content {
+    font-size: 14px;
+  }
 }
 </style>
