@@ -16,12 +16,12 @@
         </div>
       </transition>
       <div v-if="hover" class="w-full h-full">
-        <div class="companyName absolute left-[6%] top-[5%] w-[100%]">{{ companyName }}</div>
+        <div class="relative companyName pl-[3%] pt-[2%] w-[100%]">{{ companyName }}</div>
         <!--
         <div class="description absolute top-[34%] left-[6%] right-[6%] w-[88%] h-auto" >
             題目：{{ description }}
         </div>-->
-        <div class="min5max30 absolute top-[34%] left-[6%] right-[6%] w-[88%] h-auto" style="font-family: 'Taipei Sans TC Beta'; color: var(--43473-e, #43473E); font-weight: 700;" >
+        <div class="min5max30 absolute top-[30%] left-[6%] right-[6%] w-[88%] h-auto" style="font-family: 'Taipei Sans TC Beta'; color: var(--43473-e, #43473E); font-weight: 700;" >
             題目：{{ description }}
         </div>
         <div class="Details absolute top-[91%] left-[67%] w-[25%] h-auto">

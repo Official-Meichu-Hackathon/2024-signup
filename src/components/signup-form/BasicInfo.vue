@@ -66,7 +66,7 @@
         </div>
         <div class="size">
           <label style="color: #666666">*衣服尺寸</label>
-          <img src="/size.jpg" alt="">
+          <img src="/size.jpg" alt="" />
           <div class="size-option">
             <div
               v-for="option in ['XS', 'S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL']"
@@ -274,5 +274,23 @@ input[type="date"] {
   height: 56px;
   font-family: "Poppins";
   font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .sex label,
+  .identity label,
+  .size label,
+  .name label,
+  .birth label,
+  .ID label,
+  .school label,
+  .major label,
+  .grade label,
+  .occupation label,
+  .email label,
+  .phone label,
+  .dietary label {
+    font-size: 12px;
+  }
 }
 </style>

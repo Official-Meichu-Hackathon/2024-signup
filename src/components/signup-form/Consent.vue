@@ -161,4 +161,9 @@ form {
 .indent {
     padding-left: 2em;
 }
+@media (max-width: 576px) {
+    .text {
+        font-size: 14px;
+    }
+}
 </style>
