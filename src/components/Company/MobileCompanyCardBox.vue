@@ -6,7 +6,6 @@
     <transition name="fade" mode="out-in">
     <div v-if="!hover" key="not-hover" class="absolute inset-0 flex items-center justify-center">
         <div class="dashed-border"></div>
-        <!--<img :src="imageSrc" alt="Company Logo" class="image" />-->
         <img :src="imageSrc" alt="Company Logo" :class="imageClass" />
     </div>
     </transition>
@@ -57,16 +56,6 @@ export default {
       type: String,
       required: true
     },
-    /*
-    imageWidth: {
-      type: String,
-      default: 'auto'
-    },
-    imageHeight: {
-      type: String,
-      default: 'auto'
-    },
-    */
     imageClass: {
       type: String,
       default: ''
