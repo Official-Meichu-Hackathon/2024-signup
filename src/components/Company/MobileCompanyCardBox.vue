@@ -12,7 +12,7 @@
     </transition>
     <div v-if="hover" class="w-full h-full">
     <div class="companyName absolute left-[6%] top-[2.2%] w-[100%]" style="font-size: calc(2em + 20%);">{{ companyName }}</div>
-    <div class="min5max30 absolute top-[25%] left-[6%] right-[6%] w-[88%] h-auto" style="font-family: 'Taipei Sans TC Beta'; color: var(--43473-e, #43473E); font-weight: 700;">
+    <div class="min5max30 absolute top-[27%] left-[6%] right-[6%] w-[88%] h-auto" >
         題目：{{ description }}
     </div>
     <div class="Details absolute top-[91%] left-[67%] w-[25%] h-auto">
