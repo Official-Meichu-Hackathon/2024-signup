@@ -112,7 +112,7 @@
                                 imageSrc="Company/Logo/Logitech-logo.svg" 
                                 companyName="羅技" 
                                 description="羅技期望透過探索 AI 在各種使用場景中的潛在應用，不斷創新使用者體驗。結合現有的多種 AI 輔助技術與羅技產品，幫助使用者拓展能力、實現個人成就。"
-                                detailsLink="Company/company_pdf/logitech-2.pdf" 
+                                detailsLink="Company/company_pdf/logitech.pdf" 
                                 imageClass="absolute top-1/2 left-1/2 w-[72.8%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </CompanyCardBox>
             </div>
@@ -198,7 +198,7 @@ export default {
 .companyName {
     color: var(--43473-e, #43473E);
     font-family: "Mantou Sans";
-    font-size: 56px;
+    font-size: 64px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -228,21 +228,9 @@ export default {
     }
 }
 
-@media (max-width: 1080px) {
-    .companyName {
-        font-size: 42px;
-    }
-    .description {
-        font-size: 20px;
-        font-weight: 600; 
-        line-height: 32px; 
-        letter-spacing: 2.0px; 
-    }
-}
-
 @media (max-width: 992px) {
     .companyName {
-        font-size: 34px;
+        font-size: 36px;
     }
     .description {
         font-size: 14px;
@@ -254,7 +242,7 @@ export default {
 
 @media (max-width: 768px) {
     .companyName {
-        font-size: 24px;
+        font-size: 12px;
     }
     .description {
         font-size: 12px;

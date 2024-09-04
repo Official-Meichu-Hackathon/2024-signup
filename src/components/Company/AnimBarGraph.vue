@@ -10,17 +10,17 @@
                     <div class="border-r-[3px] border-dark-gray">
                     </div>
                     <div class="border-r-[3px] border-dark-gray">
-                        <div class="flex h-full w-full title-font pl-[1px] pb-[.2vw] text-[1.1vw]">60</div>
+                        <object data="Company\Number\60.svg" type="image/svg+xml" class="absolute bottom-0 pl-[1px] pb-[.2vw] h-[10%]"></object>
                     </div>
                     <div class="border-r-[3px] border-dark-gray">
                     </div>
                     <div class="border-r-[3px] border-dark-gray">
-                        <div class="flex h-full w-full title-font pl-[1px] pb-[.2vw] text-[1.1vw]">80</div>
+                        <object data="Company\Number\80.svg" type="image/svg+xml" class="absolute bottom-0 pl-[1px] pb-[.2vw] h-[10%]"></object>
                     </div>
                     <div class="border-r-[3px] border-dark-gray">
                     </div>
                     <div class="border-r-[3px] border-dark-gray">
-                        <div class="flex h-full w-full title-font pl-[1px] pb-[.2vw] text-[1.1vw]">100</div>
+                        <object data="Company\Number\100.svg" type="image/svg+xml" class="absolute bottom-0 pl-[1px] pb-[.2vw] h-[10%]"></object>
                     </div>
                 </div>
             </div>
@@ -35,18 +35,18 @@
                 <div class="absolute w-full h-full grid grid-cols-[5.6fr_6fr_8fr_10fr_11fr_12fr_20.7fr] overflow-hidden">
                     <div class="border-r-[3px] border-dark-gray">
                     </div>
-                    <div class="flex border-r-[3px] border-dark-gray">
-                        <div class="flex h-full w-full title-font pl-[1px] pb-[.2vw] text-[1.15vw]">10</div>
+                    <div class="border-r-[3px] border-dark-gray">
+                        <object data="Company\Number\10.svg" type="image/svg+xml" class="absolute bottom-0 pl-[1px] pb-[.2vw] h-[8%]"></object>
                     </div>
                     <div class="border-r-[3px] border-dark-gray">
                     </div>
                     <div class="border-r-[3px] border-dark-gray">
-                        <div class="flex h-full w-full title-font pl-[1px] pb-[.2vw] text-[1.15vw]">11</div>
+                        <object data="Company\Number\11.svg" type="image/svg+xml" class="absolute bottom-0 pl-[1px] pb-[.2vw] h-[8%]"></object>
                     </div>
                     <div class="border-r-[3px] border-dark-gray">
                     </div>
                     <div class="border-r-[3px] border-dark-gray">
-                        <div class="flex h-full w-full title-font pl-[1px] pb-[.2vw] text-[1.15vw]">12</div>
+                        <object data="Company\Number\12.svg" type="image/svg+xml" class="absolute bottom-0 pl-[1px] pb-[.2vw] h-[8%]"></object>
                     </div>
                 </div>
                 
@@ -69,14 +69,6 @@ export default {
 </script>
     
 <style scoped>
-.title-font {
-    color: var(--43473-e, #43473E);
-    font-family: "Taipei Sans TC Beta";
-    font-weight: 700;
-    line-height: normal;
-    display: flex;
-    align-items: flex-end;
-}
 .cardbox-re1 {
     animation: animateRe1 6s ease-out infinite;
 }

@@ -14,7 +14,6 @@
 
 ## Logetich
 羅技期望透過探索 AI 在各種使用場景中的潛在應用，不斷創新使用者體驗。結合現有的多種 AI 輔助技術與羅技產品，幫助使用者拓展能力、實現個人成就。
-Beyond Boundaries: Enhance creativity, productivity and gaming experience with AI 
 
 ## 中華電信
 應用生成式 AI 或 AI 偵偽/檢測技術，針對各式議題，設計創新應用，以避免生成式 AI 合成語音及 AI 影像/影片生成對一般大眾的負面威脅。
