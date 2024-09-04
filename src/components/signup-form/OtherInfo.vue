@@ -141,7 +141,7 @@
         </div>
 
         <div class="fullWorkshopAttendance">
-          <label style="color: #666666">*是否全程參加工作坊</label>
+          <label class="question" style="color: #666666">*是否全程參加工作坊</label>
           <div class="fullWorkshopAttendance-option">
             <div v-for="option in ['是', '否']" :key="option" class="radio">
               <input
@@ -157,7 +157,7 @@
           </div>
         </div>
         <div class="fullParticipationOpeningClosing">
-          <label style="color: #666666">*是否全程參與開幕、閉幕</label>
+          <label class="question" style="color: #666666">*是否全程參與開幕、閉幕</label>
           <div class="fullParticipationOpeningClosing-option">
             <div v-for="option in ['是', '否']" :key="option" class="radio">
               <input
@@ -191,7 +191,7 @@ export default {
     },
     group: {
       type: String,
-      default: '黑客組',
+      default: "黑客組",
     },
   },
   components: {
@@ -478,5 +478,15 @@ form {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+@media (max-width: 576px) {
+  .fullParticipationOpeningClosing-option label,
+  .fullWorkshopAttendance-option label,
+  .text,
+  .warning,
+  .question {
+    font-size: 12px;
+  }
+
 }
 </style>

@@ -68,4 +68,10 @@ export default {
   background-color: #ccc;
   cursor: not-allowed;
 }
+
+@media (max-width: 768px) {
+    .next-step-button {
+        font-size: 20px;
+    }
+}
 </style>
