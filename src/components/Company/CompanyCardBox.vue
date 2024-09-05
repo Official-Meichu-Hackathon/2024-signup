@@ -1,8 +1,5 @@
 <template>
   <div class="flex flex-col w-full h-full">
-    <!-- <div class="flex items-center text-[16px] mb-1.5 font-bold font-[Lato] not-italic leading-[normal] ">
-      {{ title }}
-    </div> -->
     <div
       class="flex p-[3%] flex-grow flex-shrink-0 rounded-[0.75vw] border-dark-gray border-[3px] bg-[#FFF] items-center justify-center relative"
       @mouseenter="hover = true"
@@ -11,16 +8,11 @@
       <transition name="fade" mode="out-in">
         <div v-if="!hover" key="not-hover" class="absolute inset-0 flex items-center justify-center">
           <div class="dashed-border"></div>
-          <!--<img :src="imageSrc" alt="Company Logo" class="image" />-->
           <img :src="imageSrc" alt="Company Logo" :class="imageClass" />
         </div>
       </transition>
       <div v-if="hover" class="w-full h-full">
         <div class="relative companyName pl-[3%] pt-[2%] w-[100%]">{{ companyName }}</div>
-        <!--
-        <div class="description absolute top-[34%] left-[6%] right-[6%] w-[88%] h-auto" >
-            題目：{{ description }}
-        </div>-->
         <div class="min5max30 absolute top-[30%] left-[6%] right-[6%] w-[88%] h-auto" style="font-family: 'Taipei Sans TC Beta'; color: var(--43473-e, #43473E); font-weight: 700;" >
             題目：{{ description }}
         </div>
@@ -68,16 +60,6 @@ export default {
       type: String,
       required: true
     },
-    /*
-    imageWidth: {
-      type: String,
-      default: 'auto'
-    },
-    imageHeight: {
-      type: String,
-      default: 'auto'
-    },
-    */
     imageClass: {
       type: String,
       default: ''
