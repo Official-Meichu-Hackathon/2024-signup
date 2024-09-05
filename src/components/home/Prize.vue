@@ -66,10 +66,11 @@
           </div>
           <div class="flex flex-col gap-1 font-Inter text-[16px] text-[400]">
             <div>
-              第一名：新台幣 20,000 元、企業實體獎品、實習或實習面試機會
+              第一名：新台幣 20,000 元整、企業實體獎品、實習或實習面試機會
             </div>
             <div>第二名：新台幣 15,000 元整、企業實體獎品</div>
             <div>第三名：新台幣 10,000 元整、企業實體獎品</div>
+            <div class="pt-[2px] text-[12px]">*實習機會主要依據企業本身而定</div>
           </div>
         </div>
       </div>
@@ -123,6 +124,13 @@
   <div
     class="block md:hidden relative h-[1100px] w-[full] overflow-hidden z-20 box-border"
   >
+    <div class="absolute top-[70%] left-[50%] translate-x-[-50%]">
+      <object
+        data="/home/icon-gr11.svg"
+        type="image/svg+xml"
+        class="prize-gr11"
+      ></object>
+    </div>
     <div
       class="font-Mantou text-[#43473E] text-[20px] text-[400] absolute top-[13%] left-[50%] translate-x-[-50%]"
     >
@@ -148,10 +156,11 @@
           </div>
           <div class="flex flex-col gap-1 font-Inter text-[10px] text-[400]">
             <div>
-              第一名：新台幣 20,000 元、企業實體獎品、實習或實習面試機會
+              第一名：新台幣 20,000 元整、企業實體獎品、實習或實習面試機會
             </div>
             <div>第二名：新台幣 15,000 元整、企業實體獎品</div>
             <div>第三名：新台幣 10,000 元整、企業實體獎品</div>
+            <div class="text-[8px]">*實習機會主要依據企業本身而定</div>
           </div>
         </div>
       </div>
@@ -176,8 +185,25 @@
           </div>
         </div>
       </div>
+      <div class="flex flex-col items-center justify-center gap-3">
+        <object
+          data="/home/icon-gr22.svg"
+          type="image/svg+xml"
+          class="prize-gr22"
+        ></object>
+        <object
+          data="/home/icon-gr23.svg"
+          type="image/svg+xml"
+          class="prize-gr23"
+        ></object>
+        <object
+          data="/home/icon-gr24.svg"
+          type="image/svg+xml"
+          class="prize-gr24"
+        ></object>
+      </div>
       <div
-        class="col-start-2 border-[#D9D9D9] border-[3px] rounded-[20px] p-3 bg-white hover:bg-[#FEFFF0] hover:border-[#D8E022]"
+        class="border-[#D9D9D9] border-[3px] rounded-[20px] p-3 bg-white hover:bg-[#FEFFF0] hover:border-[#D8E022]"
       >
         <div class="flex flex-col gap-2">
           <div class="flex flex-col">
@@ -213,21 +239,6 @@
       class="absolute top-[74%] left-[0%]"
     ></object>
     <object
-      data="/home/icon-gr22.svg"
-      type="image/svg+xml"
-      class="prize-gr22 absolute top-[47%] left-[18%]"
-    ></object>
-    <object
-      data="/home/icon-gr23.svg"
-      type="image/svg+xml"
-      class="prize-gr23 absolute top-[50%] left-[18%]"
-    ></object>
-    <object
-      data="/home/icon-gr24.svg"
-      type="image/svg+xml"
-      class="prize-gr24 absolute top-[53%] left-[18%]"
-    ></object>
-    <object
       data="/home/icon-gr80.svg"
       type="image/svg+xml"
       class="prize-gr80 absolute top-[28%] left-[73%]"
@@ -243,7 +254,7 @@
 <script setup></script>
 
 <style scoped>
-.intro-gr11 {
+.prize-gr11 {
   animation: animateGr11 3s ease-out infinite;
 }
 

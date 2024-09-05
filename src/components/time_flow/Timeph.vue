@@ -7,7 +7,7 @@
         <img class="absolute left-[3.09vw] top-[28.26vw] w-[41.94vw]" src="../../../public/time_flow/time_left3.svg"/>
         <div class="absolute left-[6.81vw] top-[16.32vw] text-black font-Mantou text-[9.75vw] font-normal tracking-[0.99vw]">賽程</div>
         <div class="absolute left-[6.81vw] top-[50.46vw] text-[3.9vw]">
-          <br>地點｜國立清華大學新體育館<br>時間｜2024/10/19(六) - 10/20(日)
+          <br>地點｜國立陽明交通大學體育館<br>時間｜2024/10/19(六) - 10/20(日)
         </div>
       </div>
     </div>

@@ -16,7 +16,7 @@
           </div>
         </div>
         <div class="birth">
-          <label for="birth" style="color: #666666">*生日 （eg. 20040101）</label>
+          <label for="birth" style="color: #666666">*生日 （e.g. 20040101）</label>
           <input type="date" id="birth" name="birth" required />
         </div>
         <div class="ID">
@@ -28,21 +28,19 @@
           <div class="identity-option">
             <div v-for="option in ['學生', '社會人士']" :key="option">
               <input type="radio" :id="option" name="identity" :value="option" required />
-              <label :for="option">{{
-                option === "學生" ? "學生" : "社會人士"
-              }}</label>
+              <label :for="option">{{ option === "學生" ? "學生" : "社會人士" }}</label>
             </div>
           </div>
         </div>
         <div class="school">
           <label for="school" style="color: #666666"
-            >*就讀學校（填寫全名 eg. 國立陽明交通大學），社會人士可填無</label
+            >*就讀學校（填寫全名 e.g. 國立陽明交通大學），社會人士可填無</label
           >
           <input type="text" id="school" name="school" required />
         </div>
         <div class="major">
           <label for="major" style="color: #666666"
-            >*科系（填寫全名 eg. 資訊工程學系），社會人士可填無</label
+            >*科系（填寫全名 e.g. 資訊工程學系），社會人士可填無</label
           >
           <input type="text" id="major" name="major" required />
         </div>
@@ -68,8 +66,12 @@
         </div>
         <div class="size">
           <label style="color: #666666">*衣服尺寸</label>
+          <img src="/size.jpg" alt="" />
           <div class="size-option">
-            <div v-for="option in ['S', 'M', 'L', 'XL']" :key="option">
+            <div
+              v-for="option in ['XS', 'S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL']"
+              :key="option"
+            >
               <input type="radio" :id="option" name="size" :value="option" required />
               <label :for="option">{{ option }}</label>
             </div>
@@ -103,8 +105,9 @@ export default {
       const formData = validateForm(Form);
       if (formData) {
         emit("basicInfo", formData);
+        emit("success", true);
         return true;
-      }else{
+      } else {
         return false;
       }
     };
@@ -112,9 +115,9 @@ export default {
       () => props.isFilled,
       (newVal) => {
         if (newVal) {
-          if(validate()){
+          if (validate()) {
             emit("success", true);
-          }else{
+          } else {
             emit("success", false);
           }
         }
@@ -132,6 +135,7 @@ export default {
 .basic-info {
   padding: 0 24px;
 }
+
 .text {
   color: #666;
   font-family: "Poppins";
@@ -179,12 +183,12 @@ form {
 .email label,
 .phone label,
 .dietary label {
-    color: #666666;
-    font-family: "Poppins";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #666666;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .name input,
@@ -205,21 +209,29 @@ form {
 }
 
 .sex-option,
-.identity-option,
-.size-option {
+.identity-option {
   display: flex;
   flex-direction: row;
   margin-left: 8px;
 }
+
+.size-option {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 8px;
+  gap: 28px;
+}
+
 .sex-option input,
 .identity-option input,
 .size-option input {
   width: 16px;
   color: #111111;
 }
+
 .sex-option div,
-.identity-option div,
-.size-option div {
+.identity-option div {
   display: flex;
   flex-direction: row;
   gap: 12px;
@@ -231,11 +243,54 @@ form {
   font-weight: 400;
   line-height: normal;
 }
+
+.size-option div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  color: #111;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .sex,
 .identity,
 .size {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+input[type="date"] {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 12px;
+  border: 1px solid rgba(102, 102, 102, 0.35);
+  background-color: #ffffff;
+  height: 56px;
+  font-family: "Poppins";
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .sex label,
+  .identity label,
+  .size label,
+  .name label,
+  .birth label,
+  .ID label,
+  .school label,
+  .major label,
+  .grade label,
+  .occupation label,
+  .email label,
+  .phone label,
+  .dietary label {
+    font-size: 12px;
+  }
 }
 </style>

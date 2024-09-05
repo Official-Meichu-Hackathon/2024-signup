@@ -111,7 +111,7 @@ describe("Title", () => {
     );
     expect(wrapper.find('[data-testid="days-label"]').text()).toBe("Days");
     expect(wrapper.find('[data-testid="hours-label"]').text()).toBe("Hours");
-    expect(wrapper.find('[data-testid="minutes-label"]').text()).toBe("Mins");
+    expect(wrapper.find('[data-testid="minutes-label"]').text()).toBe("Minutes");
     expect(wrapper.find('[data-testid="seconds-label"]').text()).toBe(
       "Seconds"
     );
