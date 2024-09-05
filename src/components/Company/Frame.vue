@@ -216,7 +216,7 @@ export default {
     letter-spacing: 2.3px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1210px) {
     .companyName {
         font-size: 48px;
     }
