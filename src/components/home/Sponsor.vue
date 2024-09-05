@@ -320,7 +320,6 @@
     </div>
   </div>
 
-
       <div
         class="grid grid-cols-1 gap-y-14 mt-16 items-center justify-items-center"
       >
@@ -688,7 +687,7 @@
 
 <!-- Mobile -->
   <div
-    class="block md:hidden relative h-[1800px] w-[full] overflow-hidden z-20 box-border"
+    class="block md:hidden relative h-[1700px] w-[full] overflow-hidden z-20 box-border"
   >
     <div
       class="font-Mantou text-[#43473E] text-[20px] text-[400] absolute top-[0%] left-[50%] translate-x-[-50%]"
@@ -801,14 +800,25 @@
       >
         Diamond
       </div>
+      <div class="grid grid-cols-1 gap-y-3 items-center justify-items-center">
+        <div class="flex justify-center items-center">
       <object
         data="/home/logo-Shuttle.svg"
         type="image/svg+xml"
         class="h-10 scale-90"
       ></object>
     </div>
+      <div class="flex justify-center items-center">
+          <object
+            data="/home/logo-Jumbo.png"
+            type="image/png"
+            class="h-10"
+          ></object>
+        </div>
+      </div>
+    </div>
     <div
-      class="grid grid-cols-1 gap-y-4 items-center justify-items-center absolute top-[39%] left-[50%] translate-x-[-50%] w-[40%]"
+      class="grid grid-cols-1 gap-y-4 items-center justify-items-center absolute top-[41%] left-[50%] translate-x-[-50%] w-[40%]"
     >
       <div
         class="font-Mantou text-[#43473E] text-[10px] font-medium"
@@ -820,13 +830,6 @@
           <object
             data="/home/logo-Cathay.svg"
             type="image/svg+xml"
-            class="h-10"
-          ></object>
-        </div>
-        <div class="flex justify-center items-center">
-          <object
-            data="/home/logo-Jumbo.png"
-            type="image/png"
             class="h-10"
           ></object>
         </div>
@@ -957,23 +960,24 @@
       特殊贊助
     </div>
     <div
-      class="grid grid-cols-1 gap-y-4 items-center justify-items-center absolute top-[96%] left-[50%] translate-x-[-50%] w-[40%]"
+      class="grid grid-cols-1 gap-y-4 items-center justify-items-center absolute top-[94.8%] left-[50%] translate-x-[-50%] w-[40%]"
     >
-      <!-- <div
+      <div
         class="font-Mantou text-[#43473E] text-[10px] font-medium"
       >
-        Bronze
-      </div> -->
+        Platinum
+      </div>
       <div class="grid grid-cols-1 gap-y-2 items-center justify-items-center">
         <div class="flex justify-center items-center">
             <object
-              data="/home/logo-mille.svg"
+              data="/home/logo-activity.svg"
               type="image/svg+xml"
               class="h-10"
             ></object>
           </div>
       </div>
     </div>
+
     <object
       data="/home/icon-ve108.svg"
       type="image/svg+xml"
@@ -988,10 +992,54 @@
 
   </div>
   <div
-    class="block md:hidden relative h-[1200px] w-[full] overflow-hidden z-20 box-border"
+    class="block md:hidden relative h-[1600px] w-[full] overflow-hidden z-20 box-border"
   >
+  <div
+      class="grid grid-cols-1 gap-y-4 items-center justify-items-center absolute top-[0%] left-[50%] translate-x-[-50%] w-[40%]"
+    >
+      <div
+        class="font-Mantou text-[#43473E] text-[10px] font-medium"
+      >
+        Silver
+      </div>
+      <div class="grid grid-cols-1 gap-y-2 items-center justify-items-center">
+        <div class="flex justify-center items-center">
+            <object
+              data="/home/logo-ceomate.svg"
+              type="image/svg+xml"
+              class="h-10"
+            ></object>
+          </div>
+      </div>
+    </div>
+  <div
+      class="grid grid-cols-1 gap-y-4 items-center justify-items-center absolute top-[6%] left-[50%] translate-x-[-50%] w-[40%]"
+    >
+      <div
+        class="font-Mantou text-[#43473E] text-[10px] font-medium"
+      >
+        Bronze
+      </div>
+      <div class="grid grid-cols-1 gap-y-4 items-center justify-items-center">
+        <div class="flex justify-center items-center">
+            <object
+              data="/home/logo-mille.svg"
+              type="image/svg+xml"
+              class="h-10"
+            ></object>
+          </div>
+          <div class="flex justify-center items-center">
+            <object
+              data="/home/logo-domino.svg"
+              type="image/svg+xml"
+              class="h-10"
+            ></object>
+          </div>
+      </div>
+    
+    </div>
     <div
-      class="grid grid-cols-1 gap-y-4 items-center justify-items-center absolute top-[12%] left-[50%] translate-x-[-50%] w-[40%]"
+      class="grid grid-cols-1 gap-y-4 items-center justify-items-center absolute top-[15%] left-[50%] translate-x-[-50%] w-[40%]"
     >
       <div
         class="font-Mantou text-[#43473E] text-[10px] font-medium"
@@ -1016,7 +1064,7 @@
       >
         前期活動B級
       </div>
-      <div class="grid grid-cols-1 gap-y-2 items-center justify-items-center">
+      <div class="grid grid-cols-1 gap-y-2 gap-x-10 items-center justify-items-center">
         <div class="flex justify-center items-center">
             <object
               data="/home/logo-SnowFactory.svg"
@@ -1041,31 +1089,24 @@
       </div>
     </div>
     <div
-      class="grid grid-cols-1 gap-y-4 items-center justify-items-center absolute top-[22%] left-[50%] translate-x-[-50%] w-[40%]"
+      class="grid grid-cols-1 gap-y-4 items-center justify-items-center absolute top-[31%] left-[50%] translate-x-[-50%] w-[40%]"
     >
       <div
         class="font-Mantou text-[#43473E] text-[10px] font-medium"
       >
         前期活動C級
       </div>
-      <div class="grid grid-cols-1 gap-y-2 items-center justify-items-center">
+      <div class="grid grid-cols-2 gap-y-2 gap-x-4 items-center justify-items-center">
         <div class="flex justify-center items-center">
             <object
-              data="/home/logo-SnowFactory.svg"
+              data="/home/logo-three.svg"
               type="image/svg+xml"
               class="h-10"
             ></object>
           </div>
           <div class="flex justify-center items-center">
             <object
-              data="/home/logo-MaybeHomestay.svg"
-              type="image/svg+xml"
-              class="h-10"
-            ></object>
-          </div>
-          <div class="flex justify-center items-center col-span-2">
-            <object
-              data="/home/logo-Tlife.svg"
+              data="/home/logo-eatwithgo.svg"
               type="image/svg+xml"
               class="h-10"
             ></object>
@@ -1073,7 +1114,7 @@
       </div>
     </div>
     <div
-      class="font-Mantou text-[#43473E] text-[20px] text-[400] absolute top-[36%] left-[50%] translate-x-[-50%]"
+      class="font-Mantou text-[#43473E] text-[20px] text-[400] absolute top-[37.8%] left-[50%] translate-x-[-50%]"
     >
       媒體合作
     </div>
@@ -1085,7 +1126,7 @@
       >
         Diamond
       </div>
-      <div class="grid grid-cols-1 gap-y-2 items-center justify-items-center">
+      <div class="grid grid-cols-1 gap-y-4 items-center justify-items-center">
         <div class="flex justify-center items-center">
             <object
               data="/home/logo-DailyView.svg"
@@ -1093,10 +1134,17 @@
               class="h-10"
             ></object>
           </div>
+          <div class="flex justify-center items-center">
+            <object
+              data="/home/logo-TaiwanNews.svg"
+              type="image/svg+xml"
+              class="h-10"
+            ></object>
+          </div>
       </div>
     </div>
     <div
-      class="grid grid-cols-1 gap-y-4 items-center justify-items-center absolute top-[48%] left-[50%] translate-x-[-50%] w-[40%]"
+      class="grid grid-cols-1 gap-y-4 items-center justify-items-center absolute top-[52%] left-[50%] translate-x-[-50%] w-[40%]"
     >
       <div
         class="font-Mantou text-[#43473E] text-[10px] font-medium"
@@ -1114,14 +1162,14 @@
       </div>
     </div>
     <div
-      class="grid grid-cols-1 gap-y-4 items-center justify-items-center absolute top-[56%] left-[50%] translate-x-[-50%] w-[40%]"
+      class="grid grid-cols-1 gap-y-4 items-center justify-items-center absolute top-[59%] left-[50%] translate-x-[-50%] w-[40%]"
     >
       <div
         class="font-Mantou text-[#43473E] text-[10px] font-medium"
       >
         共同發聲
       </div>
-      <div class="grid grid-cols-1 gap-y-2 items-center justify-items-center">
+      <div class="grid grid-cols-1 gap-y-6 items-center justify-items-center">
         <div class="flex justify-center items-center">
             <object
               data="/home/logo-TiEA.svg"
@@ -1150,19 +1198,31 @@
       協辦單位
     </div>
     <div
-      class="absolute font-Inter text-[10px] font-normal text-center top-[74%] left-[50%] translate-x-[-50%] whitespace-nowrap"
+      class="absolute font-Inter space-y-4 text-[10px] font-normal text-center top-[74%] left-[50%] translate-x-[-50%] whitespace-nowrap"
     >
-      <div>ITSA 教育部智慧創新關鍵人才躍升計畫</div>
+      <div class="flex justify-center items-center">
+        <object
+          data="/home/logo-ITSA.svg"
+          type="image/svg+xml"
+          class="h-10"
+        ></object>
+      </div>
       <div>國立陽明交通大學資訊工程學系</div>
-      <div>財團法人交大思源基金會</div>
+      <div class="flex justify-center items-center">
+        <object
+          data="/home/logo-NCTU.svg"
+          type="image/svg+xml"
+          class="h-10"
+        ></object>
+      </div>
     </div>
     <div
-      class="font-Mantou text-[#43473E] text-[20px] text-[400] absolute top-[80%] left-[50%] translate-x-[-50%]"
+      class="font-Mantou text-[#43473E] text-[20px] text-[400] absolute top-[86%] left-[50%] translate-x-[-50%]"
     >
       特別感謝
     </div>
     <div
-      class="absolute font-Inter text-[10px] font-normal text-center top-[86%] left-[50%] translate-x-[-50%] whitespace-nowrap"
+      class="absolute space-y-2 font-Inter text-[10px] font-normal text-center top-[89%] left-[50%] translate-x-[-50%] whitespace-nowrap"
     >
       <div>國立陽明交通大學產學運籌中心</div>
       <div>國立陽明交通大學電機工程學系</div>
