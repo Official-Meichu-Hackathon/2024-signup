@@ -2,7 +2,7 @@
 
 <template>
   <div
-    class="hidden md:block relative h-[1500px] w-[full] overflow-hidden z-20 box-border"
+    class="hidden md:block relative h-[2150px] lg:h-[1900px] xl:h-[1600px] w-[full] overflow-hidden z-20 box-border"
   >
     <div
       class="font-Mantou text-[#43473E] text-[36px] text-[400] absolute top-[2%] left-[50%] translate-x-[-50%]"
