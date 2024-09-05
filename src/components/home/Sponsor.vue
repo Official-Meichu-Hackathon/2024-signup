@@ -79,7 +79,7 @@
           ></object></div
       ></a>
     </div>
-    <div class="flex flex-col sm:flex-row gap-x-8 justify-center mt-6">
+    <div class="flex flex-col sm:flex-row gap-x-8 justify-center mt-16">
       <a href="https://www.cht.com.tw/zh-tw/home/cht"
         class="flex justify-center items-center col-span-2"
       > 
