@@ -986,7 +986,7 @@
       >
         前期活動B級
       </div>
-      <div class="grid grid-cols-1 gap-y-2 gap-x-2 items-center justify-items-center">
+      <div class="grid grid-cols-1 gap-y-2 gap-x-10 items-center justify-items-center">
         <div class="flex justify-center items-center">
             <object
               data="/home/logo-SnowFactory.svg"
