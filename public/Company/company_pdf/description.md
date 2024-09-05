@@ -10,8 +10,11 @@
 使用 Gemini API 或 Gemma 模型在手機上做各種應用，透過 Gemini 發想能在生活中使用 AI 結合手機大幅提升效率或創新的可能。
 
 ## TSMC
+思考即將進人職場的自己會希望得到什麼樣的員工數位認可 / 獎勵，並可選擇結合時下熱門的 Gen AI, Chatbot，實作出 Data-driven 且重視使用者體驗的解決方案。
 
 ## Logetich
+羅技期望透過探索 AI 在各種使用場景中的潛在應用，不斷創新使用者體驗。結合現有的多種 AI 輔助技術與羅技產品，幫助使用者拓展能力、實現個人成就。
+Beyond Boundaries: Enhance creativity, productivity and gaming experience with AI 
 
 ## 中華電信
 應用生成式 AI 或 AI 偵偽/檢測技術，針對各式議題，設計創新應用，以避免生成式 AI 合成語音及 AI 影像/影片生成對一般大眾的負面威脅。

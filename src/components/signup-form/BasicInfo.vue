@@ -16,7 +16,7 @@
           </div>
         </div>
         <div class="birth">
-          <label for="birth" style="color: #666666">*生日 （eg. 20040101）</label>
+          <label for="birth" style="color: #666666">*生日 （e.g. 20040101）</label>
           <input type="date" id="birth" name="birth" required />
         </div>
         <div class="ID">
@@ -34,13 +34,13 @@
         </div>
         <div class="school">
           <label for="school" style="color: #666666"
-            >*就讀學校（填寫全名 eg. 國立陽明交通大學），社會人士可填無</label
+            >*就讀學校（填寫全名 e.g. 國立陽明交通大學），社會人士可填無</label
           >
           <input type="text" id="school" name="school" required />
         </div>
         <div class="major">
           <label for="major" style="color: #666666"
-            >*科系（填寫全名 eg. 資訊工程學系），社會人士可填無</label
+            >*科系（填寫全名 e.g. 資訊工程學系），社會人士可填無</label
           >
           <input type="text" id="major" name="major" required />
         </div>
@@ -66,7 +66,7 @@
         </div>
         <div class="size">
           <label style="color: #666666">*衣服尺寸</label>
-          <img src="/size.jpg" alt="">
+          <img src="/size.jpg" alt="" />
           <div class="size-option">
             <div
               v-for="option in ['XS', 'S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL']"
@@ -105,6 +105,7 @@ export default {
       const formData = validateForm(Form);
       if (formData) {
         emit("basicInfo", formData);
+        emit("success", true);
         return true;
       } else {
         return false;
@@ -262,5 +263,34 @@ form {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+input[type="date"] {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 12px;
+  border: 1px solid rgba(102, 102, 102, 0.35);
+  background-color: #ffffff;
+  height: 56px;
+  font-family: "Poppins";
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .sex label,
+  .identity label,
+  .size label,
+  .name label,
+  .birth label,
+  .ID label,
+  .school label,
+  .major label,
+  .grade label,
+  .occupation label,
+  .email label,
+  .phone label,
+  .dietary label {
+    font-size: 12px;
+  }
 }
 </style>

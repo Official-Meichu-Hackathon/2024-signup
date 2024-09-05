@@ -60,12 +60,18 @@ export default {
   margin-top: 6px;
 }
 .slot-container {
-    font-weight: 500;
+  font-weight: 500;
   color: #333;
   text-align: center;
   font-family: "Poppins";
   font-size: 16px;
   font-style: normal;
   line-height: normal;
+}
+
+@media (max-width: 576px) {
+    .dot {
+        margin-top: 4px;
+    }
 }
 </style>

@@ -6,11 +6,11 @@
         <div class="row-start-1 col-start-1 col-span-2">
             <div class="w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray">
                 <MobileCompanyCardBox title="題目說明 #01" 
-                                imageSrc="Company/Logo/NXP-logo.svg" 
+                                imageSrc="Company/Logo/logo-NXP.png" 
                                 companyName="恩智浦半導體" 
                                 description="如何能夠以創新應用因應目前的氣候變遷，對企業來說是個非常重要的課題，希望參賽者能利用恩智浦與文曄科技提供的相關開發資源，實現智慧應用、符合永續需求。"
                                 detailsLink="Company/company_pdf/nxp.pdf" 
-                                imageClass="absolute top-1/2 left-1/2 w-[70%] h-auto transform -translate-x-1/2 -translate-y-1/2">
+                                imageClass="absolute top-1/2 left-1/2 w-[90%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </MobileCompanyCardBox>
             </div>
         </div>
@@ -23,11 +23,11 @@
         <div class="row-start-2 col-start-2 col-span-2">
             <div class="w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray">
                 <MobileCompanyCardBox title="題目說明 #02" 
-                                    imageSrc="Company/Logo/LINE-logo.svg" 
-                                    companyName="LINE 台灣" 
+                                    imageSrc="Company/Logo/logo-LINE.svg" 
+                                    companyName="LINE台灣" 
                                     description="以「透過生成式 AI 和多模態模型打造校園相關應用的 LINE Bot」為主題，創建一個能夠與校園生活緊密連結的 LINE Bot。"
                                     detailsLink="Company/company_pdf/line.pdf" 
-                                    imageClass="absolute top-1/2 left-1/2 w-[44.8%] h-auto transform -translate-x-1/2 -translate-y-1/2">
+                                    imageClass="absolute top-1/2 left-1/2 w-[60%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </MobileCompanyCardBox>
             </div>
         </div>
@@ -36,7 +36,7 @@
             <div class="w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray">
                 <MobileCompanyCardBox title="題目說明 #03" 
                                 imageSrc="Company/Logo/Google-logo.svg" 
-                                companyName="GOOGLE" 
+                                companyName="Google" 
                                 description="使用 Gemini API 或 Gemma 模型在手機上做各種應用，透過 Gemini 發想能在生活中使用 AI 結合手機大幅提升效率或創新的可能。"
                                 detailsLink="Company/company_pdf/google.pdf" 
                                 imageClass="absolute top-1/2 left-1/2 w-[89.6%] h-auto transform -translate-x-1/2 -translate-y-1/2">
@@ -48,8 +48,8 @@
                 <MobileCompanyCardBox title="題目說明 #04" 
                                 imageSrc="Company/Logo/Tsmc-logo.svg" 
                                 companyName="台積電" 
-                                description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
-                                detailsLink="Company/company_pdf/test_details.pdf" 
+                                description="思考即將進人職場的自己會希望得到什麼樣的員工數位認可 / 獎勵，並可選擇結合時下熱門的 Gen AI, Chatbot，實作出 Data-driven 且重視使用者體驗的解決方案。"
+                                detailsLink="Company/company_pdf/tsmc.pdf" 
                                 imageClass="absolute top-1/2 left-1/2 w-[57.3%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </MobileCompanyCardBox>
             </div>
@@ -81,8 +81,8 @@
                 <MobileCompanyCardBox title="題目說明 #05" 
                                 imageSrc="Company/Logo/Logitech-logo.svg" 
                                 companyName="羅技" 
-                                description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
-                                detailsLink="Company/company_pdf/test_details.pdf" 
+                                description="羅技期望透過探索 AI 在各種使用場景中的潛在應用，不斷創新使用者體驗。結合現有的多種 AI 輔助技術與羅技產品，幫助使用者拓展能力、實現個人成就。"
+                                detailsLink="Company/company_pdf/logitech.pdf" 
                                 imageClass="absolute top-1/2 left-1/2 w-[85.2%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </MobileCompanyCardBox>
             </div>
@@ -105,10 +105,10 @@
         <div class="row-start-7 col-start-2 col-span-2">
             <div class="w-full flex h-[62vw] rounded-[3vw] border-[3px] bg-[#FFF] border-dark-gray">
                 <MobileCompanyCardBox title="題目說明 #07" 
-                                        imageSrc="Company/Logo/新竹市政府-logo.svg" 
-                                        companyName="創客組" 
+                                        imageSrc="Company/Logo/新竹市政府-logo.png" 
+                                        companyName="創客交流組" 
                                         description="新竹科技X交通 請應用市府資料開放平臺(open data)之數據資料，發掘竹市交通問題，並提供解方。"
-                                        detailsLink="Company/company_pdf/2024新竹X梅竹黑客松競賽題目提案表.pdf" 
+                                        detailsLink="Company/company_pdf/新竹市政府.pdf" 
                                         imageClass="absolute top-1/2 left-1/2 w-[100%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </MobileCompanyCardBox>
             </div>
