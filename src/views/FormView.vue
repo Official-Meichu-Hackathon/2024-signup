@@ -302,23 +302,21 @@ export default {
     const watingForUpload = ref(false);
     const submit = async () => {
       watingForUpload.value = true;
-      for (const signupData of signupDataList) {
-        try {
-          const response = await fetch(
-            "https://script.google.com/macros/s/AKfycbyKHsQVLRdbTyatekMhAk0aGt2BNrk-Jx8csuguLHNSdiUELJjWMltZJzz7w2DV8iyc/exec",
-            {
-              method: "POST",
-              headers: {
-                "Content-Type": "text/plain",
-              },
-              body: JSON.stringify(signupData),
-              redirect: "follow",
-            }
-          );
-          console.log(response.data);
-        } catch (error) {
-          console.error(error);
-        }
+      try {
+        const response = await fetch(
+          "https://script.google.com/macros/s/AKfycbxqoW1FQVh02gSZvI2WUbNYdX1RN_YudhiK3qykrcm8ValFpFEDEy4YWAsZgyguur9s/exec",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "text/plain",
+            },
+            body: JSON.stringify(signupDataList),
+            redirect: "follow",
+          }
+        );
+        console.log(response.data);
+      } catch (error) {
+        console.error(error);
       }
       watingForUpload.value = false;
       signupSuccess.value = true;
@@ -433,9 +431,9 @@ export default {
 }
 
 @media (max-width: 576px) {
-    .title h2 {
-        font-size: 22px;
-    }
+  .title h2 {
+    font-size: 22px;
+  }
 
   .form {
     flex-direction: column;
