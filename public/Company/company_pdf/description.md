@@ -20,4 +20,4 @@ Beyond Boundaries: Enhance creativity, productivity and gaming experience with A
 應用生成式 AI 或 AI 偵偽/檢測技術，針對各式議題，設計創新應用，以避免生成式 AI 合成語音及 AI 影像/影片生成對一般大眾的負面威脅。
 
 ## 新竹市政府
-新竹科技X交通 請應用市府資料開放平臺(open data)之數據資料，發掘竹市交通問題，並提供解方。
+「數位治理 X 智慧交通」請應用市府資料開放平臺(open data)之數據資料，發掘竹市交通問題，並提供解方。

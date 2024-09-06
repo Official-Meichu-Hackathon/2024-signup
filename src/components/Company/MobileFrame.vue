@@ -107,7 +107,7 @@
                 <MobileCompanyCardBox title="題目說明 #07" 
                                         imageSrc="Company/Logo/新竹市政府-logo.png" 
                                         companyName="創客交流組" 
-                                        description="新竹科技X交通 請應用市府資料開放平臺(open data)之數據資料，發掘竹市交通問題，並提供解方。"
+                                        description="「數位治理 X 智慧交通」請應用市府資料開放平臺(open data)之數據資料，發掘竹市交通問題，並提供解方。"
                                         detailsLink="Company/company_pdf/新竹市政府.pdf" 
                                         imageClass="absolute top-1/2 left-1/2 w-[100%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </MobileCompanyCardBox>
