@@ -191,7 +191,7 @@
                   class="underline"
                   target="_blank"
                 >
-                  臉書媒合社群 </a
+                  臉書媒合社群</a
                 > 供大家找隊友<br />
                 黑客組：每隊 3~5 人<br />
                 創客交流組：每隊 3~4 人<br />
@@ -237,14 +237,16 @@
                     為保護梅竹黑客松協辦企業之權益，參賽者必須配合參賽之企業組別所提出比賽過程之保密協定簽署，若無法配合企業之保密協定，將取消參賽資格。
                   </li>
                   <li>
-                    得獎同學需將作品上傳至
-                    <a
+                    得獎同學需填寫 <a
                       href="https://docs.google.com/forms/d/e/1FAIpQLSfpq4AGg_hFSsRgi4WSBapoL7AFeE7uC0j1yZqP2i9VL6SmaA/viewform"
                       class="underline"
                       target="_blank"
+                    >作品上傳表單</a>，將作品上傳至 <a
+                      href="https://tenyear.meichuhackathon.org/"
+                      class="underline"
+                      target="_blank"
                     >
-                      梅竹黑客松成果存放平台
-                    </a>。
+                      梅竹黑客松成果存放平台</a>。
                   </li>
                 </ul>
               </div>
@@ -471,7 +473,7 @@
                   class="underline"
                   target="_blank"
                 >
-                  臉書媒合社群 </a
+                  臉書媒合社群</a
                 > 供大家找隊友<br />
                 黑客組：每隊 3~5 人<br />
                 創客交流組：每隊 3~4 人<br />
@@ -516,14 +518,16 @@
                     為保護梅竹黑客松協辦企業之權益，參賽者必須配合參賽之企業組別所提出比賽過程之保密協定簽署，若無法配合企業之保密協定，將取消參賽資格。
                   </li>
                   <li>
-                    得獎同學需將作品上傳至
-                    <a
+                    得獎同學需填寫 <a
                       href="https://docs.google.com/forms/d/e/1FAIpQLSfpq4AGg_hFSsRgi4WSBapoL7AFeE7uC0j1yZqP2i9VL6SmaA/viewform"
                       class="underline"
                       target="_blank"
+                    >作品上傳表單</a>，將作品上傳至 <a
+                      href="https://tenyear.meichuhackathon.org/"
+                      class="underline"
+                      target="_blank"
                     >
-                      梅竹黑客松成果存放平台
-                    </a>。
+                      梅竹黑客松成果存放平台</a>。
                   </li>
                 </ul>
             </div>
