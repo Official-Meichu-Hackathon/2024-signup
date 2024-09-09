@@ -29,7 +29,8 @@ module.exports = {
       fontFamily: {
         "Mantou": ["Mantou Sans", "serif"],
         "Poppins": ["Poppins", "serif"],
-        "Inter": ["Inter", "sans-serif"]
+        "Inter": ["Inter", "sans-serif"],
+        "Taipei": ["Taipei Sans TC Beta", "sans-serif"],
       },
       fontWeight: {
         '1500': 1500,
@@ -40,6 +41,10 @@ module.exports = {
         394: '394',
         733: '733',
         308: '308',
+      },
+      scale: {
+        '370': '3.7',
+        '350': '3.5'
       },
     },
   },

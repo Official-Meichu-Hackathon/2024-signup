@@ -19,11 +19,11 @@
             <!-- 合作企業-NXP  -->
             <div class="row-start-1 row-span-2 col-start-1 relative ">
                 <CompanyCardBox title="題目說明 #01" 
-                                imageSrc="Company/Logo/NXP-logo.svg" 
+                                imageSrc="Company/Logo/logo-NXP.png" 
                                 companyName="恩智浦半導體" 
                                 description="如何能夠以創新應用因應目前的氣候變遷，對企業來說是個非常重要的課題，希望參賽者能利用恩智浦與文曄科技提供的相關開發資源，實現智慧應用、符合永續需求。"
                                 detailsLink="Company/company_pdf/nxp.pdf" 
-                                imageClass="absolute top-1/2 left-1/2 w-[68.3%] h-auto transform -translate-x-1/2 -translate-y-1/2">
+                                imageClass="absolute top-1/2 left-1/2 w-[85%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </CompanyCardBox>
             </div> 
         
@@ -43,27 +43,20 @@
                 <!-- 切分  -->
                 <div class="flex flex-col h-full w-full"> 
                     <CompanyCardBox title="題目說明 #02" 
-                                    imageSrc="Company/Logo/LINE-logo.svg" 
-                                    companyName="LINE 台灣" 
+                                    imageSrc="Company/Logo/logo-LINE.svg" 
+                                    companyName="LINE台灣" 
                                     description="以「透過生成式 AI 和多模態模型打造校園相關應用的 LINE Bot」為主題，創建一個能夠與校園生活緊密連結的 LINE Bot。"
                                     detailsLink="Company/company_pdf/line.pdf" 
-                                    imageClass="absolute top-1/2 left-1/2 w-[34.6%] h-auto transform -translate-x-1/2 -translate-y-1/2">
+                                    imageClass="absolute top-1/2 left-1/2 w-[50%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                     </CompanyCardBox> 
                 </div>
             </div>
 
             <!-- 文字-梅竹黑客松 -->
-            <div class="relative row-start-3 col-start-1 col-span-2">
-                <div class="relative h-full w-full grid grid-cols-[6.18fr_1.04fr] grid-rows-[13fr_8.5fr] gap-3">
-                    
-                    <div class="relative h-full w-full row-start-1 col-start-1 rounded-[0.75vw] border-[3px] border-dark-gray bg-[#FFF]">
-                        <div class="absolute inset-0 font-Mantou text-[7.3dvw] text-[#43473E] font-[400] gap-1 flex flex-row items-center justify-center" data-v-1765d9d0="">
-                            <div class="cardbox-font1" data-v-1765d9d0="">梅</div>
-                            <div class="cardbox-font2" data-v-1765d9d0="">竹</div>
-                            <div class="cardbox-font3" data-v-1765d9d0="">黑</div>
-                            <div class="cardbox-font4" data-v-1765d9d0="">客</div>
-                            <div class="cardbox-font5" data-v-1765d9d0="">松</div>
-                        </div>
+            <div class="relative flex row-start-3 col-start-1 col-span-2">
+                <div class="relative h-full w-full grid grid-cols-[6.18fr_1.04fr] grid-rows-[13fr_8fr] gap-3">
+                    <div class="flex relative items-center justify-center h-full w-full row-start-1 col-start-1 rounded-[0.75vw] border-[3px] border-dark-gray bg-[#FFF]">
+                        <object data="Company\words.svg" type="image/svg+xml" class="absolute w-[40vw] pt-[.6vw]"></object>
                     </div>
                     <div class="flex overflow-hidden flex-col row-start-2 col-start-1 rounded-[0.75vw] border-[3px] border-dark-gray bg-[#FFF]">
                         <div class="h-1/2"></div>
@@ -84,7 +77,7 @@
             <div class="row-start-4 row-span-2 col-start-1">
                 <CompanyCardBox title="題目說明 #03" 
                                 imageSrc="Company/Logo/Google-logo.svg" 
-                                companyName="GOOGLE" 
+                                companyName="Google" 
                                 description="使用 Gemini API 或 Gemma 模型在手機上做各種應用，透過 Gemini 發想能在生活中使用 AI 結合手機大幅提升效率或創新的可能。"
                                 detailsLink="Company/company_pdf/google.pdf" 
                                 imageClass="absolute top-1/2 left-1/2 w-[72.8%] h-auto transform -translate-x-1/2 -translate-y-1/2">
@@ -96,8 +89,8 @@
                 <CompanyCardBox title="題目說明 #04" 
                                 imageSrc="Company/Logo/Tsmc-logo.svg" 
                                 companyName="台積電" 
-                                description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
-                                detailsLink="Company/company_pdf/test_details.pdf" 
+                                description="思考即將進入職場的自己會希望得到什麼樣的員工數位認可 / 獎勵，並可選擇結合時下熱門的 Gen AI, Chatbot，實作出 Data-driven 且重視使用者體驗的解決方案。"
+                                detailsLink="Company/company_pdf/tsmc.pdf" 
                                 imageClass="absolute top-1/2 left-1/2 w-[43.7%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </CompanyCardBox>
             </div>
@@ -118,9 +111,9 @@
                 <CompanyCardBox title="題目說明 #05" 
                                 imageSrc="Company/Logo/Logitech-logo.svg" 
                                 companyName="羅技" 
-                                description="卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉卡比巴拉 測試" 
-                                detailsLink="Company/company_pdf/test_details.pdf" 
-                                imageClass="absolute top-1/2 left-1/2 w-[72.8%] h-auto transform -translate-x-1/2 -translate-y-1/2">
+                                description="羅技期望透過探索 AI 在各種使用場景中的潛在應用，不斷創新使用者體驗。結合現有的多種 AI 輔助技術與羅技產品，幫助使用者拓展能力、實現個人成就。"
+                                detailsLink="Company/company_pdf/logitech.pdf" 
+                                imageClass="absolute top-1/2 left-1/2 w-[78%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                 </CompanyCardBox>
             </div>
     
@@ -152,10 +145,10 @@
                     <div class="cols-start-1"></div>
                     <div class="cols-start-2">
                         <CompanyCardBox title="題目說明 #07" 
-                                        imageSrc="Company/Logo/新竹市政府-logo.svg" 
-                                        companyName="創客組" 
-                                        description="新竹科技X交通 請應用市府資料開放平臺(open data)之數據資料，發掘竹市交通問題，並提供解方。"
-                                        detailsLink="Company/company_pdf/2024新竹X梅竹黑客松競賽題目提案表.pdf" 
+                                        imageSrc="Company/Logo/新竹市政府-logo.png" 
+                                        companyName="創客交流組" 
+                                        description="「數位治理 X 智慧交通」請應用市府資料開放平臺(open data)之數據資料，發掘竹市交通問題，並提供解方。"
+                                        detailsLink="Company/company_pdf/新竹市政府.pdf" 
                                         imageClass="absolute top-1/2 left-1/2 w-[86.5%] h-auto transform -translate-x-1/2 -translate-y-1/2">
                         </CompanyCardBox>
                     </div>
@@ -202,110 +195,14 @@ export default {
     top: calc( ( (0vw - 90vw) * (765 / 1184) - 36px) * 0.13 ); /* 根據需要調整 */
 }
 
-  
-
-.cardbox-font1 {
-    animation: animateFont1 15s ease-out infinite;
-}
-
-@keyframes animateFont1 {
-    0% {
-        transform: rotate(0deg);
-    }
-    33% {
-        transform: rotate(0deg);
-    }
-    66% {
-        transform: rotate(9.356deg);
-    }
-    100% {
-        transform: rotate(0deg);
-    }
-}
-.cardbox-font2 {
-    animation: animateFont2 15s ease-out infinite;
-}
-  
-@keyframes animateFont2 {
-    0% {
-      transform: rotate(-15.858deg);
-    }
-    33% {
-      transform: rotate(-2.197deg);
-    }
-    66% {
-      transform: rotate(-6.558deg) translate(0, -1.12dvw);
-    }
-    100% {
-      transform: rotate(-15.858deg);
-    }
-}
-  
-.cardbox-font3 {
-    animation: animateFont3 15s ease-out infinite;
-}
-  
-@keyframes animateFont3 {
-    0% {
-      transform: translate(0, 0);
-    }
-    33% {
-      transform: translate(0, .96dvw);
-    }
-    66% {
-      transform: translate(0, -.32dvw);
-    }
-    100% {
-      transform: translate(0, 0);
-    }
-}
-  
-.cardbox-font4 {
-    animation: animateFont4 15s ease-out infinite;
-}
-  
-@keyframes animateFont4 {
-    0% {
-      transform: translate(0, 0);
-    }
-    33% {
-      transform: translate(.32dvw, -1.8dvw);
-    }
-    66% {
-      transform: translate(-.24dvw, .8dvw);
-    }
-    100% {
-      transform: translate(0, 0);
-    }
- }
-  
-.cardbox-font5 {
-    animation: animateFont5 15s ease-out infinite;
-}
-  
-@keyframes animateFont5 {
-    0% {
-      transform: rotate(13.92deg);
-    }
-    33% {
-      transform: rotate(13.92deg);
-    }
-    66% {
-      transform: rotate(0);
-    }
-    100% {
-      transform: rotate(13.92deg);
-    }
-}
-
 .companyName {
     color: var(--43473-e, #43473E);
     font-family: "Mantou Sans";
-    font-size: 64px;
+    font-size: 56px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-transform: uppercase;
+    
 }
 
 .description {
@@ -319,7 +216,7 @@ export default {
     letter-spacing: 2.3px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1210px) {
     .companyName {
         font-size: 48px;
     }
@@ -331,9 +228,21 @@ export default {
     }
 }
 
+@media (max-width: 1080px) {
+    .companyName {
+        font-size: 42px;
+    }
+    .description {
+        font-size: 20px;
+        font-weight: 600; 
+        line-height: 32px; 
+        letter-spacing: 2.0px; 
+    }
+}
+
 @media (max-width: 992px) {
     .companyName {
-        font-size: 36px;
+        font-size: 34px;
     }
     .description {
         font-size: 14px;
@@ -345,7 +254,7 @@ export default {
 
 @media (max-width: 768px) {
     .companyName {
-        font-size: 12px;
+        font-size: 24px;
     }
     .description {
         font-size: 12px;
