@@ -2,99 +2,6 @@
   <div class="other-info">
     <div class="filled-form">
       <form ref="Form">
-        <div v-if="group === '黑客組'">
-          <div class="text">一頁式企劃書</div>
-          <div
-            class="upload-container"
-            :class="{ dragging: isDragging2, success: uploadSuccess2 }"
-            @dragover.prevent="onDragOver(2)"
-            @dragleave="onDragLeave(2)"
-            @drop.prevent="onDrop($event, 2)"
-          >
-            <div>
-              <label for="file-input-2" class="upload-icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="40"
-                  height="40"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                  <polyline points="17 8 12 3 7 8"></polyline>
-                  <line x1="12" y1="3" x2="12" y2="15"></line>
-                </svg>
-              </label>
-              <div class="upload-text">
-                Drag or
-                <label for="file-input-2" class="choose-files">choose files</label>
-                to upload
-              </div>
-              <input
-                type="file"
-                name="file2"
-                id="file-input-2"
-                ref="fileInput2"
-                accept=".pdf, .png, .jpg, .svg, .doc, .docx, .jpeg"
-                @change="(event) => onFileChange(event, 2)"
-                multiple
-              />
-            </div>
-          </div>
-          <p class="warning">
-            若貴隊伍將創客交流組志願排於前三（含），請提交一頁式企劃書
-          </p>
-        </div>
-        <div v-else>
-          <div class="text">*一頁式企劃書</div>
-          <div
-            class="upload-container"
-            :class="{ dragging: isDragging2, success: uploadSuccess2 }"
-            @dragover.prevent="onDragOver(2)"
-            @dragleave="onDragLeave(2)"
-            @drop.prevent="onDrop($event, 2)"
-          >
-            <div>
-              <label for="file-input-2" class="upload-icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="40"
-                  height="40"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                  <polyline points="17 8 12 3 7 8"></polyline>
-                  <line x1="12" y1="3" x2="12" y2="15"></line>
-                </svg>
-              </label>
-              <div class="upload-text">
-                Drag or
-                <label for="file-input-2" class="choose-files">choose files</label>
-                to upload
-              </div>
-              <input
-                type="file"
-                name="file2"
-                id="file-input-2"
-                ref="fileInput2"
-                accept=".pdf, .png, .jpg, .svg, .doc, .docx, .jpeg"
-                @change="(event) => onFileChange(event, 2)"
-                multiple
-                required
-              />
-            </div>
-          </div>
-          <p v-if="fileData2.files.length === 0" class="warning">請上傳一頁式企劃書</p>
-        </div>
         <div>
           <div class="text">清寒證明</div>
           <div
@@ -215,21 +122,6 @@ export default {
     const formDataToSend2 = reactive([]);
 
     const group = ref(props.group);
-
-    watch(
-      () => props.group,
-      (newVal, oldVal) => {
-        if (newVal !== oldVal) {
-          group.value = newVal;
-          fileData2.files = [];
-          formDataToSend2.length = 0;
-          uploadSuccess2.value = false;
-          if (fileInput2.value) {
-            fileInput2.value.value = "";
-          }
-        }
-      }
-    );
 
     watch(
       () => props.isFilled,
@@ -487,6 +379,5 @@ form {
   .question {
     font-size: 12px;
   }
-
 }
 </style>

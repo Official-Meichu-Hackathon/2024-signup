@@ -181,7 +181,6 @@ export default {
           dietary: "",
           size: "",
           certificate: null,
-          proposal: null,
           fullWorkshopAttendance: "",
           fullParticipationOpeningClosing: "",
         });
@@ -278,7 +277,6 @@ export default {
       signupDataList.forEach((signupData) => {
         Object.assign(signupData, {
           certificate: data.file1,
-          proposal: data.file2,
           fullWorkshopAttendance: data.fullWorkshopAttendance,
           fullParticipationOpeningClosing: data.fullParticipationOpeningClosing,
         });
@@ -304,7 +302,7 @@ export default {
       watingForUpload.value = true;
       try {
         const response = await fetch(
-          "https://script.google.com/macros/s/AKfycbxqoW1FQVh02gSZvI2WUbNYdX1RN_YudhiK3qykrcm8ValFpFEDEy4YWAsZgyguur9s/exec",
+          "https://script.google.com/macros/s/AKfycbyKSViKhu2L_nUducekh7BLVnc5ZTYnHWDhmP_LQbv43r4w08xq7JJNKVPxxCcWPcse/exec",
           {
             method: "POST",
             headers: {
@@ -321,15 +319,6 @@ export default {
       watingForUpload.value = false;
       signupSuccess.value = true;
     };
-    watch(group, (newValue, oldValue) => {
-      if (newValue !== oldValue && currentStep.value > teamSize.value + 1) {
-        currentStep.value = teamSize.value + 2;
-        const element = document.getElementById(teamSize.value + 2);
-        if (element) {
-          element.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-      }
-    });
 
     return {
       teamName,
