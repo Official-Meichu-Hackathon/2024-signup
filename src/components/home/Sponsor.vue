@@ -27,8 +27,8 @@
       <a href="https://www.hccg.gov.tw/ch/index.jsp"
         ><div class="flex justify-center items-center">
           <object
-            data="/home/logo-HCG.png"
-            type="image/png"
+            data="/home/logo-HCG.svg"
+            type="image/svg+xml"
             class="h-20"
           ></object></div
       ></a>
@@ -45,8 +45,8 @@
       <a href="https://techblog.lycorp.co.jp/zh-hant/">
         <div class="flex justify-center items-center">
           <object
-            data="/home/logo-LINE.png"
-            type="image/png"
+            data="/home/logo-LINE.svg"
+            type="image/svg+xml"
             class="h-10"
           ></object>
         </div>
@@ -84,8 +84,8 @@
         class="flex justify-center items-center col-span-2"
       > 
         <object
-            data="/home/logo-CHT.png"
-            type="image/png"
+            data="/home/logo-CHT.svg"
+            type="image/svg+xml"
             class="h-14"
           ></object></a>
     </div>
@@ -394,7 +394,10 @@
         </div>
         <div class="grid grid-cols-1 gap-x-4 gap-y-8 items-center justify-items-center">
           <div class="flex justify-center items-center">
-            <img src="home/logo-ceomate.png" alt="CEOMATE Logo">
+            <object
+              data="/home/logo-ceomate.svg"
+              type="image/svg+xml"
+            ></object>
           </div>
         </div>
       </div>
@@ -517,10 +520,18 @@
         </div>
         <div class="grid grid-cols-2 gap-x-11 gap-y-8 items-center justify-items-center">
           <div class="flex justify-center items-center">
-            <img src="home/logo-3LayerMountain.png" alt="3 Layer Mountain Logo">
+            <object
+              data="/home/logo-three.svg"
+              type="image/svg+xml"
+              class="h-20"
+            ></object>
           </div>
           <div class="flex justify-center items-center">
-            <img src="home/logo-EatWithGo.png" alt="Eat With Go Logo">
+            <object
+              data="/home/logo-eatwithgo.svg"
+              type="image/svg+xml"
+              class="h-20"
+            ></object>
           </div>
         </div>
       </div>
@@ -558,7 +569,11 @@
             ></object>
           </div>
           <div class="flex justify-center items-center">
-            <img src="home/logo-TaiwanNews.png" alt="Taiwan News Logo">
+            <object
+              data="/home/logo-TaiwanNews.svg"
+              type="image/svg+xml"
+              class="h-16"
+            ></object>
           </div>
         </div>
       </div>
@@ -621,9 +636,17 @@
         ></object>
       </div>
       <div class="flex justify-center w-full mt-20 px-[12vw] flex-wrap gap-x-[10vw] gap-y-12">
-        <img src="home/logo-ITSA.png" alt="ITSA Logo">
+        <object
+          data="/home/logo-ITSA.svg"
+          type="image/svg+xml"
+          class="h-16"
+        ></object>
         <div class="flex justify-center items-center font-Inter text-[24px] font-normal text-center">國立陽明交通大學資訊工程學系</div>
-        <img src="home/logo-SpringFoundation.png" alt="Spring Foundation Logo">
+        <object
+          data="/home/logo-NCTU.svg"
+          type="image/svg+xml"
+          class="h-16"
+        ></object>
       </div>
       <div
           class="flex items-center justify-center w-full my-20"
@@ -701,8 +724,8 @@
     <a href="https://www.hccg.gov.tw/ch/index.jsp">
       <div class="flex justify-center items-center">
         <object
-          data="/home/logo-HCG.png"
-          type="image/png"
+          data="/home/logo-HCG.svg"
+          type="image/svg+xml"
           class="h-10"
         ></object></div
       >
@@ -718,8 +741,8 @@
       <a href="https://techblog.lycorp.co.jp/zh-hant/">
         <div class="flex justify-center items-center">
           <object
-            data="/home/logo-LINE.png"
-            type="image/png"
+            data="/home/logo-LINE.svg"
+            type="image/svg+xml"
             class="h-6"
           ></object>
         </div>
@@ -752,8 +775,8 @@
       <a href="https://www.cht.com.tw/zh-tw/home/cht" class="col-span-2"
         ><div class="flex justify-center items-center">
           <object
-            data="/home/logo-CHT.png"
-            type="image/png"
+            data="/home/logo-CHT.svg"
+            type="image/svg+xml"
             class="h-8"
           ></object></div
       ></a>
