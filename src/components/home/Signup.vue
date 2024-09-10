@@ -77,26 +77,26 @@
               class="flex flex-1 flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center"
             >
               <div>開始報名</div>
-              <div>9/2（一）~ 9/23（一）8:00 前</div>
+              <div>9/10（二）~ 9/24（二）08:00 前</div>
             </div>
           </div>
           <div
             class="flex flex-1 flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center"
           >
             <div>正取隊伍與所屬企業公布</div>
-            <div>9/24（二）8:00 前</div>
+            <div>9/25（三）00:00 前</div>
           </div>
           <div
             class="flex flex-1 flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center"
           >
             <div>繳費期間</div>
-            <div>9/24（二）~ 9/27（五）</div>
+            <div>9/25（三）~ 9/27（五）</div>
           </div>
           <div
             class="flex flex-1 flex-col items-center gap-1 font-Inter text-[20px] font-normal text-center"
           >
             <div>備取遞補期間</div>
-            <div>9/28（六）～ 10/1（二）</div>
+            <div>9/28（六）～ 9/30（一）</div>
           </div>
         </div>
       </div>
@@ -116,7 +116,7 @@
             class="flex flex-col font-Inter text-[16px] text-[400] leading-tight"
           >
             <div>
-              $900 / 人（含保證金 $200）<br />
+              $900 / 人（另收取保證金 $200）<br />
               <ul class="list-disc ml-5">
                 <li>跨域組隊：隊伍成員每人減免＄100</li>
                 <ul class="list-disc ml-5">
@@ -204,6 +204,10 @@
                   </ul>
                   <li>若黑客組之單一企業超額，將採亂數分發</li>
                   <li>創客交流組另需提交一頁式企劃方案，方完成報名手續</li>
+                  <ul class="list-disc ml-5">
+                    <li>黑客創客混合報名之志願序排列，若將創客交流組志願序排至前三（含），亦需繳交一頁式企劃方案</li>
+                    <li>一頁式企劃方案僅供新竹市政府了解貴隊伍之初步構思，無篩選之用意</li>
+                  </ul>
                 </ul>
               </div>
             </div>
@@ -218,16 +222,19 @@
               >
                 <ul class="list-disc ml-5">
                   <li>
-                    報名之隊伍需在報名手續最末同意「智慧財產權聲明暨肖像授權」相關條款。
+                    報名之隊伍需在報名手續最末同意「<span class="text-red-500 font-bold">智慧財產權聲明暨肖像授權</span>」相關條款。
+                  </li>
+                  <li>
+                    繳費成功後，請以組別為單位回傳證明給主辦單位；同時，一併回傳隊伍中「每一位」參賽者簽署之「<span class="text-red-500 font-bold">個人資料蒐集聲明同意書</span>」。
+                  </li>
+                  <li>
+                    因應過夜需求，請於活動首日（10/19）配合本團隊簽署「<span class="text-red-500 font-bold">過夜責任歸屬同意書</span>」；此外，主辦方保障在工三區域過夜之參賽者安全，但若選擇在工三以外地點過夜，請自行負責相關安全事宜。
                   </li>
                   <li>
                     若報名人數超過活動最大人數上限，將依照報名先後順序錄取。
                   </li>
                   <li>
                     為保護梅竹黑客松協辦企業之權益，參賽者必須配合參賽之企業組別所提出比賽過程之保密協定簽署，若無法配合企業之保密協定，將取消參賽資格。
-                  </li>
-                  <li>
-                    繳費成功後，請以組別為單位回傳證明給主辦單位；同時，一併回傳隊伍中「每一位」參賽者簽署之「個人資料蒐集聲明同意書」。
                   </li>
                   <li>
                     得獎同學需將作品上傳至
@@ -237,13 +244,13 @@
                       target="_blank"
                     >
                       梅竹黑客松成果存放平台
-                    </a>
+                    </a>。
                   </li>
                 </ul>
               </div>
             </div>
             <div
-              class="w-[22%] hover:bg-[#FFFFFF] hover:text-[#D8E022] active:border-[#A1A8AD] active:text-[#A1A8AD] border-[#D8E022] border-[3px] rounded-[25px] px-9 py-8 mt-4 bg-[#D8E022] flex flex-col items-center justify-center text-white font-Mantou text-[40px] text-[400] leading-normal transition-all duration-300 ease-out cursor-pointer whitespace-nowrap"
+              class="w-[22%] hover:bg-[#FFFFFF] hover:text-[#D8E022] active:border-[#A1A8AD] active:text-[#A1A8AD] border-[#D8E022] border-[3px] rounded-[25px] px-9 py-8 mt-12 bg-[#D8E022] flex flex-col items-center justify-center text-white font-Mantou text-[40px] text-[400] leading-normal transition-all duration-300 ease-out cursor-pointer whitespace-nowrap"
             >
               <a href="/form"
                 ><div>點我</div>
@@ -300,7 +307,7 @@
 
       <div class="flex flex-col gap-1 font-Inter text-[10px] font-normal">
         <div>開始報名</div>
-        <div>9/2（一）~ 9/23（一） 8:00 前</div>
+        <div>9/10（二）~ 9/24（二） 08:00 前</div>
       </div>
     </div>
     <div class="absolute top-[9.5%] left-[30%] flex items-start gap-4">
@@ -319,7 +326,7 @@
 
       <div class="flex flex-col gap-1 font-Inter text-[10px] font-normal">
         <div>正取隊伍與所屬企業公布</div>
-        <div>9/24（二） 8:00 前</div>
+        <div>9/25（三） 00:00 前</div>
       </div>
     </div>
 
@@ -339,7 +346,7 @@
 
       <div class="flex flex-col gap-1 font-Inter text-[10px] font-normal">
         <div>繳費期間</div>
-        <div>9/24（二）~ 9/27（五）</div>
+        <div>9/25（三）~ 9/27（五）</div>
       </div>
     </div>
 
@@ -359,7 +366,7 @@
 
       <div class="flex flex-col gap-1 font-Inter text-[10px] font-normal">
         <div>備取遞補期間</div>
-        <div>9/28（六）～ 10/1（二）</div>
+        <div>9/28（六）～ 9/30（一）</div>
       </div>
     </div>
 
@@ -392,7 +399,7 @@
             class="flex flex-col font-Inter text-[10px] text-[400] leading-tight"
           >
             <div>
-              $900 / 人（含保證金 $200）<br />
+              $900 / 人（另收取保證金 $200）<br />
               <ul class="list-disc ml-5">
                 <li>跨域組隊：隊伍成員每人減免＄100</li>
                 <ul class="list-disc ml-5">
@@ -477,6 +484,10 @@
                   </ul>
                   <li>若黑客組之單一企業超額，將採亂數分發</li>
                   <li>創客交流組另需提交一頁式企劃方案，方完成報名手續</li>
+                  <ul class="list-disc ml-5">
+                    <li>黑客創客混合報名之志願序排列，若將創客交流組志願序排至前三（含），亦需繳交一頁式企劃方案</li>
+                    <li>一頁式企劃方案僅供新竹市政府了解貴隊伍之初步構思，無篩選之用意</li>
+                  </ul>
                 </ul>
               </div>
             </div>
@@ -488,30 +499,33 @@
             <div
               class="flex flex-col font-Inter text-[10px] text-[400] leading-tight"
             >
-              <ul class="list-disc ml-5">
-                <li>
-                  報名之隊伍需在報名手續最末同意「智慧財產權聲明暨肖像授權」相關條款。
-                </li>
-                <li>
-                  若報名人數超過活動最大人數上限，將依照報名先後順序錄取。
-                </li>
-                <li>
-                  為保護梅竹黑客松協辦企業之權益，參賽者必須配合參賽之企業組別所提出比賽過程之保密協定簽署，若無法配合企業之保密協定，將取消參賽資格。
-                </li>
-                <li>
-                  繳費成功後，請以組別為單位回傳證明給主辦單位；同時，一併回傳隊伍中「每一位」參賽者簽署之「個人資料蒐集聲明同意書」。
-                </li>
-                <li>
-                  得獎同學需將作品上傳至
-                  <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSfpq4AGg_hFSsRgi4WSBapoL7AFeE7uC0j1yZqP2i9VL6SmaA/viewform"
-                    class="underline"
-                    target="_blank"
-                  >
-                    梅竹黑客松成果存放平台
-                  </a>
-                </li>
-              </ul>
+            <ul class="list-disc ml-5">
+                  <li>
+                    報名之隊伍需在報名手續最末同意「<span class="text-red-500 font-bold">智慧財產權聲明暨肖像授權</span>」相關條款。
+                  </li>
+                  <li>
+                    繳費成功後，請以組別為單位回傳證明給主辦單位；同時，一併回傳隊伍中「每一位」參賽者簽署之「<span class="text-red-500 font-bold">個人資料蒐集聲明同意書</span>」。
+                  </li>
+                  <li>
+                    因應過夜需求，請於活動首日（10/19）配合本團隊簽署「<span class="text-red-500 font-bold">過夜責任歸屬同意書</span>」；此外，主辦方保障在工三區域過夜之參賽者安全，但若選擇在工三以外地點過夜，請自行負責相關安全事宜。
+                  </li>
+                  <li>
+                    若報名人數超過活動最大人數上限，將依照報名先後順序錄取。
+                  </li>
+                  <li>
+                    為保護梅竹黑客松協辦企業之權益，參賽者必須配合參賽之企業組別所提出比賽過程之保密協定簽署，若無法配合企業之保密協定，將取消參賽資格。
+                  </li>
+                  <li>
+                    得獎同學需將作品上傳至
+                    <a
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSfpq4AGg_hFSsRgi4WSBapoL7AFeE7uC0j1yZqP2i9VL6SmaA/viewform"
+                      class="underline"
+                      target="_blank"
+                    >
+                      梅竹黑客松成果存放平台
+                    </a>。
+                  </li>
+                </ul>
             </div>
           </div>
           <router-link to="/form"

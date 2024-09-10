@@ -50,9 +50,14 @@
       class="absolute top-[53%] left-[30%]"
     ></object>
     <object
+      data="/home/icon-ve27.svg"
+      type="image/svg+xml"
+      class="absolute top-[66%] left-[25%]"
+    ></object>
+    <object
       data="/home/icon-co02.svg"
       type="image/svg+xml"
-      class="title-co2 absolute top-[7.5%] left-[25%]"
+      class="title-co2 absolute top-[6.5%] left-[25%]"
     ></object>
     <object
       data="/home/icon-co03.svg"
@@ -72,7 +77,7 @@
     <object
       data="/home/icon-co10.svg"
       type="image/svg+xml"
-      class="title-co10 absolute top-[90%] left-[70%]"
+      class="title-co10 absolute top-[91%] left-[70%]"
     ></object>
     <object
       data="/home/icon-mo01.svg"
@@ -89,25 +94,33 @@
       type="image/svg+xml"
       class="title-mo4 absolute top-[64%] left-[27.5%]"
     ></object>
-    <div
+    <!-- <div
       class="font-Mantou text-[20px] text-[#43473E] absolute top-[20%] left-[61.8%] font-[400]"
     >
       Creativity <br />
       Technology <br />
       Innovation
-    </div>
-    <div class="absolute top-[25%] left-[50%] translate-x-[-50%]">
-      <div
-        class="font-Mantou text-[110px] text-[#43473E] font-[400] gap-1 flex flex-row"
-      >
-        <div class="title-font1" data-testid="title-font1">梅</div>
-        <div class="title-font2" data-testid="title-font2">竹</div>
-        <div class="title-font3" data-testid="title-font3">黑</div>
-        <div class="title-font4" data-testid="title-font4">客</div>
-        <div class="title-font5" data-testid="title-font5">松</div>
+    </div> -->
+    <div class="absolute top-[17%] left-[50%] translate-x-[-50%]">
+      <div class="flex flex-col items-center">
+        <div class="font-Mantou text-[40px] text-[#43473E] font-[400]">
+          <div class="flex flex-row gap-4 items-center">
+            <div>2024</div>
+            <div>新竹</div>
+          </div>
+        </div>
+        <div class="font-Mantou text-[40px] text-[#D8E022] font-[400]">x</div>
+        <div
+          class="font-Mantou text-[110px] text-[#43473E] font-[400] gap-1 flex flex-row"
+        >
+          <div class="title-font1" data-testid="title-font1">梅</div>
+          <div class="title-font2" data-testid="title-font2">竹</div>
+          <div class="title-font3" data-testid="title-font3">黑</div>
+          <div class="title-font4" data-testid="title-font4">客</div>
+          <div class="title-font5" data-testid="title-font5">松</div>
+        </div>
       </div>
     </div>
-
     <div
       class="absolute top-[76%] left-[50%] font-Mantou text-[#43473E] translate-x-[-50%]"
     >
@@ -150,7 +163,7 @@
             <div class="flex flex-col items-center gap-y-4">
               <div class="text-[64px] font-[400]">{{ minutes }}</div>
               <div class="text-[24px] text-[400]" data-testid="minutes-label">
-                Mins
+                Minutes
               </div>
             </div>
             <div class="flex flex-col items-center">
@@ -174,11 +187,13 @@
   <div
     class="block md:hidden relative h-[1200px] w-[full] overflow-hidden z-20 box-border"
   >
-    <object
-      data="/home/icon-gr11.svg"
-      type="image/svg+xml"
-      class="title-co2 absolute top-[60%] left-[40%]"
-    ></object>
+    <div class="absolute top-[60%] left-[50%] translate-x-[-50%]">
+      <object
+        data="/home/icon-gr11.svg"
+        type="image/svg+xml"
+        class="title-co2"
+      ></object>
+    </div>
     <object
       data="/home/icon-gr52-1.svg"
       type="image/svg+xml"
@@ -217,7 +232,7 @@
     <object
       data="/home/icon-ve110.svg"
       type="image/svg+xml"
-      class="absolute top-[62%] left-[0%]"
+      class="absolute top-[62%] left-[-25%]"
     ></object>
     <object
       data="/home/icon-ve111.svg"
@@ -228,11 +243,6 @@
       data="/home/icon-co06.svg"
       type="image/svg+xml"
       class="title-co6-md absolute top-[40.5%] left-[56%]"
-    ></object>
-    <object
-      data="/home/icon-co07.svg"
-      type="image/svg+xml"
-      class="title-co7-md absolute top-[1%] left-[-60%]"
     ></object>
     <object
       data="/home/icon-mo02.svg"
@@ -246,6 +256,23 @@
       Technology <br />
       Innovation
     </div>
+    <div class="absolute top-[5%] rotate-[16deg]">
+      <div class="flex flex-col items-center">
+        <div class="font-Mantou text-[24px] text-[#43473E] font-[400]">
+          <div class="flex flex-row gap-2 items-center">
+            <div>2024</div>
+            <div>新竹</div>
+            <div class="text-[#D8E022]">x</div>
+          </div>
+        </div>
+      </div>
+      <object
+        data="/home/icon-co07.svg"
+        type="image/svg+xml"
+        class="title-co7-md absolute top-[1%] left-[-60%] mt-2"
+      ></object>
+    </div>
+
     <div
       class="font-Mantou text-[64px] text-[#43473E] font-[400] absolute top-[16%] left-[25%] flex flex-col justify-center leading-none"
     >
@@ -303,7 +330,7 @@
                 class="text-[16px] text-[400] mt-8"
                 data-testid="minutes-label"
               >
-                Mins
+                Minutes
               </div>
             </div>
             <div class="flex flex-col items-center">
@@ -631,19 +658,19 @@ const time = ref(targetDate - now);
 
 @keyframes animateCo7-md {
   0% {
-    transform: translate(40px, 10px) rotate(-160deg) scale(1.1);
+    transform: translate(-20px, -5px) rotate(180deg) scale(1.1);
   }
   25% {
-    transform: translate(0, 0) rotate(-160deg);
+    transform: translate(-60px, -15px) rotate(180deg);
   }
   50% {
-    transform: translate(0, 0) rotate(-160deg);
+    transform: translate(-60px, -15px) rotate(180deg);
   }
   75% {
-    transform: translate(40px, 10px) rotate(-160deg) scale(1.1);
+    transform: translate(-20px, -5px) rotate(180deg) scale(1.1);
   }
   100% {
-    transform: translate(40px, 10px) rotate(-160deg) scale(1.1);
+    transform: translate(-20px, -5px) rotate(180deg) scale(1.1);
   }
 }
 

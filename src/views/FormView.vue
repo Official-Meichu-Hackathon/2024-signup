@@ -31,6 +31,7 @@
                 v-model:teamSize="teamSize"
                 v-model:crossGroup="crossGroup"
                 v-model:preference="preference"
+                :group="group"
               ></SignupOption>
             </div>
           </div>
@@ -77,6 +78,7 @@
                 @otherinfo="handleData_otherInfo"
                 @success="(data) => GoToNextStep(data)"
                 :isFilled="isFilled[teamSize + 2]"
+                :group="group"
               ></OtherInfo>
             </div>
           </div>
@@ -127,6 +129,7 @@ import ProgressBar from "@/components/signup-form/ProgressBar.vue";
 import GroupSelector from "@/components/signup-form/GroupSelector.vue";
 import Monster from "@/components/signup-form/Monster.vue";
 import { ref, reactive, watch, nextTick } from "vue";
+import { current } from "tailwindcss/colors";
 
 export default {
   components: {
@@ -140,15 +143,15 @@ export default {
     Monster,
   },
   setup() {
-    const group = ref(1);
+    const group = ref("黑客組");
     const teamName = ref("");
     const teamSize = ref(3);
     const crossGroup = ref("");
     const preference = ref([
-      { id: 1, name: "NXP" },
-      { id: 2, name: "Line" },
+      { id: 1, name: "恩智浦半導體" },
+      { id: 2, name: "LINE台灣" },
       { id: 3, name: "Google" },
-      { id: 4, name: "TSMC" },
+      { id: 4, name: "台積電" },
       { id: 5, name: "羅技" },
       { id: 6, name: "中華電信" },
       { id: 7, name: "創客交流組" },
@@ -178,6 +181,7 @@ export default {
           dietary: "",
           size: "",
           certificate: null,
+          proposal: null,
           fullWorkshopAttendance: "",
           fullParticipationOpeningClosing: "",
         });
@@ -200,19 +204,29 @@ export default {
     const handleClick = async (idx) => {
       if (idx <= completedStep.value) {
         nextStep = idx;
+        GoToNextStep(true);
+        completedStep.value = idx;
+        /*
         await nextTick();
         isFilled.value[currentStep.value] = true;
+        */
       }
     };
     const GoToNextStep = (isSuccess) => {
-      if (isSuccess === true) {
+      if (isSuccess == true) {
         if (nextStep > completedStep.value) {
           completedStep.value = nextStep;
         }
-        currentStep.value = nextStep;
-      } else {
-        let element = document.getElementById(currentStep.value);
-        element.parentNode.scrollTop = element.offsetTop;
+        if (nextStep != 0) {
+          currentStep.value = nextStep;
+          nextStep = 0;
+        }
+        nextTick(() => {
+          const element = document.getElementById(currentStep.value);
+          if (element) {
+            element.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        });
       }
       isFilled.value[currentStep.value] = false;
     };
@@ -247,7 +261,7 @@ export default {
       signupDataList.forEach((signupData) => {
         Object.assign(signupData, {
           teamName: data.teamName,
-          group: group.value === 1 ? "黑客組" : "創客交流組",
+          group: group.value,
           teamSize: data.teamSize,
           crossGroup: data.crossGroup,
           preference: preferenceString,
@@ -263,7 +277,8 @@ export default {
     const handleData_otherInfo = (data) => {
       signupDataList.forEach((signupData) => {
         Object.assign(signupData, {
-          certificate: data.file,
+          certificate: data.file1,
+          proposal: data.file2,
           fullWorkshopAttendance: data.fullWorkshopAttendance,
           fullParticipationOpeningClosing: data.fullParticipationOpeningClosing,
         });
@@ -290,7 +305,7 @@ export default {
       for (const signupData of signupDataList) {
         try {
           const response = await fetch(
-            "https://script.google.com/macros/s/AKfycbwJbWex52rAbYI3Bym6OvcvSQS27gi8RW4hy_NuT4LWDl64ioaNvjsATEjh7a8BF7bc/exec",
+            "https://script.google.com/macros/s/AKfycbyKHsQVLRdbTyatekMhAk0aGt2BNrk-Jx8csuguLHNSdiUELJjWMltZJzz7w2DV8iyc/exec",
             {
               method: "POST",
               headers: {
@@ -308,6 +323,15 @@ export default {
       watingForUpload.value = false;
       signupSuccess.value = true;
     };
+    watch(group, (newValue, oldValue) => {
+      if (newValue !== oldValue && currentStep.value > teamSize.value + 1) {
+        currentStep.value = teamSize.value + 2;
+        const element = document.getElementById(teamSize.value + 2);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      }
+    });
 
     return {
       teamName,
@@ -339,7 +363,6 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-
 .form {
   display: flex;
   flex-direction: row;
@@ -359,8 +382,16 @@ export default {
 .content-container {
   width: 50%;
   margin-left: 50%;
+  min-height: 100vh;
   overflow-y: auto;
-  height: 100vh;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.content-container::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
 }
 
 .content {
@@ -402,6 +433,10 @@ export default {
 }
 
 @media (max-width: 576px) {
+    .title h2 {
+        font-size: 22px;
+    }
+
   .form {
     flex-direction: column;
   }
@@ -415,8 +450,7 @@ export default {
   .content-container {
     width: 100%;
     margin-left: 0;
-    height: auto;
-    overflow-y: visible;
+    min-height: auto;
   }
 
   .content {
@@ -427,6 +461,7 @@ export default {
 .monster {
   margin-top: 50%;
 }
+
 .overlay {
   position: fixed;
   top: 0;
@@ -451,8 +486,12 @@ export default {
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .overlay p {
