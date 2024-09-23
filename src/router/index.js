@@ -25,12 +25,12 @@ const routes = [
     path: '/statistics',
     name: 'statistics',
     component: StatisticsView
-  },
-  {
-    path: '/form',
-    name: 'form',
-    component: FormView
-  },
+  }
+  // {
+  //   path: '/form',
+  //   name: 'form',
+  //   component: FormView
+  // },
 ]
 
 const router = createRouter({

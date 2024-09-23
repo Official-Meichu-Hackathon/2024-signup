@@ -9,8 +9,8 @@
         <router-link to="/topic_description" class="text-basic hover:text-yellow mt-1.5">題目說明</router-link>
         <router-link to="/statistics" class="text-basic hover:text-yellow mt-1.5">參賽數據</router-link>
       </div>
-      <div class="flex min-w-[75px] w-[11vw] lg:w-[10vw] xl:w-[7.6vw] h-11 mr-8 mt-2 justify-center items-center gap-2.5 rounded-lg bg-yellow">
-        <router-link to="/form" class="font-Inter font-bold text-white">我要報名</router-link>
+      <div class="flex min-w-[75px] w-[11vw] lg:w-[10vw] xl:w-[7.6vw] h-11 mr-8 mt-2 justify-center items-center gap-2.5 rounded-lg bg-[#d6e02280] cursor-not-allowed">
+        <span class="font-Inter font-bold text-[#ffffff]">報名結束</span>
       </div>
     </div>
   </nav>
