@@ -29,11 +29,11 @@
         <img v-else src="footer/schedule.svg">
         <div>比賽時程</div>
       </router-link>
-      <router-link to="/form" class="signup-button flex flex-col items-center justify-center gap-1 mx-[-10px]">
+      <div class="signup-button flex flex-col items-center justify-center gap-1 mx-[-10px] cursor-not-allowed">
         <img v-if="currentRouteName=='form'" src="footer/monster_yellow.svg">
         <img v-else src="footer/monster.svg">
-        <div>我要報名</div>
-      </router-link>
+        <div class="text-[#A1A8AD48]">報名結束</div>
+      </div>
       <router-link to="/topic_description" class="footer-button-m">
         <img v-if="currentRouteName=='topic_description'" src="footer/topic_yellow.svg">
         <img v-else src="footer/topic.svg">
