@@ -29,9 +29,9 @@
     </div>
     
     <div
-      class="font-Mantou text-[#43473E] text-[36px] text-[400] absolute top-[50%] left-[50%] translate-x-[-50%]"
+      class="font-Mantou text-[#43473E] text-[36px] text-[400] absolute top-[32%] lg:top-[37%] xl:top-[42%] 2xl:top-[52%] left-[50%] translate-x-[-50%]"
     >
-      Youtube影片
+      YouTube 影片
     </div>
     <object
       data="/home/icon-ve45.svg"
@@ -48,11 +48,7 @@
       type="image/svg+xml"
       class="absolute top-[53%] left-[0%]"
     ></object>
-    <object
-      data="/home/icon-gr28.svg"
-      type="image/svg+xml"
-      class="absolute top-[55%] left-[50%] translate-x-[-50%]"
-    ></object>
+    <iframe class="absolute top-[40%] lg:top-[45%] xl:top-[50%] 2xl:top-[60%] left-[50%] translate-x-[-50%] w-[50%] aspect-16/9 z-50" src="https://www.youtube.com/embed/9m0G0kdcXv4?si=rgUrMFGnV62KL2YB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <object
       data="/home/icon-co13.svg"
       type="image/svg+xml"
@@ -97,15 +93,11 @@
     </div>
 
     <div
-      class="font-Mantou text-[#43473E] text-[20px] text-[400] absolute top-[55%] left-[50%] translate-x-[-50%]"
+      class="font-Mantou text-[#43473E] text-[20px] text-[400] absolute top-[40%] xs:top-[50%] sm:top-[60%] left-[50%] translate-x-[-50%]"
     >
-      Youtube影片
+      YouTube 影片
     </div>
-    <object
-      data="/home/icon-gr91.svg"
-      type="image/svg+xml"
-      class="absolute top-[60%] left-[50%] translate-x-[-50%]"
-    ></object>
+        <iframe class="absolute top-[47%] xs:top-[57%] sm:top-[67%] left-[50%] translate-x-[-50%] w-[50%] aspect-16/9 z-50" src="https://www.youtube.com/embed/9m0G0kdcXv4?si=rgUrMFGnV62KL2YB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
 </template>
 
